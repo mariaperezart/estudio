@@ -4,7 +4,9 @@ Sitio web y ecosistema de marca de Gabriela, artista. Sitio estático (HTML/CSS/
 
 ## Empezar aquí
 
-Lee **[`ESTRATEGIA_MAESTRA.md`](./ESTRATEGIA_MAESTRA.md)** primero. Es el plan maestro: filosofía de marca, posicionamiento, hero offer, arquitectura del sitio, storytelling, embudo de conversión, ecosistema de 10 agentes IA y stack tecnológico recomendado. Todo lo demás en este repo es ejecución de ese documento.
+Lee **[`BIBLIA_DEL_UNIVERSO.md`](./BIBLIA_DEL_UNIVERSO.md)** primero — es el documento canónico: el manifiesto de Gabriela, la identidad de marca, las reglas del universo (canon narrativo y simbólico), la hoja de ruta de producto en 3 horizontes, la experiencia del coleccionista, la estrategia de contenido, la arquitectura de propiedad intelectual y el sistema de decisiones basado en hipótesis. Es la referencia que prevalece para cualquier persona o IA que trabaje en el proyecto.
+
+Después, **[`ESTRATEGIA_MAESTRA.md`](./ESTRATEGIA_MAESTRA.md)** es el plan de ejecución: arquitectura del sitio, storytelling por obra, embudo de conversión con KPIs, el detalle operativo de los 10 agentes IA y el stack tecnológico recomendado.
 
 ## Estructura del sitio
 
