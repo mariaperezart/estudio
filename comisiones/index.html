@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es-ES">
+<head>
+<meta charset="UTF-8">
+<base href="/estudio/">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comisiones — Gabriela</title>
+<meta name="description" content="Las comisiones se abren por aplicación, no por encargo directo. Conoce el proceso completo y solicita una.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="./" class="brand">Gabriela<span>.</span></a>
+    <nav class="nav">
+      <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav__links">
+        <li><a href="./">Inicio</a></li>
+        <li><a href="obras/">Obras</a></li>
+        <li><a href="comisiones/" aria-current="page">Comisiones</a></li>
+        <li><a href="el-universo/">El Universo</a></li>
+        <li><a href="colecciones/">Colecciones</a></li>
+      </ul>
+      <a href="colecciones/" class="nav__cta">Ver disponibilidad</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section--tight">
+    <div class="container prose reveal">
+      <span class="eyebrow">Comisiones</span>
+      <h1>Una obra que nace de tu historia,<br>no solo de la mía.</h1>
+      <p class="text-muted">Una comisión no es un encargo a medida. Es dejar entrar a otra persona en el mismo proceso con el que nace cualquier pieza del estudio — con el tiempo que eso requiere.</p>
+    </div>
+  </section>
+
+  <section class="section--alt">
+    <div class="container prose reveal">
+      <span class="eyebrow">Por qué por aplicación</span>
+      <p>Cada comisión ocupa el mismo tiempo y atención que una obra propia. Para proteger eso, no se aceptan todas las solicitudes — se revisan una a una, y solo se confirman las que tienen espacio real en el calendario del estudio.</p>
+      <p>Esto no es una barrera artificial: es la única forma de que una comisión llegue con el mismo nivel de cuidado que cualquier otra pieza.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container reveal">
+      <span class="eyebrow">El proceso</span>
+      <div class="grid grid--2" style="margin-top:var(--space-3); gap:var(--space-5);">
+        <div>
+          <h3>1. Solicitud</h3>
+          <p class="text-muted">Cuéntame qué te trae hasta aquí: una historia, un espacio, una emoción que quieres que habite contigo. No necesitas tener una idea cerrada.</p>
+        </div>
+        <div>
+          <h3>2. Conversación</h3>
+          <p class="text-muted">Si hay espacio en el calendario, agendamos una conversación breve para entender qué busca la pieza — no para definir cómo se va a ver.</p>
+        </div>
+        <div>
+          <h3>3. Propuesta y presupuesto</h3>
+          <p class="text-muted">Recibes un rango de precio, un plazo estimado y una primera dirección conceptual antes de confirmar nada.</p>
+        </div>
+        <div>
+          <h3>4. Creación</h3>
+          <p class="text-muted">El proceso sigue el mismo ritmo que cualquier obra del estudio. Recibirás actualizaciones puntuales, no un seguimiento diario.</p>
+        </div>
+        <div>
+          <h3>5. Entrega</h3>
+          <p class="text-muted">La pieza llega con certificado de autenticidad firmado y numerado, y con su historia documentada — igual que cualquier obra de la galería.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section--alt">
+    <div class="container reveal">
+      <span class="eyebrow">Antes de escribir</span>
+      <ul class="text-muted prose">
+        <li>Las comisiones tienen lista de espera; el tiempo de respuesta habitual es de 5-7 días.</li>
+        <li>El rango de precio suele situarse por encima del de una obra de galería, dado el tiempo dedicado a la conversación previa.</li>
+        <li>No se aceptan revisiones ilimitadas de concepto — se acuerda una dirección y se confía en el proceso, igual que con cualquier obra propia.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="container reveal">
+      <span class="eyebrow">Solicitar una comisión</span>
+      <form action="https://formspree.io/f/TU_ID_DE_FORMSPREE" method="POST" data-pending-notice>
+        <div class="field">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="field">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="mensaje">Cuéntame qué te trae hasta aquí</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+        <button type="submit" class="btn">Enviar solicitud</button>
+        <p class="form-note">Formulario pendiente de conectar — sustituir TU_ID_DE_FORMSPREE por el endpoint real.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__grid">
+      <div>
+        <p class="brand">Gabriela<span>.</span></p>
+        <p class="text-muted prose">Obras que no se consumen en un vistazo. Un universo que se habita con el tiempo.</p>
+      </div>
+      <div>
+        <h4>Explorar</h4>
+        <ul>
+          <li><a href="obras/">Obras</a></li>
+          <li><a href="colecciones/">Colecciones</a></li>
+          <li><a href="comisiones/">Comisiones</a></li>
+          <li><a href="blog/">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Estudio</h4>
+        <ul>
+          <li><a href="el-universo/">El Universo</a></li>
+          <li><a href="faq/">Preguntas frecuentes</a></li>
+          <li><a href="contacto/">Contacto</a></li>
+          <li><a href="coleccionistas/">Portal de coleccionistas</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__base">
+      <span>© 2026 Gabriela. Todos los derechos reservados.</span>
+      <span><a href="legal/privacidad/">Privacidad</a> · <a href="legal/terminos/">Términos</a> · <a href="legal/cookies/">Cookies</a></span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
