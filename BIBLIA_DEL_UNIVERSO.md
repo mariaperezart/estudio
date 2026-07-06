@@ -134,16 +134,19 @@ Esto no sustituye a `ESTRATEGIA_MAESTRA.md` §1-2 — los amplía con las palabr
 - **La mirada como método**: la forma de percibir de Gabriela — incluida su experiencia autista como una de las lentes, nunca el tema — es el origen del método de trabajo: observar patrones, detalles y contradicciones (Manifiesto §2, §6).
 - **La obra no está terminada al salir del estudio**: se termina de construir cuando alguien convive con ella. Esto es una regla narrativa, no solo una frase de marketing — afecta cómo se describe cada pieza (nunca como "acabada" en sentido cerrado).
 - **Arco emocional buscado en quien mira**: curiosidad → extrañeza/confusión ligera → contemplación → familiaridad/intimidad → (con el tiempo) esperanza (Manifiesto §8-9, y texto de "El Universo").
-- **Colección Umbral** (primera colección, activa): motivo del umbral/puerta que no se cierra, mapas incompletos, la pausa antes de nombrar algo. Estos tres motivos —umbral, mapa, pausa— son el vocabulario simbólico fundacional del universo y pueden reaparecer en colecciones futuras como variaciones, no deben contradecirse.
+- **Lenguaje visual real (confirmado con la primera obra fotografiada, julio 2026)**: abstracción de campo de color en degradado (*ombré*), composiciones de horizonte (una franja superior que se disuelve en una franja inferior de color distinto), paleta de crudo/beige cálido transicionando a rojo, formato horizontal grande, lienzo sin enmarcar con la trama textil visible como parte deliberada de la superficie. Esto **reemplaza** cualquier expectativa de imaginería figurativa.
+- **Retirado — ya no es canon**: el motivo figurativo de "puerta/umbral que no se cierra" y "mapa incompleto" descrito en una versión anterior de este documento y en la colección de ejemplo "Umbral" (`colecciones/umbral/`, `obras/el-mapa-que-no-se-dibuja/`, `obras/la-pausa-antes-del-nombre/`) **no corresponde al lenguaje visual real** de Gabriela. Esas fichas se mantienen en el repositorio solo como ejemplo de plantilla de storytelling, marcadas explícitamente como pendientes de sustituir — nadie debe tratarlas como referencia de estilo.
 
 ### Por definir (Gabriela decide, no se asume)
 
-- Símbolos visuales recurrentes concretos (objetos, colores, figuras) más allá de los motivos narrativos ya nombrados.
-- Si existen "personajes" o presencias recurrentes en las obras, o si el universo es puramente atmosférico/conceptual.
-- Nombre propio del universo, si lo hay más allá de "el universo de Gabriela" (p. ej., un nombre que identifique el conjunto de colecciones, como una editorial identifica su catálogo).
-- Convención de nombres de colecciones futuras (¿siguen el patrón de una palabra + subtítulo poético, como "Umbral"?).
+- Título, materiales exactos, dimensiones, año, historia e inspiración de la primera obra real (`obras/pieza-en-degradado/`) — la ficha está publicada con estos campos marcados como pendientes, no inventados.
+- Si el degradado crudo→rojo es una paleta fija que se repite obra a obra, o varía por pieza.
+- Símbolos o motivos recurrentes más allá del propio procedimiento de degradado (¿hay una gama de colores del universo, o cada obra explora una transición distinta?).
+- Si existen "personajes" o presencias recurrentes, o si el universo es puramente atmosférico/de color.
+- Nombre propio del universo o de la primera colección real (la que sustituirá conceptualmente a "Umbral").
+- Convención de nombres de colecciones futuras.
 
-**Regla para cualquier agente o colaborador**: si necesitas un símbolo, motivo o dato del universo que no está en la lista de "ya establecido", no lo inventes como si fuera canon. Puedes proponerlo explícitamente marcado como propuesta ("Propuesta a validar con Gabriela: ...").
+**Regla para cualquier agente o colaborador**: si necesitas un símbolo, motivo o dato del universo que no está en la lista de "ya establecido", no lo inventes como si fuera canon. Puedes proponerlo explícitamente marcado como propuesta ("Propuesta a validar con Gabriela: ..."). Ante una obra real, cualquier campo sin confirmar se marca "Pendiente" — nunca se rellena con contenido genérico, como ya se hizo en `obras/pieza-en-degradado/index.html`.
 
 ---
 
@@ -151,11 +154,12 @@ Esto no sustituye a `ESTRATEGIA_MAESTRA.md` §1-2 — los amplía con las palabr
 
 La especificación técnica completa (paleta, tipografía, layout) vive en `ESTRATEGIA_MAESTRA.md` §12 y se implementa en `assets/css/styles.css`. Resumen operativo:
 
-- Paleta: marfil cálido + casi-negro cálido + índigo profundo como único acento — nunca colores saturados de "tienda".
+- Paleta de interfaz: marfil cálido + casi-negro cálido + índigo profundo como único acento — nunca colores saturados de "tienda".
 - Tipografía: Cormorant Garamond (titulares, editorial/museística) + Inter (cuerpo).
 - Principio: la obra siempre ocupa más superficie visual que cualquier elemento de interfaz.
+- **Paleta de la obra real** (distinta de la paleta de interfaz, no se deben confundir): crudo/beige cálido a rojo, en degradado — ver sección 3.
 
-**Pendiente de construir cuando exista catálogo real**: una librería de símbolos visuales recurrentes (moodboard) que documente qué elementos gráficos pertenecen al universo — esto se nutre de las obras reales, no se puede definir por adelantado.
+**Pendiente de construir cuando exista catálogo real más amplio**: una librería de símbolos visuales recurrentes (moodboard) que documente qué elementos gráficos pertenecen al universo, más allá del procedimiento de degradado ya confirmado.
 
 ---
 
