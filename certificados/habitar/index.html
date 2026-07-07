@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es-ES">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificado de Autenticidad — Habitar — Gabriela</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --color-bg: #F6F3ED;
+    --color-ink: #1C1A17;
+    --color-muted: #6B6459;
+    --color-accent: #3B3A6E;
+    --color-border: #C9B98F;
+    --font-display: 'Cormorant Garamond', Georgia, serif;
+    --font-body: 'Inter', -apple-system, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #DCD6C8;
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    display: flex;
+    justify-content: center;
+    padding: 32px 16px;
+  }
+  .no-print { max-width: 720px; margin: 0 auto 24px; text-align: center; }
+  .no-print button {
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    padding: 10px 22px;
+    border: 1px solid var(--color-ink);
+    background: transparent;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .no-print button:hover { background: var(--color-ink); color: #fff; }
+  .no-print p { color: #4a463e; font-size: 0.85rem; }
+
+  .sheet {
+    width: 210mm;
+    min-height: 297mm;
+    background: var(--color-bg);
+    padding: 22mm 20mm;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+    position: relative;
+  }
+  .frame {
+    border: 1px solid var(--color-border);
+    padding: 14mm;
+    min-height: calc(297mm - 44mm - 28mm);
+    display: flex;
+    flex-direction: column;
+  }
+  .brand { font-family: var(--font-display); font-size: 1.3rem; letter-spacing: 0.02em; }
+  .brand span { color: var(--color-accent); }
+  .eyebrow {
+    display: block;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+    margin: 28mm 0 4mm;
+    text-align: center;
+  }
+  h1 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 2.6rem;
+    text-align: center;
+    margin: 0 0 4mm;
+  }
+  .subtitle {
+    text-align: center;
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    color: var(--color-muted);
+    margin-bottom: 16mm;
+  }
+  .statement {
+    max-width: 130mm;
+    margin: 0 auto 14mm;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 0.95rem;
+  }
+  dl.meta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6mm 10mm;
+    max-width: 150mm;
+    margin: 0 auto 14mm;
+    padding: 8mm 0;
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+  }
+  dl.meta dt { font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-muted); margin-bottom: 2px; }
+  dl.meta dd { margin: 0; font-family: var(--font-display); font-size: 1.15rem; }
+
+  .fill-fields {
+    max-width: 150mm;
+    margin: 0 auto 14mm;
+    font-size: 0.85rem;
+  }
+  .fill-fields .row { display: flex; gap: 8mm; margin-bottom: 6mm; }
+  .fill-fields .row > div { flex: 1; }
+  .fill-fields label { display: block; font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-muted); margin-bottom: 2px; }
+  .fill-fields .line { border-bottom: 1px solid var(--color-ink); height: 20px; }
+
+  .spacer { flex: 1; }
+
+  .signature-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 150mm;
+    margin: 0 auto 6mm;
+  }
+  .signature-block .col { width: 60mm; text-align: center; }
+  .signature-line { border-bottom: 1px solid var(--color-ink); height: 40px; margin-bottom: 4px; }
+  .signature-block .label { font-size: 0.7rem; letter-spacing: 0.05em; color: var(--color-muted); }
+
+  .footer-note {
+    text-align: center;
+    font-size: 0.68rem;
+    color: var(--color-muted);
+    letter-spacing: 0.03em;
+    margin-top: 10mm;
+  }
+
+  @media print {
+    body { background: none; padding: 0; }
+    .no-print { display: none; }
+    .sheet { box-shadow: none; margin: 0; }
+    @page { size: A4; margin: 0; }
+  }
+</style>
+</head>
+<body>
+
+<div class="no-print">
+  <button onclick="window.print()">Imprimir / Guardar como PDF</button>
+  <p>Este documento está pensado para imprimirse o exportarse a PDF al cerrar una venta. Rellena a mano (o antes de imprimir) el nombre del coleccionista, la fecha de entrega y la firma.</p>
+</div>
+
+<div class="sheet">
+  <div class="frame">
+    <div class="brand">Gabriela<span>.</span></div>
+
+    <span class="eyebrow">Certificado de Autenticidad</span>
+    <h1>Habitar</h1>
+    <p class="subtitle">Colección Hábitats</p>
+
+    <p class="statement">Certifico que esta obra, titulada <em>Habitar</em>, es una pieza original y única, concebida y realizada enteramente por mí. No forma parte de una edición ni será reproducida como pieza idéntica en el futuro.</p>
+
+    <dl class="meta">
+      <div><dt>Artista</dt><dd>Gabriela</dd></div>
+      <div><dt>Año</dt><dd>2026</dd></div>
+      <div><dt>Técnica</dt><dd>Acrílico sobre lienzo</dd></div>
+      <div><dt>Dimensiones</dt><dd>140 × 70 cm</dd></div>
+      <div><dt>Colección</dt><dd>Hábitats</dd></div>
+      <div><dt>Nº de certificado</dt><dd>GBR-2026-002</dd></div>
+    </dl>
+
+    <div class="fill-fields">
+      <div class="row">
+        <div>
+          <label>Coleccionista</label>
+          <div class="line"></div>
+        </div>
+        <div>
+          <label>Fecha de entrega</label>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="spacer"></div>
+
+    <div class="signature-block">
+      <div class="col">
+        <div class="signature-line"></div>
+        <div class="label">Firma de la artista</div>
+      </div>
+      <div class="col">
+        <div class="signature-line"></div>
+        <div class="label">Fecha</div>
+      </div>
+    </div>
+
+    <p class="footer-note">Verificación de la obra: mariaperezart.github.io/estudio/obras/habitar/ — GBR-2026-002</p>
+  </div>
+</div>
+
+</body>
+</html>
