@@ -35,13 +35,14 @@ Para activar GitHub Pages: Settings → Pages → Deploy from branch → rama `m
 
 ## Estado del catálogo
 
-- `obras/pieza-en-degradado/` y `obras/pieza-02/` son las **dos primeras obras reales** (fotografías propias de Gabriela), ambas de 140 × 70 cm. Título, materiales, año e historia están marcados como "Pendiente" hasta que se confirmen — no se ha inventado ningún dato.
-- `colecciones/umbral/`, `obras/el-mapa-que-no-se-dibuja/` y `obras/la-pausa-antes-del-nombre/` son un **ejemplo ilustrativo de plantilla** con imaginería figurativa (puertas, mapas) que **no corresponde** al lenguaje visual real de Gabriela (abstracción de campo de color en degradado — ver `BIBLIA_DEL_UNIVERSO.md` §3). Quedan marcadas en el sitio como pendientes de sustituir.
+- **Colección Hábitats** (`colecciones/habitats/`) es la primera colección real, con statement confirmado por Gabriela.
+- `obras/umbral/` ("Umbral") y `obras/habitar/` ("Habitar") son las **dos primeras obras reales** (fotografías propias de Gabriela), ambas de 140 × 70 cm, acrílico sobre lienzo, con historia real y precio orientativo (2.400€, pendiente de validar con la primera venta). Quedan pendientes de confirmar: tiempo invertido, año exacto y disponibilidad.
+- La colección de ejemplo que usaba el nombre "Umbral" para una plantilla figurativa (puertas, mapas) **se eliminó del repositorio** al confirmarse que el título real de la primera obra de Hábitats es también "Umbral" — ver `BIBLIA_DEL_UNIVERSO.md` §3.
 
 ## Pendiente antes de publicar (ver ESTRATEGIA_MAESTRA.md §15)
 
-- [ ] Completar título, materiales, año, historia y disponibilidad de `obras/pieza-en-degradado/` y `obras/pieza-02/`.
-- [ ] Sustituir o retirar la colección de ejemplo "Umbral" por colecciones reales.
+- [ ] Completar tiempo invertido, año y disponibilidad de `obras/umbral/` y `obras/habitar/`.
+- [ ] Validar el precio orientativo (2.400€) con la primera venta real.
 - [ ] Conectar el formulario real (sustituir `TU_ID_DE_FORMSPREE` en cada `<form>`).
 - [ ] Revisión legal de `legal/privacidad`, `legal/terminos`, `legal/cookies`.
 - [ ] Conectar newsletter real (Buttondown/Mailchimp) y analítica (Plausible/Fathom).

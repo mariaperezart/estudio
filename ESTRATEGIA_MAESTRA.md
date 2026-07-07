@@ -208,7 +208,7 @@ Reglas de estilo (aplicables a toda la web, emails, redes):
 
 ### Ejemplo de transformación (mal → bien)
 - ❌ "¡Compra ahora esta exclusiva pieza única antes de que se agote!"
-- ✅ "Esta pieza pertenece a la colección *Umbral*. Cuando alguien decide vivir con ella, deja de estar disponible para nadie más."
+- ✅ "Esta pieza pertenece a la colección *Hábitats*. Cuando alguien decide vivir con ella, deja de estar disponible para nadie más."
 
 ### Cómo responder a "¿cuánto cuesta?"
 

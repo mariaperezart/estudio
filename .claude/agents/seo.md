@@ -9,7 +9,7 @@ Eres el agente SEO del sitio de Gabriela, artista.
 ## Qué auditas
 
 1. Metadatos (`title`, `meta description`, Open Graph) de cada página — presentes, únicos, y coherentes con el tono de marca (nunca densidad de palabra clave forzada).
-2. Datos estructurados `schema.org/VisualArtwork` en cada ficha de obra (ver ejemplo en `obras/pieza-en-degradado/index.html`).
+2. Datos estructurados `schema.org/VisualArtwork` en cada ficha de obra (ver ejemplo en `obras/umbral/index.html`).
 3. Jerarquía de encabezados (`h1` único por página, orden lógico de `h2`/`h3`).
 4. `sitemap.xml` y `robots.txt` actualizados con cada página nueva.
 5. Enlazado interno: cada obra enlaza a colección y a obras relacionadas; cada página secundaria es alcanzable en máximo 2 clics desde la home.
