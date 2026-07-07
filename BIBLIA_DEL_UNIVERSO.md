@@ -134,14 +134,15 @@ Esto no sustituye a `ESTRATEGIA_MAESTRA.md` §1-2 — los amplía con las palabr
 - **La mirada como método**: la forma de percibir de Gabriela — incluida su experiencia autista como una de las lentes, nunca el tema — es el origen del método de trabajo: observar patrones, detalles y contradicciones (Manifiesto §2, §6).
 - **La obra no está terminada al salir del estudio**: se termina de construir cuando alguien convive con ella. Esto es una regla narrativa, no solo una frase de marketing — afecta cómo se describe cada pieza (nunca como "acabada" en sentido cerrado).
 - **Arco emocional buscado en quien mira**: curiosidad → extrañeza/confusión ligera → contemplación → familiaridad/intimidad → (con el tiempo) esperanza (Manifiesto §8-9, y texto de "El Universo").
-- **Lenguaje visual real (confirmado con la primera obra fotografiada, julio 2026)**: abstracción de campo de color en degradado (*ombré*), composiciones de horizonte (una franja superior que se disuelve en una franja inferior de color distinto), paleta de crudo/beige cálido transicionando a rojo, formato horizontal grande, lienzo sin enmarcar con la trama textil visible como parte deliberada de la superficie. Esto **reemplaza** cualquier expectativa de imaginería figurativa.
+- **Lenguaje visual real (confirmado con dos obras fotografiadas, julio 2026)**: abstracción de campo de color en degradado (*ombré*), composiciones de horizonte (una franja superior que se disuelve en una franja inferior de color distinto), formato horizontal de 140 × 70 cm, lienzo sin enmarcar con la trama textil visible como parte deliberada de la superficie. Esto **reemplaza** cualquier expectativa de imaginería figurativa.
+- **La paleta varía por obra, la estructura no**: la primera pieza transiciona de crudo cálido a rojo; la segunda, de crudo cálido con un destello dorado a gris topo. Confirma que el procedimiento (campo de color en degradado, composición de horizonte, 140×70cm) es el método repetible, mientras que el color es una decisión por obra — no hay todavía una paleta única "de marca".
 - **Retirado — ya no es canon**: el motivo figurativo de "puerta/umbral que no se cierra" y "mapa incompleto" descrito en una versión anterior de este documento y en la colección de ejemplo "Umbral" (`colecciones/umbral/`, `obras/el-mapa-que-no-se-dibuja/`, `obras/la-pausa-antes-del-nombre/`) **no corresponde al lenguaje visual real** de Gabriela. Esas fichas se mantienen en el repositorio solo como ejemplo de plantilla de storytelling, marcadas explícitamente como pendientes de sustituir — nadie debe tratarlas como referencia de estilo.
 
 ### Por definir (Gabriela decide, no se asume)
 
-- Título, materiales exactos, dimensiones, año, historia e inspiración de la primera obra real (`obras/pieza-en-degradado/`) — la ficha está publicada con estos campos marcados como pendientes, no inventados.
-- Si el degradado crudo→rojo es una paleta fija que se repite obra a obra, o varía por pieza.
-- Símbolos o motivos recurrentes más allá del propio procedimiento de degradado (¿hay una gama de colores del universo, o cada obra explora una transición distinta?).
+- Título, materiales exactos, año, historia e inspiración de las dos obras reales (`obras/pieza-en-degradado/`, `obras/pieza-02/`) — cada ficha está publicada con estos campos marcados como pendientes, no inventados.
+- Si 140 × 70 cm es un formato fijo de esta serie o va a variar en obras futuras.
+- Símbolos o motivos recurrentes más allá del propio procedimiento de degradado (¿hay una gama de colores del universo, o cada obra explora una transición distinta libremente?).
 - Si existen "personajes" o presencias recurrentes, o si el universo es puramente atmosférico/de color.
 - Nombre propio del universo o de la primera colección real (la que sustituirá conceptualmente a "Umbral").
 - Convención de nombres de colecciones futuras.

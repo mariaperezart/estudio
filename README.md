@@ -35,12 +35,12 @@ Para activar GitHub Pages: Settings → Pages → Deploy from branch → rama `m
 
 ## Estado del catálogo
 
-- `obras/pieza-en-degradado/` es la **primera obra real** (fotografías propias de Gabriela). Título, materiales, dimensiones, año e historia están marcados como "Pendiente" hasta que se confirmen — no se ha inventado ningún dato.
+- `obras/pieza-en-degradado/` y `obras/pieza-02/` son las **dos primeras obras reales** (fotografías propias de Gabriela), ambas de 140 × 70 cm. Título, materiales, año e historia están marcados como "Pendiente" hasta que se confirmen — no se ha inventado ningún dato.
 - `colecciones/umbral/`, `obras/el-mapa-que-no-se-dibuja/` y `obras/la-pausa-antes-del-nombre/` son un **ejemplo ilustrativo de plantilla** con imaginería figurativa (puertas, mapas) que **no corresponde** al lenguaje visual real de Gabriela (abstracción de campo de color en degradado — ver `BIBLIA_DEL_UNIVERSO.md` §3). Quedan marcadas en el sitio como pendientes de sustituir.
 
 ## Pendiente antes de publicar (ver ESTRATEGIA_MAESTRA.md §15)
 
-- [ ] Completar título, materiales, dimensiones, año, historia y disponibilidad de `obras/pieza-en-degradado/`.
+- [ ] Completar título, materiales, año, historia y disponibilidad de `obras/pieza-en-degradado/` y `obras/pieza-02/`.
 - [ ] Sustituir o retirar la colección de ejemplo "Umbral" por colecciones reales.
 - [ ] Conectar el formulario real (sustituir `TU_ID_DE_FORMSPREE` en cada `<form>`).
 - [ ] Revisión legal de `legal/privacidad`, `legal/terminos`, `legal/cookies`.
