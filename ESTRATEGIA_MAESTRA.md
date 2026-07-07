@@ -162,7 +162,7 @@ La home debe responder, en el primer scroll (sin hacer scroll en móvil, si es p
 
 Cada obra en `/obras/<slug>/` debe incluir, en este orden:
 
-1. **Imagen protagonista** (alta resolución, con zoom, sin marcos de e-commerce).
+1. **Imagen protagonista** (alta resolución, con zoom, sin marcos de e-commerce). Procesada según el estándar de fotografía de catálogo en `RECURSOS_FOTOGRAFIA.md` — fidelidad absoluta a la obra, cero reinterpretación.
 2. **Título de la obra** + colección a la que pertenece.
 3. **Historia** (2-4 párrafos): qué la originó.
 4. **Inspiración**: de dónde viene la idea o la imagen mental.
