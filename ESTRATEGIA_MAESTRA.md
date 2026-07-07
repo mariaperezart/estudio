@@ -208,6 +208,15 @@ Reglas de estilo (aplicables a toda la web, emails, redes):
 - ❌ "¡Compra ahora esta exclusiva pieza única antes de que se agote!"
 - ✅ "Esta pieza pertenece a la colección *Umbral*. Cuando alguien decide vivir con ella, deja de estar disponible para nadie más."
 
+### Cómo responder a "¿cuánto cuesta?"
+
+Quien pregunta el precio suele preguntar también si vale ese dinero y si es una buena decisión. Nunca se responde solo con la cifra — se combina precio + contexto artístico (a qué serie/etapa pertenece) + contexto de mercado, **y este último solo si es un hecho verificable en ese momento** (piezas ya vendidas de la misma serie, trayectoria real). Nunca se fabrica prueba social ni escasez para completar la fórmula: una respuesta con solo precio + contexto artístico es preferible a una completa pero falsa. Plantilla operativa detallada en `.claude/agents/asistente-clientes.md`.
+
+- ❌ "1.500 €." (sin contexto, cuando sí existe uno real que dar)
+- ❌ "Ya se han vendido 3 de 4 piezas de la serie" (si no es literalmente cierto)
+- ✅ "Son 1.500 €. Pertenece a la serie que estoy documentando ahora mismo en el estudio." (cuando aún no hay dato de mercado verificable que añadir)
+- ✅ "Son 1.500 €. Es la tercera pieza de una serie de cuatro; las otras dos ya forman parte de colecciones privadas." (solo si es exactamente cierto)
+
 ---
 
 ## 10. Ecosistema de Agentes IA
