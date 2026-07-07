@@ -168,6 +168,26 @@ La especificación técnica completa (paleta, tipografía, layout) vive en `ESTR
 
 Reglas completas en `ESTRATEGIA_MAESTRA.md` §9. Principio rector del Manifiesto que se añade aquí: el mensaje central de todo texto de marca es **"no todo necesita resolverse"** (Manifiesto §4). Cualquier copy que cierre una interpretación, resuelva un misterio de más, o presione a decidir rápido, contradice el mensaje de marca — no es solo un problema de estilo, es una ruptura de canon.
 
+### Plantilla de bio corta (para prensa, convocatorias, redes)
+
+Cuatro frases, en este orden — nunca lenguaje académico que suene profundo en vez de comunicar:
+
+1. Quién es Gabriela y qué hace (disciplina, no currículum).
+2. De qué trata realmente su obra — la idea o pregunta que la mueve, no solo la técnica (usar el lenguaje de "El Universo": percepción, umbral, contemplación).
+3. Un dato de credibilidad, cuando exista (exposición, formación, proyecto en curso) — **no inventar uno si no existe todavía**, se omite en vez de rellenar.
+4. Todo en lenguaje llano, sin jerga.
+
+Esta plantilla la ejecuta `copywriter.md`; ningún dato de credibilidad se añade sin confirmación real de Gabriela.
+
+### Fórmula de caption para redes (Instagram/TikTok)
+
+1. **Gancho humano** — nunca empezar con "Nueva obra disponible".
+2. **Historia** — qué originó la pieza, qué cambió respecto a la anterior, qué pregunta se hacía Gabriela mientras la pintaba (contenido real del proceso, no dramatización forzada).
+3. **Llamada a la acción** clara — disponibilidad y cómo consultar/comprar.
+4. **Pregunta** que invite a comentar — favorece conversación, no solo alcance.
+
+La historia debe ser auténtica al proceso real de esa obra concreta — nunca una anécdota inventada para generar intriga. Ejecuta esta fórmula `marketing-distribucion.md`, adaptándola al formato nativo de cada canal.
+
 ---
 
 ## 6. Arquitectura de producto — los 3 horizontes
@@ -180,6 +200,7 @@ Directamente del Manifiesto §15-17. Esta es la hoja de ruta de producto; no se 
 
 ### Horizonte 2 — Después
 - Ediciones limitadas (reproducción certificada de muy bajo volumen, sin canibalizar la pieza única).
+- **Bocetos/estudios** — puerta de entrada de ticket bajo para nuevos coleccionistas: coste de materiales y tiempo mucho menores que una obra de galería, margen alto, fácil de enviar. Se venden con el mismo principio narrativo que el resto (§5): no es "un dibujo suelto", es una ventana documentada al proceso — la historia que lo acompaña (qué buscaba resolver, qué cambió respecto al anterior) es parte del valor, no un añadido opcional.
 - Libros ilustrados.
 - Artbooks (documentación del universo y del proceso).
 - Cerámica.
@@ -195,6 +216,9 @@ Condición para pasar al Horizonte 2: catálogo de obra original estable, primer
 
 Condición para pasar al Horizonte 3: marca validada internacionalmente, comunidad de coleccionistas activa, y activos de marca (sección 11) lo suficientemente sólidos para sostener una licencia sin diluir el universo.
 
+### Financiación de proyecto — vía paralela, no un horizonte secuencial
+A diferencia de los horizontes 1-3 (que dependen de vender obra), esta vía no depende de ventas: becas, subvenciones, residencias artísticas y premios con dotación económica. Se financia un **proyecto concreto** (una serie, una investigación, una exposición), no "a la artista" en abstracto — las convocatorias evalúan propuestas específicas. Encaja de forma natural con el componente de investigación y narrativa ya presente en el universo (la mirada como método, sección 3). Reduce la presión de que cada pieza de obra tenga que venderse para financiar la siguiente. Investigación de convocatorias relevantes: agente `investigador-mercado`. No sustituye la venta directa — es una fuente de ingresos adicional, no alternativa.
+
 ---
 
 ## 7. Experiencia del coleccionista
@@ -202,7 +226,7 @@ Condición para pasar al Horizonte 3: marca validada internacionalmente, comunid
 El recorrido no termina en la compra — es donde empieza la relación real.
 
 1. **Descubrimiento**: contenido (proceso, universo, reflexiones) en redes o web — nunca contenido puramente promocional (ver §8, 60/30/10).
-2. **Primer contacto**: llega a una obra o a "El Universo", encuentra una historia, no un catálogo de precios.
+2. **Primer contacto**: llega a una obra o a "El Universo", encuentra una historia — no una parrilla de precios ordenable como una tienda. Esto no significa ocultar el precio: dentro de la ficha de cada obra, una vez exista un precio real, se muestra con la misma naturalidad que las dimensiones o los materiales (nunca "precio bajo consulta"). Ocultar el precio genera fricción y desconfianza; lo que se evita es que el *precio* sea el organizador de la experiencia, no que sea invisible. Ver `ESTRATEGIA_MAESTRA.md` §7 (campo "Precio" en la plantilla de ficha).
 3. **Conversación**: formulario simple; si es comisión, pasa por el proceso de aplicación (`comisiones/index.html`).
 4. **Adquisición**: certificado firmado y numerado, historia de la obra documentada, envío coordinado personalmente.
 5. **Después de la compra**: la relación continúa — seguimiento del agente `crm-coleccionistas`, acceso anticipado a nuevas colecciones antes que el público general.
@@ -272,6 +296,14 @@ Decisión:        [se adopta / se descarta / se itera]
 ```
 
 El agente `analista` es responsable de mantener el registro de experimentos activos y cerrados. Ningún experimento que contradiga la sección 3 (canon) o el Manifiesto §21 ("qué nunca haré") se ejecuta, sin importar su potencial de resultado.
+
+### Lente adicional: consecuencias de segundo orden
+
+Antes de decisiones que se repetirán como hábito (aceptar un trabajo que consume el tiempo de estudio, saltarse una semana de publicación, bajar un precio para cerrar una venta), la pregunta operativa no es solo "¿qué gano hoy con esto?" sino:
+
+> Si convierto esta decisión en un hábito durante los próximos meses o años, ¿hacia dónde me lleva?
+
+Ejemplo aplicado: publicar contenido de proceso hoy no vende una obra hoy — el efecto de primer orden es casi nulo. El efecto de segundo/tercer orden (alguien descubre el trabajo → lo sigue → confía → compra meses después, ver Manifiesto y sección 7) es donde está el valor real. Esta lente no sustituye la plantilla de experimento de arriba — se usa antes, para decidir qué merece la pena convertir en hábito medible.
 
 ---
 

@@ -174,8 +174,9 @@ Cada obra en `/obras/<slug>/` debe incluir, en este orden:
 10. **Vídeo** corto del proceso (15-45s, sin narración forzada, solo estudio + manos + materiales).
 11. **Audio opcional**: nota de voz de Gabriela hablando de la pieza (1-2 min) — refuerza intimidad y autenticidad.
 12. **Certificado de autenticidad**: qué incluye, cómo se entrega.
-13. **Disponibilidad**: "Disponible" / "Reservada" / "En la colección privada de un coleccionista" (nunca "Agotado" — lenguaje de e-commerce).
-14. **Obras relacionadas**: 2-3 piezas de la misma colección o con simbolismo relacionado.
+13. **Precio**: visible en cuanto exista un precio real — nunca "precio bajo consulta". Ocultar el precio genera fricción y desconfianza; ver `BIBLIA_DEL_UNIVERSO.md` §7 y el patrón de respuesta al precio en §9 de este documento. Mientras no haya precio confirmado, el campo se marca "Pendiente", igual que el resto de datos sin confirmar.
+14. **Disponibilidad**: "Disponible" / "Reservada" / "En la colección privada de un coleccionista" (nunca "Agotado" — lenguaje de e-commerce).
+15. **Obras relacionadas**: 2-3 piezas de la misma colección o con simbolismo relacionado.
 
 Este esqueleto es el input directo del **Agente 2 (Copywriter)** — ver sección 9.
 
@@ -190,6 +191,7 @@ Este esqueleto es el input directo del **Agente 2 (Copywriter)** — ver secció
 - Sin pop-ups agresivos. La newsletter se ofrece al final del scroll o en el footer, nunca interrumpiendo la lectura de una obra.
 - Carga rápida: imágenes optimizadas (WebP/AVIF con fallback), sin frameworks pesados innecesarios (ver sección 13).
 - Mobile-first real: el diseño se concibe primero para el móvil (donde llegará el tráfico de redes) y se expande a escritorio, no al revés.
+- Precio visible en la ficha de cada obra en cuanto exista (sección 7, campo 13) — nunca "bajo consulta". Ocultar el precio es fricción, no elegancia.
 
 ---
 
@@ -216,6 +218,10 @@ Quien pregunta el precio suele preguntar también si vale ese dinero y si es una
 - ❌ "Ya se han vendido 3 de 4 piezas de la serie" (si no es literalmente cierto)
 - ✅ "Son 1.500 €. Pertenece a la serie que estoy documentando ahora mismo en el estudio." (cuando aún no hay dato de mercado verificable que añadir)
 - ✅ "Son 1.500 €. Es la tercera pieza de una serie de cuatro; las otras dos ya forman parte de colecciones privadas." (solo si es exactamente cierto)
+
+### Plantillas de bio y de caption
+
+La fórmula de bio corta (4 frases) y la fórmula de caption para redes (gancho + historia + llamada a la acción + pregunta) están documentadas en `BIBLIA_DEL_UNIVERSO.md` §5, con su justificación. Las ejecutan `copywriter.md` y `marketing-distribucion.md` respectivamente.
 
 ---
 
