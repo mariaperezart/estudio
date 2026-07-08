@@ -1,6 +1,6 @@
 # Guiones TikTok / Instagram — primer lote
 
-*15 vídeos listos para grabar ya, sin esperar a que pase nada más, más 2 que requieren preparación previa antes de grabar (nº 11, observación real; nº 17, experimento a anunciar). Todos parten de hechos reales de hoy — nada de dossiers enviados, respuestas de galerías o ventas, porque todavía no han ocurrido. Cuando ocurran de verdad, se añaden aquí como nuevos guiones (ver `SERIE_DOCUMENTAL.md`).*
+*16 vídeos listos para grabar ya, sin esperar a que pase nada más, más 2 que requieren preparación previa antes de grabar (nº 11, observación real; nº 17, experimento a anunciar). Todos parten de hechos reales de hoy — nada de dossiers enviados, respuestas de galerías o ventas, porque todavía no han ocurrido. Cuando ocurran de verdad, se añaden aquí como nuevos guiones (ver `SERIE_DOCUMENTAL.md`).*
 
 **Formato técnico general**: vertical 9:16, 15-45 segundos la mayoría, subtítulos siempre (gran parte se ve sin sonido), hook en los primeros 1-2 segundos —sin intro de marca, sin cuenta atrás, directo a la frase. El texto en pantalla del primer segundo debe decir literalmente de qué va el vídeo — nadie debería tener que esperar 5 segundos para saberlo.
 
@@ -175,7 +175,18 @@
 
 ---
 
-## Cómo seguir después de estos 17
+### 18. Por qué un cuadro puede cambiar cómo se siente una habitación
+**Pilar**: Descubrimiento · **Hook**: Investigación · **Formato**: pregunta abierta, no proceso
+
+- **Por qué existe este guion**: no todos los vídeos necesitan documentar un paso del proceso de negocio — algunos pueden abrir una pregunta real sobre percepción y arte, coherente con Manifiesto §2, §6 (tu forma de mirar). Es contenido de reflexión, no de actualización.
+- **Gancho**: "¿Por qué un mismo cuadro puede hacer que una habitación se sienta distinta según el día?"
+- **Beats**: parte de algo que de verdad te preguntes tú (no una respuesta ya cerrada) → conéctalo con tu propia experiencia perceptiva (Manifiesto §1-2, sin convertir el autismo en el titular — es una lente, no el tema) → deja la pregunta más abierta de lo que estaba, en vez de resolverla del todo (Manifiesto §4).
+- **Nota**: este formato se repite de vez en cuando (no cada semana) como contrapeso a los episodios de proceso — mismo principio que el resto de la serie: solo se graba cuando la pregunta es real, nunca una pregunta retórica vacía solo para generar un gancho.
+- **Caption**: "No tengo una respuesta cerrada para esto. Solo la pregunta que me hago mientras pinto."
+
+---
+
+## Cómo seguir después de estos 18
 
 - Cuando exista una investigación real de mercado (`investigador-mercado`), se añade un guion de tipo Investigación con datos reales.
 - Cuando envíes un dossier de verdad, se escribe el guion de Experimento **en ese momento**, no antes — con la plantilla de `BIBLIA_DEL_UNIVERSO.md` §12 (pregunta / hipótesis / qué hiciste / qué pasó).
