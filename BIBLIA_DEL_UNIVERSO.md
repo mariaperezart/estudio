@@ -244,6 +244,7 @@ Directamente del Manifiesto §23-25.
 - **Plataformas**: YouTube, TikTok, Instagram, web, newsletter.
 - **Tipos de contenido**: proceso creativo, construcción del universo, historias detrás de obras, reflexiones personales, forma de percibir el mundo, documentación del propio negocio artístico (esto último es un tipo de contenido explícito, no solo un efecto secundario — construir en público es parte de la narrativa).
 - **Agentes responsables**: `copywriter` (contenido base) → `marketing-distribucion` (adaptación por canal) → `director-marca` (auditoría antes de publicar contenido nuevo) → `analista` (mide si el 60/30/10 sigue siendo el equilibrio correcto).
+- **Serie documental de vídeo**: la ejecución concreta de "documentación del propio negocio artístico" vive en `SERIE_DOCUMENTAL.md` — aplica el sistema de hipótesis de la sección 12 a formato público. No es una estrategia distinta a esta sección, es su implementación en vídeo.
 
 ---
 
@@ -348,6 +349,7 @@ Del Manifiesto §21-22 — son restricciones y compromisos operativos, no aspira
 
 - `ESTRATEGIA_MAESTRA.md` — implementación de negocio y tecnología (embudo con KPIs, agentes IA en detalle, stack tecnológico, roadmap de implementación web).
 - `BIBLIA_DEL_UNIVERSO.md` (este documento) — identidad, canon, IP, hoja de ruta de producto y sistema de decisiones.
+- `SERIE_DOCUMENTAL.md` — plan de contenido de vídeo de largo recorrido; ejecución pública del sistema de decisiones de la sección 12.
 - `.claude/agents/` — los 10 agentes IA, cada uno referenciando ambos documentos.
 - El sitio (`index.html`, `el-universo/`, `obras/`, etc.) — implementación viva de ambos documentos; si algo en el sitio contradice esta Biblia, el sitio está mal y debe corregirse, no al revés.
 
