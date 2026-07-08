@@ -8,13 +8,14 @@
 
 ---
 
-### 1. Tengo dos pinturas y una pregunta
+### 1. Tengo dos pinturas nuevas — y una carrera que no empieza hoy
 **Pilar**: Descubrimiento · **Hook**: Experimento
 
-- **Gancho** (dilo mirando a cámara, sin editar nada encima): "Tengo dos pinturas. No tengo galería. No tengo coleccionistas. Solo tengo una pregunta."
-- **Beats**: muestra las dos obras (planos cortos, Umbral y Habitar) → "¿Se puede construir una carrera artística desde cero?" → "Voy a documentarlo mientras ocurre, no cuando ya haya terminado."
+- **Gancho** (dilo mirando a cámara, sin editar nada encima): "Tengo dos pinturas nuevas. No es mi primera vez pintando — llevo años haciéndolo. Pero esta colección es distinta a todo lo que hice antes."
+- **Beats**: muestra las dos obras (planos cortos, Umbral y Habitar) → "Se llama Hábitats" → "¿Se puede construir una nueva etapa de mi carrera artística sobre la que ya tengo, documentándolo en público?" → "Voy a documentarlo mientras ocurre, no cuando ya haya terminado."
 - **Texto en pantalla**: la pregunta, en Cormorant Garamond si tu editor lo permite.
-- **Caption**: "Empiezo a documentar esto en público. Dentro de un tiempo vuelvo a este vídeo y vemos qué pasó de verdad. ¿Qué es lo primero que te gustaría ver del proceso?"
+- **Caption**: "Empiezo a documentar en público el cambio de dirección hacia Hábitats. Dentro de un tiempo vuelvo a este vídeo y vemos qué pasó de verdad. ¿Qué es lo primero que te gustaría ver del proceso?"
+- **Nota**: no digas "no tengo galería/coleccionistas/contactos" — no es cierto y es fácilmente verificable por cualquiera que vea tu perfil. Lo real y potente es justo lo contrario: ya tienes una comunidad, y aun así estás dispuesta a documentar en público el riesgo de una dirección artística nueva.
 
 ---
 
@@ -117,7 +118,7 @@
 **Pilar**: Descubrimiento · **Hook**: Investigación
 
 - **Gancho**: "Pensaba que el trabajo de un artista era pintar. Cada vez estoy más convencida de que pintar es la parte fácil."
-- **Beats**: cuando terminas un cuadro empieza otro trabajo — fotografiarlo, escribir sobre él, ponerle precio, la web, el dossier, buscar galerías, grabar contenido, aprender a vender → nadie te paga por nada de eso, solo cobras si algún día alguien compra → mientras tanto todo sale de tu bolsillo (materiales, tiempo, equipo, envíos) → este proyecto no consiste solo en hacer cuadros, consiste en descubrir si se puede construir una carrera desde cero.
+- **Beats**: cuando terminas un cuadro empieza otro trabajo — fotografiarlo, escribir sobre él, ponerle precio, la web, el dossier, buscar galerías, grabar contenido, aprender a vender → nadie te paga por nada de eso, solo cobras si algún día alguien compra → mientras tanto todo sale de tu bolsillo (materiales, tiempo, equipo, envíos) → este proyecto no consiste solo en hacer cuadros, consiste en descubrir si se puede sostener y hacer crecer una carrera artística real con todo ese trabajo invisible alrededor.
 - **Caption**: "La parte del arte de la que nadie habla: todo lo que pasa después de terminar el cuadro."
 
 ---

@@ -1,12 +1,14 @@
 # Plan de Feed — Instagram
 
-*Primera cuadrícula de 12 publicaciones, construida solo con lo que ya existe hoy: las fotos reales de Umbral y Habitar, y 3 tarjetas de cita generadas con la paleta y tipografía de marca (`assets/img/social/quote-cards/`). Nada de esto necesita esperar a nada — se puede empezar a publicar ya.*
+*12 publicaciones nuevas, construidas solo con lo que ya existe hoy: las fotos reales de Umbral y Habitar, y 3 tarjetas de cita generadas con la paleta y tipografía de marca (`assets/img/social/quote-cards/`). Nada de esto necesita esperar a nada — se puede empezar a publicar ya.*
+
+**Corrección importante (confirmada julio 2026)**: esto no es la primera cuadrícula de una cuenta nueva. Se publica en **@mariagperezs**, cuenta real con ~2.695 seguidores y 21 publicaciones ya existentes (serie anterior, *Territorios Interiores*, paleta turquesa). Estas 12 publicaciones son el inicio de un **capítulo nuevo dentro de esa misma cuenta** — un cambio de dirección visual real, no un perfil vacío. Por eso el post 1 se reescribe como anuncio explícito del cambio, en vez de una apertura genérica de "esto es lo que hago" (ver sección 3).
 
 ---
 
 ## 0. Cómo leer este plan
 
-- El **orden de publicación** va del 1 (primera publicación) al 12 (más reciente). Instagram muestra la cuadrícula de más reciente arriba-izquierda a más antigua abajo — si publicas en este orden, la cuadrícula final queda con el ritmo visual pensado en la sección 2.
+- El **orden de publicación** va del 1 (primera publicación de este capítulo) al 12 (más reciente). Se publican después de la última foto ya existente en la cuenta — Instagram las coloca automáticamente por delante en la cuadrícula.
 - Cada entrada tiene: imagen, tipo, caption lista para copiar (fórmula de `MANUAL_DE_MARCA.md` §7), y a qué guion de `GUIONES_TIKTOK_INSTAGRAM.md` se puede enlazar como Reel/vídeo complementario el mismo día.
 - No hay fecha fija de publicación — cadencia libre, según `MANUAL_DE_MARCA.md` §8. Este plan ordena el *qué y en qué secuencia*, no el *cuándo*.
 
@@ -43,9 +45,9 @@ Fila 4:  [detalle]   [contexto]       [contexto]
 ## 3. Las 12 publicaciones, en orden
 
 ### 1 — `umbral-quote.jpg`
-**Tipo**: Cita / apertura
-**Caption**: "No pinto para explicar el mundo. Pinto porque nunca he podido verlo de una sola manera. — Así empieza esto: dos obras, una pregunta, y todo el proceso a la vista."
-**Complementa con**: Guion 1 (*Tengo dos pinturas y una pregunta*)
+**Tipo**: Cita / anuncio de capítulo nuevo
+**Caption**: "No pinto para explicar el mundo. Pinto porque nunca he podido verlo de una sola manera. — Empiezo una colección nueva: Hábitats. Distinta a todo lo que he compartido aquí hasta ahora. Los próximos posts documentan ese cambio, y todo el proceso de negocio detrás, en directo."
+**Complementa con**: Guion 1 (*Tengo dos pinturas nuevas — y una carrera que no empieza hoy*)
 
 ### 2 — `obras/umbral/hero.jpg`
 **Tipo**: Presentación de obra

@@ -102,8 +102,9 @@ Adaptación del guion de 24 días recibido. Se conserva el arco emocional (de la
 
 | Episodio (tema, no día fijo) | Categoría | Estado |
 |---|---|---|
-| Tengo dos pinturas y una pregunta | Diario | ✅ **Hecho hoy** — dos obras reales (Umbral, Habitar), sin galería ni coleccionistas todavía, pregunta ancla: ¿se puede construir una carrera artística desde cero? |
+| Tengo dos pinturas nuevas — y una carrera que no empieza hoy | Diario | ✅ **Hecho hoy** — dos obras reales (Umbral, Habitar), colección nueva (Hábitats). No es un punto de partida desde cero: ya existe trayectoria real (formación, festivales de muralismo 2016-2017, Merkarte Joven 2020, una comunidad de más de 2.500 personas en Instagram construida con la serie anterior, *Territorios Interiores*). Pregunta ancla corregida: ¿se puede construir una nueva etapa/dirección artística sobre una carrera que ya existe, documentando el cambio en público? |
 | Por qué volví a pintar / la primera decisión no fue pintar (qué se quiere que sienta alguien) | Diario | ✅ **Hecho hoy** — ya está respondido en el Manifiesto §1-8 |
+| De Territorios Interiores a Hábitats — por qué cambié de dirección | Diario / Antes-Después | ✅ **Hecho hoy** — comparación real y verificable: la obra anterior (paisajes semi-abstractos en turquesa, cuenta de Instagram existente) frente a la nueva (campo de color en degradado, Hábitats). No hace falta esperar meses a tener un "antes" — ya existe |
 | Dejé de buscar un estilo, empecé a buscar una experiencia | Diario | ✅ **Hecho hoy** — coherente con Manifiesto §4, §6 |
 | Publiqué una web antes de sentirme preparada | Diario | ✅ **Hecho hoy** — la web ya existe y está publicada |
 | Intentar fotografiar una obra es más difícil de lo que parece | Diario / Investigación | ✅ **Hecho hoy** — hay aprendizaje real documentado en `RECURSOS_FOTOGRAFIA.md` |
@@ -113,7 +114,7 @@ Adaptación del guion de 24 días recibido. Se conserva el arco emocional (de la
 | El primer rechazo / el primer mensaje importante | Diario | 🔲 **Plantilla** — se graba solo si ocurre de verdad; nunca se dramatiza un rechazo que no existió |
 | Informe de cierre de la primera etapa | Informe | 🔲 **Plantilla** — se activa la primera vez que haya al menos un experimento cerrado (ver sección 8) |
 
-La pregunta ancla (¿se puede construir una carrera artística desde cero?) se menciona **una vez, al principio de la temporada** — no en cada episodio, según la corrección de la sección 1.
+La pregunta ancla (¿se puede construir una nueva etapa/dirección artística sobre una carrera que ya existe, documentando el cambio en público?) se menciona **una vez, al principio de la temporada** — no en cada episodio, según la corrección de la sección 1. **Nunca se dice "empiezo de cero" o "no tengo contactos/galería/audiencia"** — sería falso: existe una cuenta de Instagram real con comunidad propia y trayectoria expositiva confirmada (`BIBLIA_DEL_UNIVERSO.md` §5). Lo que sí es nuevo es la dirección artística (Hábitats) y el nivel de documentación pública del proceso de negocio, no la carrera en sí.
 
 ---
 
