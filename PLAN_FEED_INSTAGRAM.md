@@ -95,7 +95,7 @@ Fila 4:  [detalle]   [contexto]       [contexto]
 
 ### 12 — `obras/habitar/vista-lateral.jpg`
 **Tipo**: Contexto / detrás de escena
-**Caption**: "Cierro esta primera cuadrícula con Habitar desde un ángulo. Lo que viene después depende de lo que aprenda documentando el proceso — así que sígueme para verlo."
+**Caption**: "Cierro este primer bloque de posts con Habitar desde un ángulo. Lo que viene después depende de lo que aprenda documentando el proceso — así que sígueme para verlo."
 **Complementa con**: Guion 10 (*Mi estudio es este rincón de mi casa*)
 
 ---
