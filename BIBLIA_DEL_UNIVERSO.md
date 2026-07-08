@@ -180,6 +180,13 @@ Cuatro frases, en este orden — nunca lenguaje académico que suene profundo en
 
 Esta plantilla la ejecuta `copywriter.md`; ningún dato de credibilidad se añade sin confirmación real de Gabriela.
 
+### Datos de credibilidad confirmados (usar en el punto 3 de la bio, dossier, prensa)
+
+- Formación: diseño gráfico, mención publicidad, Venezuela.
+- Exposición: Merkarte Joven 2020, Museo Municipal de Bellas Artes de Santa Cruz de Tenerife.
+
+Estos dos datos ya están confirmados por Gabriela y pueden usarse sin marcarlos como pendiente. Cualquier otro dato de trayectoria (más exposiciones, premios, representación) sigue sin existir hasta que ella lo confirme explícitamente — no se extrapola ni se asume a partir de estos dos.
+
 ### Fórmula de caption para redes (Instagram/TikTok)
 
 1. **Gancho humano** — nunca empezar con "Nueva obra disponible".

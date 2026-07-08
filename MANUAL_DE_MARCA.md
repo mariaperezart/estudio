@@ -115,12 +115,12 @@ Fórmula de 4 frases (`BIBLIA_DEL_UNIVERSO.md` §5):
 
 ```
 Gabriela — pinto lugares para habitar, no imágenes para mirar una vez.
-[Colección Hábitats]: campos de color en degradado sobre lienzo, 140x70cm.
-[dato de credibilidad real, si existe — si no, se omite esta línea]
+Colección Hábitats: campos de color en degradado sobre lienzo, 140x70cm.
+Diseño gráfico (mención publicidad, Venezuela) · Merkarte Joven 2020, Museo de Bellas Artes de Santa Cruz de Tenerife.
 mariaperezart.github.io/estudio
 ```
 
-**No añadas** una línea de credibilidad inventada (formación, exposición, prensa) si todavía no existe — se omite, nunca se rellena (`BIBLIA_DEL_UNIVERSO.md` §5).
+**No añadas** una línea de credibilidad inventada (formación, exposición, prensa) más allá de la de arriba, ya confirmada — cualquier dato nuevo se omite hasta que Gabriela lo confirme, nunca se rellena (`BIBLIA_DEL_UNIVERSO.md` §5).
 
 ---
 
