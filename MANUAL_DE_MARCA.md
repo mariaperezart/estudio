@@ -267,6 +267,19 @@ mariaperezart.github.io/estudio
 
 **No añadas** una línea de credibilidad inventada (formación, exposición, prensa) más allá de la de arriba, ya confirmada — cualquier dato nuevo se omite hasta que Gabriela lo confirme, nunca se rellena (`BIBLIA_DEL_UNIVERSO.md` §5).
 
+### Foto de perfil
+
+No una foto sosteniendo un cuadro, ni una foto informal tipo selfie. Criterio:
+
+- Fondo liso o muy limpio.
+- Luz natural suave.
+- Ropa en tonos neutros (blanco, negro, beige, gris) — coherente con la paleta de marca de la sección 4.
+- Mirada tranquila, ligeramente hacia un lado o directamente a cámara.
+- Encuadre de pecho hacia arriba.
+- Sin filtros ni texto superpuesto.
+
+El objetivo: que quien entra al perfil piense "esta es una artista contemporánea", no "esta es una creadora de contenido" — la diferencia entre las dos es exactamente el tipo de posicionamiento que rige toda la sección 2. Si Gabriela tiene varias fotos candidatas, se eligen comparándolas contra este criterio, no a ojo.
+
 ---
 
 ## 13. Plantilla de caption

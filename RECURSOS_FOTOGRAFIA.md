@@ -73,3 +73,11 @@ Principio: una mala presentación visual pierde ventas antes de que alguien lleg
 Los puntos 5 y 6 son la ampliación real de este protocolo respecto a lo que ya se venía haciendo. Para Umbral y Habitar, los puntos 3, 5 y 6 quedan marcados como **Pendiente** (y el punto 4 también en el caso de Habitar) — se añaden cuando exista la sesión de fotos correspondiente, no se fabrican ni se simulan.
 
 Con este conjunto fijo, cada obra nueva alimenta automáticamente la web, el dossier, redes y cualquier propuesta a galerías sin tener que decidir de nuevo qué fotografiar cada vez.
+
+## Firma física en la obra
+
+Decisión de estándar (no fabricada — es una recomendación de oficio, se aplica a partir de la próxima obra que Gabriela firme; **Umbral y Habitar quedan como están hasta que se confirme si ya están firmadas o se firman ahora**, no se asume ninguna de las dos cosas):
+
+- **Frontal**: firma pequeña y discreta en una esquina inferior (normalmente la derecha), en un tono cercano al de esa zona de la pintura — nunca negro intenso si contrasta demasiado. Solo "Gabriela" o una versión simplificada de la firma manuscrita (ver `assets/img/marca/firma-gabriela.png`, la firma real de Gabriela, guardada como referencia — no para estampar digitalmente sobre fotos de obra, que violaría la regla de fidelidad de `RECURSOS_FOTOGRAFIA.md` de no añadir nada a la pintura real). No necesita ser completamente legible; sí constante de obra a obra. El motivo es el mismo principio ya establecido en toda la marca: la firma no compite con la obra por atención.
+- **Reverso**: aquí sí va la información completa — nombre, título de la obra, año, técnica ("Acrílico sobre lienzo"), medidas, número de certificado (cuando exista) y firma completa. Esto ya estaba parcialmente cubierto por el punto 6 de arriba ("Trasera"); esta sección concreta qué contiene exactamente esa firma trasera.
+- El certificado (`certificados/umbral/`, `certificados/habitar/`) mantiene la línea de firma en blanco para que Gabriela firme físicamente cada uno al cerrarse una venta real — no se sustituye por una imagen de la firma ya escaneada, precisamente porque la firma física en el momento de la venta es lo que la hace real y no una plantilla impresa.
