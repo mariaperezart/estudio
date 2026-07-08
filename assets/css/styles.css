@@ -289,7 +289,7 @@ section { padding: var(--space-6) 0; }
 
 .artwork-card { display: block; }
 .artwork-card__img {
-  aspect-ratio: 4/5;
+  aspect-ratio: 3/2;
   background: var(--color-paper-alt);
   overflow: hidden;
   margin-bottom: var(--space-2);
