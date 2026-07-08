@@ -27,6 +27,8 @@
 
 Son 12 piezas en total — exactamente una primera cuadrícula completa, sin rellenar con nada genérico.
 
+**Material explícitamente excluido del feed** (`assets/img/social/proceso-fotografia/`): 3 fotos reales de las pruebas de encuadre de Umbral (`intento-01-plano-general.jpg`, `intento-02-medio.jpg`, `intento-03-detalle.jpg`). Gabriela pidió expresamente no usarlas en Instagram — son tomas de prueba, no la foto final seleccionada. Solo se usan en el TikTok del Guion 7 de `GUIONES_TIKTOK_INSTAGRAM.md` ("Lo difícil de fotografiar una pintura").
+
 ---
 
 ## 2. Ritmo visual de la cuadrícula

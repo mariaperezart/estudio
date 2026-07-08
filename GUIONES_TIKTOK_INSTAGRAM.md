@@ -66,10 +66,11 @@
 ---
 
 ### 7. Lo difícil de fotografiar una pintura
-**Pilar**: Investigación · **Hook**: Investigación
+**Pilar**: Investigación · **Hook**: Investigación · **Material real disponible**: `assets/img/social/proceso-fotografia/` (3 fotos reales, no usar en IG — solo para este TikTok)
 
 - **Gancho**: "Pensé que fotografiar un cuadro sería fácil. No lo fue."
-- **Beats**: colores que cambiaban, texturas que desaparecían, la obra dejaba de parecerse a sí misma → "Una fotografía también forma parte de la obra." → opcional: muestra un antes/después de una foto editada (siempre que sea fiel al color real, nunca un filtro que lo distorsione — ver `MANUAL_DE_MARCA.md` §2).
+- **Beats**: muestra en secuencia rápida `intento-01-plano-general.jpg` → `intento-02-medio.jpg` → `intento-03-detalle.jpg` (los tres intentos reales de encuadre de la misma obra) → "colores que cambiaban, texturas que desaparecían, la obra dejaba de parecerse a sí misma" → "Una fotografía también forma parte de la obra."
+- **Nota**: estas 3 fotos son las tomas de prueba reales, no las finales que usas en la web/portfolio — por eso son perfectas para este vídeo específico (muestran el proceso de encuadre) y no encajan en el feed de Instagram (donde solo va la foto final ya seleccionada).
 - **Caption**: "No era la cámara. Era todo lo que no sabía sobre luz, ángulo y edición."
 
 ---
