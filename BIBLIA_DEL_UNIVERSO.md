@@ -226,7 +226,7 @@ Directamente del Manifiesto §15-17. Esta es la hoja de ruta de producto; no se 
 - Artbooks (documentación del universo y del proceso).
 - Cerámica.
 
-Condición para pasar al Horizonte 2: catálogo de obra original estable, primeras colecciones vendidas, y — según hipótesis de la sección 13 — validación de qué formato genera más demanda antes de invertir en producción.
+Condición para pasar al Horizonte 2: catálogo de obra original estable, primeras colecciones vendidas, y — según hipótesis de la sección 13 — validación de qué formato genera más demanda antes de invertir en producción. **No se abre un formato nuevo solo por necesidad económica a corto plazo** (mismo principio que "el precio no se fija por miedo" en `consultor-precios.md`) — antes de diversificar, se pregunta si esa decisión construye la carrera de largo plazo del Manifiesto o solo resuelve una urgencia puntual (lente de consecuencias de segundo orden, sección 12).
 
 ### Horizonte 3 — Futuro
 - Licencias (uso autorizado de imágenes/símbolos del universo bajo condiciones que protejan el canon — ver sección 10).
@@ -262,6 +262,10 @@ Principio operativo que rige los 7 pasos de arriba: la percepción premium no la
 - Tiempo de respuesta ya comprometido (`comisiones/index.html`: 5-7 días) — se cumple siempre, no es una cifra decorativa.
 - El embalaje de una obra vendida merece el mismo cuidado que la fotografía de catálogo — no es un detalle logístico menor.
 - El certificado (`dossier/`, `certificados/`) se entrega tan cuidado como se ve en la web, no como un papel impreso a última hora.
+
+**Ritual de entrega, concretado** (el principio es "cada interacción comunica cuidado", no un objeto específico como los guantes blancos — para lienzo acrílico barnizado, manos limpias suelen ser más seguras que guantes de algodón, que reducen sensibilidad al tacto; el ritual importa, el accesorio no): protección física bien colocada, certificado incluido, una nota breve (sin exceso sentimental — coherente con `MANUAL_DE_MARCA.md` §3), instrucciones sencillas para colgar la obra, y si existe, una tarjeta con el statement de la colección. Se define en detalle cuando exista la primera venta real — no antes, para no fabricar un protocolo sin haberlo probado.
+- **Fotografía de catálogo**: fondo limpio, buena luz, pocos elementos — cada foto debería parecer parte de un archivo, no una improvisación (ya es el estándar seguido en `assets/img/obras/`).
+- **Exposición/presentación** (física o en el feed): dejar espacio alrededor de cada obra — no llenar, no saturar de botones o texto compitiendo con la pieza (ya es el principio de `MANUAL_DE_MARCA.md` §2).
 
 **Sobre la espera (comisiones o series limitadas)**: si hay lista de espera o un plazo, se comunica siempre ligado al proceso real de creación (tiempos de capas, reflexión, sesión única — lo que sea cierto), nunca como "todavía me estoy organizando". La diferencia no es el tiempo, es lo que ese tiempo significa. `comisiones/index.html` ya sigue este criterio ("el mismo proceso... con el tiempo que eso requiere") — cualquier copy nuevo sobre plazos se audita contra esa misma regla.
 
