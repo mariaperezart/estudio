@@ -168,3 +168,5 @@ Checklist tomado directamente de la crítica al "intellectual slop", aplicado a 
 - `BIBLIA_DEL_UNIVERSO.md` §8 — este documento es la ejecución en vídeo de esa estrategia de contenido; no la sustituye.
 - `BIBLIA_DEL_UNIVERSO.md` §12-13 — cada episodio de tipo Experimento usa exactamente esa plantilla y alimenta esa tabla de hipótesis.
 - `ESTRATEGIA_MAESTRA.md` — agentes y funnel a los que este contenido alimenta (contenido → web → obra → formulario).
+- `MANUAL_DE_MARCA.md` — identidad visual y voz aplicadas a redes; úsalo junto con este documento al escribir un guion.
+- `GUIONES_TIKTOK_INSTAGRAM.md` — el primer lote de episodios de esta temporada ya escritos como guion listo para grabar.

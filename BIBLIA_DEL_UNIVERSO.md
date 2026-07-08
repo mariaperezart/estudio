@@ -350,6 +350,8 @@ Del Manifiesto §21-22 — son restricciones y compromisos operativos, no aspira
 - `ESTRATEGIA_MAESTRA.md` — implementación de negocio y tecnología (embudo con KPIs, agentes IA en detalle, stack tecnológico, roadmap de implementación web).
 - `BIBLIA_DEL_UNIVERSO.md` (este documento) — identidad, canon, IP, hoja de ruta de producto y sistema de decisiones.
 - `SERIE_DOCUMENTAL.md` — plan de contenido de vídeo de largo recorrido; ejecución pública del sistema de decisiones de la sección 12.
+- `MANUAL_DE_MARCA.md` — versión condensada y operativa de este documento (identidad visual, voz, checklist), para usar al grabar y publicar.
+- `GUIONES_TIKTOK_INSTAGRAM.md` — guiones concretos listos para grabar, aplicando el manual y la serie documental.
 - `.claude/agents/` — los 10 agentes IA, cada uno referenciando ambos documentos.
 - El sitio (`index.html`, `el-universo/`, `obras/`, etc.) — implementación viva de ambos documentos; si algo en el sitio contradice esta Biblia, el sitio está mal y debe corregirse, no al revés.
 
