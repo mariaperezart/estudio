@@ -286,6 +286,17 @@ Directamente del Manifiesto §23-25.
 - **Agentes responsables**: `copywriter` (contenido base) → `marketing-distribucion` (adaptación por canal) → `director-marca` (auditoría antes de publicar contenido nuevo) → `analista` (mide si el 60/30/10 sigue siendo el equilibrio correcto).
 - **Serie documental de vídeo**: la ejecución concreta de "documentación del propio negocio artístico" vive en `SERIE_DOCUMENTAL.md` — aplica el sistema de hipótesis de la sección 12 a formato público. No es una estrategia distinta a esta sección, es su implementación en vídeo.
 
+### Cuánto aparece Gabriela: narrativa, no exposición
+
+Eje distinto al reparto 60/30/10 de arriba (ese es sobre *el propósito* del contenido; este es sobre *cuánta presencia personal* tiene). No es un falso dilema entre mostrar la cara o ser anónima — es controlar qué parte de la vida de Gabriela es pública. Lo indispensable no es la cara, es la narrativa: por qué investiga estos temas, cómo decide una composición, por qué descarta otra — eso puede transmitirse sin exponer vida privada.
+
+Proporción aproximada (revisar con `analista` igual que el 60/30/10):
+- **70%**: la obra y el proceso.
+- **20%**: Gabriela presente — trabajando, montando, preparando envíos, explicando una decisión artística.
+- **10%**: aspectos personales relevantes para entender el trabajo, sin convertirlos en el foco (coherente con "Disciplina emocional" de `MANUAL_DE_MARCA.md` §3 — contar algo real con destino, no desahogo).
+
+Principio que resume esto: que recuerden su manera de pensar antes que los detalles de su vida — más difícil de copiar que un estilo visual, y no compromete privacidad.
+
 ---
 
 ## 9. Embudo de ventas

@@ -57,3 +57,19 @@ Neutro, limpio, natural, sin sobreprocesado, máxima fidelidad cromática, máxi
 2. Pasar la foto por una IA de edición con el prompt de arriba para obtener la versión de catálogo.
 3. Usar esa versión como imagen protagonista (`hero.jpg`) de la ficha de obra — las fotos de detalle/textura y "en el espacio" pueden mantenerse más documentales, sin este procesado, para no perder la sensación de estudio real.
 4. Optimizar el archivo final para web (ver `ESTRATEGIA_MAESTRA.md` §13: imágenes comprimidas, formato adecuado) antes de subirlo al repositorio.
+
+## Protocolo fijo de documentación por obra (qué fotografiar, siempre, sin excepción)
+
+Principio: una mala presentación visual pierde ventas antes de que alguien llegue a valorar la obra — no porque la pintura sea peor, sino porque comparar cuesta esfuerzo, y ante la duda se elige lo que es más fácil de evaluar. Por eso cada obra terminada, sin excepción, genera el mismo conjunto fijo de material — no se improvisa por obra:
+
+1. **Frontal / archivo** (`hero.jpg`): la obra completamente de frente, sin perspectiva, sin sombras, sin decoración — procesada según el estándar de catálogo de arriba. Ya es el estándar seguido en `assets/img/obras/`.
+2. **Detalle** (`detalle-01.jpg`, `detalle-02.jpg`...): textura, capas, pincelada, calidad del acrílico — genera confianza en la calidad física de la obra. Ya en uso.
+3. **En pared**: la obra colgada, con proporción real, para entender el tamaño frente al espacio. Ya en uso (nota de nombrado: los archivos actuales `vista-lateral.jpg` de Umbral y Habitar son en realidad esta toma — "colgada en pared" según su propio `alt` — no una vista lateral del bastidor. Se mantiene el nombre en los archivos ya publicados para no romper enlaces; en obras nuevas, nombrar esta toma `en-pared.jpg` para evitar la confusión).
+4. **En ambiente**: no cualquier salón — un espacio coherente con la marca (minimalista, silencioso, luminoso, arquitectura limpia). Ese ambiente comunica tanto como la pintura. Ya en uso (`contexto.jpg`).
+5. **Lateral** (`lateral.jpg` — nuevo, pendiente en Umbral y Habitar): el canto del bastidor, el grosor, el acabado de los bordes. Transmite el cuidado profesional del objeto físico, no solo de la imagen pintada.
+6. **Trasera** (`trasera.jpg` — nuevo, pendiente en Umbral y Habitar): firma, sistema de colgado y, cuando exista, etiqueta/certificado. Reduce la incertidumbre de quien compra sin haber visto la pieza en persona.
+7. **Vídeo corto del objeto** (15-30s, distinto del vídeo de proceso de `ESTRATEGIA_MAESTRA.md` §7 punto 10): cómo cambia la superficie con la luz al recorrerla — algo que ninguna fotografía fija puede transmitir.
+
+Los puntos 5 y 6 son la ampliación real de este protocolo respecto a lo que ya se venía haciendo; el resto confirma decisiones ya tomadas al construir la web. Para Umbral y Habitar, los puntos 5 y 6 quedan marcados como **Pendiente** — se añaden cuando exista la sesión de fotos correspondiente, no se fabrican ni se simulan.
+
+Con este conjunto fijo, cada obra nueva alimenta automáticamente la web, el dossier, redes y cualquier propuesta a galerías sin tener que decidir de nuevo qué fotografiar cada vez.

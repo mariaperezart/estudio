@@ -133,7 +133,12 @@ El prompt original pide una navegación con 13 destinos. Publicarlos todos como 
 /coleccionistas/area/      Área privada (certificados, historial, próximos lanzamientos)
 /legal/...                 Privacidad, términos, cookies
 /404.html
+
+dossier/                   Documento A4 autocontenido, exportable a PDF (no usa <base href>)
+certificados/              Certificados de autenticidad, mismo criterio autocontenido
 ```
+
+**Por qué existen `dossier/` y `certificados/` además de la web**: no es redundancia, son dos herramientas para dos destinatarios distintos. Galerías, comisarios y convocatorias siguen pidiendo con frecuencia un PDF bien diseñado — fácil de archivar, imprimir y compartir internamente. Coleccionistas particulares prefieren la web — se consulta desde el móvil y siempre está actualizada. No se sustituye uno por otro.
 
 ---
 
@@ -162,7 +167,7 @@ La home debe responder, en el primer scroll (sin hacer scroll en móvil, si es p
 
 Cada obra en `/obras/<slug>/` debe incluir, en este orden:
 
-1. **Imagen protagonista** (alta resolución, con zoom, sin marcos de e-commerce). Procesada según el estándar de fotografía de catálogo en `RECURSOS_FOTOGRAFIA.md` — fidelidad absoluta a la obra, cero reinterpretación.
+1. **Imagen protagonista** (alta resolución, con zoom, sin marcos de e-commerce), acompañada del resto del conjunto fijo de imágenes por obra — detalle, en pared, en ambiente, lateral, trasera, vídeo corto — definido en `RECURSOS_FOTOGRAFIA.md` ("Protocolo fijo de documentación por obra"). Imagen protagonista procesada según el estándar de fotografía de catálogo del mismo documento — fidelidad absoluta a la obra, cero reinterpretación.
 2. **Título de la obra** + colección a la que pertenece.
 3. **Historia** (2-4 párrafos): qué la originó.
 4. **Inspiración**: de dónde viene la idea o la imagen mental.

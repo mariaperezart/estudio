@@ -106,6 +106,8 @@ Del reparto 60/30/10 (`BIBLIA_DEL_UNIVERSO.md` §8) y las 3 categorías de `SERI
 
 Si en una semana casi todo lo que subes es "conversión", ya no estás construyendo marca — estás vendiendo sin construir confianza primero. Revisa el reparto cada pocas semanas (`analista`).
 
+**Cuánto apareces tú, no solo la obra** (eje distinto, ver `BIBLIA_DEL_UNIVERSO.md` §8 "Cuánto aparece Gabriela"): aproximadamente 70% obra/proceso, 20% tú presente (trabajando, explicando una decisión), 10% personal relevante — sin que lo personal se vuelva el foco. No es esconder la cara ni convertirte en el centro; es que recuerden tu manera de pensar.
+
 ---
 
 ## 5. Checklist antes de publicar

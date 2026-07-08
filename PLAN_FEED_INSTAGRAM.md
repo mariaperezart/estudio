@@ -108,6 +108,17 @@ Fila 4:  [detalle]   [contexto]       [contexto]
 - Cuando exista una tercera obra, se generan sus propias tarjetas de cita siguiendo el mismo script de generación (`assets/img/social/quote-cards/`, paleta y tipografía de `MANUAL_DE_MARCA.md` §2).
 - Antes de publicar cualquier post nuevo, pásalo por el checklist de `MANUAL_DE_MARCA.md` §5.
 
+### Secuencia fija al lanzar una obra nueva (a partir de la próxima colección)
+
+Las 12 publicaciones actuales ya están secuenciadas por ritmo visual de cuadrícula (sección 2-3) y no se reordenan retroactivamente. Pero cada vez que se lance una obra nueva a partir de ahora, el carrusel/secuencia de esa obra sigue siempre el mismo orden — repetir el mismo patrón construye una identidad visual reconocible, no lo contrario:
+
+1. Obra completa (imagen protagonista, `RECURSOS_FOTOGRAFIA.md`).
+2. Detalle (textura, pincelada).
+3. En pared (escala real).
+4. Gabriela trabajando (proceso, no posado).
+5. Reflexión (caption o segunda tarjeta con una idea, no solo datos técnicos).
+6. Vídeo corto (cómo cambia la obra con la luz, o proceso — `RECURSOS_FOTOGRAFIA.md`).
+
 ---
 
 ## 5. Relación con el resto del repositorio
