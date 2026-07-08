@@ -301,7 +301,14 @@ Cada agente tiene: **misión, entradas, salidas, cadencia, y "no hacer"** (lími
 - **Cadencia**: semanal.
 - **No hacer**: no propone experimentos que degraden posicionamiento de marca (p. ej. "añadir countdown de urgencia falsa") aunque mejoren conversión a corto plazo.
 
-Las definiciones ejecutables de estos 10 agentes están en `.claude/agents/` en este repositorio (`director-marca.md`, `copywriter.md`, `investigador-mercado.md`, `consultor-precios.md`, `consultor-colecciones.md`, `crm-coleccionistas.md`, `asistente-clientes.md`, `marketing-distribucion.md`, `seo.md`, `analista.md`).
+### Agente 11 — Guionista de Vídeo Viral
+- **Misión**: reescribir un guion ya existente (del Agente 2 o de `GUIONES_TIKTOK_INSTAGRAM.md`) optimizando gancho (primeros 1-2s), ritmo y retención para TikTok/Reels, sin recurrir a tácticas que abaraten el posicionamiento premium.
+- **Entradas**: guion base + contexto de canal.
+- **Salidas**: guion reescrito con gancho, beats numerados, cierre y texto en pantalla, más una nota de qué mecanismo de retención usa y por qué no cruza ninguna línea de marca.
+- **Cadencia**: bajo demanda, por vídeo.
+- **No hacer**: no usa urgencia falsa, titulares sensacionalistas sin sustancia, ni promete resultados que aún no han ocurrido; no publica sin pasar por el Agente 1.
+
+Las definiciones ejecutables de estos 11 agentes están en `.claude/agents/` en este repositorio (`director-marca.md`, `copywriter.md`, `investigador-mercado.md`, `consultor-precios.md`, `consultor-colecciones.md`, `crm-coleccionistas.md`, `asistente-clientes.md`, `marketing-distribucion.md`, `seo.md`, `analista.md`, `guionista-viral.md`).
 
 ---
 
