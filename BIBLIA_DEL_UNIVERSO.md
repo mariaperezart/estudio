@@ -108,6 +108,12 @@ No por intuición únicamente. Cada experimento tendrá una hipótesis, una medi
 **30. ¿Cuál es mi misión final?**
 Crear un universo que acompañe a las personas durante años y que les recuerde que algunas preguntas no necesitan una respuesta para tener valor.
 
+### Versión corta del Manifiesto — borrador, pendiente de aprobación de Gabriela
+
+No es canon todavía. Es una condensación a menos de 120 palabras, construida solo con ideas y frases que ya aparecen arriba (nunca contenido nuevo), pensada para decirse frente a cámara, imprimirse en un catálogo o abrir una exposición — el Manifiesto completo de arriba es demasiado largo para esos contextos. Se activa como canon citable solo cuando Gabriela la confirme o la reescriba con sus propias palabras; hasta entonces, cualquier agente o colaborador que la use debe marcarla como borrador:
+
+> Construyo lugares que cambian la forma en que se habita un espacio — no imágenes para mirar una vez, sino territorios de contemplación que nacen de una forma distinta de percibir el mundo. Cada obra invita a detenerse, a cruzar un umbral, a encontrar una calma que no necesita explicarse del todo. No busco resolver preguntas. Busco que algunas sigan teniendo valor sin una respuesta.
+
 ---
 
 ## 2. Identidad de marca — síntesis operativa
@@ -136,7 +142,7 @@ Esto no sustituye a `ESTRATEGIA_MAESTRA.md` §1-2 — los amplía con las palabr
 ### Ya establecido (canon — no se contradice)
 
 - **Tensión central**: lo familiar y lo extraño coexistiendo en el mismo instante; el umbral, no la llegada ni la partida (ver "El Universo de Gabriela" en `el-universo/index.html`).
-- **La mirada como método**: la forma de percibir de Gabriela — incluida su experiencia autista como una de las lentes, nunca el tema — es el origen del método de trabajo: observar patrones, detalles y contradicciones (Manifiesto §2, §6).
+- **La mirada como método**: la forma de percibir de Gabriela — incluida su experiencia autista como una de las lentes, nunca el tema — es el origen del método de trabajo: observar patrones, detalles y contradicciones (Manifiesto §2, §6). **Jerarquía, no sinónimos**: la percepción es el método (por qué la obra existe así); la calma es el efecto buscado en quien mira (arco emocional, abajo). No se usan indistintamente — un texto sobre "calma" sin conexión al método de percepción suena genérico; el método es lo que hace que esa calma sea específicamente suya y no la de cualquier otro artista contemplativo.
 - **La obra no está terminada al salir del estudio**: se termina de construir cuando alguien convive con ella. Esto es una regla narrativa, no solo una frase de marketing — afecta cómo se describe cada pieza (nunca como "acabada" en sentido cerrado).
 - **Arco emocional buscado en quien mira**: curiosidad → extrañeza/confusión ligera → contemplación → familiaridad/intimidad → (con el tiempo) esperanza (Manifiesto §8-9, y texto de "El Universo").
 - **Lenguaje visual real (confirmado con dos obras fotografiadas, julio 2026)**: abstracción de campo de color en degradado (*ombré*), composiciones de horizonte (una franja superior que se disuelve en una franja inferior de color distinto), formato horizontal de 140 × 70 cm, acrílico sobre lienzo sin enmarcar con la trama textil visible como parte deliberada de la superficie. Esto **reemplaza** cualquier expectativa de imaginería figurativa.

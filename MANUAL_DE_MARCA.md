@@ -22,8 +22,8 @@ No son aspiraciones — son el criterio contra el que se evalúa cualquier decis
 2. **La contemplación importa más que el alcance** (filtro de la sección 0).
 3. **La confianza importa más que la persuasión** (`BIBLIA_DEL_UNIVERSO.md` §7, "Recoger confianza, no cumplidos").
 4. **La coherencia importa más que la frecuencia** (sección 14 — mejor menos y real que constante y vacío).
-5. **Cada obra amplía un mismo universo** — ninguna pieza ni publicación es un evento aislado (`BIBLIA_DEL_UNIVERSO.md` §3, canon).
-6. **Nunca se sacrifica la identidad por seguir una tendencia**, aunque mejore una métrica a corto plazo (Manifiesto §21).
+5. **Cada obra amplía un mismo universo** — ninguna pieza ni publicación es un evento aislado (`BIBLIA_DEL_UNIVERSO.md` §3, canon). Cada obra nueva debe hacer que las anteriores parezcan más valiosas, no competir con ellas por atención.
+6. **Nunca se sacrifica la identidad por seguir una tendencia**, aunque mejore una métrica a corto plazo (Manifiesto §21). Esto incluye el propio ritmo de creación: nunca se acelera una obra solo para tener más que publicar.
 7. **Se documenta lo real; nunca se fabrica una narrativa** para parecer en un punto distinto al que se está de verdad — la regla que rige todo este sistema.
 
 Cualquier sección de abajo que parezca entrar en conflicto con uno de estos principios está mal aplicada — se corrige la aplicación, no el principio.
@@ -247,8 +247,10 @@ Lista operativa completa en `BIBLIA_DEL_UNIVERSO.md` §14 — aquí solo la exte
 - Usar escasez falsa o countdowns de urgencia (`analista.md`).
 - Publicar por obligación de cadencia cuando no hay nada real que mostrar (sección 14).
 - Explicar una obra hasta agotar su misterio — Manifiesto §4, "no todo necesita resolverse".
-- **Convertir el hecho de ser autista en estrategia de marketing o gancho de vídeo** — es una lente para mirar, nunca el titular (sección 2).
+- **Convertir el hecho de ser autista en estrategia de marketing o gancho de vídeo** — es una lente para mirar, nunca el titular (sección 2). Se mantiene esta regla con firmeza precisamente porque funciona en ambas direcciones: reducir toda la obra a una etiqueta es tan dañino como ocultarla.
 - Publicar contenido solo porque el algoritmo lo favorece esa semana, si no encaja con el resto de esta lista.
+- Hacer lip sync o usar un sonido viral genérico sin relación real con la obra, solo por alcance.
+- Producir una colección porque "toca" según un calendario fijo — el ritmo lo marca el proceso real, no un plan de años preescrito (sección 14).
 
 ---
 

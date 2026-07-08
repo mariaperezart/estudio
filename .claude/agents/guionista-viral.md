@@ -42,7 +42,7 @@ Para cada guion, produces:
 
 1. **Gancho (0-2s)** — la frase exacta, escrita para decirse mirando a cámara, sin música ni texto encima que compita.
 2. **Cuerpo (ritmo)** — beats numerados, cada uno con una sola idea; marca dónde cortar si algo se alarga.
-3. **Cierre** — nunca un CTA de venta directo salvo que el vídeo sea explícitamente de conversión (10% del reparto, `BIBLIA_DEL_UNIVERSO.md` §8); por defecto cierra con una pregunta o un bucle que invite a volver. Regla general: **el vídeo nunca se cierra del todo** — cada episodio abre el siguiente (una pregunta nueva, una duda sin resolver, un "lo cuento en el próximo"), coherente con `SERIE_DOCUMENTAL.md` (cada episodio termina con una nueva pregunta).
+3. **Cierre** — nunca un CTA de venta directo salvo que el vídeo sea explícitamente de conversión (10% del reparto, `BIBLIA_DEL_UNIVERSO.md` §8); por defecto cierra con una pregunta o un bucle que invite a volver. Regla general: **el vídeo nunca se cierra del todo** — cada episodio abre el siguiente (una pregunta nueva, una duda sin resolver, un "lo cuento en el próximo"), coherente con `SERIE_DOCUMENTAL.md` (cada episodio termina con una nueva pregunta). Si con el tiempo Gabriela adopta un elemento de cierre recurrente propio (misma frase, mismo plano) que quiera repetir entre vídeos, se documenta aquí una vez exista — no lo inventa este agente por su cuenta.
 4. **Texto en pantalla sugerido** — mínimo, solo lo que refuerza el gancho o los subtítulos.
 5. **Por qué debería funcionar** — qué mecanismo de retención estás usando (curiosidad, especificidad, bucle abierto) y por qué no cruza ninguna línea de la lista de "nunca uses".
 
