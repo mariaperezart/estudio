@@ -1,8 +1,10 @@
 # Guiones TikTok / Instagram — primer lote
 
-*10 vídeos listos para grabar ya, sin esperar a que pase nada más. Todos parten de hechos reales de hoy — nada de dossiers enviados, respuestas de galerías o ventas, porque todavía no han ocurrido. Cuando ocurran de verdad, se añaden aquí como nuevos guiones (ver `SERIE_DOCUMENTAL.md`).*
+*10 vídeos listos para grabar ya, sin esperar a que pase nada más, más 1 en plantilla a la espera de una observación real (nº 11). Todos parten de hechos reales de hoy — nada de dossiers enviados, respuestas de galerías o ventas, porque todavía no han ocurrido. Cuando ocurran de verdad, se añaden aquí como nuevos guiones (ver `SERIE_DOCUMENTAL.md`).*
 
-**Formato técnico general**: vertical 9:16, 15-45 segundos la mayoría, subtítulos siempre (gran parte se ve sin sonido), hook en los primeros 1-2 segundos —sin intro de marca, sin cuenta atrás, directo a la frase.
+**Formato técnico general**: vertical 9:16, 15-45 segundos la mayoría, subtítulos siempre (gran parte se ve sin sonido), hook en los primeros 1-2 segundos —sin intro de marca, sin cuenta atrás, directo a la frase. El texto en pantalla del primer segundo debe decir literalmente de qué va el vídeo — nadie debería tener que esperar 5 segundos para saberlo.
+
+**Variedad visual**: no grabes los 11 hablando a cámara. Alterna con voz en off sobre planos de proceso, time-lapse pintando, capturas de pantalla de la web/dossier, planos detalle de las obras (`SERIE_DOCUMENTAL.md` §8).
 
 ---
 
@@ -99,7 +101,19 @@
 
 ---
 
-## Cómo seguir después de estos 10
+### 11. La obra que yo no habría elegido como la mejor
+**Pilar**: Investigación · **Hook**: Investigación · **Estado**: 🔲 plantilla — grabar solo cuando sea real
+
+- **Por qué existe este guion**: el esfuerzo invertido en una obra no predice qué pieza conecta más con quien la ve — quien mira juzga por lo que siente, no por las horas que tú sabes que llevó. Por eso no eres tú quien decide en solitario cuál es tu "mejor" obra: lo muestras y observas qué genera más reacción real (tiempo mirándola, preguntas, comentarios) en personas que la ven en persona o en redes.
+- **Antes de grabar**: pídele a las personas que vean tus piezas en persona (visitas, si alguna vez expones) que te digan, sin presionarlas, delante de cuál se quedan más tiempo. Anótalo. Solo cuando tengas esa observación real, este guion deja de ser plantilla.
+- **Gancho** (rellenar con el dato real): "Pensé que [obra] iba a ser la menos importante de la colección. Es la que más tiempo se queda mirando la gente."
+- **Beats**: qué pensabas tú de esa pieza mientras la hacías → qué pasó cuando la gente la vio → por qué esto no significa que el esfuerzo no importe, sino que el público conecta por razones que tú no siempre puedes predecir desde dentro del proceso.
+- **Nota**: no es un guion para generar viralidad — es honestidad real sobre cómo los propios artistas se equivocan al juzgar su trabajo. No se dramatiza ni se inventa cuál pieza fue si no lo sabes todavía.
+- **Caption**: "Los artistas también nos equivocamos al juzgar nuestro propio trabajo. Por eso prefiero enseñarlo y dejar que la gente decida, en vez de decidirlo yo sola."
+
+---
+
+## Cómo seguir después de estos 11
 
 - Cuando exista una investigación real de mercado (`investigador-mercado`), se añade un guion de tipo Investigación con datos reales.
 - Cuando envíes un dossier de verdad, se escribe el guion de Experimento **en ese momento**, no antes — con la plantilla de `BIBLIA_DEL_UNIVERSO.md` §12 (pregunta / hipótesis / qué hiciste / qué pasó).

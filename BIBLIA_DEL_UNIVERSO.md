@@ -364,6 +364,7 @@ Del Manifiesto §21-22 — son restricciones y compromisos operativos, no aspira
 - `SERIE_DOCUMENTAL.md` — plan de contenido de vídeo de largo recorrido; ejecución pública del sistema de decisiones de la sección 12.
 - `MANUAL_DE_MARCA.md` — versión condensada y operativa de este documento (identidad visual, voz, checklist), para usar al grabar y publicar.
 - `GUIONES_TIKTOK_INSTAGRAM.md` — guiones concretos listos para grabar, aplicando el manual y la serie documental.
+- `PLAN_FEED_INSTAGRAM.md` — cuadrícula de feed planificada con material real existente (fotos de obra + tarjetas de cita de marca).
 - `.claude/agents/` — los 10 agentes IA, cada uno referenciando ambos documentos.
 - El sitio (`index.html`, `el-universo/`, `obras/`, etc.) — implementación viva de ambos documentos; si algo en el sitio contradice esta Biblia, el sitio está mal y debe corregirse, no al revés.
 

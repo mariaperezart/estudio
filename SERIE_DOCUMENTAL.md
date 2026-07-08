@@ -73,6 +73,9 @@ El material analizado proponía 5 hooks. Se adoptan, pero atados a lo que la ser
 | **Proceso** | Episodios Diario | "Así es como decido si una obra está terminada — y no tiene que ver con la técnica." |
 | **Frustración** | Con cuidado, solo si es verdad ese día | Nunca inventar una frustración para generar enganche — ver sección 9 |
 | **Preparación** ("¿Estás listo para X?") | Se evita casi siempre | No encaja: la serie no vende una transformación rápida, vende un proceso real. Usarlo constantemente contradice el posicionamiento (Manifiesto §14: alta carga conceptual, no fórmula de autoayuda) |
+| **Pensaba esto → descubrí esto** | Episodios de Investigación o Experimento cerrados | "Pensaba que necesitaba treinta obras para empezar. Descubrí que podía preparar un dossier con dos." — documenta una transformación de pensamiento, no solo de resultado; solo se usa con un cambio de opinión real, nunca inventado |
+
+**Regla de simplicidad (aplica a los 6 hooks de arriba)**: quien ve el vídeo debe entender de qué trata en el primer fotograma, sin esperar a que avance el audio — la primera frase hablada coincide con el texto en pantalla, nunca una intro genérica antes de decir la idea.
 
 La identidad de la serie, en una frase, siguiendo la fórmula del material analizado pero anclada al Manifiesto:
 
@@ -136,6 +139,21 @@ La siguiente pregunta que quiero responder:
 ```
 
 Agente responsable de reunir los datos: `analista`, cruzando con `BIBLIA_DEL_UNIVERSO.md` §13.
+
+### Formato complementario: Antes vs Después
+
+No es un cuarto tipo de episodio — es un formato que se activa dentro de un Informe (sección 8), nunca antes de tener un "antes" y un "después" reales que comparar. Ejemplo de plantilla:
+
+```
+Antes:  "No tenía web."
+Después: "La web ya está publicada."
+```
+
+**Regla**: cada par antes/después debe ser verificable con algo que ya existe en el repositorio o el sitio (una fecha de commit, una obra publicada, un dossier real) — nunca una sensación vaga ("he mejorado mucho"). El primer Antes/Después no se fuerza hasta que exista una comparación real que valga la pena mostrar (probablemente no en el primer Informe, sino en el segundo o tercero, cuando ya haya pasado suficiente tiempo).
+
+### Variedad visual (evitar el vídeo-selfie constante)
+
+No todos los episodios necesitan ser Gabriela hablando a cámara. Alternar según lo que el episodio realmente muestre: voz en off sobre planos de proceso, time-lapse de una obra, captura de pantalla de la web o el dossier, planos detalle de una pieza, fotografías del estudio. La historia es la misma; el formato cambia según lo que hay que enseñar ese día — nunca cambia el tono ni la voz (`MANUAL_DE_MARCA.md` §3).
 
 ---
 
