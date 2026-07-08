@@ -4,7 +4,7 @@
 
 **Formato técnico general**: vertical 9:16, 15-45 segundos la mayoría, subtítulos siempre (gran parte se ve sin sonido), hook en los primeros 1-2 segundos —sin intro de marca, sin cuenta atrás, directo a la frase. El texto en pantalla del primer segundo debe decir literalmente de qué va el vídeo — nadie debería tener que esperar 5 segundos para saberlo.
 
-**Variedad visual**: no los grabes todos hablando a cámara. Alterna con voz en off sobre planos de proceso, time-lapse pintando, capturas de pantalla de la web/dossier, planos detalle de las obras (`SERIE_DOCUMENTAL.md` §8).
+**Variedad visual**: no los grabes todos hablando a cámara. Alterna con voz en off sobre planos de proceso, time-lapse pintando, capturas de pantalla de la web/dossier, planos detalle de las obras (`SERIE_DOCUMENTAL.md` §10).
 
 ---
 

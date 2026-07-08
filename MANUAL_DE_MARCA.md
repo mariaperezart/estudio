@@ -84,7 +84,7 @@ Vender también es parte de la marca — se hace con el mismo cuidado que una ob
 
 - Mucho espacio en blanco/negativo. La obra ocupa más espacio visual que tú, el texto o cualquier gráfico.
 - Luz natural siempre que sea posible — nada de filtros que cambien el color real de la obra (una pintura fotografiada con un color falso es un problema de autenticidad, no solo de estética).
-- Movimientos de cámara lentos y estables. Nada de zooms bruscos, transiciones "flashy" ni efectos de sonido tipo click/ding para retener atención — eso es exactamente lo que describe la crítica al "intellectual slop" que ya filtramos en `SERIE_DOCUMENTAL.md` §1: apariencia de profundidad sin fondo real.
+- Movimientos de cámara lentos y estables. Nada de zooms bruscos, transiciones "flashy" ni efectos de sonido tipo click/ding para retener atención — eso es exactamente lo que describe la crítica al "intellectual slop" que ya filtramos en `SERIE_DOCUMENTAL.md` §2: apariencia de profundidad sin fondo real.
 - **La cámara observa, no impresiona**: si un movimiento de cámara llama más la atención que la obra que está filmando, ese movimiento sobra.
 
 ---
@@ -159,7 +159,7 @@ Cada etapa se cuida con el mismo nivel de atención — un Feed cuidado con un D
 
 ## 7. Qué grabar — pilares de contenido
 
-Del reparto 60/30/10 (`BIBLIA_DEL_UNIVERSO.md` §8) y las 3 categorías de `SERIE_DOCUMENTAL.md` §4:
+Del reparto 60/30/10 (`BIBLIA_DEL_UNIVERSO.md` §8) y las 3 categorías de `SERIE_DOCUMENTAL.md` §5:
 
 | Pilar | % aprox. | Qué es | Ejemplos |
 |---|---|---|---|
@@ -227,7 +227,7 @@ Filtro completo — más exigente que el de la sección 0, para el momento justo
 
 - [ ] ¿Suena como algo que diría Gabriela, o como una plantilla genérica?
 - [ ] ¿Estoy afirmando algo que no ha pasado todavía? (dossier enviado, venta, respuesta de galería) → si no ha pasado de verdad, no se publica así
-- [ ] ¿Si quito la música y la edición, sigue habiendo una idea real? (`SERIE_DOCUMENTAL.md` §9)
+- [ ] ¿Si quito la música y la edición, sigue habiendo una idea real? (`SERIE_DOCUMENTAL.md` §11)
 - [ ] ¿El color de la obra en el vídeo es fiel al color real? (nunca un filtro que lo distorsione)
 - [ ] ¿Hay alguna palabra de la lista prohibida (sección 5)?
 - [ ] ¿Esto es coherente con lo que ya subiste, o contradice algo del canon (`BIBLIA_DEL_UNIVERSO.md` §3)?
@@ -286,7 +286,7 @@ Ejemplo aplicado a Umbral:
 
 ## 14. Cadencia y expectativas
 
-- No hay un número mínimo de publicaciones semanales fijado — mejor menos y real que constante y vacío (`SERIE_DOCUMENTAL.md` §3).
+- No hay un número mínimo de publicaciones semanales fijado — mejor menos y real que constante y vacío (`SERIE_DOCUMENTAL.md` §4).
 - Si esta semana no hay nada real que mostrar, un vídeo corto diciendo exactamente eso ("esta semana ha sido solo trabajo de fondo, sin nada que enseñar todavía") es más coherente con tu marca que forzar contenido.
 - Revisa cada 30 días qué formatos funcionaron — sin cambiar tu voz por perseguir el algoritmo (Manifiesto §21: "no seguir tendencias solo porque funcionan").
 

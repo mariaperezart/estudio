@@ -1,6 +1,6 @@
 # Serie Documental — Gabriela
 
-*Plan de contenido de vídeo de largo recorrido. Aplica el sistema de decisiones ya definido en `BIBLIA_DEL_UNIVERSO.md` §12 a un formato público. No es un documento nuevo de estrategia — es la ejecución en vídeo de algo que ya estaba decidido en el Manifiesto §22-23 y §29.*
+*Plan de contenido de vídeo de largo recorrido. Aplica el sistema de decisiones ya definido en `BIBLIA_DEL_UNIVERSO.md` §12 a un formato público. No es un documento nuevo de estrategia — es la ejecución en vídeo de algo que ya estaba decidido en el Manifiesto §22-23 y §29. Reestructurado como documento operativo completo (no solo un listado de episodios) — julio 2026.*
 
 ---
 
@@ -8,11 +8,26 @@
 
 - Este documento adapta y filtra un conjunto de análisis y guiones que Gabriela trajo de fuera (vídeos de estrategia, un guion de 24 días, análisis de marketing). No los reproduce — extrae lo que sirve, descarta lo que no encaja con el canon, y lo conecta con `BIBLIA_DEL_UNIVERSO.md`.
 - **Regla de no invención, aplicada aquí también**: el guion original de "Día X" incluye escenas como "llegó el primer rechazo" o "recibí un mensaje importante" como si ya hubieran ocurrido. No ha pasado nada de eso todavía — son un formato, no hechos. Cada episodio de este plan está marcado como **hecho hoy** (se puede grabar ya, es verdad) o **plantilla** (la estructura está lista, el contenido lo pone Gabriela cuando ocurra de verdad). Ningún episodio se guioniza con un resultado inventado.
-- `copywriter` y `marketing-distribucion` usan este documento para producir guiones episodio a episodio. `analista` usa la sección 8 para llevar el informe mensual. `director-marca` lo audita contra el canon antes de cada publicación (igual que cualquier otro contenido, `BIBLIA_DEL_UNIVERSO.md` §8).
+- `copywriter` y `marketing-distribucion` usan este documento para producir guiones episodio a episodio. `analista` usa la sección 10 para llevar el informe mensual. `director-marca` lo audita contra el canon antes de cada publicación (igual que cualquier otro contenido, `BIBLIA_DEL_UNIVERSO.md` §8).
 
 ---
 
-## 1. Qué se queda del material analizado (y qué no)
+## 1. Principios de la serie
+
+No son reglas nuevas — son las que ya rigen este documento, reunidas para consultarlas rápido antes de grabar cualquier episodio:
+
+1. **Nunca se guioniza un resultado que no ha ocurrido.** Un episodio es "hecho hoy" o "plantilla" — nunca una ficción con apariencia de hecho (sección 0).
+2. **El ritmo lo marca el descubrimiento, no el calendario.** No hay número total ni cadencia fija prometida de antemano (sección 4).
+3. **Cada episodio dice explícitamente si es hecho confirmado o hipótesis sin validar** — nunca suena a autoridad sobre algo que todavía no se sabe (sección 11, filtro de calidad).
+4. **La persona importa tanto como la obra** (founder-forward), pero nunca a costa de contenido personal desconectado del proceso real (sección 7, posicionamiento).
+5. **Si quitas la música y la edición, tiene que seguir habiendo una idea real** — el filtro contra "intellectual slop" (sección 11).
+6. **Esto no es una serie nueva** — es el sistema de decisiones que ya regía en privado (`BIBLIA_DEL_UNIVERSO.md` §12), hecho público (sección 3).
+
+Cualquier episodio que entre en conflicto con uno de estos principios está mal planteado — se corrige el episodio, no el principio.
+
+---
+
+## 2. Qué se queda del material analizado (y qué no)
 
 Gabriela compartió varios análisis (algunos generados por ella con otra IA) sobre: un guion de 24 días para documentar su carrera, cómo estructurar hooks, "founder-forward marketing", cómo una agencia de branding cobra 16.000$ por un sistema de marca, y una crítica al contenido con "estética de ensayo" pero sin fondo real ("intellectual slop"). Todo eso ya venía con una autocrítica bastante buena incorporada. Esto es lo que sobrevive al filtro y por qué:
 
@@ -22,22 +37,22 @@ Gabriela compartió varios análisis (algunos generados por ella con otra IA) so
 | 365 días prometidos de antemano | Se descarta | Un número fijo obliga a publicar aunque no haya avance real — contradice Manifiesto §21 ("no crear contenido que no represente el universo") |
 | Cada episodio = pregunta → hipótesis → experimento → resultado → conclusión | Se queda, es prioritario | Es literalmente `BIBLIA_DEL_UNIVERSO.md` §12, ya existente. No hay que inventar un sistema nuevo |
 | Informe cada 30 días (no resumen, informe con datos) | Se queda | Convierte la serie en una base de conocimiento acumulable, no solo un diario — encaja con Manifiesto §27 ("un archivo de contenido") |
-| 3 categorías de episodio: diario / investigación / experimento | Se queda | Da variedad real sin mezclar tono; ver sección 4 |
+| 3 categorías de episodio: diario / investigación / experimento | Se queda | Da variedad real sin mezclar tono; ver sección 5 |
 | Repetir la pregunta ancla en cada episodio | Se descarta | Pierde fuerza por repetición — la pregunta general queda de fondo, cada episodio tiene su propia pregunta específica |
-| Hooks: preparación / frustración / proceso / experimento / investigación | Se queda | Es una herramienta de guion útil, no una promesa de marca — ver sección 5 |
+| Hooks: preparación / frustración / proceso / experimento / investigación | Se queda | Es una herramienta de guion útil, no una promesa de marca — ver sección 6 |
 | "Founder-forward": la persona es tan importante como la obra | Se queda, con matiz | Coherente con el mercado del arte contemporáneo (Manifiesto §13-14), donde la trayectoria del artista forma parte del valor — pero sin caer en contenido personal desconectado de la obra |
-| Crítica al "intellectual slop" (estética de profundidad sin fondo) | Se queda como criterio de calidad | Filtro útil antes de publicar: *si quito la música y la edición, ¿sigue habiendo una idea?* — se añade como checklist, sección 9 |
+| Crítica al "intellectual slop" (estética de profundidad sin fondo) | Se queda como criterio de calidad | Filtro útil antes de publicar: *si quito la música y la edición, ¿sigue habiendo una idea?* — se añade como checklist, sección 11 |
 | El "brand book" de 40 páginas antes de pintar nada | Se descarta como orden de operaciones | Para una artista en desarrollo, fijar la identidad demasiado pronto es una jaula, no una brújula — esto ya está resuelto en `BIBLIA_DEL_UNIVERSO.md` §0 y §3 ("por definir, Gabriela decide") |
 
 ---
 
-## 2. Por qué esto no es "una serie nueva"
+## 3. Por qué esto no es "una serie nueva"
 
 `BIBLIA_DEL_UNIVERSO.md` §12 ya obliga a que cualquier decisión de negocio relevante tenga hipótesis, métrica, duración, resultado y decisión. El Manifiesto §22 ya dice "documentaré el proceso". El Manifiesto §29 ya dice "cada experimento tendrá una hipótesis, una medición y una revisión". La serie documental no añade una estrategia nueva: **convierte en contenido público un sistema de decisiones que ya existía en privado.** Eso es lo que la hace difícil de copiar — cualquiera puede grabarse pintando; muy pocos pueden enseñar el cuaderno de hipótesis detrás.
 
 ---
 
-## 3. La corrección más importante: ritmo por descubrimiento
+## 4. La corrección más importante: ritmo por descubrimiento
 
 No se promete un vídeo diario ni un número total cerrado. Se publica cuando hay:
 - una pregunta nueva que responder,
@@ -48,7 +63,7 @@ Si pasan dos semanas sin nada real que contar, no hay episodio — y eso tambié
 
 ---
 
-## 4. Tres categorías de episodio
+## 5. Tres categorías de episodio
 
 No se mezclan en el mismo vídeo. Cada uno tiene una función distinta dentro del 60/30/10 de `BIBLIA_DEL_UNIVERSO.md` §8.
 
@@ -58,11 +73,11 @@ No se mezclan en el mismo vídeo. Cada uno tiene una función distinta dentro de
 | **Investigación** | Qué se está aprendiendo estudiando a otros (artistas, galerías, coleccionistas) | 60% descubrimiento / 30% conexión | Qué se investigó → qué patrón apareció → qué se descarta por especulativo |
 | **Experimento** | Una decisión concreta puesta a prueba (precio, formato, mensaje, plataforma) | Alimenta directamente `BIBLIA_DEL_UNIVERSO.md` §12 y §13 | Pregunta / Hipótesis / Experimento / Resultado / Conclusión / Nueva pregunta (idéntico a §12) |
 
-El **informe mensual** (sección 8) no es una cuarta categoría — es una síntesis de las tres, con datos.
+El **informe mensual** (sección 10) no es una cuarta categoría — es una síntesis de las tres, con datos. Un experimento que **fracasa o da un resultado distinto al esperado no se oculta ni se reescribe** para parecer un éxito — se documenta igual que uno que confirma la hipótesis; es exactamente el tipo de dato real que hace única a esta serie (principio 5, sección 1).
 
 ---
 
-## 5. Hooks, mapeados a categorías reales (no a promesas)
+## 6. Hooks, mapeados a categorías reales (no a promesas)
 
 El material analizado proponía 5 hooks. Se adoptan, pero atados a lo que la serie realmente es — nunca a una transformación que todavía no ha ocurrido (eso violaría Manifiesto §21):
 
@@ -71,7 +86,7 @@ El material analizado proponía 5 hooks. Se adoptan, pero atados a lo que la ser
 | **Experimento** | Episodios tipo Experimento | "No sé si una web influye en que una galería responda. Lo voy a probar." |
 | **Investigación** | Episodios tipo Investigación | "Analicé cómo presentan su obra 20 artistas que sí viven de esto. Encontré un patrón que no esperaba." |
 | **Proceso** | Episodios Diario | "Así es como decido si una obra está terminada — y no tiene que ver con la técnica." |
-| **Frustración** | Con cuidado, solo si es verdad ese día | Nunca inventar una frustración para generar enganche — ver sección 9 |
+| **Frustración** | Con cuidado, solo si es verdad ese día | Nunca inventar una frustración para generar enganche — ver sección 11 |
 | **Preparación** ("¿Estás listo para X?") | Se evita casi siempre | No encaja: la serie no vende una transformación rápida, vende un proceso real. Usarlo constantemente contradice el posicionamiento (Manifiesto §14: alta carga conceptual, no fórmula de autoayuda) |
 | **Pensaba esto → descubrí esto** | Episodios de Investigación o Experimento cerrados | "Pensaba que necesitaba treinta obras para empezar. Descubrí que podía preparar un dossier con dos." — documenta una transformación de pensamiento, no solo de resultado; solo se usa con un cambio de opinión real, nunca inventado |
 
@@ -83,7 +98,7 @@ La identidad de la serie, en una frase, siguiendo la fórmula del material anali
 
 ---
 
-## 6. Posicionamiento — qué es y qué no es esta serie
+## 7. Posicionamiento — qué es y qué no es esta serie
 
 **Es:**
 - El archivo público de cómo se toman las decisiones detrás de una carrera artística real, con datos, errores y aprendizajes (Manifiesto §27: "un archivo de contenido").
@@ -91,12 +106,12 @@ La identidad de la serie, en una frase, siguiendo la fórmula del material anali
 
 **No es:**
 - Un "day in the life" genérico.
-- Contenido con estética de profundidad sin una idea real detrás — el filtro de la sección 9 existe exactamente para evitar esto ("intellectual slop").
+- Contenido con estética de profundidad sin una idea real detrás — el filtro de la sección 11 existe exactamente para evitar esto ("intellectual slop").
 - Una promesa de éxito o de transformación en X días.
 
 ---
 
-## 7. Temporada 1 — estado real vs plantilla
+## 8. Temporada 1 — estado real vs plantilla
 
 Adaptación del guion de 24 días recibido. Se conserva el arco emocional (de la pregunta inicial a una primera etapa cerrada), pero **sin fechas fijas ni contenido inventado**. Cada episodio indica su estado real hoy.
 
@@ -110,15 +125,25 @@ Adaptación del guion de 24 días recibido. Se conserva el arco emocional (de la
 | Intentar fotografiar una obra es más difícil de lo que parece | Diario / Investigación | ✅ **Hecho hoy** — hay aprendizaje real documentado en `RECURSOS_FOTOGRAFIA.md` |
 | Analicé artistas que viven de su obra | Investigación | 🔲 **Plantilla** — se graba cuando exista esa investigación real (agente `investigador-mercado` puede aportar la base) |
 | Empecé a buscar galerías / escribí un dossier | Diario | 🔲 **Plantilla** — se graba cuando exista de verdad, no antes |
-| Envié mi primer dossier | Experimento | 🔲 **Plantilla** — pregunta lista de antemano: "¿Influye tener web en la tasa de respuesta?" (usar plantilla §12); el resultado se rellena cuando llegue |
+| Envié mi primer dossier | Experimento | 🔲 **Plantilla** — pregunta lista de antemano: "¿Influye tener web en la tasa de respuesta?" (usar plantilla §12 de la Biblia); el resultado se rellena cuando llegue |
 | El primer rechazo / el primer mensaje importante | Diario | 🔲 **Plantilla** — se graba solo si ocurre de verdad; nunca se dramatiza un rechazo que no existió |
-| Informe de cierre de la primera etapa | Informe | 🔲 **Plantilla** — se activa la primera vez que haya al menos un experimento cerrado (ver sección 8) |
+| Informe de cierre de la primera etapa | Informe | 🔲 **Plantilla** — se activa la primera vez que haya al menos un experimento cerrado (ver sección 10) |
 
-La pregunta ancla (¿se puede construir una nueva etapa/dirección artística sobre una carrera que ya existe, documentando el cambio en público?) se menciona **una vez, al principio de la temporada** — no en cada episodio, según la corrección de la sección 1. **Nunca se dice "empiezo de cero" o "no tengo contactos/galería/audiencia"** — sería falso: existe una cuenta de Instagram real con comunidad propia y trayectoria expositiva confirmada (`BIBLIA_DEL_UNIVERSO.md` §5). Lo que sí es nuevo es la dirección artística (Hábitats) y el nivel de documentación pública del proceso de negocio, no la carrera en sí.
+La pregunta ancla (¿se puede construir una nueva etapa/dirección artística sobre una carrera que ya existe, documentando el cambio en público?) se menciona **una vez, al principio de la temporada** — no en cada episodio, según la corrección de la sección 2. **Nunca se dice "empiezo de cero" o "no tengo contactos/galería/audiencia"** — sería falso: existe una cuenta de Instagram real con comunidad propia y trayectoria expositiva confirmada (`BIBLIA_DEL_UNIVERSO.md` §5). Lo que sí es nuevo es la dirección artística (Hábitats) y el nivel de documentación pública del proceso de negocio, no la carrera en sí.
 
 ---
 
-## 8. Informe periódico — plantilla
+## 9. Después de Temporada 1
+
+No estaba definido y era un hueco real del documento. Temporada 1 se considera cerrada cuando existe al menos un Informe de cierre (sección 10) con un experimento resuelto de verdad — no en una fecha fija.
+
+- Temporada 2 **no se define de antemano** importando otro guion externo. Se diseña repitiendo el proceso de la sección 2 (qué se queda, qué se descarta) sobre lo que realmente pasó en la Temporada 1 — sus propios datos son el material de partida, no un guion nuevo traído de fuera.
+- No se rellena con episodios genéricos solo por mantener el ritmo (mismo principio que `PLAN_FEED_INSTAGRAM.md` §4).
+- Si para entonces existe una tercera obra o una colección nueva, su anuncio sigue el protocolo de niveles de acceso ya definido en `BIBLIA_DEL_UNIVERSO.md` §7 ("Protocolo de lanzamiento de una colección nueva"), no un anuncio genérico de un día para otro.
+
+---
+
+## 10. Informe periódico — plantilla
 
 Se publica cuando se acumulan suficientes datos (no en una fecha fija). Formato:
 
@@ -143,7 +168,7 @@ Agente responsable de reunir los datos: `analista`, cruzando con `BIBLIA_DEL_UNI
 
 ### Formato complementario: Antes vs Después
 
-No es un cuarto tipo de episodio — es un formato que se activa dentro de un Informe (sección 8), nunca antes de tener un "antes" y un "después" reales que comparar. Ejemplo de plantilla:
+No es un cuarto tipo de episodio — es un formato que se activa dentro de un Informe (sección 10), nunca antes de tener un "antes" y un "después" reales que comparar. Ejemplo de plantilla:
 
 ```
 Antes:  "No tenía web."
@@ -152,7 +177,7 @@ Después: "La web ya está publicada."
 
 **Regla**: cada par antes/después debe ser verificable con algo que ya existe en el repositorio o el sitio (una fecha de commit, una obra publicada, un dossier real) — nunca una sensación vaga ("he mejorado mucho"). El primer Antes/Después no se fuerza hasta que exista una comparación real que valga la pena mostrar (probablemente no en el primer Informe, sino en el segundo o tercero, cuando ya haya pasado suficiente tiempo).
 
-**Estructura interna de un episodio Antes/Después**, cuando se use: promesa breve (qué vas a mostrar) → una frase de por qué hablas de esto (tu experiencia directa, no una credencial inflada) → antes → después → 2-3 frases de qué cambió realmente y por qué → cierre invitando a seguir el proceso. También sirve la variante "Pensaba X → descubrí Y" (sección 5) cuando el cambio es de idea, no solo de resultado visible — ambas comparten la misma regla: solo con datos reales, nunca fabricados para que la transformación se vea más grande.
+**Estructura interna de un episodio Antes/Después**, cuando se use: promesa breve (qué vas a mostrar) → una frase de por qué hablas de esto (tu experiencia directa, no una credencial inflada) → antes → después → 2-3 frases de qué cambió realmente y por qué → cierre invitando a seguir el proceso. También sirve la variante "Pensaba X → descubrí Y" (sección 6) cuando el cambio es de idea, no solo de resultado visible — ambas comparten la misma regla: solo con datos reales, nunca fabricados para que la transformación se vea más grande.
 
 ### Variedad visual (evitar el vídeo-selfie constante)
 
@@ -160,7 +185,7 @@ No todos los episodios necesitan ser Gabriela hablando a cámara. Alternar segú
 
 ---
 
-## 9. Filtro de calidad antes de publicar ("¿es slop con buena luz?")
+## 11. Filtro de calidad antes de publicar ("¿es slop con buena luz?")
 
 Checklist tomado directamente de la crítica al "intellectual slop", aplicado a cada episodio antes de grabar o publicar:
 
@@ -174,20 +199,32 @@ Checklist tomado directamente de la crítica al "intellectual slop", aplicado a 
 
 ---
 
-## 10. Próximos pasos concretos
+## 12. Conexión con el protocolo de fotografía y vídeo
+
+Cross-referencias que faltaban con las secciones más recientes de `BIBLIA_DEL_UNIVERSO.md` y `RECURSOS_FOTOGRAFIA.md` — no repiten ese contenido, solo indican cómo se usa aquí:
+
+- El vídeo corto del objeto (punto 7 del protocolo de `RECURSOS_FOTOGRAFIA.md`, "cómo cambia la superficie con la luz") es distinto del vídeo de proceso de un episodio Diario — no se confunden ni se sustituyen entre sí.
+- Cuando un episodio Diario documente una obra terminada, los Reels que la acompañen separan **inspiración** (por qué, demuestra pensamiento) y **proceso** (cómo, demuestra oficio) como dos piezas distintas (`BIBLIA_DEL_UNIVERSO.md` §8) — no se mezclan en un mismo episodio.
+- Si algún episodio se adapta a audiencia de otro idioma/mercado, usa el banco de vocabulario de `BIBLIA_DEL_UNIVERSO.md` §5 ("Vocabulario por mercado") solo cuando exista audiencia real confirmada de ese mercado — nunca antes.
+
+---
+
+## 13. Próximos pasos concretos
 
 1. Grabar los episodios ya marcados como **✅ hecho hoy** — no requieren que ocurra nada más, ya son verdad.
 2. No grabar los marcados **🔲 plantilla** hasta que el hecho real detrás exista.
 3. Cuando `investigador-mercado` tenga una primera síntesis de artistas comparables, se activa el episodio de Investigación correspondiente.
-4. Cuando exista el primer dossier real enviado, se activa el episodio de Experimento con la plantilla de `BIBLIA_DEL_UNIVERSO.md` §12 ya lista en la tabla de la sección 7.
+4. Cuando exista el primer dossier real enviado, se activa el episodio de Experimento con la plantilla de `BIBLIA_DEL_UNIVERSO.md` §12 ya lista en la tabla de la sección 8.
 5. Este documento se actualiza cada vez que un episodio pasa de plantilla a hecho, igual que `BIBLIA_DEL_UNIVERSO.md` se actualiza cuando una hipótesis se valida (§15).
 
 ---
 
-## 11. Relación con el resto del repositorio
+## 14. Relación con el resto del repositorio
 
 - `BIBLIA_DEL_UNIVERSO.md` §8 — este documento es la ejecución en vídeo de esa estrategia de contenido; no la sustituye.
 - `BIBLIA_DEL_UNIVERSO.md` §12-13 — cada episodio de tipo Experimento usa exactamente esa plantilla y alimenta esa tabla de hipótesis.
+- `BIBLIA_DEL_UNIVERSO.md` §7 — protocolo de lanzamiento de colección nueva, que rige cómo se anuncia una obra/colección dentro de esta serie (sección 9).
+- `RECURSOS_FOTOGRAFIA.md` — protocolo de documentación por obra, material fuente de muchos episodios Diario (sección 12).
 - `ESTRATEGIA_MAESTRA.md` — agentes y funnel a los que este contenido alimenta (contenido → web → obra → formulario).
 - `MANUAL_DE_MARCA.md` — identidad visual y voz aplicadas a redes; úsalo junto con este documento al escribir un guion.
 - `GUIONES_TIKTOK_INSTAGRAM.md` — el primer lote de episodios de esta temporada ya escritos como guion listo para grabar.
