@@ -183,9 +183,14 @@ Esta plantilla la ejecuta `copywriter.md`; ningún dato de credibilidad se añad
 ### Datos de credibilidad confirmados (usar en el punto 3 de la bio, dossier, prensa)
 
 - Formación: diseño gráfico, mención publicidad, Venezuela.
-- Exposición: Merkarte Joven 2020, Museo Municipal de Bellas Artes de Santa Cruz de Tenerife.
+- Trayectoria expositiva (orden cronológico):
+  1. **2016** — I Festival Nacional de Muralismo, La Vela de Coro, Venezuela (bajo el nombre *eyesasdaggers*).
+  2. **2017** — SHE, festival de muralismo, Barrio Obrero, San Cristóbal, Venezuela (bajo el nombre *eyesasdaggers*). Año calculado a partir de "el año siguiente" al festival de 2016 y confirmado por la edad de Gabriela en ese momento (24 años) — no es una fecha que ella haya dado como cifra exacta, así que si alguna vez se cuestiona, se revalida con ella antes de imprimir de nuevo.
+  3. **2020** — Merkarte Joven, Museo Municipal de Bellas Artes de Santa Cruz de Tenerife.
 
-Estos dos datos ya están confirmados por Gabriela y pueden usarse sin marcarlos como pendiente. Cualquier otro dato de trayectoria (más exposiciones, premios, representación) sigue sin existir hasta que ella lo confirme explícitamente — no se extrapola ni se asume a partir de estos dos.
+**Sobre el nombre artístico *eyesasdaggers***: Gabriela expuso bajo ese nombre en los dos festivales de muralismo (2016-2017), antes de la etapa actual de pintura de estudio bajo "Gabriela". Se mantiene en la trayectoria expositiva por precisión histórica (es el nombre real bajo el que ocurrió cada evento), pero no se usa como nombre de marca activo ni se destaca en la bio corta de una línea — la marca actual es "Gabriela" y el tono de *eyesasdaggers* (mural/calle) no es el que rige `BIBLIA_DEL_UNIVERSO.md` §5. Si Gabriela quiere reactivar o destacar ese nombre en algún contexto, es una decisión de marca explícita, no una asunción de este documento.
+
+Estos datos ya están confirmados por Gabriela y pueden usarse sin marcarlos como pendiente. Cualquier otro dato de trayectoria (más exposiciones, premios, representación) sigue sin existir hasta que ella lo confirme explícitamente — no se extrapola ni se asume a partir de estos.
 
 ### Fórmula de caption para redes (Instagram/TikTok)
 
