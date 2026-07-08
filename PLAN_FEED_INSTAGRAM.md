@@ -2,7 +2,7 @@
 
 *12 publicaciones nuevas, construidas solo con lo que ya existe hoy: las fotos reales de Umbral y Habitar, y 3 tarjetas de cita generadas con la paleta y tipografía de marca (`assets/img/social/quote-cards/`). Nada de esto necesita esperar a nada — se puede empezar a publicar ya.*
 
-**Corrección importante (confirmada julio 2026)**: esto no es la primera cuadrícula de una cuenta nueva. Se publica en **@mariagperezs**, cuenta real con ~2.695 seguidores y 21 publicaciones ya existentes (serie anterior, *Territorios Interiores*, paleta turquesa). Estas 12 publicaciones son el inicio de un **capítulo nuevo dentro de esa misma cuenta** — un cambio de dirección visual real, no un perfil vacío. Por eso el post 1 se reescribe como anuncio explícito del cambio, en vez de una apertura genérica de "esto es lo que hago" (ver sección 3).
+**Corrección importante (confirmada julio 2026)**: esto no es la primera cuadrícula de una cuenta nueva. Se publica en **@mariagperezs**, cuenta real con ~2.695 seguidores. La cuenta tenía originalmente 21 publicaciones (serie anterior, *Territorios Interiores*, paleta turquesa); Gabriela la curó a **10** (archivó las 11 más débiles en credibilidad o coherencia visual, sin borrar nada — detalle completo y captions reales en `CAPTIONS_ARCHIVO_INSTAGRAM.md`). Estas 12 publicaciones nuevas son el inicio de un **capítulo nuevo dentro de esa misma cuenta** — un cambio de dirección visual real, no un perfil vacío. Por eso el post 1 se reescribe como anuncio explícito del cambio, en vez de una apertura genérica de "esto es lo que hago" (ver sección 3).
 
 ---
 
@@ -126,3 +126,4 @@ Las 12 publicaciones actuales ya están secuenciadas por ritmo visual de cuadrí
 - `MANUAL_DE_MARCA.md` — identidad visual y fórmula de caption que sigue este plan.
 - `GUIONES_TIKTOK_INSTAGRAM.md` — los Reels/TikToks que pueden acompañar cada publicación de feed.
 - `SERIE_DOCUMENTAL.md` — de dónde saldrá el contenido de la segunda cuadrícula, cuando exista.
+- `CAPTIONS_ARCHIVO_INSTAGRAM.md` — curación y captions reales de las 10 publicaciones antiguas que ya conviven en la cuenta con este plan.
