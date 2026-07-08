@@ -116,7 +116,7 @@ Fórmula de 4 frases (`BIBLIA_DEL_UNIVERSO.md` §5):
 ```
 Gabriela — pinto lugares para habitar, no imágenes para mirar una vez.
 Colección Hábitats: campos de color en degradado sobre lienzo, 140x70cm.
-Diseño gráfico (mención publicidad, Venezuela) · Merkarte Joven 2020, Museo de Bellas Artes de Santa Cruz de Tenerife.
+Técnico Superior Universitario en Diseño Gráfico (IUTAJS, Mérida) · Merkarte Joven 2020, Museo de Bellas Artes de Santa Cruz de Tenerife.
 mariaperezart.github.io/estudio
 ```
 
