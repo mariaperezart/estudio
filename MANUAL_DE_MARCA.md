@@ -82,6 +82,16 @@ Nunca solo la cifra. Precio + contexto real (a qué serie pertenece, en qué pun
 
 Esa última frase (reconocer que un precio es una hipótesis) no es debilidad — es exactamente el tipo de transparencia que hace única a tu marca frente a quien finge certeza. Úsala sin miedo.
 
+### Disciplina emocional (qué compartir, no si compartir)
+
+Compartir proceso real —incluidos rechazos, dudas, errores— es tu ventaja competitiva (`SERIE_DOCUMENTAL.md`), así que esto **no** es una regla para dejar de mostrarte. Es una regla sobre **cómo** se muestra lo real, para que siga sumando en vez de restar:
+
+- **Sí**: contar un rechazo real y qué aprendiste de él. Contar una duda real y cómo la resolviste (o que sigue sin resolverse). Mostrar el proceso completo, con su parte incómoda incluida.
+- **No**: usar un vídeo como desahogo sin destino (quejarte sin que quien mira se lleve nada) — eso pide algo de tu audiencia (que te consuelen) en vez de ofrecerle algo (una idea, un proceso, una historia real).
+- **La pregunta rápida antes de publicar algo vulnerable**: ¿esto documenta un proceso real de construir una carrera artística, o es solo una emoción cruda sin destino? Lo primero refuerza la marca. Lo segundo, aunque genere reacciones a corto plazo, la desgasta.
+
+Esto no contradice el resto del manual — es la misma regla que ya rige el resto del contenido (Manifiesto §4, "no todo necesita resolverse"), aplicada específicamente a cuánto de ti misma compartes, no solo a cuánto explicas de una obra.
+
 ---
 
 ## 4. Qué grabar — los 3 pilares de contenido

@@ -234,6 +234,7 @@ Condición para pasar al Horizonte 2: catálogo de obra original estable, primer
 - Colaboraciones estratégicas.
 - Instalaciones.
 - Propiedad intelectual como línea de negocio propia.
+- **Ideas adicionales a evaluar, no compromisos**: talleres (presenciales u online), newsletter/membresía de pago para acceso anticipado o contenido extendido, apoyo tipo Patreon, canal de YouTube de proceso largo. Ninguna se activa sin pasar primero por el sistema de decisiones (sección 12) — se listan aquí como opciones futuras del ecosistema, no como plan ya decidido.
 
 Condición para pasar al Horizonte 3: marca validada internacionalmente, comunidad de coleccionistas activa, y activos de marca (sección 11) lo suficientemente sólidos para sostener una licencia sin diluir el universo.
 
@@ -343,7 +344,7 @@ Estas preguntas, a diferencia de las 30 del Manifiesto, **no están resueltas** 
 | ¿Qué % de ingresos vendrá de originales, ediciones, libros o licencias? | `consultor-precios` + `analista` | Seguimiento financiero por línea de producto una vez exista Horizonte 2 |
 | ¿Qué colaboraciones tendrán más sentido para el universo? | `investigador-mercado` + `director-marca` | Evaluación caso por caso contra el canon (sección 3) antes de negociar |
 | ¿Qué países responderán mejor a la propuesta? | `analista` + `investigador-mercado` | Origen geográfico de tráfico cualificado y de coleccionistas reales |
-| ¿Conecta mejor un mensaje centrado en **para quién es la obra** (a quién le habla, qué necesidad cubre) que uno centrado en **qué es la obra** (técnica, materiales)? | `copywriter` + `analista` | Se anuncia y se prueba primero a pequeña escala — una caption o publicación puntual (`GUIONES_TIKTOK_INSTAGRAM.md` guion 17), nunca reescribiendo de entrada las fichas de obra de la web. Se mide reacción/comentarios/consultas de esa publicación frente al resto. No se adopta como estándar de copy permanente hasta tener ese dato |
+| ¿Conecta mejor un mensaje centrado en **para quién es la obra** (a quién le habla, qué necesidad cubre) que uno centrado en **qué es la obra** (técnica, materiales)? | `copywriter` + `analista` | Se anuncia y se prueba primero a pequeña escala — una caption o publicación puntual (`GUIONES_TIKTOK_INSTAGRAM.md` guion 17), nunca reescribiendo de entrada las fichas de obra de la web. Se mide reacción/comentarios/consultas de esa publicación frente al resto. No se adopta como estándar de copy permanente hasta tener ese dato. Banco de frases candidatas para el experimento (variaciones de tono, todas coherentes con Manifiesto §10-13 — probar cuál conecta más, no asumir ninguna): "para quien necesita bajar el ritmo al llegar a casa" · "para quien busca convertir su casa en un refugio" · "para quien encuentra calma en los espacios abiertos" · "para quien prefiere el silencio al ruido" |
 
 Estas preguntas **se resuelven experimentando, no debatiendo** — cualquier respuesta dada hoy sin datos reales debe tratarse como suposición de trabajo, no como estrategia final.
 
