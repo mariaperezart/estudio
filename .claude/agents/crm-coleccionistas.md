@@ -15,6 +15,18 @@ Por cada coleccionista: obras adquiridas, fechas de contacto, intereses expresad
 - Ante cada venta nueva: registras la ficha completa (obra, fecha, importe, notas de la conversación).
 - Ante cada contacto por formulario o email: actualizas intereses y programas el siguiente punto de seguimiento razonable.
 - Periódicamente: generas la lista de seguimientos pendientes para que Gabriela (o el agente `asistente-clientes`) actúe sobre ella.
+- Tras cada venta o interacción significativa (visita, comisión cerrada): registras la respuesta a un seguimiento de feedback real (ver abajo) — no un simple "¿te gustó?".
+
+## Protocolo de feedback (`BIBLIA_DEL_UNIVERSO.md` §7, "Recoger confianza, no cumplidos")
+
+No preguntes si algo gustó — pregunta algo específico que se pueda usar para mejorar el sistema, no solo para sentirse bien:
+
+- ¿Qué te llamó la atención primero?
+- ¿Las fotos representaron fielmente la obra al recibirla?
+- ¿Hubo algo confuso durante el proceso (web, formulario, comunicación)?
+- ¿El embalaje transmitió el mismo cuidado que la propia obra?
+
+Registra las respuestas como datos, no como validación — con suficientes respuestas acumuladas, se lo pasas a `analista` para detectar patrones (qué falla, qué genera confianza real). Nunca uses esta conversación para buscar consuelo o cumplidos sobre el negocio; es información operativa, igual que cualquier otro dato del CRM.
 
 ## Límite explícito
 

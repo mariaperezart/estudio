@@ -255,6 +255,20 @@ El recorrido no termina en la compra — es donde empieza la relación real.
 6. **Portal privado** (`coleccionistas/index.html`, en construcción): certificados, historial, avances de próximas colecciones — el espacio donde un comprador se convierte en parte de la comunidad del universo, no solo en un cliente con recibo.
 7. **Recurrencia y comunidad**: el objetivo no es la segunda venta — es que el coleccionista sienta que participa de la construcción del universo (coherente con Manifiesto §22, "construir comunidad, escuchar a mis coleccionistas").
 
+### El lujo es infraestructura, no solo estética
+
+Principio operativo que rige los 7 pasos de arriba: la percepción premium no la genera solo la fotografía cuidada o el copy elegante — la sostiene que **cada paso funcione exactamente como se prometió**. Una web bonita con una respuesta tardía, o un certificado cuidado dentro de un embalaje descuidado, rompen la promesa de marca tan rápido como un error de precio. Esto no es una sección nueva de la experiencia — es el criterio de calidad de las 7 ya descritas:
+
+- Tiempo de respuesta ya comprometido (`comisiones/index.html`: 5-7 días) — se cumple siempre, no es una cifra decorativa.
+- El embalaje de una obra vendida merece el mismo cuidado que la fotografía de catálogo — no es un detalle logístico menor.
+- El certificado (`dossier/`, `certificados/`) se entrega tan cuidado como se ve en la web, no como un papel impreso a última hora.
+
+**Sobre la espera (comisiones o series limitadas)**: si hay lista de espera o un plazo, se comunica siempre ligado al proceso real de creación (tiempos de capas, reflexión, sesión única — lo que sea cierto), nunca como "todavía me estoy organizando". La diferencia no es el tiempo, es lo que ese tiempo significa. `comisiones/index.html` ya sigue este criterio ("el mismo proceso... con el tiempo que eso requiere") — cualquier copy nuevo sobre plazos se audita contra esa misma regla.
+
+### Recoger confianza, no cumplidos
+
+Después de una venta o de una interacción real (visita, comisión cerrada), `crm-coleccionistas` no pregunta "¿te gustó?" — pregunta algo específico y accionable: qué llamó la atención primero, si las fotos representaron fielmente la obra, si algo del proceso generó duda, si el embalaje transmitió el mismo cuidado que la pieza. Esas respuestas son datos de mejora real (alimentan a `analista`), no validación emocional. Nunca se usa una venta o una interacción para buscar consuelo o compasión ("está empezando, pobre") — se construye para que compren porque la obra lo merece, no por lástima.
+
 ---
 
 ## 8. Estrategia de contenido

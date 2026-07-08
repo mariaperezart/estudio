@@ -267,11 +267,11 @@ Cada agente tiene: **misión, entradas, salidas, cadencia, y "no hacer"** (lími
 - **No hacer**: no decide el contenido creativo — solo estructura la oferta (cuántas piezas, cuándo lanzar, qué mantener vivo).
 
 ### Agente 6 — CRM / Gestión de Coleccionistas
-- **Misión**: mantener historial de cada comprador (obras adquiridas, intereses expresados, fechas de contacto), programar seguimientos y recordatorios.
+- **Misión**: mantener historial de cada comprador (obras adquiridas, intereses expresados, fechas de contacto), programar seguimientos y recordatorios, y recoger feedback operativo real tras cada venta (`BIBLIA_DEL_UNIVERSO.md` §7, "Recoger confianza, no cumplidos").
 - **Entradas**: nuevas ventas, conversaciones de contacto, interacciones de newsletter.
-- **Salidas**: ficha de coleccionista actualizada + lista de seguimientos pendientes ("hace 6 meses que X no recibe noticias").
+- **Salidas**: ficha de coleccionista actualizada + lista de seguimientos pendientes ("hace 6 meses que X no recibe noticias") + respuestas de feedback para el Agente 10.
 - **Cadencia**: continua (activado por cada evento de venta/contacto).
-- **No hacer**: no envía comunicación sin pasar antes por el tono del Agente 1/2 cuando es contenido nuevo (no aplica a confirmaciones transaccionales).
+- **No hacer**: no envía comunicación sin pasar antes por el tono del Agente 1/2 cuando es contenido nuevo (no aplica a confirmaciones transaccionales); no pregunta "¿te gustó?" — pregunta algo específico y accionable.
 
 ### Agente 7 — Asistente de Clientes
 - **Misión**: responder preguntas frecuentes, explicar el proceso de comisiones, dar presupuestos orientativos dentro de rangos preaprobados, agendar reuniones.
