@@ -395,7 +395,7 @@ Principio: **el mínimo de tecnología necesaria para sostener el sistema**, pri
 | **Analytics** | **Plausible** o **Fathom** (privacidad primero, ligero) en vez de Google Analytics | Coherente con el posicionamiento premium (privacidad, sin banners de cookies invasivos) y no penaliza la velocidad de carga |
 | **SEO** | Datos estructurados `schema.org/VisualArtwork` por obra, sitemap.xml, metadatos Open Graph con imagen de cada pieza | Mejora aparición en búsquedas de coleccionistas y en previsualizaciones sociales |
 | **IA (agentes)** | Claude Code + subagentes definidos en `.claude/agents/` (este repo) como capa de producción de contenido y análisis; conexión a n8n para automatizaciones recurrentes (Agente 6/7) | Aprovecha el mismo patrón multiagente ya validado en el proyecto hermano de este workspace, sin necesidad de infraestructura de IA adicional |
-| **Pagos** | **Stripe** (checkout / payment links) para obras y señales de comisión; para envíos internacionales de alto valor, opción de transferencia + contrato de compraventa para piezas de ticket muy alto | Stripe es el estándar, soporta múltiples monedas y no requiere que el comprador cree cuenta |
+| **Pagos** | **Stripe Payment Links** — adoptado ya en Fase 0 (no se esperó a Fase 2), un enlace de pago por obra, sin backend ni tarjetas tocando el sitio; para envíos internacionales de alto valor, opción de transferencia + contrato de compraventa para piezas de ticket muy alto | Un Payment Link es solo una URL — compatible con un sitio 100% estático. Stripe es el estándar, soporta múltiples monedas y no requiere que el comprador cree cuenta |
 | **Seguridad** | HTTPS por defecto (GitHub Pages/Netlify lo dan gratis), autenticación del portal de coleccionistas vía Supabase Auth (magic link, sin contraseñas que gestionar) | Reduce fricción de login y superficie de ataque (sin contraseñas almacenadas) |
 | **Escalabilidad** | Arquitectura desacoplada: contenido (Markdown/Astro collections) separado de presentación (componentes) separado de datos transaccionales (Supabase) | Permite crecer de "sitio estático de un artista" a "plataforma con portal de coleccionistas" sin reescritura completa, solo añadiendo capas |
 
@@ -423,5 +423,15 @@ Principio: **el mínimo de tecnología necesaria para sostener el sistema**, pri
 - Catálogo real de obras, fotografías en alta resolución, precios base.
 - Dominio propio a registrar.
 - Cuentas reales de redes sociales, email marketing y CRM a conectar.
+- **Cuenta de Stripe** (pasos exactos abajo) — requiere identidad/datos bancarios de Gabriela, no se puede crear en su nombre.
 
 Este documento y el sitio construido a partir de él están diseñados para recibir esos datos sin cambiar la estructura — solo rellenando contenido real donde hoy hay marcadores de posición claramente señalados.
+
+### Cómo activar el botón "Comprar esta obra" (pasos para Gabriela)
+
+1. Crear una cuenta en [stripe.com](https://stripe.com) (requiere identidad y datos bancarios reales — es lo único que solo tú puedes hacer).
+2. Dentro de Stripe, ir a **Payment Links** → **Crear enlace de pago**.
+3. Crear un producto por obra disponible (ej. "Umbral — Gabriela", 2.400 €, pago único) y generar su Payment Link.
+4. **Importante para pieza única**: en la configuración del Payment Link, limitar a **1 uso** (Stripe permite fijar un número máximo de pagos por enlace) — así el enlace se desactiva solo en cuanto alguien compra, sin que puedas vender la misma obra dos veces por descuido.
+5. Pasarme (o pegar directamente en `obras/umbral/index.html` y `obras/habitar/index.html`) la URL real, sustituyendo `TU_PAYMENT_LINK_UMBRAL` / `TU_PAYMENT_LINK_HABITAR`.
+6. En cuanto una pieza se venda: quitar el botón "Comprar esta obra" de su ficha y cambiar "Disponibilidad pendiente de confirmar" por "Vendida" — el Payment Link limitado a 1 uso ya bloquea un segundo pago, pero la web debe reflejarlo igualmente para no confundir a otro visitante.
