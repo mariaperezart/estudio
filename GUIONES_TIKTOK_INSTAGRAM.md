@@ -1,6 +1,6 @@
 # Guiones TikTok / Instagram — primer lote
 
-*10 vídeos listos para grabar ya, sin esperar a que pase nada más, más 1 en plantilla a la espera de una observación real (nº 11). Todos parten de hechos reales de hoy — nada de dossiers enviados, respuestas de galerías o ventas, porque todavía no han ocurrido. Cuando ocurran de verdad, se añaden aquí como nuevos guiones (ver `SERIE_DOCUMENTAL.md`).*
+*15 vídeos listos para grabar ya, sin esperar a que pase nada más, más 2 que requieren preparación previa antes de grabar (nº 11, observación real; nº 17, experimento a anunciar). Todos parten de hechos reales de hoy — nada de dossiers enviados, respuestas de galerías o ventas, porque todavía no han ocurrido. Cuando ocurran de verdad, se añaden aquí como nuevos guiones (ver `SERIE_DOCUMENTAL.md`).*
 
 **Formato técnico general**: vertical 9:16, 15-45 segundos la mayoría, subtítulos siempre (gran parte se ve sin sonido), hook en los primeros 1-2 segundos —sin intro de marca, sin cuenta atrás, directo a la frase. El texto en pantalla del primer segundo debe decir literalmente de qué va el vídeo — nadie debería tener que esperar 5 segundos para saberlo.
 
@@ -113,7 +113,64 @@
 
 ---
 
-## Cómo seguir después de estos 11
+### 12. Nadie te explica esto antes de intentar vivir del arte
+**Pilar**: Descubrimiento · **Hook**: Investigación
+
+- **Gancho**: "Pensaba que el trabajo de un artista era pintar. Cada vez estoy más convencida de que pintar es la parte fácil."
+- **Beats**: cuando terminas un cuadro empieza otro trabajo — fotografiarlo, escribir sobre él, ponerle precio, la web, el dossier, buscar galerías, grabar contenido, aprender a vender → nadie te paga por nada de eso, solo cobras si algún día alguien compra → mientras tanto todo sale de tu bolsillo (materiales, tiempo, equipo, envíos) → este proyecto no consiste solo en hacer cuadros, consiste en descubrir si se puede construir una carrera desde cero.
+- **Caption**: "La parte del arte de la que nadie habla: todo lo que pasa después de terminar el cuadro."
+
+---
+
+### 13. El mayor error que tenía sobre vivir del arte
+**Pilar**: Investigación · **Hook**: Investigación
+
+- **Gancho**: "Durante años pensé que los artistas vivían de vender cuadros."
+- **Beats**: cuanto más investigo, más descubro que casi ninguno vive solo de eso — talleres, encargos, licencias, colaboraciones, impresiones, becas, comunidad → los cuadros son solo una parte → dejé de preguntarme "¿cómo vendo este cuadro?" y empecé a preguntarme "¿cómo construyo una carrera?".
+- **Caption**: "Cambié la pregunta que me hacía todos los días, y eso cambió todo lo demás."
+
+---
+
+### 14. Lo que nadie cuenta sobre las galerías
+**Pilar**: Investigación · **Hook**: Investigación
+
+- **Gancho**: "Durante años pensé que conseguir una galería era la meta. Ahora creo que solo es una posibilidad."
+- **Beats**: una galería da visibilidad, pero normalmente solo cobra cuando vende → el artista ya invirtió meses de trabajo antes de llegar ahí → el riesgo no desaparece, cambia de forma → no es que las galerías sean malas, es entender cómo funciona el mercado antes de entrar en él.
+- **Nota**: hablar de esto en términos generales (cómo funciona el modelo) — no simular que ya has hablado con galerías si todavía no lo has hecho.
+- **Caption**: "Investigando cómo funciona realmente el mercado del arte antes de intentar entrar en él."
+
+---
+
+### 15. ¿Quién financia la carrera de un artista?
+**Pilar**: Descubrimiento · **Hook**: Investigación
+
+- **Gancho**: "Antes de vender una sola obra, ya has pagado los lienzos, la pintura, la cámara, la web, el dominio, las fotografías, el dossier."
+- **Beats**: enumera lo que realmente sale de tu bolsillo antes de cualquier ingreso → "el primer inversor de un artista casi siempre es el propio artista" → cómo eso cambia la forma de ver el proyecto (ya no es un hobby, es una inversión real y consciente).
+- **Caption**: "El primer inversor de mi carrera artística soy yo. Lo digo así de claro porque nadie más lo hace."
+
+---
+
+### 16. ¿Y si el verdadero trabajo fuera construir confianza?
+**Pilar**: Investigación · **Hook**: Investigación
+
+- **Gancho**: "Cuanto más analizo a artistas que viven de su trabajo, menos diferencias encuentro en su técnica — y más en otra cosa."
+- **Beats**: la confianza (comprar, seguir, recomendar) no aparece al subir un cuadro, se construye durante meses o años → por eso documentas todo desde el principio, no desde que ya tengas éxito que mostrar.
+- **Caption**: "No estoy documentando esto porque ya lo haya conseguido. Lo documento porque la confianza se construye así."
+
+---
+
+### 17. Experimento: cambiar de "qué es" a "para quién es"
+**Pilar**: Experimento · **Hook**: Experimento · **Estado**: 🔲 preparar antes de grabar
+
+- **Contexto**: hipótesis nueva, registrada en `BIBLIA_DEL_UNIVERSO.md` §13 — no se aplica todavía como cambio permanente de copy en la web, se anuncia y se prueba primero a pequeña escala (por ejemplo, en una sola caption o publicación), siguiendo la plantilla de experimento de `BIBLIA_DEL_UNIVERSO.md` §12.
+- **Gancho**: "Estoy investigando cómo venden los artistas, y encontré una idea que me hizo replantearme toda mi web: no dicen qué hacen. Dicen para quién lo hacen."
+- **Beats**: durante [periodo concreto, ej. una semana] vas a describir una pieza o publicación centrándote en quién querría vivir con ella, no en la técnica → al final compartes qué pasó (más preguntas, menos, distinto tipo de comentarios) → se presenta como hipótesis a prueba, nunca como una verdad ya confirmada.
+- **Nota**: no reescribas todavía las fichas de obra de la web con este enfoque — primero se valida el experimento, después se decide si se adopta (ver hipótesis en la Biblia).
+- **Caption**: "Voy a probar algo durante una semana: dejar de describir mis cuadros y empezar a describir a quién le hablan. Os cuento qué pasa."
+
+---
+
+## Cómo seguir después de estos 17
 
 - Cuando exista una investigación real de mercado (`investigador-mercado`), se añade un guion de tipo Investigación con datos reales.
 - Cuando envíes un dossier de verdad, se escribe el guion de Experimento **en ese momento**, no antes — con la plantilla de `BIBLIA_DEL_UNIVERSO.md` §12 (pregunta / hipótesis / qué hiciste / qué pasó).

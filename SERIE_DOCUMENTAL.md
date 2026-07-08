@@ -151,6 +151,8 @@ Después: "La web ya está publicada."
 
 **Regla**: cada par antes/después debe ser verificable con algo que ya existe en el repositorio o el sitio (una fecha de commit, una obra publicada, un dossier real) — nunca una sensación vaga ("he mejorado mucho"). El primer Antes/Después no se fuerza hasta que exista una comparación real que valga la pena mostrar (probablemente no en el primer Informe, sino en el segundo o tercero, cuando ya haya pasado suficiente tiempo).
 
+**Estructura interna de un episodio Antes/Después**, cuando se use: promesa breve (qué vas a mostrar) → una frase de por qué hablas de esto (tu experiencia directa, no una credencial inflada) → antes → después → 2-3 frases de qué cambió realmente y por qué → cierre invitando a seguir el proceso. También sirve la variante "Pensaba X → descubrí Y" (sección 5) cuando el cambio es de idea, no solo de resultado visible — ambas comparten la misma regla: solo con datos reales, nunca fabricados para que la transformación se vea más grande.
+
 ### Variedad visual (evitar el vídeo-selfie constante)
 
 No todos los episodios necesitan ser Gabriela hablando a cámara. Alternar según lo que el episodio realmente muestre: voz en off sobre planos de proceso, time-lapse de una obra, captura de pantalla de la web o el dossier, planos detalle de una pieza, fotografías del estudio. La historia es la misma; el formato cambia según lo que hay que enseñar ese día — nunca cambia el tono ni la voz (`MANUAL_DE_MARCA.md` §3).

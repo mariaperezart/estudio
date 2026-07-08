@@ -335,6 +335,7 @@ Estas preguntas, a diferencia de las 30 del Manifiesto, **no están resueltas** 
 | ¿Qué % de ingresos vendrá de originales, ediciones, libros o licencias? | `consultor-precios` + `analista` | Seguimiento financiero por línea de producto una vez exista Horizonte 2 |
 | ¿Qué colaboraciones tendrán más sentido para el universo? | `investigador-mercado` + `director-marca` | Evaluación caso por caso contra el canon (sección 3) antes de negociar |
 | ¿Qué países responderán mejor a la propuesta? | `analista` + `investigador-mercado` | Origen geográfico de tráfico cualificado y de coleccionistas reales |
+| ¿Conecta mejor un mensaje centrado en **para quién es la obra** (a quién le habla, qué necesidad cubre) que uno centrado en **qué es la obra** (técnica, materiales)? | `copywriter` + `analista` | Se anuncia y se prueba primero a pequeña escala — una caption o publicación puntual (`GUIONES_TIKTOK_INSTAGRAM.md` guion 17), nunca reescribiendo de entrada las fichas de obra de la web. Se mide reacción/comentarios/consultas de esa publicación frente al resto. No se adopta como estándar de copy permanente hasta tener ese dato |
 
 Estas preguntas **se resuelven experimentando, no debatiendo** — cualquier respuesta dada hoy sin datos reales debe tratarse como suposición de trabajo, no como estrategia final.
 
