@@ -108,6 +108,12 @@ Si en una semana casi todo lo que subes es "conversión", ya no estás construye
 
 **Cuánto apareces tú, no solo la obra** (eje distinto, ver `BIBLIA_DEL_UNIVERSO.md` §8 "Cuánto aparece Gabriela"): aproximadamente 70% obra/proceso, 20% tú presente (trabajando, explicando una decisión), 10% personal relevante — sin que lo personal se vuelva el foco. No es esconder la cara ni convertirte en el centro; es que recuerden tu manera de pensar.
 
+### Feed, Stories y DM no cumplen la misma función
+
+- **Feed**: portafolio. No es donde se vende — es lo primero que ve alguien que no te conoce, tiene que sostenerse solo (`PLAN_FEED_INSTAGRAM.md`).
+- **Stories**: donde ocurre la conversación. Aquí sí caben preguntas abiertas antes de revelar algo — por ejemplo, mostrar un detalle o una textura y preguntar "¿qué sensación te transmite?" antes de dar el título, dejando que quien mira complete el significado (mismo principio ya establecido de "no sobre-explicar el simbolismo", `ESTRATEGIA_MAESTRA.md` §7 punto 5 — esto es su versión en Stories, no una táctica nueva de gamificación). Se usa con moderación y solo cuando refuerza el concepto de la obra, nunca como truco para subir alcance — encaja mal con un tono contemplativo si se vuelve un juego constante.
+- **DM**: donde se construye relación, no donde se cierra una venta a presión. Es el espacio de `asistente-clientes.md`.
+
 ---
 
 ## 5. Checklist antes de publicar

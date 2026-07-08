@@ -124,6 +124,11 @@ Crear un universo que acompañe a las personas durante años y que les recuerde 
 
 Esto no sustituye a `ESTRATEGIA_MAESTRA.md` §1-2 — los amplía con las palabras exactas de Gabriela. Ante cualquier contradicción aparente entre ambos documentos, **prevalece el Manifiesto** por ser la fuente primaria.
 
+**Motivación de compra, no tipo de personalidad**: para matizar el "comprador ideal" de arriba en una conversación o copy concretos, se distingue por qué compra (útil y observable), nunca por perfil de personalidad (MBTI, eneagrama, signo del zodiaco — sin base para segmentar un mercado real, se descarta explícitamente aunque aparezca en contenido externo). Tres ángulos, casi nunca excluyentes entre sí en la misma persona:
+- **Espacial**: quiere transformar un espacio concreto — habla en términos de arquitectura, luz, proporción.
+- **Emocional**: busca algo que ya siente al ver la obra — habla en términos de calma, refugio, memoria.
+- **Trayectoria/pertenencia**: valora seguir el recorrido de la artista, no solo la pieza — construye una colección o quiere formar parte de ese universo desde el principio.
+
 ---
 
 ## 3. El Universo — canon narrativo y simbólico
@@ -209,6 +214,15 @@ Gabriela ya tiene una cuenta de Instagram activa y real: **@mariagperezs**, ~2.6
 
 La historia debe ser auténtica al proceso real de esa obra concreta — nunca una anécdota inventada para generar intriga. Ejecuta esta fórmula `marketing-distribucion.md`, adaptándola al formato nativo de cada canal.
 
+### Vocabulario por mercado (mismo significado, distinto idioma cultural)
+
+Vender internacionalmente no significa cambiar la obra ni el canon de esta sección — significa cambiar el vocabulario con el que se explica, según a quién se dirige. La investigación de audiencia real por país la lleva `analista`/`investigador-mercado` (hipótesis de país en la sección 13); esto es solo el banco de vocabulario a usar una vez haya un mercado confirmado, nunca una guía para inventar campañas por país sin datos:
+
+- **Hispanohablante**: hogar, luz, silencio, refugio, arquitectura, umbral.
+- **Anglosajón**: mindfulness, wellness, sanctuary, intentional living, slow living, mental clarity (usar solo si hay audiencia angloparlante real confirmada — no traducir por traducir).
+
+No se adopta ningún vocabulario nuevo por mercado hasta que exista tráfico o audiencia real de ese país (sección 13) — esto es un banco de referencia, no un plan activo.
+
 ---
 
 ## 6. Arquitectura de producto — los 3 horizontes
@@ -248,7 +262,7 @@ A diferencia de los horizontes 1-3 (que dependen de vender obra), esta vía no d
 El recorrido no termina en la compra — es donde empieza la relación real.
 
 1. **Descubrimiento**: contenido (proceso, universo, reflexiones) en redes o web — nunca contenido puramente promocional (ver §8, 60/30/10).
-2. **Primer contacto**: llega a una obra o a "El Universo", encuentra una historia — no una parrilla de precios ordenable como una tienda. Esto no significa ocultar el precio: dentro de la ficha de cada obra, una vez exista un precio real, se muestra con la misma naturalidad que las dimensiones o los materiales (nunca "precio bajo consulta"). Ocultar el precio genera fricción y desconfianza; lo que se evita es que el *precio* sea el organizador de la experiencia, no que sea invisible. Ver `ESTRATEGIA_MAESTRA.md` §7 (campo "Precio" en la plantilla de ficha).
+2. **Primer contacto**: llega a una obra o a "El Universo", encuentra una historia — no una parrilla de precios ordenable como una tienda. Esto no significa ocultar el precio: dentro de la ficha de cada obra de catálogo, una vez exista un precio real, se muestra con la misma naturalidad que las dimensiones o los materiales (nunca "precio bajo consulta"). Ocultar el precio genera fricción y desconfianza; lo que se evita es que el *precio* sea el organizador de la experiencia, no que sea invisible. Ver `ESTRATEGIA_MAESTRA.md` §7 (campo "Precio" en la plantilla de ficha). Esto no aplica igual a comisiones: ahí no hay precio de catálogo que mostrar porque cada pieza se define a medida — el "presupuesto tras la conversación" de `comisiones/index.html` no es una versión disfrazada de "precio bajo consulta", es la estructura real de un encargo único.
 3. **Conversación**: formulario simple; si es comisión, pasa por el proceso de aplicación (`comisiones/index.html`).
 4. **Adquisición**: certificado firmado y numerado, historia de la obra documentada, envío coordinado personalmente.
 5. **Después de la compra**: la relación continúa — seguimiento del agente `crm-coleccionistas`, acceso anticipado a nuevas colecciones antes que el público general.
@@ -272,6 +286,15 @@ Principio operativo que rige los 7 pasos de arriba: la percepción premium no la
 ### Recoger confianza, no cumplidos
 
 Después de una venta o de una interacción real (visita, comisión cerrada), `crm-coleccionistas` no pregunta "¿te gustó?" — pregunta algo específico y accionable: qué llamó la atención primero, si las fotos representaron fielmente la obra, si algo del proceso generó duda, si el embalaje transmitió el mismo cuidado que la pieza. Esas respuestas son datos de mejora real (alimentan a `analista`), no validación emocional. Nunca se usa una venta o una interacción para buscar consuelo o compasión ("está empezando, pobre") — se construye para que compren porque la obra lo merece, no por lástima.
+
+### Protocolo de lanzamiento de una colección nueva
+
+Aplica a partir de la próxima colección (no reescribe retroactivamente cómo se presentaron Umbral/Habitar). Reemplaza la idea de "todo se anuncia igual a todo el mundo el mismo día" por niveles de acceso — pero sin ocultar la colección completa hasta el final, porque **la anticipación solo funciona cuando ya existe audiencia esperando**; mientras se sigue construyendo esa audiencia, mostrar más (no menos) genera más interés, no menos:
+
+1. **Durante la creación**: se comparten fragmentos — detalles, texturas, decisiones, reflexiones (`SERIE_DOCUMENTAL.md`) — nunca la colección completa de golpe.
+2. **Dos semanas antes**: se abre a quien ya mostró interés real (newsletter, respuestas a contenido, conversaciones previas) la posibilidad de dejar su correo para "verla antes de que se publique y conocer la historia de cada obra" — nunca un botón genérico de "apúntate a la lista".
+3. **Una semana antes**: a esa lista se envía un catálogo privado (fotografías, medidas, historia, precio, disponibilidad) — mismo criterio de cuidado que el dossier público.
+4. **Presentación oficial**: se publica en la web y redes; algunas piezas pueden llegar ya reservadas por quien recibió el catálogo privado, sin que eso se presente como escasez fabricada — es una consecuencia real del paso 3, no una táctica de urgencia falsa (línea ya prohibida en `analista.md` y `consultor-precios.md`).
 
 ---
 
@@ -388,6 +411,7 @@ Del Manifiesto §21-22 — son restricciones y compromisos operativos, no aspira
 - Competir por precio.
 - Seguir tendencias solo porque funcionan (aunque mejoren una métrica a corto plazo — ver también `analista.md`).
 - Crear contenido que no represente el universo.
+- Presentar una obra regalada, donada o cedida como si hubiera sido una venta comercial (p. ej. una sección "Sold"/"Vendido" inflada con piezas no vendidas) — es exactamente el mismo tipo de fabricación de datos que inventar una cifra o una cita, aunque la intención sea transmitir trayectoria. La etiqueta ya definida en `ESTRATEGIA_MAESTRA.md` §7 punto 14 ("Disponible" / "Reservada" / "En la colección privada de un coleccionista") es honesta y suficiente para mostrar obra que ya no está disponible sin necesidad de esa ambigüedad.
 
 **Siempre:**
 - Documentar el proceso.
