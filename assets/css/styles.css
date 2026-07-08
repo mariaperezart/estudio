@@ -281,6 +281,15 @@ section { padding: var(--space-6) 0; }
 .grid--2 { grid-template-columns: repeat(2, 1fr); }
 .grid--3 { grid-template-columns: repeat(3, 1fr); }
 
+/* Imágenes sueltas dentro de una rejilla (p. ej. "Detalle de textura" en fichas de obra):
+   sin esta regla, fotos con proporciones distintas (retrato/paisaje) desalinean la fila. */
+.grid > img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
 @media (max-width: 860px) {
   .grid--2, .grid--3 { grid-template-columns: 1fr; }
 }
