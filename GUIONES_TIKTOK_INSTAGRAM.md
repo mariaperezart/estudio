@@ -186,7 +186,25 @@
 
 ---
 
-## Cómo seguir después de estos 18
+### 19. Cómo cuidar una pintura en acrílico (contenido educativo)
+**Pilar**: Descubrimiento · **Hook**: Educación · **Formato**: consejo directo, cámara a la obra/manos, no a cara
+
+- **Por qué existe este guion**: la mayoría de quien mira nunca ha comprado arte original — construye autoridad y reduce miedo a comprar sin necesitar hablar de precio (`BIBLIA_DEL_UNIVERSO.md` §8, tipo de contenido "educativo"). Solo datos generales y correctos de cuidado de acrílico, nada específico a un producto o marca que no puedas confirmar.
+- **Gancho**: "Si tienes (o vas a tener) una pintura en acrílico en casa, esto es lo que de verdad le hace daño."
+- **Beats**: luz solar directa prolongada decolora con los años → evita colgarla en contacto directo con fuentes de calor o humedad → limpieza en seco con un paño suave, nunca productos de limpieza → si tiene barniz, ese barniz es parte de la protección, no solo el acabado.
+- **Caption**: "Una pintura no es un objeto que solo se cuelga y se olvida. Esto ayuda a que dure con vosotros muchos años."
+
+### 20. Cómo elegir el tamaño correcto para tu espacio (contenido educativo)
+**Pilar**: Descubrimiento · **Hook**: Educación · **Formato**: consejo directo + ejemplo con una obra real ya fotografiada "en pared"/"en ambiente"
+
+- **Por qué existe este guion**: responde directamente a la duda más común antes de escribir por DM ("¿qué tamaño tiene/necesito?") — construye autoridad y conecta con el comprador espacial (`BIBLIA_DEL_UNIVERSO.md` §2, "Motivación de compra"). Usa una foto "en pared"/"en ambiente" ya existente (`RECURSOS_FOTOGRAFIA.md`), nunca una simulación inventada de un espacio que no es real.
+- **Gancho**: "La pregunta que más me hacen antes de comprar una obra: ¿qué tamaño necesito?"
+- **Beats**: mide la pared vacía, no el mueble → dejar espacio alrededor de la obra, no llenar el muro entero → una pieza más grande de lo esperado suele funcionar mejor que una pequeña perdida en una pared grande → muestra el ejemplo real de Umbral o Habitar en pared para dar una referencia de proporción concreta.
+- **Caption**: "No hace falta acertar a ojo. Esto es lo que miro yo antes de recomendar un tamaño."
+
+---
+
+## Cómo seguir después de estos 20
 
 - Cuando exista una investigación real de mercado (`investigador-mercado`), se añade un guion de tipo Investigación con datos reales.
 - Cuando envíes un dossier de verdad, se escribe el guion de Experimento **en ese momento**, no antes — con la plantilla de `BIBLIA_DEL_UNIVERSO.md` §12 (pregunta / hipótesis / qué hiciste / qué pasó).
