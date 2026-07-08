@@ -65,7 +65,9 @@ Si la respuesta es lo segundo, no se publica, aunque funcione. (Manifiesto §21,
 - Nunca explicar de más — si una frase suena a folleto, se corta a la mitad.
 
 ### Palabras prohibidas
-oferta · descuento · compra ya · no te lo pierdas · exclusivo (salvo que sea literal y verificable) · inversión · cualquier frase con signos de exclamación como gancho de venta.
+oferta · descuento · compra ya · no te lo pierdas · exclusivo (salvo que sea literal y verificable) · inversión — **cuando se usa para vender la obra** (ej. "esta pieza es una buena inversión", que implica una promesa de revalorización que no puedes garantizar) · cualquier frase con signos de exclamación como gancho de venta.
+
+**Matiz sobre "inversión"**: la palabra sí es válida cuando describe que Gabriela invierte su propio dinero/tiempo en su carrera (ej. Guion 15, "el primer inversor de un artista es el propio artista") — ahí no es una promesa al comprador, es una reflexión honesta sobre el propio negocio. La prohibición es específica al contexto de venta ("compra esto como inversión"), no a la palabra en abstracto.
 
 ### Palabras que sí forman parte de tu lenguaje
 horizonte · umbral · refugio · silencio · respiración · calma · contemplación · pausa · espacio · habitar.

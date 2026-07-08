@@ -1,10 +1,10 @@
 # Guiones TikTok / Instagram — primer lote
 
-*16 vídeos listos para grabar ya, sin esperar a que pase nada más, más 2 que requieren preparación previa antes de grabar (nº 11, observación real; nº 17, experimento a anunciar). Todos parten de hechos reales de hoy — nada de dossiers enviados, respuestas de galerías o ventas, porque todavía no han ocurrido. Cuando ocurran de verdad, se añaden aquí como nuevos guiones (ver `SERIE_DOCUMENTAL.md`).*
+*20 guiones en total: 18 listos para grabar ya, sin esperar a que pase nada más, más 2 que requieren preparación previa antes de grabar (nº 11, observación real; nº 17, experimento a anunciar). Todos parten de hechos reales de hoy — nada de dossiers enviados, respuestas de galerías o ventas, porque todavía no han ocurrido. Cuando ocurran de verdad, se añaden aquí como nuevos guiones (ver `SERIE_DOCUMENTAL.md`).*
 
 **Formato técnico general**: vertical 9:16, 15-45 segundos la mayoría, subtítulos siempre (gran parte se ve sin sonido), hook en los primeros 1-2 segundos —sin intro de marca, sin cuenta atrás, directo a la frase. El texto en pantalla del primer segundo debe decir literalmente de qué va el vídeo — nadie debería tener que esperar 5 segundos para saberlo.
 
-**Variedad visual**: no grabes los 11 hablando a cámara. Alterna con voz en off sobre planos de proceso, time-lapse pintando, capturas de pantalla de la web/dossier, planos detalle de las obras (`SERIE_DOCUMENTAL.md` §8).
+**Variedad visual**: no los grabes todos hablando a cámara. Alterna con voz en off sobre planos de proceso, time-lapse pintando, capturas de pantalla de la web/dossier, planos detalle de las obras (`SERIE_DOCUMENTAL.md` §8).
 
 ---
 
