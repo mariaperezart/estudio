@@ -92,7 +92,7 @@
 
 - **Gancho**: "¿Cuánto cuesta una pintura cuando todavía no tienes trayectoria?"
 - **Beats**: explica el método real usado (precio por pulgada cuadrada para artistas emergentes) → dilo tal cual: "2.400€, orientativo, todavía sin validar con una venta real" → por qué prefieres decir esto en vez de fingir una cifra fija e inamovible.
-- **Nota**: sigue la plantilla de precio de `MANUAL_DE_MARCA.md` §3 — nunca inventar escasez o demanda.
+- **Nota**: sigue la plantilla de precio de `MANUAL_DE_MARCA.md` §5 — nunca inventar escasez o demanda.
 - **Caption**: "Prefiero ser transparente con el proceso que aparentar una certeza que no tengo todavía."
 
 ---
@@ -208,4 +208,4 @@
 
 - Cuando exista una investigación real de mercado (`investigador-mercado`), se añade un guion de tipo Investigación con datos reales.
 - Cuando envíes un dossier de verdad, se escribe el guion de Experimento **en ese momento**, no antes — con la plantilla de `BIBLIA_DEL_UNIVERSO.md` §12 (pregunta / hipótesis / qué hiciste / qué pasó).
-- No fuerces un vídeo nuevo si esta semana no hay nada real — revisa `MANUAL_DE_MARCA.md` §8.
+- No fuerces un vídeo nuevo si esta semana no hay nada real — revisa `MANUAL_DE_MARCA.md` §14.

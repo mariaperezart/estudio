@@ -156,7 +156,7 @@ Después: "La web ya está publicada."
 
 ### Variedad visual (evitar el vídeo-selfie constante)
 
-No todos los episodios necesitan ser Gabriela hablando a cámara. Alternar según lo que el episodio realmente muestre: voz en off sobre planos de proceso, time-lapse de una obra, captura de pantalla de la web o el dossier, planos detalle de una pieza, fotografías del estudio. La historia es la misma; el formato cambia según lo que hay que enseñar ese día — nunca cambia el tono ni la voz (`MANUAL_DE_MARCA.md` §3).
+No todos los episodios necesitan ser Gabriela hablando a cámara. Alternar según lo que el episodio realmente muestre: voz en off sobre planos de proceso, time-lapse de una obra, captura de pantalla de la web o el dossier, planos detalle de una pieza, fotografías del estudio. La historia es la misma; el formato cambia según lo que hay que enseñar ese día — nunca cambia el tono ni la voz (`MANUAL_DE_MARCA.md` §5).
 
 ---
 

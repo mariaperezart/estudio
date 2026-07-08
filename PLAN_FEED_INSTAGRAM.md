@@ -9,8 +9,8 @@
 ## 0. Cómo leer este plan
 
 - El **orden de publicación** va del 1 (primera publicación de este capítulo) al 12 (más reciente). Se publican después de la última foto ya existente en la cuenta — Instagram las coloca automáticamente por delante en la cuadrícula.
-- Cada entrada tiene: imagen, tipo, caption lista para copiar (fórmula de `MANUAL_DE_MARCA.md` §7), y a qué guion de `GUIONES_TIKTOK_INSTAGRAM.md` se puede enlazar como Reel/vídeo complementario el mismo día.
-- No hay fecha fija de publicación — cadencia libre, según `MANUAL_DE_MARCA.md` §8. Este plan ordena el *qué y en qué secuencia*, no el *cuándo*.
+- Cada entrada tiene: imagen, tipo, caption lista para copiar (fórmula de `MANUAL_DE_MARCA.md` §13), y a qué guion de `GUIONES_TIKTOK_INSTAGRAM.md` se puede enlazar como Reel/vídeo complementario el mismo día.
+- No hay fecha fija de publicación — cadencia libre, según `MANUAL_DE_MARCA.md` §14. Este plan ordena el *qué y en qué secuencia*, no el *cuándo*.
 
 ---
 
@@ -105,8 +105,8 @@ Fila 4:  [detalle]   [contexto]       [contexto]
 ## 4. Después de estas 12
 
 - No se rellena la cuadrícula 13 con contenido genérico solo por mantener el ritmo — se espera a que exista una obra nueva, un experimento real (`SERIE_DOCUMENTAL.md`), o una observación real tipo Guion 11.
-- Cuando exista una tercera obra, se generan sus propias tarjetas de cita siguiendo el mismo script de generación (`assets/img/social/quote-cards/`, paleta y tipografía de `MANUAL_DE_MARCA.md` §2).
-- Antes de publicar cualquier post nuevo, pásalo por el checklist de `MANUAL_DE_MARCA.md` §5.
+- Cuando exista una tercera obra, se generan sus propias tarjetas de cita siguiendo el mismo script de generación (`assets/img/social/quote-cards/`, paleta y tipografía de `MANUAL_DE_MARCA.md` §4).
+- Antes de publicar cualquier post nuevo, pásalo por el checklist de `MANUAL_DE_MARCA.md` §10.
 
 ### Secuencia fija al lanzar una obra nueva (a partir de la próxima colección)
 
