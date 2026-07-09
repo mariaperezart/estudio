@@ -439,6 +439,7 @@ Del Manifiesto §21-22 — son restricciones y compromisos operativos, no aspira
 - `PLAN_FEED_INSTAGRAM.md` — cuadrícula de feed planificada con material real existente (fotos de obra + tarjetas de cita de marca).
 - `CAPTIONS_ARCHIVO_INSTAGRAM.md` — registro histórico de la curación real de la cuenta de Instagram ya existente y los captions ya publicados en sus piezas antiguas.
 - `OUTREACH_GALERIAS.md` — registro vivo de galerías/instituciones seguidas y contactadas, mantenido por el agente `outreach-galerias`.
+- `ANALITICA_INSTAGRAM.md` — registro vivo de rendimiento real por post (Insights), mantenido por el agente `analista`.
 - `.claude/agents/` — los 12 agentes IA, cada uno referenciando ambos documentos.
 - El sitio (`index.html`, `el-universo/`, `obras/`, etc.) — implementación viva de ambos documentos; si algo en el sitio contradice esta Biblia, el sitio está mal y debe corregirse, no al revés.
 
