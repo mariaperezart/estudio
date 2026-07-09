@@ -26,11 +26,11 @@ Primera publicación real del capítulo Hábitats en @mariagperezs (~2.695 segui
 | Origen del alcance | 100% Feed |
 | Alcance vs. audiencia | ~1,6% de seguidores |
 
-**Lectura**: alcance orgánico bajo para el tamaño de la cuenta. Dos causas probables, ninguna confirmada todavía:
-- **Sin confirmar si se publicó el Reel complementario** (Guion 1, *"Tengo dos pinturas nuevas..."*) el mismo día — si no se publicó, es la explicación más probable: Instagram prioriza el descubrimiento de Reels sobre imágenes estáticas, y una tarjeta de cita sola compite en desventaja real.
-- La cuenta estuvo un tiempo inactiva antes de este post (se curó a 10 publicaciones antes de este capítulo) — Instagram suele tardar varias publicaciones en recalibrar el alcance de una cuenta reactivada.
+**Lectura**: alcance orgánico bajo para el tamaño de la cuenta. **Confirmado por Gabriela**: se publicó solo la tarjeta de cita, sin el Reel complementario (Guion 1, *"Tengo dos pinturas nuevas..."*) — no sabía que el plan estaba diseñado para publicarse en conjunto. Es la explicación más probable del alcance bajo: Instagram prioriza el descubrimiento de Reels sobre imágenes estáticas, y una imagen sola compite en desventaja real. Corregido en `PLAN_FEED_INSTAGRAM.md` §0 para que quede explícito en los 11 posts restantes.
 
-**No se concluye nada definitivo con un solo post.** Se revisa el patrón cuando existan 5-6 publicaciones con datos reales.
+Factor secundario, todavía real: la cuenta estuvo un tiempo inactiva antes de este post (se curó a 10 publicaciones antes de este capítulo) — Instagram suele tardar varias publicaciones en recalibrar el alcance de una cuenta reactivada.
+
+**No se concluye nada definitivo con un solo post**, pero esta causa ya no es una hipótesis sin confirmar — es el punto de partida real para el Post 2: publicar imagen + Reel el mismo día y comparar.
 
 ### Post 2 — pendiente
 

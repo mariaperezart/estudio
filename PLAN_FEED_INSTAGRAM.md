@@ -9,7 +9,8 @@
 ## 0. Cómo leer este plan
 
 - El **orden de publicación** va del 1 (primera publicación de este capítulo) al 12 (más reciente). Se publican después de la última foto ya existente en la cuenta — Instagram las coloca automáticamente por delante en la cuadrícula.
-- Cada entrada tiene: imagen, tipo, caption lista para copiar (fórmula de `MANUAL_DE_MARCA.md` §13), y a qué guion de `GUIONES_TIKTOK_INSTAGRAM.md` se puede enlazar como Reel/vídeo complementario el mismo día.
+- Cada entrada tiene: imagen, tipo, caption lista para copiar (fórmula de `MANUAL_DE_MARCA.md` §13), y a qué guion de `GUIONES_TIKTOK_INSTAGRAM.md` corresponde como Reel complementario.
+- **"Complementa con" no es una sugerencia opcional — es la publicación completa.** Aprendizaje real del Post 1 (`ANALITICA_INSTAGRAM.md`): se publicó solo la imagen de la tarjeta, sin su Reel, y el alcance orgánico fue muy bajo (~1,6% de la audiencia). Instagram reparte mucho más alcance a vídeo que a imagen estática — publicar la imagen del feed **el mismo día** que su Reel correspondiente no es un extra, es la forma en que este plan está diseñado para funcionar.
 - No hay fecha fija de publicación — cadencia libre, según `MANUAL_DE_MARCA.md` §14. Este plan ordena el *qué y en qué secuencia*, no el *cuándo*.
 
 ---
