@@ -54,10 +54,11 @@ Fila 4:  [detalle]   [contexto]       [contexto]
 
 **Es la primera publicación real del capítulo Hábitats.** A partir de aquí, esta cuadrícula deja de ser un plan y empieza a ser un registro — cada entrada siguiente se marca ✅ cuando se publique de verdad, nunca antes.
 
-### 2 — `obras/umbral/hero.jpg`
+### 2 — `assets/img/social/feed-square/umbral-hero-square.jpg` (no `obras/umbral/hero.jpg` directamente)
 **Tipo**: Presentación de obra
 **Caption**: "Umbral. Colección Hábitats. Esta obra nace de la idea de que todo espacio puede convertirse en un lugar para detenerse. Ficha completa en el enlace de mi perfil. ¿Hay algún espacio cotidiano tuyo que sientas como un lugar para pausar?"
 **Complementa con**: Guion 4 (*Cómo sé que una pintura está terminada*)
+**Nota de formato**: `hero.jpg` es horizontal (986×488, ratio ~2:1) — la cuadrícula de perfil de Instagram siempre recorta en cuadrado, así que subirlo tal cual pierde los bordes. Se generó una versión cuadrada 1080×1080 con la obra completa centrada sobre su mismo fondo neutro, sin recortar nada — sube esa versión, no el archivo original.
 
 ### 3 — `obras/umbral/detalle-01.jpg`
 **Tipo**: Detalle de textura
@@ -68,9 +69,10 @@ Fila 4:  [detalle]   [contexto]       [contexto]
 **Caption**: "Hábitats explora la relación entre las personas y los espacios que habitan, tanto físicos como simbólicos. Dos piezas hasta ahora: Umbral y Habitar."
 **Complementa con**: Guion 5 (*Qué significa Hábitats*)
 
-### 5 — `obras/habitar/hero.jpg`
+### 5 — `assets/img/social/feed-square/habitar-hero-square.jpg` (no `obras/habitar/hero.jpg` directamente)
 **Tipo**: Presentación de obra
 **Caption**: "Habitar. Pinté esta obra como una invitación a explorar la relación entre el espacio y quien lo ocupa. Más que ofrecer respuestas, propone un lugar donde la calma y el silencio permitan que surjan nuevas preguntas."
+**Nota de formato**: mismo caso que el post 2 — versión cuadrada 1080×1080 ya generada, obra completa sin recortar sobre su mismo fondo neutro.
 
 ### 6 — `obras/habitar/detalle-01.jpg`
 **Tipo**: Detalle de textura

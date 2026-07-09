@@ -74,6 +74,12 @@ Los puntos 5 y 6 son la ampliación real de este protocolo respecto a lo que ya 
 
 Con este conjunto fijo, cada obra nueva alimenta automáticamente la web, el dossier, redes y cualquier propuesta a galerías sin tener que decidir de nuevo qué fotografiar cada vez.
 
+## Versión cuadrada para Instagram (obligatoria antes de publicar `hero.jpg`)
+
+`hero.jpg` de cada obra es horizontal (~2:1) — pensado para la web, donde el formato panorámico funciona bien. Pero la cuadrícula de perfil de Instagram siempre recorta cualquier imagen a cuadrado, así que subir `hero.jpg` tal cual corta los bordes izquierdo y derecho de la obra sin avisar.
+
+**Regla fija**: antes de publicar la imagen protagonista de cualquier obra en Instagram, se genera una versión 1080×1080 con la obra completa centrada sobre el mismo fondo neutro de la foto original (sin recortar nada, sin inventar fondo) y se guarda en `assets/img/social/feed-square/`. Ya existen para Umbral y Habitar (`umbral-hero-square.jpg`, `habitar-hero-square.jpg`). Se publica siempre esa versión en el feed, nunca `hero.jpg` directamente.
+
 ## Firma física en la obra
 
 Decisión de estándar (no fabricada — es una recomendación de oficio, se aplica a partir de la próxima obra que Gabriela firme; **Umbral y Habitar quedan como están hasta que se confirme si ya están firmadas o se firman ahora**, no se asume ninguna de las dos cosas):
