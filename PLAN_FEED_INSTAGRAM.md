@@ -46,10 +46,12 @@ Fila 4:  [detalle]   [contexto]       [contexto]
 
 ## 3. Las 12 publicaciones, en orden
 
-### 1 — `umbral-quote.jpg`
+### 1 — `umbral-quote.jpg` — ✅ Publicado (julio 2026)
 **Tipo**: Cita / anuncio de capítulo nuevo
 **Caption**: "No pinto para explicar el mundo. Pinto porque nunca he podido verlo de una sola manera. — Empiezo una colección nueva: Hábitats. Distinta a todo lo que he compartido aquí hasta ahora. Los próximos posts documentan ese cambio, y todo el proceso de negocio detrás, en directo."
 **Complementa con**: Guion 1 (*Tengo dos pinturas nuevas — y una carrera que no empieza hoy*)
+
+**Es la primera publicación real del capítulo Hábitats.** A partir de aquí, esta cuadrícula deja de ser un plan y empieza a ser un registro — cada entrada siguiente se marca ✅ cuando se publique de verdad, nunca antes.
 
 ### 2 — `obras/umbral/hero.jpg`
 **Tipo**: Presentación de obra

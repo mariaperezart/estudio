@@ -205,11 +205,39 @@ Once agentes, cada uno con un carril definido: Director de Marca (auditoría), C
 
 ---
 
+## Capítulo 11 — Metodología: cómo se filtra el conocimiento externo
+
+Gabriela trae constantemente análisis de vídeos, estrategias de marketing y consejos generados por otras IAs. Ninguno se adopta ni se rechaza en bloque — todos pasan por el mismo proceso, aplicado de forma consistente durante toda la construcción de este sistema:
+
+**1. Triple filtro.** Cada idea recibida se clasifica en: **se queda** (ya alineada con el canon o mejora algo real sin contradecirlo), **se descarta** (contradice el Manifiesto, es especulativa, o depende de fabricar algo), o **se marca como plantilla** (la estructura es buena, pero necesita un hecho real de Gabriela para activarse — nunca se rellena con una anécdota inventada solo porque suena bien).
+
+**2. La regla de oro: nunca se fabrica.** Ni una cifra, ni una cita, ni un recuerdo, ni una "anécdota plausible". Ejemplos reales de esta regla en acción: se rechazaron guiones con anécdotas inventadas ("estuve a punto de arruinar este cuadro", "descarté veinte colores") hasta no tener el hecho real; una foto de una exposición se dejó archivada por no poder confirmar si el retrato era obra propia; una fecha de festival se marcó como calculada, no como dato exacto, hasta revalidarla.
+
+**3. Archivar, no borrar.** Al auditar contenido antiguo (Instagram, fotos, captions), la opción reversible gana siempre sobre la destructiva. Nada de la trayectoria real de Gabriela se elimina — se cura, se prioriza, se contextualiza.
+
+**4. No proliferar taxonomías.** Cada vez que un análisis externo propone un nuevo sistema de categorías o porcentajes (se han rechazado al menos cuatro variantes distintas: "5 pilares", cuota "40/30/20/10", "7 pilares", varias cuotas para la cuenta personal), primero se pregunta si ya existe un sistema equivalente. Casi siempre la respuesta es sí — y se descarta el nuevo por redundante, no por malo.
+
+**5. La escasez y la urgencia solo son reales cuando lo son.** Nunca se fabrica una lista de espera, un countdown o una prueba social que no ha ocurrido. Si hay espera real, se explica por el proceso real (tiempos de capas, sesión única) — nunca como "todavía me estoy organizando".
+
+**6. La coherencia importa más que la frecuencia.** Mejor un vídeo diciendo honestamente "esta semana no hay nada real que mostrar" que forzar contenido vacío para sostener un calendario.
+
+**7. Los universos se mantienen separados a propósito, aunque sea menos "eficiente".** Hábitats, `OTRAS_OBRAS.md` y la cuenta personal (`gabriela-personal`) tienen vocabularios, niveles de gestión y disciplinas distintas — deliberadamente. La tentación de fusionarlo todo en un solo sistema para "ahorrar trabajo" se ha rechazado varias veces (incluyendo la propuesta explícita de fusionar este libro con `MANUAL_DE_MARCA.md`, documentada ahí mismo).
+
+**8. La solución a la dispersión es auditar, no consolidar en un documento gigante.** Cuando se acumulan documentos y crece el riesgo de contradicciones, la respuesta ha sido siempre una auditoría real de contenido contra las reglas activas — no fusionar todo en un archivo único que sacrificaría usabilidad (por ejemplo, que este mismo repositorio siga siendo utilizable desde el móvil mientras se graba).
+
+**9. Cuestionar la fuente, no solo la idea.** Cuando un análisis presenta como hecho algo sobre Gabriela que nunca ha confirmado (un pilar de contenido, un hábito, un rasgo de personalidad tipo MBTI/eneagrama), se trata como propuesta a validar, nunca como dato — sin importar cuántas veces se repita la misma sugerencia en distintas envolturas.
+
+**10. El riesgo, en esta etapa, suele ser el exceso, no la falta de estrategia.** Con dos obras y una marca joven, la sobreingeniería (hojas de cálculo de cientos de vídeos, quince principios fundamentales, visiones de legado grandilocuentes) es un riesgo mayor que hacer poco. Simplificar y repetir lo que ya funciona suele ganarle a añadir una capa más.
+
+**11. Ninguna decisión grande se escala por defecto.** Migrar de tecnología, retomar una línea de ingresos antigua, cambiar el nombre de una cuenta: cada una se resuelve preguntando primero si el umbral real ya se alcanzó (definido de antemano, no inventado en el momento), no adoptándola porque la propuesta suene razonable.
+
+---
+
 ## Epílogo — estado real, julio 2026
 
-Dos obras terminadas y fotografiadas (Umbral, Habitar). Web publicada. Dossier y certificados listos. 25 guiones de vídeo, 23 listos para grabar. Plan de feed de 12 publicaciones nuevas más el archivo histórico ya curado. Precio de lanzamiento orientativo, sin validar con una venta real todavía. Ninguna galería contactada aún — es el siguiente paso real, no una promesa con fecha.
+Dos obras terminadas y fotografiadas (Umbral, Habitar). Web publicada. Dossier y certificados listos. 25 guiones de vídeo, 23 listos para grabar. Plan de feed de 12 publicaciones nuevas más el archivo histórico ya curado — **la primera ya está publicada de verdad** (Post 1, `umbral-quote.jpg`, el anuncio del capítulo Hábitats). Precio de lanzamiento orientativo, sin validar con una venta real todavía. Ninguna galería contactada aún — es el siguiente paso real, no una promesa con fecha.
 
-Nada de esto se lee como una startup que promete crecer rápido. Se lee como una artista construyendo, con method, algo que quiere que dure diez años.
+Nada de esto se lee como una startup que promete crecer rápido. Se lee como una artista construyendo, con método, algo que quiere que dure diez años.
 
 ---
 
