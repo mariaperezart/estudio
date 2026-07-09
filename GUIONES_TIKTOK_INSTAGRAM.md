@@ -230,14 +230,14 @@
 - **Beats**: la cuenta de arte documenta la obra y el negocio, con un criterio definido de cuánto aparezco yo (`BIBLIA_DEL_UNIVERSO.md` §8) → la personal es donde vive el resto — viajes, la gente que quiero, mi forma de mirar fuera del estudio → no las mezclo, pero tampoco las escondo la una de la otra → el objetivo no es parecer distinta en cada una, es que se complementen sin competir.
 - **Caption**: "Separar no es esconder. Es dejar que cada espacio cuente lo que le toca contar."
 
-### 24. Así escribía sobre mi arte hace cuatro años (y así escribo ahora)
+### 24. La idea de Hábitats existía antes que el nombre
 **Pilar**: Conexión · **Hook**: Pensaba esto → descubrí esto
 
-- **Por qué existe este guion**: material real — Gabriela compartió capturas de sus captions de Instagram entre 2020 y 2022. El contraste con la voz actual (`MANUAL_DE_MARCA.md` §5) es genuino, no un ejercicio hipotético.
-- **Gancho**: "Hace cuatro años terminaba mis captions con '¡preséntate en los comentarios!'. Ya no lo hago, y esta es la razón."
-- **Beats**: muestra en pantalla un caption real antiguo (ej. "Aquí hay algunos datos aleatorios sobre mí") → contraste con cómo escribe ahora — una idea real, sin pedir nada a cambio → no es que antes estuviera "mal", es que no sabía todavía qué quería contar → la diferencia no es el idioma ni el tono, es que ahora cada caption sale de una pregunta real, no de llenar espacio.
-- **Nota**: usa capturas reales de tus posts antiguos como B-roll (ya las tienes) — no hace falta inventar ni dramatizar ningún ejemplo, y evita el tono burlón hacia tu propio pasado — es evolución, no vergüenza (`MANUAL_DE_MARCA.md` §5, disciplina emocional).
-- **Caption**: "No borré mi historia. Solo aprendí a contarla distinto."
+- **Por qué existe este guion**: hallazgo real en el archivo de Instagram que Gabriela compartió — un post del 15 de diciembre de 2020 (acuarela, tonos suaves de cielo nublado) con el caption *"I don't finish a painting. I just give up. There is a sense of calm and peace here that I love."* Cuatro años antes de Hábitats, ya describía el mismo principio que hoy es canon (`BIBLIA_DEL_UNIVERSO.md` §3 — la obra no se termina en sentido cerrado; el mismo tema de calma que ancla la colección actual).
+- **Gancho**: "En 2020 escribí esto sobre un cuadro: 'No termino una pintura, simplemente paro. Hay una sensación de calma aquí que amo.' No sabía que estaba describiendo lo que hoy es Hábitats."
+- **Beats**: muestra esa acuarela real de 2020 → lee el caption tal cual, sin parafrasear → cuenta que en ese momento no tenía nombre para esa idea, ni una colección, ni una marca → la idea siempre fue calma y algo inacabado — el vocabulario y el oficio llegaron después, no la intención.
+- **Nota**: usa la captura real del post de 2020 como B-roll — no se dramatiza ni se inventa que "siempre supo" que llegaría a Hábitats; el punto es la continuidad de una idea, no una profecía.
+- **Caption**: "No inventé Hábitats un día. Lo llevaba escribiendo sin saberlo desde hace cuatro años."
 
 ### 25. Empecé a pintar a los 20 años
 **Pilar**: Diario · **Hook**: Proceso
