@@ -36,7 +36,7 @@ Para activar GitHub Pages: Settings → Pages → Deploy from branch → rama `m
 ## Estado del catálogo
 
 - **Colección Hábitats** (`colecciones/habitats/`) es la primera colección real, con statement confirmado por Gabriela.
-- `obras/umbral/` ("Umbral") y `obras/habitar/` ("Habitar") son las **dos primeras obras reales** (fotografías propias de Gabriela), ambas de 140 × 70 cm, acrílico sobre lienzo, con historia real y precio orientativo (2.400€, pendiente de validar con la primera venta). Quedan pendientes de confirmar: tiempo invertido, año exacto y disponibilidad.
+- `obras/umbral/` ("Umbral") y `obras/habitar/` ("Habitar") son las **dos primeras obras reales** (fotografías propias de Gabriela), ambas de 140 × 70 cm, acrílico sobre lienzo, con historia real, precio confirmado (2.400€ cada una) y disponibles (julio 2026). El campo "tiempo invertido" se retiró de las páginas públicas — no aporta a un comprador y no había dato real que mostrar.
 - La colección de ejemplo que usaba el nombre "Umbral" para una plantilla figurativa (puertas, mapas) **se eliminó del repositorio** al confirmarse que el título real de la primera obra de Hábitats es también "Umbral" — ver `BIBLIA_DEL_UNIVERSO.md` §3.
 
 ## Pendiente antes de publicar (ver ESTRATEGIA_MAESTRA.md §15)

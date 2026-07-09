@@ -42,17 +42,16 @@
   .no-print p { color: #4a463e; font-size: 0.85rem; }
 
   .sheet {
-    width: 210mm;
-    min-height: 297mm;
+    width: 100%;
+    max-width: 210mm;
     background: var(--color-bg);
-    padding: 22mm 20mm;
+    padding: 32px 24px;
     box-shadow: 0 4px 24px rgba(0,0,0,0.18);
     position: relative;
   }
   .frame {
     border: 1px solid var(--color-border);
-    padding: 14mm;
-    min-height: calc(297mm - 44mm - 28mm);
+    padding: 20px;
     display: flex;
     flex-direction: column;
   }
@@ -64,26 +63,26 @@
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--color-muted);
-    margin: 28mm 0 4mm;
+    margin: 24px 0 4px;
     text-align: center;
   }
   h1 {
     font-family: var(--font-display);
     font-weight: 400;
-    font-size: 2.6rem;
+    font-size: clamp(1.9rem, 8vw, 2.6rem);
     text-align: center;
-    margin: 0 0 4mm;
+    margin: 0 0 4px;
   }
   .subtitle {
     text-align: center;
     font-family: var(--font-display);
     font-size: 1.3rem;
     color: var(--color-muted);
-    margin-bottom: 16mm;
+    margin-bottom: 20px;
   }
   .statement {
     max-width: 130mm;
-    margin: 0 auto 14mm;
+    margin: 0 auto 20px;
     text-align: center;
     line-height: 1.7;
     font-size: 0.95rem;
@@ -91,36 +90,38 @@
   dl.meta {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 6mm 10mm;
+    gap: 16px;
     max-width: 150mm;
-    margin: 0 auto 14mm;
-    padding: 8mm 0;
+    margin: 0 auto 20px;
+    padding: 16px 0;
     border-top: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
   }
   dl.meta dt { font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-muted); margin-bottom: 2px; }
-  dl.meta dd { margin: 0; font-family: var(--font-display); font-size: 1.15rem; }
+  dl.meta dd { margin: 0; font-family: var(--font-display); font-size: 1.15rem; word-break: break-word; }
 
   .fill-fields {
     max-width: 150mm;
-    margin: 0 auto 14mm;
+    margin: 0 auto 20px;
     font-size: 0.85rem;
   }
-  .fill-fields .row { display: flex; gap: 8mm; margin-bottom: 6mm; }
-  .fill-fields .row > div { flex: 1; }
+  .fill-fields .row { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 12px; }
+  .fill-fields .row > div { flex: 1 1 140px; }
   .fill-fields label { display: block; font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-muted); margin-bottom: 2px; }
   .fill-fields .line { border-bottom: 1px solid var(--color-ink); height: 20px; }
 
-  .spacer { flex: 1; }
+  .spacer { flex: 1; min-height: 20px; }
 
   .signature-block {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
+    gap: 16px;
     max-width: 150mm;
-    margin: 0 auto 6mm;
+    margin: 0 auto 6px;
   }
-  .signature-block .col { width: 60mm; text-align: center; }
+  .signature-block .col { flex: 1 1 120px; max-width: 60mm; text-align: center; }
   .signature-line { border-bottom: 1px solid var(--color-ink); height: 40px; margin-bottom: 4px; }
   .signature-block .label { font-size: 0.7rem; letter-spacing: 0.05em; color: var(--color-muted); }
 
@@ -129,13 +130,33 @@
     font-size: 0.68rem;
     color: var(--color-muted);
     letter-spacing: 0.03em;
-    margin-top: 10mm;
+    margin-top: 20px;
   }
 
   @media print {
     body { background: none; padding: 0; }
     .no-print { display: none; }
-    .sheet { box-shadow: none; margin: 0; }
+    .sheet {
+      width: 210mm;
+      min-height: 297mm;
+      max-width: none;
+      padding: 22mm 20mm;
+      box-shadow: none;
+      margin: 0;
+    }
+    .frame {
+      padding: 14mm;
+      min-height: calc(297mm - 44mm - 28mm);
+    }
+    .eyebrow { margin: 28mm 0 4mm; }
+    h1 { font-size: 2.6rem; margin: 0 0 4mm; }
+    .subtitle { margin-bottom: 16mm; }
+    .statement { margin: 0 auto 14mm; }
+    dl.meta { gap: 6mm 10mm; margin: 0 auto 14mm; padding: 8mm 0; }
+    .fill-fields { margin: 0 auto 14mm; }
+    .fill-fields .row { gap: 8mm; margin-bottom: 6mm; }
+    .signature-block { margin: 0 auto 6mm; }
+    .footer-note { margin-top: 10mm; }
     @page { size: A4; margin: 0; }
   }
 </style>
