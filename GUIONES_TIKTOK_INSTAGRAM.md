@@ -232,6 +232,24 @@
 
 ---
 
+## Sistema de ángulos: multiplicar el contenido de cada obra sin repetirte
+
+Corrección real al balance actual: de los 23 guiones de arriba, solo el 4 y el 11 profundizan en una obra concreta — el resto es carrera/negocio. Con solo Umbral y Habitar, una misma pieza puede dar varios vídeos distintos si cada uno revela un ángulo distinto, en vez de repetir "aquí está mi cuadro". **Ninguno de estos es un guion terminado** — cada uno necesita el recuerdo o la decisión real de Gabriela para esa obra específica antes de grabarse; escribir una anécdota plausible pero no confirmada ("estuve a punto de arruinarlo", "descarté veinte colores") sería inventar un dato, igual que cualquier otra fabricación que este sistema ya rechaza.
+
+| Ángulo | Qué pregunta responde | Relleno pendiente de Gabriela |
+|---|---|---|
+| **Percepción** | ¿Cómo cambia esta obra según la luz o el momento del día? | 🔲 Pendiente — ¿es cierto para Umbral/Habitar? |
+| **Decisión descartada** | ¿Qué alternativa real consideraste y por qué la rechazaste? | 🔲 Pendiente — solo si hubo una decisión real, no inventada |
+| **Pregunta abierta al espectador** | ¿Qué ves primero? (sin respuesta correcta, comparar con la propia) | Ya usable sin relleno adicional — es una pregunta, no una afirmación |
+| **Detalle invisible en fotos** | ¿Qué textura o matiz solo se aprecia en persona? | 🔲 Pendiente — confirmar con una sesión de foto/vídeo real de detalle |
+| **Proceso mental / cuándo está terminada** | Ya cubierto — Guion 4 | No se duplica, referenciar ese guion |
+| **Comparación durante el proceso** | ¿Cómo era esta obra a mitad de proceso vs terminada? | 🔲 Pendiente — solo si existen fotos intermedias reales; si no existen, no se simulan |
+| **Significado vs representación** | "No pinté un paisaje, pinté una sensación" | Ya confirmado — usa el statement real de Hábitats (`BIBLIA_DEL_UNIVERSO.md` §3) |
+
+Cuando Gabriela confirme el contenido real de una fila, ese ángulo se convierte en guion numerado (24, 25...) con la misma plantilla del resto de este documento — no antes.
+
+---
+
 ## Cómo seguir después de estos 23
 
 - Cuando exista una investigación real de mercado (`investigador-mercado`), se añade un guion de tipo Investigación con datos reales.
