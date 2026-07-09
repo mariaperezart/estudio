@@ -194,6 +194,7 @@ Esta plantilla la ejecuta `copywriter.md`; ningún dato de credibilidad se añad
 ### Datos de credibilidad confirmados (usar en el punto 3 de la bio, dossier, prensa)
 
 - Formación: Técnico Superior Universitario en Diseño Gráfico, mención Publicidad — Instituto Universitario de Tecnología Antonio José de Sucre (IUTAJS), Mérida, Venezuela.
+- Empezó a pintar a los 20 años (confirmado por Gabriela, julio 2026 — no se deriva de esto ningún año calendario concreto sin que ella lo confirme aparte).
 - Trayectoria expositiva (orden cronológico):
   1. **2016** — I Festival Nacional de Muralismo, La Vela de Coro, Venezuela (bajo el nombre *eyesasdaggers*).
   2. **2017** — SHE, festival de muralismo, Barrio Obrero, San Cristóbal, Venezuela (bajo el nombre *eyesasdaggers*). Año calculado a partir de "el año siguiente" al festival de 2016 y confirmado por la edad de Gabriela en ese momento (24 años) — no es una fecha que ella haya dado como cifra exacta, así que si alguna vez se cuestiona, se revalida con ella antes de imprimir de nuevo.

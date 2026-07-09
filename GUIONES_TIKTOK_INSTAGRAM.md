@@ -1,6 +1,6 @@
 # Guiones TikTok / Instagram — primer lote
 
-*23 guiones en total: 21 listos para grabar ya, sin esperar a que pase nada más, más 2 que requieren preparación previa antes de grabar (nº 11, observación real; nº 17, experimento a anunciar). Todos parten de hechos reales de hoy — nada de dossiers enviados, respuestas de galerías o ventas, porque todavía no han ocurrido. Cuando ocurran de verdad, se añaden aquí como nuevos guiones (ver `SERIE_DOCUMENTAL.md`).*
+*25 guiones en total: 22 listos para grabar ya, sin esperar a que pase nada más, más 3 que requieren preparación previa antes de grabar (nº 11, observación real; nº 17, experimento a anunciar; nº 25, falta el recuerdo real detrás del gancho). Todos parten de hechos reales de hoy — nada de dossiers enviados, respuestas de galerías o ventas, porque todavía no han ocurrido. Cuando ocurran de verdad, se añaden aquí como nuevos guiones (ver `SERIE_DOCUMENTAL.md`).*
 
 **Formato técnico general**: vertical 9:16, 15-45 segundos la mayoría, subtítulos siempre (gran parte se ve sin sonido), hook en los primeros 1-2 segundos —sin intro de marca, sin cuenta atrás, directo a la frase. El texto en pantalla del primer segundo debe decir literalmente de qué va el vídeo — nadie debería tener que esperar 5 segundos para saberlo.
 
@@ -229,6 +229,23 @@
 - **Gancho**: "Tengo dos cuentas de Instagram. Una es mi arte. La otra soy yo. Así decido qué va en cada una."
 - **Beats**: la cuenta de arte documenta la obra y el negocio, con un criterio definido de cuánto aparezco yo (`BIBLIA_DEL_UNIVERSO.md` §8) → la personal es donde vive el resto — viajes, la gente que quiero, mi forma de mirar fuera del estudio → no las mezclo, pero tampoco las escondo la una de la otra → el objetivo no es parecer distinta en cada una, es que se complementen sin competir.
 - **Caption**: "Separar no es esconder. Es dejar que cada espacio cuente lo que le toca contar."
+
+### 24. Así escribía sobre mi arte hace cuatro años (y así escribo ahora)
+**Pilar**: Conexión · **Hook**: Pensaba esto → descubrí esto
+
+- **Por qué existe este guion**: material real — Gabriela compartió capturas de sus captions de Instagram entre 2020 y 2022. El contraste con la voz actual (`MANUAL_DE_MARCA.md` §5) es genuino, no un ejercicio hipotético.
+- **Gancho**: "Hace cuatro años terminaba mis captions con '¡preséntate en los comentarios!'. Ya no lo hago, y esta es la razón."
+- **Beats**: muestra en pantalla un caption real antiguo (ej. "Aquí hay algunos datos aleatorios sobre mí") → contraste con cómo escribe ahora — una idea real, sin pedir nada a cambio → no es que antes estuviera "mal", es que no sabía todavía qué quería contar → la diferencia no es el idioma ni el tono, es que ahora cada caption sale de una pregunta real, no de llenar espacio.
+- **Nota**: usa capturas reales de tus posts antiguos como B-roll (ya las tienes) — no hace falta inventar ni dramatizar ningún ejemplo, y evita el tono burlón hacia tu propio pasado — es evolución, no vergüenza (`MANUAL_DE_MARCA.md` §5, disciplina emocional).
+- **Caption**: "No borré mi historia. Solo aprendí a contarla distinto."
+
+### 25. Empecé a pintar a los 20 años
+**Pilar**: Diario · **Hook**: Proceso · **Estado**: 🔲 plantilla — falta el hecho real detrás del gancho
+
+- **Por qué existe este guion**: dato confirmado por Gabriela (julio 2026), pero el gancho por sí solo no es una historia — falta lo que realmente pasó esa edad.
+- **Gancho** (confirmado): "Empecé a pintar a los 20 años."
+- **Beats**: 🔲 **Pendiente de Gabriela** — qué la llevó a empezar (¿decisión consciente, algo casual, un detonante concreto?), qué pintó primero, cómo se sintió → cierre conectando ese momento con quién es ahora. No se rellena con una historia de origen genérica solo porque suena bien — se graba cuando exista el recuerdo real que contar.
+- **Caption**: pendiente del mismo relleno que los beats.
 
 ---
 
