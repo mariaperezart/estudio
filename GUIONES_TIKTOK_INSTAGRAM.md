@@ -1,6 +1,6 @@
 # Guiones TikTok / Instagram — primer lote
 
-*20 guiones en total: 18 listos para grabar ya, sin esperar a que pase nada más, más 2 que requieren preparación previa antes de grabar (nº 11, observación real; nº 17, experimento a anunciar). Todos parten de hechos reales de hoy — nada de dossiers enviados, respuestas de galerías o ventas, porque todavía no han ocurrido. Cuando ocurran de verdad, se añaden aquí como nuevos guiones (ver `SERIE_DOCUMENTAL.md`).*
+*23 guiones en total: 21 listos para grabar ya, sin esperar a que pase nada más, más 2 que requieren preparación previa antes de grabar (nº 11, observación real; nº 17, experimento a anunciar). Todos parten de hechos reales de hoy — nada de dossiers enviados, respuestas de galerías o ventas, porque todavía no han ocurrido. Cuando ocurran de verdad, se añaden aquí como nuevos guiones (ver `SERIE_DOCUMENTAL.md`).*
 
 **Formato técnico general**: vertical 9:16, 15-45 segundos la mayoría, subtítulos siempre (gran parte se ve sin sonido), hook en los primeros 1-2 segundos —sin intro de marca, sin cuenta atrás, directo a la frase. El texto en pantalla del primer segundo debe decir literalmente de qué va el vídeo — nadie debería tener que esperar 5 segundos para saberlo.
 
@@ -204,7 +204,35 @@
 
 ---
 
-## Cómo seguir después de estos 20
+### 21. Auditar mi propio Instagram antes de lanzar Hábitats
+**Pilar**: Diario · **Hook**: Proceso
+
+- **Por qué existe este guion**: documenta un hecho real de esta semana — la curación de la cuenta antigua, ya hecha y ya publicada (`CAPTIONS_ARCHIVO_INSTAGRAM.md`). Refuerza "nunca empiezo de cero" con una prueba concreta, no solo con la afirmación.
+- **Gancho**: "Antes de publicar nada nuevo, pasé una tarde entera decidiendo qué se queda de mi Instagram antiguo y qué no."
+- **Beats**: tenía 21 publicaciones de mi serie anterior, Territorios Interiores → no las borré, las revisé una por una con un criterio simple: ¿es real y está bien fotografiado, aporta algo verificable? → me quedé con 10 → escribí captions nuevos para las que se quedaron, contando de dónde viene cada una → esto no es empezar de cero, es decidir cómo se cuenta lo que ya existe.
+- **Nota**: si tienes guardada una captura del archivo completo (21) y de la cuadrícula final (10), úsalas como par Antes/Después (`SERIE_DOCUMENTAL.md` §10) — es un dato verificable, no una sensación.
+- **Caption**: "Mi Instagram no empieza hoy. Solo hoy decidí qué contar de él primero."
+
+### 22. Por qué no voy a cambiar mi web todavía
+**Pilar**: Investigación · **Hook**: Investigación
+
+- **Por qué existe este guion**: documenta una decisión de negocio real tomada esta semana (evaluar WordPress/Astro/Eleventy y decidir esperar), coherente con "no se abre un formato nuevo solo por necesidad" (`BIBLIA_DEL_UNIVERSO.md` §6).
+- **Gancho**: "Me preguntaron si debería pasar mi web a WordPress. La respuesta corta es no, y esta es la razón real."
+- **Beats**: comparo qué gano y qué pierdo con un gestor de contenido más "fácil" → ya tengo decidido a qué tecnología migro cuando el catálogo crezca lo suficiente, y no soy todavía ese punto → cambiarlo ahora resolvería un problema que no tengo (mantener fichas a mano) al precio de uno que sí tendría (dependencias, mantenimiento) → prefiero ese tiempo en pintar, no en un gestor que no necesito aún.
+- **Nota**: no hace falta dar la cifra exacta de obras que marca el umbral si prefieres no compartir ese detalle operativo — "cuando el catálogo crezca lo suficiente" es honesto sin ser específico.
+- **Caption**: "No toda mejora técnica es una mejora real. A veces la respuesta correcta es esperar."
+
+### 23. Tengo dos Instagrams — así decido qué va en cada uno
+**Pilar**: Conexión · **Hook**: Proceso
+
+- **Por qué existe este guion**: documenta un criterio real ya aplicado esta semana (separar cuenta de arte y cuenta personal sin que compitan). Encaja en el 30% de conexión, no en descubrimiento de obra.
+- **Gancho**: "Tengo dos cuentas de Instagram. Una es mi arte. La otra soy yo. Así decido qué va en cada una."
+- **Beats**: la cuenta de arte documenta la obra y el negocio, con un criterio definido de cuánto aparezco yo (`BIBLIA_DEL_UNIVERSO.md` §8) → la personal es donde vive el resto — viajes, la gente que quiero, mi forma de mirar fuera del estudio → no las mezclo, pero tampoco las escondo la una de la otra → el objetivo no es parecer distinta en cada una, es que se complementen sin competir.
+- **Caption**: "Separar no es esconder. Es dejar que cada espacio cuente lo que le toca contar."
+
+---
+
+## Cómo seguir después de estos 23
 
 - Cuando exista una investigación real de mercado (`investigador-mercado`), se añade un guion de tipo Investigación con datos reales.
 - Cuando envíes un dossier de verdad, se escribe el guion de Experimento **en ese momento**, no antes — con la plantilla de `BIBLIA_DEL_UNIVERSO.md` §12 (pregunta / hipótesis / qué hiciste / qué pasó).
