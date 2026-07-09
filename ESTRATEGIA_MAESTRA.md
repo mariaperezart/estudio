@@ -232,7 +232,7 @@ La fórmula de bio corta (4 frases) y la fórmula de caption para redes (gancho 
 
 ## 10. Ecosistema de Agentes IA
 
-Los 10 agentes se implementan como subagentes de Claude Code (`.claude/agents/*.md` en este repositorio) para que puedan invocarse directamente durante el trabajo diario de Gabriela, y a la vez sirven de especificación funcional si en el futuro se conectan a automatizaciones externas (n8n, Zapier, Make).
+Los 12 agentes se implementan como subagentes de Claude Code (`.claude/agents/*.md` en este repositorio) para que puedan invocarse directamente durante el trabajo diario de Gabriela, y a la vez sirven de especificación funcional si en el futuro se conectan a automatizaciones externas (n8n, Zapier, Make).
 
 Cada agente tiene: **misión, entradas, salidas, cadencia, y "no hacer"** (límites explícitos para proteger la voz y el posicionamiento de la marca).
 
@@ -313,7 +313,14 @@ Cada agente tiene: **misión, entradas, salidas, cadencia, y "no hacer"** (lími
 - **Cadencia**: bajo demanda, por vídeo.
 - **No hacer**: no usa urgencia falsa, titulares sensacionalistas sin sustancia, ni promete resultados que aún no han ocurrido; no publica sin pasar por el Agente 1.
 
-Las definiciones ejecutables de estos 11 agentes están en `.claude/agents/` en este repositorio (`director-marca.md`, `copywriter.md`, `investigador-mercado.md`, `consultor-precios.md`, `consultor-colecciones.md`, `crm-coleccionistas.md`, `asistente-clientes.md`, `marketing-distribucion.md`, `seo.md`, `analista.md`, `guionista-viral.md`).
+### Agente 12 — Outreach a Galerías
+- **Misión**: identificar galerías e instituciones relevantes, preparar el dossier/portfolio de contacto y redactar el primer mensaje de acercamiento — se activa cuando Gabriela decida empezar a buscar representación o espacios de exposición (`SERIE_DOCUMENTAL.md`, hito "buscar galerías").
+- **Entradas**: informe del Agente 3 (comparables, ferias/galerías relevantes), obra fotografiada, biografía y estatement ya confirmados.
+- **Salidas**: lista priorizada de 3-5 espacios objetivo con justificación concreta, dossier actualizado, borrador de mensaje de contacto.
+- **Cadencia**: bajo demanda, cuando exista una decisión real de buscar representación.
+- **No hacer**: no envía nada sin revisión de Gabriela; no infla ni inventa trayectoria expositiva; no negocia condiciones de representación o comisión de venta.
+
+Las definiciones ejecutables de estos 12 agentes están en `.claude/agents/` en este repositorio (`director-marca.md`, `copywriter.md`, `investigador-mercado.md`, `consultor-precios.md`, `consultor-colecciones.md`, `crm-coleccionistas.md`, `asistente-clientes.md`, `marketing-distribucion.md`, `seo.md`, `analista.md`, `guionista-viral.md`, `outreach-galerias.md`).
 
 ---
 

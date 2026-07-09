@@ -201,7 +201,7 @@ Ninguna decisión de negocio relevante se toma solo por intuición. Plantilla de
 
 ## Capítulo 10 — El ecosistema de agentes IA
 
-Once agentes, cada uno con un carril definido: Director de Marca (auditoría), Copywriter, Investigador de Mercado, Consultor de Precios, Consultor de Colecciones, CRM/Coleccionistas, Asistente de Clientes, Marketing/Distribución, SEO, Analista, y Guionista de Vídeo Viral (retención sin abaratar el posicionamiento — nunca urgencia falsa, nunca dramatizar, nunca inflar credenciales). Detalle completo de cada uno en `.claude/agents/` y `ESTRATEGIA_MAESTRA.md` §10.
+Doce agentes, cada uno con un carril definido: Director de Marca (auditoría), Copywriter, Investigador de Mercado, Consultor de Precios, Consultor de Colecciones, CRM/Coleccionistas, Asistente de Clientes, Marketing/Distribución, SEO, Analista, Guionista de Vídeo Viral (retención sin abaratar el posicionamiento — nunca urgencia falsa, nunca dramatizar, nunca inflar credenciales), y Outreach a Galerías (añadido julio 2026, cuando exista la decisión real de buscar representación — prepara dossier y primer contacto, nunca envía nada sin revisión de Gabriela ni infla trayectoria). Se evaluaron otros tres agentes candidatos (legal, financiero/contabilidad, vocabulario por mercado) y se descartaron por prematuros en esta etapa (dos obras, cero ventas) — quedan como candidatos futuros, no como agentes activos. Detalle completo de cada uno en `.claude/agents/` y `ESTRATEGIA_MAESTRA.md` §10.
 
 ---
 
