@@ -196,11 +196,13 @@ Esta plantilla la ejecuta `copywriter.md`; ningún dato de credibilidad se añad
 - Formación: Técnico Superior Universitario en Diseño Gráfico, mención Publicidad — Instituto Universitario de Tecnología Antonio José de Sucre (IUTAJS), Mérida, Venezuela.
 - Empezó a pintar a los 20 años (confirmado por Gabriela, julio 2026 — no se deriva de esto ningún año calendario concreto sin que ella lo confirme aparte).
 - Trayectoria expositiva (orden cronológico):
-  1. **2016** — I Festival Nacional de Muralismo, La Vela de Coro, Venezuela (bajo el nombre *eyesasdaggers*).
-  2. **2017** — SHE, festival de muralismo, Barrio Obrero, San Cristóbal, Venezuela (bajo el nombre *eyesasdaggers*). Año calculado a partir de "el año siguiente" al festival de 2016 y confirmado por la edad de Gabriela en ese momento (24 años) — no es una fecha que ella haya dado como cifra exacta, así que si alguna vez se cuestiona, se revalida con ella antes de imprimir de nuevo.
-  3. **2020** — Merkarte Joven, Museo Municipal de Bellas Artes de Santa Cruz de Tenerife.
+  1. **2016** — I Festival Nacional de Muralismo, La Vela de Coro, Venezuela.
+  2. **2017** — SHE, festival de muralismo, Barrio Obrero, San Cristóbal, Venezuela. Año calculado a partir de "el año siguiente" al festival de 2016 y confirmado por la edad de Gabriela en ese momento (24 años) — no es una fecha que ella haya dado como cifra exacta, así que si alguna vez se cuestiona, se revalida con ella antes de imprimir de nuevo.
+  3. **2020** — Merkarte Joven, Museo Municipal de Bellas Artes de Santa Cruz de Tenerife (bajo el pseudónimo *eyesasdaggers*).
 
-**Sobre el nombre artístico *eyesasdaggers***: Gabriela expuso bajo ese nombre en los dos festivales de muralismo (2016-2017), antes de la etapa actual de pintura de estudio bajo "Gabriela". Se mantiene en la trayectoria expositiva por precisión histórica (es el nombre real bajo el que ocurrió cada evento), pero no se usa como nombre de marca activo ni se destaca en la bio corta de una línea — la marca actual es "Gabriela" y el tono de *eyesasdaggers* (mural/calle) no es el que rige `BIBLIA_DEL_UNIVERSO.md` §5. Si Gabriela quiere reactivar o destacar ese nombre en algún contexto, es una decisión de marca explícita, no una asunción de este documento.
+**Corrección (julio 2026)**: una versión anterior de este documento asociaba *eyesasdaggers* a los dos festivales de muralismo (2016-2017). Gabriela confirmó que es incorrecto — **Merkarte Joven (2020) fue el único evento donde usó ese pseudónimo**; los dos festivales de muralismo fueron bajo su propio nombre.
+
+**Sobre el nombre artístico *eyesasdaggers***: Gabriela expuso bajo ese nombre únicamente en Merkarte Joven (2020), antes de la etapa actual de pintura de estudio bajo "Gabriela". Se mantiene en la trayectoria expositiva por precisión histórica, pero no se usa como nombre de marca activo ni se destaca en la bio corta de una línea — la marca actual es "Gabriela". Si Gabriela quiere reactivar o destacar ese nombre en algún contexto, es una decisión de marca explícita, no una asunción de este documento.
 
 Estos datos ya están confirmados por Gabriela y pueden usarse sin marcarlos como pendiente. Cualquier otro dato de trayectoria (más exposiciones, premios, representación) sigue sin existir hasta que ella lo confirme explícitamente — no se extrapola ni se asume a partir de estos.
 
