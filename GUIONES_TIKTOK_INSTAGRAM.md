@@ -1,6 +1,6 @@
 # Guiones TikTok / Instagram — primer lote
 
-*25 guiones en total: 22 listos para grabar ya, sin esperar a que pase nada más, más 3 que requieren preparación previa antes de grabar (nº 11, observación real; nº 17, experimento a anunciar; nº 25, falta el recuerdo real detrás del gancho). Todos parten de hechos reales de hoy — nada de dossiers enviados, respuestas de galerías o ventas, porque todavía no han ocurrido. Cuando ocurran de verdad, se añaden aquí como nuevos guiones (ver `SERIE_DOCUMENTAL.md`).*
+*25 guiones en total: 23 listos para grabar ya, sin esperar a que pase nada más, más 2 que requieren preparación previa antes de grabar (nº 11, observación real; nº 17, experimento a anunciar). Todos parten de hechos reales de hoy — nada de dossiers enviados, respuestas de galerías o ventas, porque todavía no han ocurrido. Cuando ocurran de verdad, se añaden aquí como nuevos guiones (ver `SERIE_DOCUMENTAL.md`).*
 
 **Formato técnico general**: vertical 9:16, 15-45 segundos la mayoría, subtítulos siempre (gran parte se ve sin sonido), hook en los primeros 1-2 segundos —sin intro de marca, sin cuenta atrás, directo a la frase. El texto en pantalla del primer segundo debe decir literalmente de qué va el vídeo — nadie debería tener que esperar 5 segundos para saberlo.
 
@@ -240,12 +240,13 @@
 - **Caption**: "No borré mi historia. Solo aprendí a contarla distinto."
 
 ### 25. Empecé a pintar a los 20 años
-**Pilar**: Diario · **Hook**: Proceso · **Estado**: 🔲 plantilla — falta el hecho real detrás del gancho
+**Pilar**: Diario · **Hook**: Proceso
 
-- **Por qué existe este guion**: dato confirmado por Gabriela (julio 2026), pero el gancho por sí solo no es una historia — falta lo que realmente pasó esa edad.
-- **Gancho** (confirmado): "Empecé a pintar a los 20 años."
-- **Beats**: 🔲 **Pendiente de Gabriela** — qué la llevó a empezar (¿decisión consciente, algo casual, un detonante concreto?), qué pintó primero, cómo se sintió → cierre conectando ese momento con quién es ahora. No se rellena con una historia de origen genérica solo porque suena bien — se graba cuando exista el recuerdo real que contar.
-- **Caption**: pendiente del mismo relleno que los beats.
+- **Por qué existe este guion**: dato y motivo confirmados por Gabriela (julio 2026) — conecta directamente con su formación real ya documentada (Técnico Superior en Diseño Gráfico, IUTAJS, `BIBLIA_DEL_UNIVERSO.md` §5).
+- **Gancho**: "Empecé a pintar a los 20 años. No fue una decisión — fue una tarea de clase."
+- **Beats**: estudiaba diseño gráfico → una clase de taller pedía probar distintos materiales → así llegó a la pintura, no porque ya quisiera ser pintora → lo que empezó como una obligación de la carrera se quedó, y no ha parado desde entonces → cierre conectando ese origen casual con la disciplina real que es hoy (Hábitats, acrílico, un método repetible).
+- **Nota**: no dramatizar el origen ni convertirlo en un "momento eureka" que no fue — la fuerza real de esta historia es justo que empezó sin intención, no a pesar de eso.
+- **Caption**: "No decidí ser pintora un día. Empezó como una tarea de clase: probar materiales. Nunca dejé de probar."
 
 ---
 
