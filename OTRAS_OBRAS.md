@@ -27,6 +27,7 @@
 - **Técnica**: aparenta pintura acrílica sobre lienzo, a falta de confirmación de Gabriela.
 - **Título, medidas, fecha, materiales exactos**: **Pendiente** — no se inventan.
 - **Estado**: en proceso, según indicó Gabriela al compartirla (julio 2026).
+- **Documentación de proceso real**: existen dos fotos de esta misma pieza en distintas etapas — una más temprana (3 de junio, formas bloqueadas en azul, sin textura de pelaje, ropa interior lisa sin estampado) y una más avanzada (pelaje detallado, estampado de lunares ya pintado). Guardadas en `assets/img/otras-obras/proceso-pieza-02/`. Es el tipo de material de "antes/durante/después" que `GUIONES_TIKTOK_INSTAGRAM.md` marca como pendiente hasta que exista de verdad — aquí ya existe, pero **no se usa en los canales de Hábitats** (ver sección "Cómo puedes usarlas" abajo); queda documentado para si en algún momento se activa un espacio propio para este cuerpo de trabajo.
 
 Ambas piezas comparten un fondo azul con pinceladas visibles y un tratamiento de "halo" alrededor de la figura central — es una observación visual, no una afirmación de que pertenezcan a una serie con nombre; eso lo decide Gabriela si quiere darle un nombre a este cuerpo de trabajo.
 
