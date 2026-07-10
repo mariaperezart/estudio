@@ -1,6 +1,6 @@
 # Guiones TikTok / Instagram — primer lote
 
-*25 guiones en total: 23 listos para grabar ya, sin esperar a que pase nada más, más 2 que requieren preparación previa antes de grabar (nº 11, observación real; nº 17, experimento a anunciar). Todos parten de hechos reales de hoy — nada de dossiers enviados, respuestas de galerías o ventas, porque todavía no han ocurrido. Cuando ocurran de verdad, se añaden aquí como nuevos guiones (ver `SERIE_DOCUMENTAL.md`).*
+*26 guiones en total: 24 listos para grabar ya, sin esperar a que pase nada más, más 2 que requieren preparación previa antes de grabar (nº 11, observación real; nº 17, experimento a anunciar). Todos parten de hechos reales de hoy — nada de dossiers enviados, respuestas de galerías o ventas, porque todavía no han ocurrido. Cuando ocurran de verdad, se añaden aquí como nuevos guiones (ver `SERIE_DOCUMENTAL.md`).*
 
 **Formato técnico general**: vertical 9:16, 15-45 segundos la mayoría, subtítulos siempre (gran parte se ve sin sonido), hook en los primeros 1-2 segundos —sin intro de marca, sin cuenta atrás, directo a la frase. El texto en pantalla del primer segundo debe decir literalmente de qué va el vídeo — nadie debería tener que esperar 5 segundos para saberlo.
 
@@ -247,6 +247,15 @@
 - **Beats**: estudiaba diseño gráfico → una clase de taller pedía probar distintos materiales → así llegó a la pintura, no porque ya quisiera ser pintora → lo que empezó como una obligación de la carrera se quedó, y no ha parado desde entonces → cierre conectando ese origen casual con la disciplina real que es hoy (Hábitats, acrílico, un método repetible).
 - **Nota**: no dramatizar el origen ni convertirlo en un "momento eureka" que no fue — la fuerza real de esta historia es justo que empezó sin intención, no a pesar de eso.
 - **Caption**: "No decidí ser pintora un día. Empezó como una tarea de clase: probar materiales. Nunca dejé de probar."
+
+### 26. Antes de pintar en un lienzo, pinté paredes
+**Pilar**: Diario · **Hook**: Archivo real
+
+- **Por qué existe este guion**: material de archivo real que Gabriela compartió — fotos del proceso, el mural terminado, el afiche oficial y la lista de participantes del I Festival Nacional de Muralismo (30-31 julio 2016, La Vela, Falcón, Venezuela, organizado por EntreLocos Escuelita de Arte). Ya integrado como evidencia fotográfica en `el-universo/index.html` y confirmado en `BIBLIA_DEL_UNIVERSO.md` §5.
+- **Gancho**: "Antes de pintar en un lienzo, pinté paredes." (sobre el B-roll real del mural terminado)
+- **Beats**: muestra el afiche oficial del festival → fotos del proceso pintando el mural (B-roll real) → el mural terminado, plano completo → "Esto fue 2016 — años antes de Hábitats" → cierre conectando con el lenguaje visual de hoy (abstracción, campo de color), sin decir que uno "llevó" al otro si no es un hecho confirmado.
+- **Nota**: no inventar una línea narrativa de "de ahí nació mi estilo actual" — el mural es figurativo/callejero, Hábitats es abstracto; son etapas reales pero distintas, no se fuerza una continuidad que Gabriela no ha confirmado. Tampoco se menciona ningún pseudónimo aquí — este festival fue bajo su propio nombre (`BIBLIA_DEL_UNIVERSO.md` §5, corrección julio 2026).
+- **Caption**: "2016. Antes de Umbral, antes de Hábitats — pintaba murales. Este es uno de ellos."
 
 ---
 
