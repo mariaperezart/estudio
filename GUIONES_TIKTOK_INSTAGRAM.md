@@ -32,7 +32,7 @@
 **Pilar**: Descubrimiento · **Hook**: Proceso
 
 - **Gancho**: "Durante años encontraba una razón para no volver al lienzo."
-- **Beats**: qué cambió (deja de posponerlo, compra los lienzos sin plan) → conecta con Manifiesto §2 ("necesitaba comprender un mundo que sentía complejo, lleno de detalles que otras personas parecen pasar por alto") → cierre en calma, sin resolverlo del todo.
+- **Beats**: qué cambió (deja de posponerlo, compra los lienzos sin plan) → conecta con Manifiesto §2 ("necesitaba comprender un mundo que sentía complejo, lleno de detalles que otras personas parecen pasar por alto") → **último plano**: los lienzos nuevos, sin usar todavía, apoyados en la pared — corta ahí, sin resolver la idea del todo.
 - **Caption**: "No fue un plan. Fue dejar de esperar el momento perfecto."
 
 ---
@@ -110,7 +110,7 @@
 **Pilar**: Conexión · **Hook**: Proceso
 
 - **Gancho**: "Esto no es un estudio de galería. Es un rincón de mi casa."
-- **Beats**: plano del espacio real donde trabajas → por qué eso no es un problema para tomarte esto en serio → conecta con la idea de "comportarse como profesional antes de que el mercado te trate como uno" (sistemas, documentación, certificados) sin necesitar un espacio grande todavía.
+- **Beats**: plano del espacio real donde trabajas → por qué eso no es un problema para tomarte esto en serio → conecta con la idea de "comportarse como profesional antes de que el mercado te trate como uno" (sistemas, documentación, certificados) sin necesitar un espacio grande todavía → **último plano**: vuelve al mismo encuadre inicial del rincón, ahora con la obra en curso visible — corta ahí.
 - **Caption**: "No vas a ver un estudio de revista. Vas a ver el proceso real."
 
 ---
