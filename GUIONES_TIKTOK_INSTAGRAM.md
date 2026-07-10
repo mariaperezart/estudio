@@ -6,6 +6,15 @@
 
 **Variedad visual**: no los grabes todos hablando a cámara. Alterna con voz en off sobre planos de proceso, time-lapse pintando, capturas de pantalla de la web/dossier, planos detalle de las obras (`SERIE_DOCUMENTAL.md` §10).
 
+**Disciplina de edición (incorporado julio 2026, del sistema de Jenny Hoyos — solo el craft, no las tácticas de gancho emocional fabricado, ver nota abajo):**
+- **Diseña desde el final.** Antes de grabar, ten claro el último plano y la última frase — el resto del guion se construye hacia ahí, no al revés.
+- **Coste por segundo.** Cada segundo que no aporta al gancho, la historia o el cierre, se corta. Ningún vídeo se alarga "porque ya se grabó".
+- **El vídeo termina justo después del payoff.** Sin despedida larga, sin relleno de cierre — el pago emocional o informativo es la última nota.
+- **El primer fotograma es el gancho visual, no solo el verbal.** Antes de escribir la frase de apertura, pregúntate si la imagen sola —sin texto ni sonido— ya genera una pausa.
+- **Escribe simple.** Si una frase puede decirse con menos palabras, no está terminada.
+
+**Límite explícito**: este mismo sistema incluye tácticas de gancho basadas en autodesprecio o drama personal fabricado (p. ej. "mis dos cuadros parecían un hobby") — **esas no se usan en Hábitats**, chocan con la voz sin urgencia y sin autodesprecio de `MANUAL_DE_MARCA.md`. Solo se adoptaría con confirmación explícita y separada de Gabriela, nunca por defecto.
+
 ---
 
 ### 1. Tengo dos pinturas nuevas — y una carrera que no empieza hoy
