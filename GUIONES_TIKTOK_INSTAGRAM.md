@@ -268,6 +268,17 @@
 
 ---
 
+### 27. Fui a ver la exposición de Yoko Ono en el MUSAC
+**Pilar**: Investigación · **Hook**: Investigación · **Estado**: 🔲 plantilla — completar con la reflexión real antes de grabar
+
+- **Por qué existe este guion**: MUSAC es una de las 5 instituciones que Gabriela sigue desde @mariagperezs como parte del outreach real (`OUTREACH_GALERIAS.md`) — visitar una exposición ahí conecta investigación de mercado con experiencia real, no son dos cosas separadas. Confirmado por Gabriela (julio 2026): vio la exposición de Yoko Ono, le gustó bastante.
+- **Gancho**: "Fui a ver la exposición de Yoko Ono en el MUSAC." (sobre B-roll real de la visita, si existe foto/vídeo)
+- **Beats**: qué viste → 🔲 **pendiente**: qué pieza o momento concreto te hizo pensar, y en qué conecta con tu propia obra o con alguna pregunta de tu proceso (Manifiesto §1-2) — sin este dato real, el guion no se graba.
+- **Nota**: no se rellena con una reflexión genérica tipo "me inspiró mucho" — el valor de este guion está en la conexión concreta con tu propio trabajo, igual que el resto de la serie no dramatiza ni inventa una anécdota.
+- **Caption**: pendiente hasta tener la reflexión real.
+
+---
+
 ## Sistema de ángulos: multiplicar el contenido de cada obra sin repetirte
 
 Corrección real al balance actual: de los 23 guiones de arriba, solo el 4 y el 11 profundizan en una obra concreta — el resto es carrera/negocio. Con solo Umbral y Habitar, una misma pieza puede dar varios vídeos distintos si cada uno revela un ángulo distinto, en vez de repetir "aquí está mi cuadro". **Ninguno de estos es un guion terminado** — cada uno necesita el recuerdo o la decisión real de Gabriela para esa obra específica antes de grabarse; escribir una anécdota plausible pero no confirmada ("estuve a punto de arruinarlo", "descarté veinte colores") sería inventar un dato, igual que cualquier otra fabricación que este sistema ya rechaza.
