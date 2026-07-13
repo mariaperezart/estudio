@@ -279,6 +279,17 @@
 
 ---
 
+### 28. El laberinto donde nunca llegué al centro
+**Pilar**: Investigación · **Hook**: Investigación
+
+- **Por qué existe este guion**: misma visita al MUSAC que el guion 27 (`OUTREACH_GALERIAS.md`), otra pieza de Yoko Ono: *Amaze*, un laberinto de paneles de metacrilato transparente. Confirmado por Gabriela: le hizo sentir perdida y desorientada, y no llegó al centro.
+- **Gancho**: "Entré en un laberinto transparente. Podía ver todo a través del cristal. Aun así, nunca llegué al centro." (sobre B-roll real de *Amaze*)
+- **Beats**: muestra el laberinto, alguien moviéndose dentro → la sensación real: perdida, desorientada, a pesar de que el cristal deja ver todo → no llegar al centro no se resuelve ni se reencuadra como logro escondido → conecta con la tensión central de Hábitats: "el umbral, no la llegada ni la partida" (`BIBLIA_DEL_UNIVERSO.md` §3) — la pieza la deja exactamente ahí, en el medio, sin resolver.
+- **Nota**: no inventar que "al final encontró algo" o que la desorientación se convirtió en calma — Gabriela confirmó que no llegó al centro; el guion se queda con eso, no lo suaviza.
+- **Caption**: "No llegué al centro del laberinto. Podía ver todo a través del cristal, y aun así me perdí. Creo que ahí está la pieza."
+
+---
+
 ## Sistema de ángulos: multiplicar el contenido de cada obra sin repetirte
 
 Corrección real al balance actual: de los 23 guiones de arriba, solo el 4 y el 11 profundizan en una obra concreta — el resto es carrera/negocio. Con solo Umbral y Habitar, una misma pieza puede dar varios vídeos distintos si cada uno revela un ángulo distinto, en vez de repetir "aquí está mi cuadro". **Ninguno de estos es un guion terminado** — cada uno necesita el recuerdo o la decisión real de Gabriela para esa obra específica antes de grabarse; escribir una anécdota plausible pero no confirmada ("estuve a punto de arruinarlo", "descarté veinte colores") sería inventar un dato, igual que cualquier otra fabricación que este sistema ya rechaza.
