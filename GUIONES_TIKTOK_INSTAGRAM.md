@@ -268,14 +268,14 @@
 
 ---
 
-### 27. Fui a ver la exposición de Yoko Ono en el MUSAC
-**Pilar**: Investigación · **Hook**: Investigación · **Estado**: 🔲 plantilla — completar con la reflexión real antes de grabar
+### 27. El mapa de Yoko Ono que parecía un charco de sangre
+**Pilar**: Investigación · **Hook**: Investigación
 
-- **Por qué existe este guion**: MUSAC es una de las 5 instituciones que Gabriela sigue desde @mariagperezs como parte del outreach real (`OUTREACH_GALERIAS.md`) — visitar una exposición ahí conecta investigación de mercado con experiencia real, no son dos cosas separadas. Confirmado por Gabriela (julio 2026): vio la exposición de Yoko Ono, le gustó bastante.
-- **Gancho**: "Fui a ver la exposición de Yoko Ono en el MUSAC." (sobre B-roll real de la visita, si existe foto/vídeo)
-- **Beats**: qué viste → 🔲 **pendiente**: qué pieza o momento concreto te hizo pensar, y en qué conecta con tu propia obra o con alguna pregunta de tu proceso (Manifiesto §1-2) — sin este dato real, el guion no se graba.
-- **Nota**: no se rellena con una reflexión genérica tipo "me inspiró mucho" — el valor de este guion está en la conexión concreta con tu propio trabajo, igual que el resto de la serie no dramatiza ni inventa una anécdota.
-- **Caption**: pendiente hasta tener la reflexión real.
+- **Por qué existe este guion**: MUSAC es una de las 5 instituciones que Gabriela sigue desde @mariagperezs como parte del outreach real (`OUTREACH_GALERIAS.md`) — visitar una exposición ahí conecta investigación de mercado con experiencia real. Confirmado por Gabriela (julio 2026): vio la exposición de Yoko Ono en el MUSAC. La pieza real que le hizo pensar fue *Imagine Peace Map* — un mapa cubierto de sellos repetidos de "Imagine Peace"/"Imagina la paz", donde la tinta acumulada en algunas zonas termina pareciendo un charco de sangre, no un mensaje de paz.
+- **Gancho**: "Un mapa lleno de sellos que dicen 'Imagine Peace'. En el centro, la tinta se acumuló hasta parecer un charco de sangre." (sobre B-roll real de la pieza, plano del centro del mapa)
+- **Beats**: muestra el mapa completo, luego el detalle de la zona más saturada de tinta → la contradicción: cientos de personas repitiendo un mensaje de paz terminan generando, sin querer, una imagen de violencia → esto no se resuelve ni se explica del todo — conecta directo con el propio Manifiesto de Gabriela ("no todo necesita resolverse. La incertidumbre también puede ser un lugar donde vivir", §4) → cierre sin cerrar la idea: la contradicción se queda ahí, no se soluciona en el vídeo.
+- **Nota**: la observación (el charco de sangre) es de Gabriela, no una interpretación añadida — no se dramatiza más allá de lo que ella describió.
+- **Caption**: "Un mensaje de paz, repetido tantas veces que empieza a parecer lo contrario. No sé qué pensar de eso todavía — y creo que esa es la parte que más me interesa."
 
 ---
 
