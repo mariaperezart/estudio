@@ -50,18 +50,27 @@
 
   <section class="reveal">
     <div class="container">
-      <form action="https://formspree.io/f/TU_ID_DE_FORMSPREE" method="POST" data-pending-notice>
+      <div data-fs-success style="display:none; padding:var(--space-3); background-color:rgba(76,175,80,0.1); border-left:3px solid #4caf50; margin-bottom:var(--space-3); color:#2e7d32;">
+        <p><strong>Mensaje enviado.</strong> Respondo personalmente, normalmente en menos de 48 horas.</p>
+      </div>
+      <div data-fs-error style="display:none; padding:var(--space-3); background-color:rgba(244,67,54,0.1); border-left:3px solid #f44336; margin-bottom:var(--space-3); color:#c62828;">
+        <p><strong>Error al enviar.</strong> <span data-fs-error="form"></span></p>
+      </div>
+
+      <form id="contacto-form">
         <div class="field">
           <label for="nombre">Nombre</label>
-          <input type="text" id="nombre" name="nombre" required>
+          <input type="text" id="nombre" name="nombre" data-fs-field required>
+          <span data-fs-error="nombre" style="display:none; color:#c62828; font-size:0.875rem;"></span>
         </div>
         <div class="field">
           <label for="email">Correo electrónico</label>
-          <input type="email" id="email" name="email" required>
+          <input type="email" id="email" name="email" data-fs-field required>
+          <span data-fs-error="email" style="display:none; color:#c62828; font-size:0.875rem;"></span>
         </div>
         <div class="field">
           <label for="asunto">Asunto</label>
-          <select id="asunto" name="asunto">
+          <select id="asunto" name="asunto" data-fs-field>
             <option>Una obra de la galería</option>
             <option>Una comisión</option>
             <option>Prensa o colaboración</option>
@@ -70,10 +79,10 @@
         </div>
         <div class="field">
           <label for="mensaje">Mensaje</label>
-          <textarea id="mensaje" name="mensaje" required></textarea>
+          <textarea id="mensaje" name="mensaje" data-fs-field required></textarea>
+          <span data-fs-error="mensaje" style="display:none; color:#c62828; font-size:0.875rem;"></span>
         </div>
-        <button type="submit" class="btn">Enviar mensaje</button>
-        <p class="form-note">Formulario pendiente de conectar — sustituir TU_ID_DE_FORMSPREE por el endpoint real de Formspree.</p>
+        <button type="submit" class="btn" data-fs-submit-btn>Enviar mensaje</button>
       </form>
     </div>
   </section>
@@ -112,5 +121,10 @@
   </div>
 </footer>
 <script src="assets/js/main.js"></script>
+<script>
+  window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+  formspree('initForm', { formElement: '#contacto-form', formId: 'xwvgrvan' });
+</script>
+<script src="https://unpkg.com/@formspree/ajax@1" defer></script>
 </body>
 </html>
