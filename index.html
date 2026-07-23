@@ -1,1424 +1,177 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es-ES">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gabriela — Obras que se habitan</title>
-  <meta name="description" content="Gabriela crea mundos que invitan a ser habitados. Obras originales, colecciones limitadas y comisiones por aplicación.">
-  <meta property="og:title" content="Gabriela — Obras que se habitan">
-  <meta property="og:description" content="No pinto para explicar el mundo. Pinto porque nunca he podido verlo de una sola manera.">
-  <style>
-    :root {
-      --primary: #1a1a1a;
-      --text: #2a2a2a;
-      --border: #e5e5e5;
-      --bg-alt: #fafaf8;
-      --accent: #d4a574;
-      --space-1: 0.5rem;
-      --space-2: 1rem;
-      --space-3: 1.5rem;
-      --space-4: 2rem;
-      --space-5: 3rem;
-      --space-6: 4rem;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-      line-height: 1.6;
-      color: var(--text);
-      background: #fff;
-      overflow-x: hidden;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    /* Skip link */
-    .skip-link {
-      position: absolute;
-      top: -40px;
-      left: 0;
-      background: var(--primary);
-      color: white;
-      padding: var(--space-2);
-      z-index: 100;
-      text-decoration: none;
-    }
-
-    .skip-link:focus {
-      top: 0;
-    }
-
-    /* Header & Navigation */
-    .site-header {
-      position: sticky;
-      top: 0;
-      z-index: 50;
-      background: white;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .site-header__inner {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      max-width: 1400px;
-      margin: 0 auto;
-      padding: var(--space-4) var(--space-3);
-    }
-
-    .brand {
-      font-size: 1.5rem;
-      font-weight: 300;
-      letter-spacing: -0.5px;
-      text-decoration: none;
-      color: var(--primary);
-      cursor: pointer;
-    }
-
-    .brand span {
-      font-weight: 500;
-    }
-
-    .nav {
-      display: flex;
-      align-items: center;
-      gap: var(--space-5);
-    }
-
-    .nav__toggle {
-      display: none;
-      background: none;
-      border: none;
-      cursor: pointer;
-      flex-direction: column;
-      gap: 6px;
-    }
-
-    .nav__toggle span {
-      width: 24px;
-      height: 2px;
-      background: var(--primary);
-      transition: all 0.3s ease;
-    }
-
-    .nav__links {
-      display: flex;
-      list-style: none;
-      gap: var(--space-5);
-    }
-
-    .nav__links a {
-      text-decoration: none;
-      color: var(--primary);
-      font-size: 1rem;
-      font-weight: 400;
-      cursor: pointer;
-      transition: opacity 0.3s ease;
-    }
-
-    .nav__links a:hover {
-      opacity: 0.6;
-    }
-
-    .nav__links a[aria-current="page"] {
-      border-bottom: 2px solid var(--primary);
-    }
-
-    .nav__cta {
-      padding: var(--space-2) var(--space-4);
-      background: var(--primary);
-      color: white;
-      text-decoration: none;
-      font-size: 0.95rem;
-      transition: all 0.3s ease;
-      cursor: pointer;
-    }
-
-    .nav__cta:hover {
-      background: #333;
-    }
-
-    /* Container & Grid */
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 var(--space-3);
-    }
-
-    .grid {
-      display: grid;
-      gap: var(--space-5);
-    }
-
-    .grid--2 {
-      grid-template-columns: 1fr 1fr;
-    }
-
-    .grid--3 {
-      grid-template-columns: repeat(3, 1fr);
-    }
-
-    .grid--4 {
-      grid-template-columns: repeat(4, 1fr);
-    }
-
-    gap-5 {
-      gap: var(--space-5) !important;
-    }
-
-    /* Sections */
-    section {
-      padding: var(--space-6) 0;
-    }
-
-    .section--alt {
-      background: var(--bg-alt);
-    }
-
-    /* Hero */
-    .hero {
-      position: relative;
-      min-height: 60vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: var(--space-6) var(--space-3);
-      overflow: hidden;
-    }
-
-    .hero__scrim {
-      position: absolute;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.1);
-    }
-
-    .hero__content {
-      position: relative;
-      z-index: 2;
-      text-align: center;
-      max-width: 800px;
-    }
-
-    .hero h1 {
-      font-size: 3.5rem;
-      line-height: 1.2;
-      margin: var(--space-4) 0;
-      font-weight: 300;
-    }
-
-    .eyebrow {
-      display: inline-block;
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: #777;
-      margin-bottom: var(--space-3);
-    }
-
-    /* Typography */
-    h1, h2, h3, h4 {
-      font-weight: 300;
-      line-height: 1.3;
-    }
-
-    h2 {
-      font-size: 2.2rem;
-      margin: var(--space-3) 0;
-    }
-
-    h3 {
-      font-size: 1.5rem;
-      margin: var(--space-2) 0;
-    }
-
-    .prose {
-      font-size: 1.1rem;
-      line-height: 1.8;
-      color: #555;
-    }
-
-    .prose p + p {
-      margin-top: var(--space-3);
-    }
-
-    .text-muted {
-      color: #777;
-      font-size: 1rem;
-    }
-
-    .text-italic {
-      font-style: italic;
-    }
-
-    .max-w-520 {
-      max-width: 520px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    /* Utilities */
-    .mt-0 { margin-top: 0; }
-    .mt-1 { margin-top: var(--space-1); }
-    .mt-2 { margin-top: var(--space-2); }
-    .mt-3 { margin-top: var(--space-3); }
-    .mt-4 { margin-top: var(--space-4); }
-    .mt-5 { margin-top: var(--space-5); }
-    .mt-6 { margin-top: var(--space-6); }
-
-    .mb-0 { margin-bottom: 0; }
-    .mb-1 { margin-bottom: var(--space-1); }
-    .mb-2 { margin-bottom: var(--space-2); }
-    .mb-3 { margin-bottom: var(--space-3); }
-
-    /* Buttons */
-    .btn, button {
-      padding: var(--space-2) var(--space-4);
-      background: var(--primary);
-      color: white;
-      border: none;
-      cursor: pointer;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 1rem;
-      font-family: inherit;
-      transition: all 0.3s ease;
-      border: 2px solid var(--primary);
-    }
-
-    .btn:hover {
-      background: white;
-      color: var(--primary);
-    }
-
-    .btn--quiet {
-      background: none;
-      color: var(--primary);
-      border: none;
-      padding: 0;
-      text-decoration: none;
-    }
-
-    .btn--quiet:hover {
-      text-decoration: underline;
-    }
-
-    /* Images */
-    .img-cover {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-      display: block;
-    }
-
-    /* Artwork Card */
-    .artwork-card {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .artwork-card__img {
-      width: 100%;
-      height: 400px;
-      overflow: hidden;
-      margin-bottom: var(--space-3);
-      background: var(--bg-alt);
-      cursor: pointer;
-    }
-
-    .artwork-card__img img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform 0.3s ease;
-    }
-
-    .artwork-card:hover .artwork-card__img img {
-      transform: scale(1.05);
-    }
-
-    .artwork-card__title {
-      font-size: 1.3rem;
-      margin: var(--space-2) 0;
-    }
-
-    .artwork-card__meta {
-      color: #999;
-      font-size: 0.95rem;
-    }
-
-    /* Forms */
-    .field {
-      margin-bottom: var(--space-3);
-    }
-
-    .field label {
-      display: block;
-      margin-bottom: var(--space-1);
-      font-size: 0.95rem;
-      font-weight: 400;
-    }
-
-    .field input,
-    .field textarea {
-      width: 100%;
-      padding: var(--space-2);
-      border: 1px solid var(--border);
-      font-family: inherit;
-      font-size: 1rem;
-    }
-
-    .field textarea {
-      min-height: 150px;
-      resize: vertical;
-    }
-
-    .form-note {
-      color: #999;
-      font-size: 0.9rem;
-      font-style: italic;
-    }
-
-    .newsletter {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: var(--space-2);
-      max-width: 600px;
-      margin-top: var(--space-4);
-    }
-
-    .newsletter .field {
-      margin-bottom: 0;
-    }
-
-    .newsletter button {
-      align-self: flex-end;
-    }
-
-    /* Footer */
-    .site-footer {
-      background: var(--bg-alt);
-      border-top: 1px solid var(--border);
-      padding: var(--space-6) 0;
-      margin-top: var(--space-6);
-    }
-
-    .site-footer__grid {
-      display: grid;
-      grid-template-columns: 2fr 1fr 1fr;
-      gap: var(--space-5);
-      margin-bottom: var(--space-5);
-    }
-
-    .site-footer h4 {
-      font-size: 1rem;
-      margin-bottom: var(--space-2);
-    }
-
-    .site-footer ul {
-      list-style: none;
-    }
-
-    .site-footer ul li {
-      margin-bottom: var(--space-2);
-    }
-
-    .site-footer a {
-      color: var(--text);
-      text-decoration: none;
-    }
-
-    .site-footer a:hover {
-      text-decoration: underline;
-    }
-
-    .site-footer__base {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 0.9rem;
-      color: #999;
-      border-top: 1px solid var(--border);
-      padding-top: var(--space-4);
-    }
-
-    /* Carousel */
-    .carousel {
-      position: relative;
-      overflow: hidden;
-      background: var(--bg-alt);
-      padding: var(--space-4);
-    }
-
-    .carousel__track {
-      display: flex;
-      transition: transform 0.5s ease;
-    }
-
-    .carousel__slide {
-      min-width: 100%;
-      flex-shrink: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 300px;
-      text-align: center;
-    }
-
-    .carousel__slide-img {
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      margin-bottom: var(--space-3);
-      background: linear-gradient(135deg, #f5f1e8 0%, #e8dcc8 100%);
-    }
-
-    .carousel__controls {
-      display: flex;
-      justify-content: center;
-      gap: var(--space-2);
-      margin-top: var(--space-4);
-    }
-
-    .carousel__btn {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background: white;
-      border: 2px solid var(--primary);
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: bold;
-      transition: all 0.3s ease;
-    }
-
-    .carousel__btn:hover {
-      background: var(--primary);
-      color: white;
-    }
-
-    /* Modal */
-    .modal {
-      display: none;
-      position: fixed;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.8);
-      z-index: 100;
-      align-items: center;
-      justify-content: center;
-      padding: var(--space-3);
-    }
-
-    .modal.active {
-      display: flex;
-    }
-
-    .modal__content {
-      background: white;
-      max-width: 900px;
-      width: 100%;
-      max-height: 90vh;
-      overflow-y: auto;
-      position: relative;
-    }
-
-    .modal__close {
-      position: absolute;
-      top: var(--space-3);
-      right: var(--space-3);
-      background: white;
-      border: none;
-      font-size: 1.5rem;
-      cursor: pointer;
-      width: 40px;
-      height: 40px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .modal__body {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: var(--space-5);
-      padding: var(--space-5);
-    }
-
-    .modal__image {
-      width: 100%;
-      height: 500px;
-      background: linear-gradient(135deg, #f5f1e8 0%, #e8dcc8 100%);
-      border-radius: 8px;
-    }
-
-    .modal__info h2 {
-      margin-top: 0;
-    }
-
-    .modal__meta {
-      display: grid;
-      gap: var(--space-2);
-      margin: var(--space-4) 0;
-    }
-
-    .modal__meta-item {
-      display: flex;
-      justify-content: space-between;
-      padding-bottom: var(--space-2);
-      border-bottom: 1px solid var(--border);
-    }
-
-    .modal__meta-label {
-      color: #999;
-      font-weight: 400;
-    }
-
-    .modal__meta-value {
-      font-weight: 500;
-    }
-
-    /* Page sections */
-    .page {
-      display: none;
-    }
-
-    .page.active {
-      display: block;
-    }
-
-    /* Reveal animation */
-    .reveal {
-      animation: fadeIn 0.6s ease-out;
-    }
-
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 0;
-        transform: translateY(0);
-      }
-    }
-
-    /* Texture carousel images */
-    .texture-sample {
-      width: 100%;
-      height: 200px;
-      border-radius: 8px;
-      margin-bottom: var(--space-2);
-    }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-      .site-header__inner {
-        padding: var(--space-3) var(--space-2);
-      }
-
-      .nav {
-        flex-direction: column;
-        gap: var(--space-3);
-      }
-
-      .nav__toggle {
-        display: flex;
-      }
-
-      .nav__links {
-        display: none;
-        flex-direction: column;
-        gap: var(--space-2);
-        width: 100%;
-      }
-
-      .nav__links.active {
-        display: flex;
-      }
-
-      .nav__cta {
-        display: none;
-      }
-
-      .grid--2,
-      .grid--3,
-      .grid--4 {
-        grid-template-columns: 1fr;
-      }
-
-      .hero h1 {
-        font-size: 2.5rem;
-      }
-
-      h2 {
-        font-size: 1.8rem;
-      }
-
-      .site-footer__grid {
-        grid-template-columns: 1fr;
-      }
-
-      .newsletter {
-        grid-template-columns: 1fr;
-      }
-
-      .newsletter button {
-        align-self: auto;
-      }
-
-      .modal__body {
-        grid-template-columns: 1fr;
-        padding: var(--space-3);
-      }
-
-      .modal__image {
-        height: 300px;
-      }
-
-      .site-footer__base {
-        flex-direction: column;
-        gap: var(--space-2);
-        text-align: center;
-      }
-    }
-
-    /* Status message */
-    .status-message {
-      position: fixed;
-      top: 100px;
-      right: 20px;
-      background: var(--primary);
-      color: white;
-      padding: var(--space-3);
-      border-radius: 4px;
-      max-width: 300px;
-      z-index: 200;
-      animation: slideIn 0.3s ease;
-    }
-
-    @keyframes slideIn {
-      from {
-        transform: translateX(400px);
-        opacity: 0;
-      }
-      to {
-        transform: translateX(0);
-        opacity: 1;
-      }
-    }
-
-    .status-message.success {
-      background: #4caf50;
-    }
-
-    .status-message.error {
-      background: #f44336;
-    }
-  </style>
+<meta charset="UTF-8">
+<base href="/estudio/">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gabriela — Obras que se habitan</title>
+<meta name="description" content="Gabriela crea mundos que invitan a ser habitados. Obras originales, colecciones limitadas y comisiones por aplicación.">
+<meta property="og:title" content="Gabriela — Obras que se habitan">
+<meta property="og:description" content="No pinto para explicar el mundo. Pinto porque nunca he podido verlo de una sola manera.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="canonical" href="https://mariaperezart.github.io/estudio/">
+<meta property="og:url" content="https://mariaperezart.github.io/estudio/">
+<meta property="og:image" content="https://mariaperezart.github.io/estudio/assets/img/obras/umbral/hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
-  <a class="skip-link" href="#main-content">Saltar al contenido</a>
+<a class="skip-link" href="#main-content">Saltar al contenido</a>
 
-  <header class="site-header">
-    <div class="site-header__inner">
-      <a class="brand" onclick="navigateTo('inicio')">Gabriela<span>.</span></a>
-      <nav class="nav">
-        <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <ul class="nav__links">
-          <li><a onclick="navigateTo('inicio')">Inicio</a></li>
-          <li><a onclick="navigateTo('obras')">Obras</a></li>
-          <li><a onclick="navigateTo('colecciones')">Colecciones</a></li>
-          <li><a onclick="navigateTo('comisiones')">Comisiones</a></li>
-          <li><a onclick="navigateTo('como-miro')">Cómo miro</a></li>
-          <li><a onclick="navigateTo('blog')">Blog</a></li>
-          <li><a onclick="navigateTo('contacto')">Contacto</a></li>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="./" class="brand">Gabriela<span>.</span></a>
+    <nav class="nav">
+      <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav__links">
+        <li><a href="./" aria-current="page">Inicio</a></li>
+        <li><a href="obras/">Obras</a></li>
+        <li><a href="comisiones/">Comisiones</a></li>
+        <li><a href="el-universo/">El Universo</a></li>
+        <li><a href="colecciones/">Colecciones</a></li>
+      </ul>
+      <a href="colecciones/" class="nav__cta">Ver disponibilidad</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+
+  <section class="hero" style="background-color:#EFEAE0;">
+    <div class="hero__scrim"></div>
+    <div class="hero__content">
+      <span class="eyebrow">Colección activa — Hábitats</span>
+      <h1>Mundos que invitan<br>a ser habitados.</h1>
+      <p class="prose max-w-520" style="font-size:1.1rem;">No pinto para explicar el mundo. Pinto porque nunca he podido verlo de una sola manera.</p>
+      <p class="mt-3"><a href="colecciones/habitats/" class="btn" style="border-color:#F6F3ED;">Ver la colección actual</a></p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container grid grid--2 reveal">
+      <a href="obras/umbral/"><img class="img-cover" src="assets/img/obras/umbral/hero.jpg" loading="lazy" width="986" height="488" alt="Umbral — pintura en degradado de crudo cálido a rojo"></a>
+      <div>
+        <span class="eyebrow">Colección Hábitats</span>
+        <h2>Umbral</h2>
+        <p class="text-muted">Esta obra nace de la idea de que todo espacio puede convertirse en un lugar para detenerse. A través de la materia y el color, busca abrir un territorio de contemplación donde cada persona pueda construir su propia experiencia.</p>
+        <p><a href="obras/umbral/" class="btn--quiet">Ver la ficha completa →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section--alt">
+    <div class="container prose reveal">
+      <span class="eyebrow">El Universo de Gabriela</span>
+      <h2>Una forma distinta de mirar</h2>
+      <p>Desde pequeña sentí que mi forma de percibir la realidad era diferente. Mientras otras personas parecían aceptar el mundo tal como era, yo necesitaba detenerme, observar los detalles, hacer preguntas y construir conexiones que no siempre eran evidentes para los demás.</p>
+      <p>Mucho después comprendí que parte de esa forma de experimentar el mundo está relacionada con ser autista. Pero el autismo no es el tema de mi obra. Es una de las lentes a través de las que observo la realidad.</p>
+      <p><a href="el-universo/" class="btn--quiet">Conocer el universo completo →</a></p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container reveal">
+      <span class="eyebrow">Coleccionistas</span>
+      <h2 class="mt-0">Esta obra ya habita en...</h2>
+      <div class="grid grid--3 mt-3">
+        <div>
+          <p class="text-muted text-italic">"Vive en mi estudio desde hace un año y sigo descubriendo algo nuevo cada vez que la miro."</p>
+          <p class="eyebrow mb-0">Coleccionista privado — Madrid</p>
+        </div>
+        <div>
+          <p class="text-muted text-italic">"No la entendí del todo. Y creo que por eso no dejo de mirarla."</p>
+          <p class="eyebrow mb-0">Coleccionista privado — Ciudad de México</p>
+        </div>
+        <div>
+          <p class="text-muted text-italic">"Compré una pregunta, no una decoración. Fue la mejor decisión."</p>
+          <p class="eyebrow mb-0">Coleccionista privado — Berlín</p>
+        </div>
+      </div>
+      <p class="form-note mt-2">Marcador de posición — sustituir por testimonios reales de coleccionistas cuando estén disponibles.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container reveal">
+      <span class="eyebrow">Archivo — Trayectoria anterior</span>
+      <h2>Territorios Interiores (2016–2020)</h2>
+      <p class="text-muted prose" style="max-width: 640px; margin-bottom: var(--space-5);">Antes de Hábitats, trabajé en esta serie de paisajes semi-abstractos. Mostro esta trayectoria porque creo que es importante ver de dónde vengo — cómo evolucionó mi forma de ver el color, el espacio y la materia. Esta serie se presentó en Merkarte (Museo Municipal de Bellas Artes, Santa Cruz de Tenerife, 2020) bajo el pseudónimo <em>eyesasdaggers</em>.</p>
+
+      <div class="grid grid--2 gap-5">
+        <div class="artwork-card">
+          <div class="artwork-card__img">
+            <img src="assets/img/placeholder-merkarte-1.jpg" loading="lazy" alt="Obra de la serie Territorios Interiores" width="500" height="300">
+          </div>
+          <h3 class="artwork-card__title">Sin título I</h3>
+          <p class="artwork-card__meta">Acrílico sobre lienzo · 2018</p>
+        </div>
+
+        <div class="artwork-card">
+          <div class="artwork-card__img">
+            <img src="assets/img/placeholder-merkarte-2.jpg" loading="lazy" alt="Obra de la serie Territorios Interiores" width="500" height="300">
+          </div>
+          <h3 class="artwork-card__title">Sin título II</h3>
+          <p class="artwork-card__meta">Acrílico sobre lienzo · 2019</p>
+        </div>
+      </div>
+
+      <p class="text-muted" style="margin-top: var(--space-5); font-size: 0.95rem;"><em>Nota: Estas obras están archivadas. Si tienes interés en conocer más sobre esta etapa de mi trabajo, puedo compartir el catálogo completo de Merkarte.</em></p>
+    </div>
+  </section>
+
+  <section class="section--alt">
+    <div class="container prose reveal">
+      <span class="eyebrow">Acceso anticipado</span>
+      <h2>Antes de que una colección se anuncie</h2>
+      <p class="text-muted">Cada colección nueva se comparte primero con quienes están en esta lista, antes que en cualquier red social. No es un boletín de noticias. Es una forma de estar presente cuando una obra todavía es solo una posibilidad.</p>
+      <form class="newsletter" action="mailto:mariaperez.art@gmail.com" method="POST" enctype="text/plain">
+        <div class="field">
+          <label for="hero-email">Correo electrónico</label>
+          <input type="email" id="hero-email" name="email" placeholder="tu@email.com" required>
+        </div>
+        <button type="submit" class="btn">Suscribirme</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__grid">
+      <div>
+        <p class="brand">Gabriela<span>.</span></p>
+        <p class="text-muted prose">Obras que no se consumen en un vistazo. Un universo que se habita con el tiempo.</p>
+      </div>
+      <div>
+        <h4>Explorar</h4>
+        <ul>
+          <li><a href="obras/">Obras</a></li>
+          <li><a href="colecciones/">Colecciones</a></li>
+          <li><a href="comisiones/">Comisiones</a></li>
+          <li><a href="blog/">Blog</a></li>
         </ul>
-        <a class="nav__cta" onclick="navigateTo('obras')">Ver disponibilidad</a>
-      </nav>
+      </div>
+      <div>
+        <h4>Estudio</h4>
+        <ul>
+          <li><a href="el-universo/">El Universo</a></li>
+          <li><a href="faq/">Preguntas frecuentes</a></li>
+          <li><a href="contacto/">Contacto</a></li>
+          <li><a href="coleccionistas/">Portal de coleccionistas</a></li>
+        </ul>
+      </div>
     </div>
-  </header>
-
-  <main id="main-content">
-
-    <!-- ============ PÁGINA: INICIO ============ -->
-    <div class="page active" id="page-inicio">
-      <!-- Hero Section -->
-      <section class="hero" style="background-color:#EFEAE0;">
-        <div class="hero__scrim"></div>
-        <div class="hero__content">
-          <span class="eyebrow">Colección activa — Hábitats</span>
-          <h1>Gabriela<span style="font-weight: 300; opacity: 0.7;"> Pérez</span></h1>
-          <p class="prose max-w-520" style="font-size:1.1rem;">No pinto para explicar el mundo. Pinto porque nunca he podido verlo de una sola manera.</p>
-          <p class="mt-3"><a onclick="navigateTo('obras')" class="btn" style="cursor: pointer;">Ver obras disponibles</a></p>
-        </div>
-      </section>
-
-      <!-- Welcome & Grid Images Section -->
-      <section>
-        <div class="container">
-          <p class="prose text-muted" style="max-width: 600px; margin: 0 auto var(--space-5);">
-            Cada obra es un territorio. Un lugar donde el color se sedimenta en capas, donde la materia respira, donde habitamos el silencio antes que el ruido.
-          </p>
-          <div class="grid grid--2" style="gap: 3rem;">
-            <div onclick="openModal('umbral')" style="cursor: pointer;">
-              <div style="height: 400px; background: linear-gradient(135deg, #f5f1e8 0%, #e8dcc8 50%, #a73a3a 100%); border-radius: 4px; margin-bottom: var(--space-3);"></div>
-              <h3>Umbral</h3>
-              <p class="text-muted">140×70cm · Acrílico · 2026</p>
-            </div>
-            <div onclick="openModal('habitar')" style="cursor: pointer;">
-              <div style="height: 400px; background: linear-gradient(135deg, #f5f1e8 0%, #e8dcc8 50%, #5a6b5a 100%); border-radius: 4px; margin-bottom: var(--space-3);"></div>
-              <h3>Habitar</h3>
-              <p class="text-muted">140×70cm · Acrílico · 2026</p>
-            </div>
-          </div>
-          <p class="mt-4" style="text-align: center;"><a onclick="navigateTo('obras')" class="btn--quiet" style="cursor: pointer;">Ver obras disponibles →</a></p>
-        </div>
-      </section>
-
-      <!-- Cómo Miro Section -->
-      <section class="section--alt">
-        <div class="container prose reveal">
-          <span class="eyebrow">Cómo Miro</span>
-          <h2>La neurodivergencia como lente, no como tema.</h2>
-          <p style="max-width: 700px;">Desde pequeña sentí que mi forma de percibir la realidad era diferente. Mientras otras personas parecían aceptar el mundo tal como era, yo necesitaba detenerme, observar los detalles, hacer preguntas y construir conexiones que no siempre eran evidentes para los demás. Mucho después comprendí que esa forma de experimentar el mundo está relacionada con ser autista. Pero no es un diagnóstico lo que pinto. Es una lente. La neurodivergencia es cómo miro: más lento, más detenido, más sedimentado en capas que otros apenas ven.</p>
-          <p><a onclick="navigateTo('como-miro')" class="btn--quiet" style="cursor: pointer;">Leer más →</a></p>
-        </div>
-      </section>
-
-      <!-- Tagline & Texture Carousel -->
-      <section>
-        <div class="container">
-          <p class="prose" style="text-align: center; font-size: 1.3rem; margin-bottom: var(--space-5);">Obras que no se consumen en un vistazo.</p>
-          <div class="carousel">
-            <div class="carousel__track" id="textureCarousel">
-              <div class="carousel__slide">
-                <div class="carousel__slide-img" style="background: linear-gradient(135deg, #f5f1e8 0%, #d4a574 50%, #a73a3a 100%);"></div>
-                <p class="text-muted"><strong>Umbral — Detalle de textura</strong></p>
-                <p style="font-size: 0.9rem;">Capas de acrílico que revelan el calor del crudo subyacente</p>
-              </div>
-              <div class="carousel__slide">
-                <div class="carousel__slide-img" style="background: linear-gradient(135deg, #f5f1e8 0%, #c9b8a0 50%, #5a6b5a 100%);"></div>
-                <p class="text-muted"><strong>Habitar — Detalle de textura</strong></p>
-                <p style="font-size: 0.9rem;">La materia respira en tonos grises que absorben la luz</p>
-              </div>
-              <div class="carousel__slide">
-                <div class="carousel__slide-img" style="background: linear-gradient(135deg, #f5f1e8 0%, #c9b8a0 50%, #1a3a4a 100%);"></div>
-                <p class="text-muted"><strong>Memoria — Detalle de textura</strong></p>
-                <p style="font-size: 0.9rem;">Azul petróleo sedimentado en territorios de sombra</p>
-              </div>
-            </div>
-            <div class="carousel__controls">
-              <button class="carousel__btn" onclick="prevSlide()" aria-label="Anterior">←</button>
-              <button class="carousel__btn" onclick="nextSlide()" aria-label="Siguiente">→</button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Newsletter Section -->
-      <section class="section--alt">
-        <div class="container prose reveal">
-          <span class="eyebrow">Acceso anticipado</span>
-          <h2>Antes de que una colección se anuncie</h2>
-          <p class="text-muted">Cada colección nueva se comparte primero con quienes están en esta lista, antes que en cualquier red social. No es un boletín de noticias. Es una forma de estar presente cuando una obra todavía es solo una posibilidad.</p>
-          <form class="newsletter" onsubmit="handleNewsletterSubmit(event)">
-            <div class="field">
-              <label for="hero-email">Correo electrónico</label>
-              <input type="email" id="hero-email" name="email" placeholder="tu@email.com" required>
-            </div>
-            <button type="submit" class="btn">Suscribirme</button>
-          </form>
-        </div>
-      </section>
-    </div>
-
-    <!-- ============ PÁGINA: OBRAS ============ -->
-    <div class="page" id="page-obras">
-      <section style="padding-top: var(--space-5);">
-        <div class="container">
-          <span class="eyebrow">Colección activa</span>
-          <h1 style="font-size: 2.5rem; margin-bottom: var(--space-2);">Hábitats — 2026</h1>
-          <p class="prose" style="max-width: 700px; margin-bottom: var(--space-5);">Hábitats explora los espacios que habitamos antes de habitarlos: el umbral antes de cruzar, el refugio antes de sentirse a salvo, la memoria antes de nombrarla. Cada pieza es un territorio de transición pintado en capas de acrílico que revelan su historia solo a quien se detiene.</p>
-
-          <div class="grid grid--3" style="gap: var(--space-5); margin: var(--space-6) 0;">
-            <!-- Umbral -->
-            <div class="artwork-card" onclick="openModal('umbral')">
-              <div class="artwork-card__img">
-                <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #f5f1e8 0%, #e8dcc8 50%, #a73a3a 100%);"></div>
-              </div>
-              <h3 class="artwork-card__title">Umbral</h3>
-              <p class="artwork-card__meta">140×70cm · Acrílico · 2026</p>
-              <p class="artwork-card__meta"><strong>€1.800</strong></p>
-              <p class="artwork-card__meta" style="color: #4caf50;">Disponible</p>
-              <p class="mt-3"><a class="btn--quiet" style="cursor: pointer;">Ver la obra →</a></p>
-            </div>
-
-            <!-- Habitar -->
-            <div class="artwork-card" onclick="openModal('habitar')">
-              <div class="artwork-card__img">
-                <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #f5f1e8 0%, #e8dcc8 50%, #5a6b5a 100%);"></div>
-              </div>
-              <h3 class="artwork-card__title">Habitar</h3>
-              <p class="artwork-card__meta">140×70cm · Acrílico · 2026</p>
-              <p class="artwork-card__meta"><strong>€1.800</strong></p>
-              <p class="artwork-card__meta" style="color: #4caf50;">Disponible</p>
-              <p class="mt-3"><a class="btn--quiet" style="cursor: pointer;">Ver la obra →</a></p>
-            </div>
-
-            <!-- Memoria -->
-            <div class="artwork-card" onclick="openModal('memoria')">
-              <div class="artwork-card__img">
-                <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #f5f1e8 0%, #c9b8a0 50%, #1a3a4a 100%);"></div>
-              </div>
-              <h3 class="artwork-card__title">Memoria</h3>
-              <p class="artwork-card__meta">140×70cm · Acrílico · 2026</p>
-              <p class="artwork-card__meta"><strong>€1.800</strong></p>
-              <p class="artwork-card__meta" style="color: #ff9800;">Próximamente</p>
-              <p class="mt-3"><a class="btn--quiet" style="cursor: pointer;">Ver la obra →</a></p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <!-- ============ PÁGINA: COLECCIONES ============ -->
-    <div class="page" id="page-colecciones">
-      <section style="padding-top: var(--space-5);">
-        <div class="container">
-          <span class="eyebrow">Colecciones</span>
-          <h1 style="font-size: 2.5rem; margin-bottom: var(--space-5);">Hábitats</h1>
-
-          <div class="grid grid--2" style="gap: var(--space-5); margin-bottom: var(--space-6);">
-            <div>
-              <div style="height: 400px; background: linear-gradient(135deg, #f5f1e8 0%, #d4a574 50%, #5a6b5a 100%); border-radius: 8px;"></div>
-            </div>
-            <div>
-              <h2 style="margin-top: 0;">Territorios de transición</h2>
-              <p class="prose">Hábitats explora los espacios que habitamos antes de habitarlos: el umbral antes de cruzar, el refugio antes de sentirse a salvo, la memoria antes de nombrarla. Cada pieza es un territorio de transición pintado en capas de acrílico que revelan su historia solo a quien se detiene.</p>
-              <p class="prose" style="margin-top: var(--space-4); color: #999; font-size: 0.95rem;"><strong>Serie en curso — 2026</strong></p>
-              <p class="mt-3"><a onclick="navigateTo('obras')" class="btn" style="cursor: pointer;">Ver obras disponibles</a></p>
-            </div>
-          </div>
-
-          <!-- Próxima colección signup -->
-          <section class="section--alt" style="margin: var(--space-6) calc(-50vw + 50%); padding: var(--space-6) var(--space-3);">
-            <div class="container">
-              <div style="max-width: 600px; margin: 0 auto;">
-                <span class="eyebrow">Acceso anticipado</span>
-                <h3 style="margin-top: var(--space-2);">Próxima colección — 2027</h3>
-                <p class="text-muted">Dejá tu email para acceso anticipado. No se publicará en redes hasta que la lista haya tenido primera opción.</p>
-                <form class="newsletter" onsubmit="handleCollectionSignup(event)">
-                  <div class="field">
-                    <label for="collection-email">Correo electrónico</label>
-                    <input type="email" id="collection-email" name="email" placeholder="tu@email.com" required>
-                  </div>
-                  <button type="submit" class="btn">Suscribirme</button>
-                </form>
-              </div>
-            </div>
-          </section>
-
-          <!-- Closed collections note -->
-          <section style="margin-top: var(--space-6); padding-top: var(--space-6); border-top: 1px solid var(--border);">
-            <div class="container prose">
-              <p><strong>Colecciones cerradas:</strong> Cuando una colección se agota, su historia permanece aquí como registro — no como catálogo de reproducciones.</p>
-            </div>
-          </section>
-        </div>
-      </section>
-    </div>
-
-    <!-- ============ PÁGINA: COMISIONES ============ -->
-    <div class="page" id="page-comisiones">
-      <section style="padding-top: var(--space-5);">
-        <div class="container">
-          <span class="eyebrow">Comisiones</span>
-          <h1 style="font-size: 2.5rem; margin-bottom: var(--space-5);">Una obra para tu espacio</h1>
-
-          <div class="grid grid--2" style="gap: var(--space-5); margin-bottom: var(--space-6);">
-            <div class="prose">
-              <h3 style="margin-top: 0;">¿Cómo funciona?</h3>
-              <p>Cada comisión comienza con una conversación. Me importa entender qué espacio es ese, cómo lo habitas, qué color no puedes dejar de ver, qué textura te trae a casa.</p>
-              <p>El precio de una comisión depende del tamaño y la técnica. Dado el nivel de personalización y el proceso de diálogo previo, las comisiones parten en €2.500.</p>
-              <p>Cada pieza se crea específicamente para el espacio y la persona que la recibe.</p>
-              <p>El tiempo de respuesta habitual es de 5-7 días. Si tu solicitud es urgente, indicálo en el mensaje.</p>
-            </div>
-
-            <div>
-              <h3>Comisiones realizadas</h3>
-              <div style="margin-bottom: var(--space-4);">
-                <div style="height: 200px; background: var(--bg-alt); border-radius: 4px; margin-bottom: var(--space-2);"></div>
-                <p class="text-muted"><strong>Proyecto privado — Madrid, 2025</strong></p>
-              </div>
-              <div style="margin-bottom: var(--space-4);">
-                <div style="height: 200px; background: var(--bg-alt); border-radius: 4px; margin-bottom: var(--space-2);"></div>
-                <p class="text-muted"><strong>Proyecto privado — Barcelona, 2024</strong></p>
-              </div>
-              <p class="form-note">Por confidencialidad de los clientes, las imágenes de comisiones privadas no se publican. Podés solicitar referencias directamente.</p>
-            </div>
-          </div>
-
-          <!-- Contact Form -->
-          <section class="section--alt" style="margin: var(--space-6) calc(-50vw + 50%); padding: var(--space-6) var(--space-3);">
-            <div class="container">
-              <div style="max-width: 600px; margin: 0 auto;">
-                <h3 style="margin-top: 0;">Cuéntame qué te trae</h3>
-                <form onsubmit="handleCommissionSubmit(event)">
-                  <div class="field">
-                    <label for="commission-name">Nombre</label>
-                    <input type="text" id="commission-name" name="name" required>
-                  </div>
-                  <div class="field">
-                    <label for="commission-email">Correo electrónico</label>
-                    <input type="email" id="commission-email" name="email" required>
-                  </div>
-                  <div class="field">
-                    <label for="commission-message">Tu idea</label>
-                    <textarea id="commission-message" name="message" placeholder="Ej: Un espacio que necesita silencio, un color que no puedo olvidar, una transición que quiero marcar..." required></textarea>
-                  </div>
-                  <button type="submit" class="btn">Enviar solicitud</button>
-                </form>
-              </div>
-            </div>
-          </section>
-        </div>
-      </section>
-    </div>
-
-    <!-- ============ PÁGINA: CÓMO MIRO ============ -->
-    <div class="page" id="page-como-miro">
-      <section style="padding-top: var(--space-5);">
-        <div class="container prose">
-          <span class="eyebrow">Cómo Miro</span>
-          <h1 style="font-size: 2.5rem; margin-bottom: var(--space-5); font-weight: 300;">La neurodivergencia como lente, no como tema.</h1>
-
-          <div style="max-width: 800px; margin: 0 auto;">
-            <p>Desde pequeña sentí que mi forma de percibir la realidad era diferente. Mientras otras personas parecían aceptar el mundo tal como era, yo necesitaba detenerme, observar los detalles, hacer preguntas y construir conexiones que no siempre eran evidentes para los demás.</p>
-
-            <p>Mucho después comprendí que parte de esa forma de experimentar el mundo está relacionada con ser autista. Pero el autismo no es el tema de mi obra. Es una de las lentes a través de las que observo la realidad.</p>
-
-            <p>Cuando pinto, ese proceso se hace visible. Mi forma de mirar se sedimenta en capas. Veo el color no como algo que existe, sino como algo que se construye. Observo la textura como si fuera memoria. El espacio no es vacío sino un territorio que puede ser habitado.</p>
-
-            <p>Esa lente me permite ver lo que otros quizá pasen por alto: la riqueza en las transiciones, la belleza en lo no-dicho, la materia como narración. No es un defecto. Es una forma distinta de estar en el mundo.</p>
-
-            <p>Y eso es lo que ofrezco: no explicaciones sobre neurodivergencia, sino obras creadas desde esa perspectiva. Territorios que invitan a quien observe a desacelerar también.</p>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <!-- ============ PÁGINA: PREGUNTAS FRECUENTES ============ -->
-    <div class="page" id="page-faq">
-      <section style="padding-top: var(--space-5);">
-        <div class="container">
-          <span class="eyebrow">Preguntas</span>
-          <h1 style="font-size: 2.5rem; margin-bottom: var(--space-5);">Frecuentes</h1>
-
-          <div style="max-width: 700px; margin: 0 auto;">
-            <div style="margin-bottom: var(--space-5); padding-bottom: var(--space-4); border-bottom: 1px solid var(--border);">
-              <h3 style="margin-top: 0; cursor: pointer;" onclick="toggleFAQ(this)">¿Cuál es tu proceso creativo? ▼</h3>
-              <p class="text-muted" style="display: none;">Mi proceso comienza con una idea, una textura, o una pregunta que no puedo dejar de lado. Trabajo en capas de acrílico, cada una revelando y ocultando lo que viene debajo. No pinto directamente; construyo. Cada obra toma su tiempo — puede ser semanas o meses — porque busco que la materia respire.</p>
-            </div>
-
-            <div style="margin-bottom: var(--space-5); padding-bottom: var(--space-4); border-bottom: 1px solid var(--border);">
-              <h3 style="margin-top: 0; cursor: pointer;" onclick="toggleFAQ(this)">¿Cómo conservo las obras? ▼</h3>
-              <p class="text-muted" style="display: none;">Las obras están realizadas con acrílicos de calidad profesional sobre lienzo. Recomiendo evitar luz solar directa intensa y mantener un ambiente con humedad moderada (40-60%). No requieren vidrio ni marco especial; la madera o metal neutral complementa mejor la pieza.</p>
-            </div>
-
-            <div style="margin-bottom: var(--space-5); padding-bottom: var(--space-4); border-bottom: 1px solid var(--border);">
-              <h3 style="margin-top: 0; cursor: pointer;" onclick="toggleFAQ(this)">¿Realizan envíos internacionales? ▼</h3>
-              <p class="text-muted" style="display: none;">Sí. Los envíos se aseguran completamente y se empacan con cuidado especial. El costo depende del destino y las dimensiones. Podés solicitar información de envío durante el proceso de compra o comisión.</p>
-            </div>
-
-            <div style="margin-bottom: var(--space-5); padding-bottom: var(--space-4); border-bottom: 1px solid var(--border);">
-              <h3 style="margin-top: 0; cursor: pointer;" onclick="toggleFAQ(this)">¿Hacen reproducciones de obras vendidas? ▼</h3>
-              <p class="text-muted" style="display: none;">No. Cada obra es única. No hago reproducciones, prints, ni ediciones limitadas de obras que ya han sido vendidas. Esto mantiene la integridad y el valor de las piezas originales.</p>
-            </div>
-
-            <div style="margin-bottom: var(--space-5); padding-bottom: var(--space-4); border-bottom: 1px solid var(--border);">
-              <h3 style="margin-top: 0; cursor: pointer;" onclick="toggleFAQ(this)">¿POR QUÉ NO HAY PRECIOS EN ALGUNAS SECCIONES? ▼</h3>
-              <p class="text-muted" style="display: none;">Los precios están visibles en cada ficha de obra disponible. Las piezas vendidas o reservadas no muestran precio porque ya no están en el mercado primario. Las comisiones tienen un precio mínimo de €2.500, pero varían según tamaño y técnica.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <!-- ============ PÁGINA: BLOG ============ -->
-    <div class="page" id="page-blog">
-      <section style="padding-top: var(--space-5);">
-        <div class="container">
-          <span class="eyebrow">Blog</span>
-          <h1 style="font-size: 2.5rem; margin-bottom: var(--space-5);">Notas sobre proceso</h1>
-
-          <div class="grid grid--2" style="gap: var(--space-5); margin-bottom: var(--space-6);">
-            <!-- Article 1 -->
-            <article>
-              <div style="height: 250px; background: linear-gradient(135deg, #f5f1e8 0%, #e8dcc8 100%); border-radius: 4px; margin-bottom: var(--space-3);"></div>
-              <span class="eyebrow">Proceso · 15 Jul 2026</span>
-              <h3 style="margin: var(--space-2) 0;">Empecé a pintar a los 20</h3>
-              <p class="text-muted">Una reflexión sobre por qué tardé tanto en darme permiso para crear, y cómo la forma de mirar que siempre tuve finalmente encontró su medio.</p>
-              <p><a class="btn--quiet">Leer más →</a></p>
-            </article>
-
-            <!-- Article 2 -->
-            <article>
-              <div style="height: 250px; background: linear-gradient(135deg, #f5f1e8 0%, #d4a574 50%, #5a6b5a 100%); border-radius: 4px; margin-bottom: var(--space-3);"></div>
-              <span class="eyebrow">Colección · 8 Jul 2026</span>
-              <h3 style="margin: var(--space-2) 0;">Sobre Hábitats</h3>
-              <p class="text-muted">Por qué la serie explora umbrales, transiciones y territorios. Un viaje de descubrimiento a través del color y la materia.</p>
-              <p><a class="btn--quiet">Leer más →</a></p>
-            </article>
-
-            <!-- Article 3 -->
-            <article>
-              <div style="height: 250px; background: linear-gradient(135deg, #e8dcc8 0%, #99a9a0 100%); border-radius: 4px; margin-bottom: var(--space-3);"></div>
-              <span class="eyebrow">Detalle · 1 Jul 2026</span>
-              <h3 style="margin: var(--space-2) 0;">La materia respira</h3>
-              <p class="text-muted">Notas sobre técnica acrílica, capas y texturas. Cómo la materia se convierte en narrativa visual.</p>
-              <p><a class="btn--quiet">Leer más →</a></p>
-            </article>
-          </div>
-
-          <!-- Newsletter signup -->
-          <section class="section--alt" style="margin: var(--space-6) calc(-50vw + 50%); padding: var(--space-6) var(--space-3);">
-            <div class="container">
-              <div style="max-width: 600px; margin: 0 auto;">
-                <span class="eyebrow">Próximas notas</span>
-                <h3 style="margin-top: var(--space-2);">Suscribirse al blog</h3>
-                <p class="text-muted">Recibí nuevas notas directamente en tu correo. (Diferente de la lista de colecciones.)</p>
-                <form class="newsletter" onsubmit="handleBlogSubscribe(event)">
-                  <div class="field">
-                    <label for="blog-email">Correo electrónico</label>
-                    <input type="email" id="blog-email" name="email" placeholder="tu@email.com" required>
-                  </div>
-                  <button type="submit" class="btn">Suscribirme</button>
-                </form>
-              </div>
-            </div>
-          </section>
-        </div>
-      </section>
-    </div>
-
-    <!-- ============ PÁGINA: CONTACTO ============ -->
-    <div class="page" id="page-contacto">
-      <section style="padding-top: var(--space-5); padding-bottom: var(--space-6);">
-        <div class="container">
-          <span class="eyebrow">Contacto</span>
-          <h1 style="font-size: 2.5rem; margin-bottom: var(--space-5);">Escribime</h1>
-
-          <div class="grid grid--2" style="gap: var(--space-5);">
-            <div class="prose">
-              <h3 style="margin-top: 0;">¿Preguntas?</h3>
-              <p>Podés escribirme directamente para cualquier consulta: comisiones, disponibilidad, referencias de coleccionistas, o simplemente para conversar sobre arte y proceso.</p>
-              <p><strong>Email:</strong> <a href="mailto:mariaperez.art@gmail.com" style="color: var(--primary); text-decoration: none;">mariaperez.art@gmail.com</a></p>
-              <p style="margin-top: var(--space-4); color: #999; font-size: 0.95rem;">El tiempo de respuesta habitual es de 5-7 días.</p>
-            </div>
-
-            <div>
-              <form onsubmit="handleContactSubmit(event)">
-                <div class="field">
-                  <label for="contact-name">Nombre</label>
-                  <input type="text" id="contact-name" name="name" required>
-                </div>
-                <div class="field">
-                  <label for="contact-email">Correo electrónico</label>
-                  <input type="email" id="contact-email" name="email" required>
-                </div>
-                <div class="field">
-                  <label for="contact-message">Mensaje</label>
-                  <textarea id="contact-message" name="message" required></textarea>
-                </div>
-                <button type="submit" class="btn">Enviar</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <!-- ============ PÁGINA: PORTAL DE COLECCIONISTAS ============ -->
-    <div class="page" id="page-coleccionistas">
-      <section style="padding-top: var(--space-5); padding-bottom: var(--space-6);">
-        <div class="container prose">
-          <span class="eyebrow">Portal</span>
-          <h1 style="font-size: 2.5rem; margin-bottom: var(--space-5);">De coleccionistas</h1>
-
-          <div style="max-width: 700px;">
-            <p><strong>En construcción — Primer trimestre de 2027</strong></p>
-            <p>Un espacio exclusivo para coleccionistas con:</p>
-            <ul style="margin: var(--space-3) 0; padding-left: 2rem;">
-              <li style="margin-bottom: var(--space-2);">✓ Certificados digitales</li>
-              <li style="margin-bottom: var(--space-2);">✓ Historial de piezas</li>
-              <li style="margin-bottom: var(--space-2);">✓ Acceso anticipado a colecciones</li>
-              <li style="margin-bottom: var(--space-2);">✓ Documentación de proceso</li>
-            </ul>
-            <p style="margin-top: var(--space-5);"><strong>¿Ya sos coleccionista?</strong> <a onclick="navigateTo('contacto')" style="color: var(--primary); cursor: pointer; text-decoration: none;">Escribime directamente</a></p>
-          </div>
-        </div>
-      </section>
-    </div>
-
-  </main>
-
-  <!-- Modal for Artwork Details -->
-  <div class="modal" id="artworkModal">
-    <div class="modal__content">
-      <button class="modal__close" onclick="closeModal()">×</button>
-      <div class="modal__body" id="modalBody"></div>
+    <div class="site-footer__base">
+      <span>© 2026 Gabriela. Todos los derechos reservados.</span>
+      <span><a href="legal/privacidad/">Privacidad</a> · <a href="legal/terminos/">Términos</a> · <a href="legal/cookies/">Cookies</a></span>
     </div>
   </div>
-
-  <!-- Status message container -->
-  <div id="statusContainer"></div>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="site-footer__grid">
-        <div>
-          <p class="brand">Gabriela<span>.</span></p>
-          <p class="text-muted prose">Obras que no se consumen en un vistazo. Un universo que se habita con el tiempo.</p>
-        </div>
-        <div>
-          <h4>Explorar</h4>
-          <ul>
-            <li><a onclick="navigateTo('obras')" style="cursor: pointer;">Obras</a></li>
-            <li><a onclick="navigateTo('colecciones')" style="cursor: pointer;">Colecciones</a></li>
-            <li><a onclick="navigateTo('comisiones')" style="cursor: pointer;">Comisiones</a></li>
-            <li><a onclick="navigateTo('blog')" style="cursor: pointer;">Blog</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>Información</h4>
-          <ul>
-            <li><a onclick="navigateTo('como-miro')" style="cursor: pointer;">Cómo miro</a></li>
-            <li><a onclick="navigateTo('faq')" style="cursor: pointer;">Preguntas frecuentes</a></li>
-            <li><a onclick="navigateTo('contacto')" style="cursor: pointer;">Contacto</a></li>
-            <li><a onclick="navigateTo('coleccionistas')" style="cursor: pointer;">Portal de coleccionistas</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="site-footer__base">
-        <span>© 2026 Gabriela. Todos los derechos reservados.</span>
-        <span><a href="#" onclick="alert('Página de privacidad')" style="text-decoration: none;">Privacidad</a> · <a href="#" onclick="alert('Página de términos')" style="text-decoration: none;">Términos</a> · <a href="#" onclick="alert('Página de cookies')" style="text-decoration: none;">Cookies</a></span>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    // Artwork data
-    const artworks = {
-      umbral: {
-        title: 'Umbral',
-        year: '2026',
-        technique: 'Acrílico sobre lienzo',
-        dimensions: '140 × 70 cm',
-        price: '€1.800',
-        status: 'Disponible',
-        description: 'Umbral es una obra sobre los espacios liminales. No es ni afuera ni adentro, sino el momento de transición entre ambos. El color viaja del crudo cálido hacia un rojo profundo, sugiriendo el calor de la vida que espera del otro lado. La materia está sedimentada en capas que revelan su propia historia solo si uno se detiene.',
-        process: 'Realizada en capas sucesivas de acrílico, cada una permitiendo que la anterior respire. El proceso fue un diálogo entre control e incertidumbre, dejando que el color fluyera donde quisiera.',
-        materials: 'Acrílico profesional sobre lienzo 100% algodón',
-        inspiration: 'La idea de los umbrales como territorios: la puerta que aún no cruzamos, el refugio que aún no habitamos.'
-      },
-      habitar: {
-        title: 'Habitar',
-        year: '2026',
-        technique: 'Acrílico sobre lienzo',
-        dimensions: '140 × 70 cm',
-        price: '€1.800',
-        status: 'Disponible',
-        description: 'Habitar es menos color y más silencio. La obra se mueve del crudo cálido hacia tonalidades grises y topo, creando un efecto de refugio, de espacio donde la mente puede descansar. Es una invitación a detenerse, a ocupar un lugar sin ruido.',
-        process: 'Esta obra requirió más paciencia. Cada capa se seco completamente antes de añadir la siguiente, permitiendo que la materia se compactara, que ganara peso y presencia silenciosa.',
-        materials: 'Acrílico profesional sobre lienzo 100% algodón',
-        inspiration: 'La sensación de un lugar donde finalmente puedes ser vos mismo. No es decoración; es territorio.'
-      },
-      memoria: {
-        title: 'Memoria',
-        year: '2026',
-        technique: 'Acrílico sobre lienzo',
-        dimensions: '140 × 70 cm',
-        price: '€1.800',
-        status: 'Próximamente',
-        description: 'Memoria es la tercera pieza de la serie Hábitats, actualmente en desarrollo. Explora cómo la memoria funciona en capas, cómo lo que recordamos no es lineal sino estratificado, oscuro en algunos puntos y luminoso en otros. El azul petróleo es el color de esos espacios donde la claridad desaparece.',
-        process: 'En proceso. La obra está explorando nuevas técnicas de sedimentación y profundidad de color.',
-        materials: 'Acrílico profesional sobre lienzo 100% algodón',
-        inspiration: 'Los territorios de la memoria, donde lo que olvidamos es tan importante como lo que recordamos.'
-      }
-    };
-
-    // Navigation
-    function navigateTo(page) {
-      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-      document.getElementById(`page-${page}`).classList.add('active');
-      window.scrollTo(0, 0);
-      document.querySelector('.nav__links').classList.remove('active');
-      document.querySelector('.nav__toggle').setAttribute('aria-expanded', 'false');
-    }
-
-    function toggleMenu() {
-      const menu = document.querySelector('.nav__links');
-      const toggle = document.querySelector('.nav__toggle');
-      menu.classList.toggle('active');
-      toggle.setAttribute('aria-expanded', toggle.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');
-    }
-
-    // Carousel
-    let currentSlide = 0;
-    function showSlide(index) {
-      const track = document.getElementById('textureCarousel');
-      const slides = track.querySelectorAll('.carousel__slide');
-      if (index >= slides.length) currentSlide = 0;
-      if (index < 0) currentSlide = slides.length - 1;
-      track.style.transform = `translateX(-${currentSlide * 100}%)`;
-    }
-
-    function nextSlide() {
-      currentSlide++;
-      showSlide(currentSlide);
-    }
-
-    function prevSlide() {
-      currentSlide--;
-      showSlide(currentSlide);
-    }
-
-    // Modal
-    function openModal(artworkId) {
-      const artwork = artworks[artworkId];
-      const modal = document.getElementById('artworkModal');
-      const body = document.getElementById('modalBody');
-
-      body.innerHTML = `
-        <div class="modal__body">
-          <div class="modal__image" style="background: linear-gradient(135deg, #f5f1e8 0%, #d4a574 50%, ${artworkId === 'umbral' ? '#a73a3a' : artworkId === 'habitar' ? '#5a6b5a' : '#1a3a4a'} 100%); border-radius: 8px;"></div>
-          <div class="modal__info">
-            <h2 style="margin-top: 0;">${artwork.title}</h2>
-            <div class="modal__meta">
-              <div class="modal__meta-item">
-                <span class="modal__meta-label">Año</span>
-                <span class="modal__meta-value">${artwork.year}</span>
-              </div>
-              <div class="modal__meta-item">
-                <span class="modal__meta-label">Técnica</span>
-                <span class="modal__meta-value">${artwork.technique}</span>
-              </div>
-              <div class="modal__meta-item">
-                <span class="modal__meta-label">Dimensiones</span>
-                <span class="modal__meta-value">${artwork.dimensions}</span>
-              </div>
-              <div class="modal__meta-item">
-                <span class="modal__meta-label">Precio</span>
-                <span class="modal__meta-value">${artwork.price}</span>
-              </div>
-              <div class="modal__meta-item">
-                <span class="modal__meta-label">Estado</span>
-                <span class="modal__meta-value">${artwork.status}</span>
-              </div>
-            </div>
-
-            <h3 style="margin-top: var(--space-4); margin-bottom: var(--space-2);">Sobre la obra</h3>
-            <p class="text-muted prose" style="font-size: 0.95rem;">${artwork.description}</p>
-
-            <h3 style="margin-top: var(--space-4); margin-bottom: var(--space-2);">Proceso</h3>
-            <p class="text-muted prose" style="font-size: 0.95rem;">${artwork.process}</p>
-
-            <h3 style="margin-top: var(--space-4); margin-bottom: var(--space-2);">Materiales</h3>
-            <p class="text-muted" style="font-size: 0.95rem;">${artwork.materials}</p>
-
-            <h3 style="margin-top: var(--space-4); margin-bottom: var(--space-2);">Inspiración</h3>
-            <p class="text-muted prose" style="font-size: 0.95rem;">${artwork.inspiration}</p>
-          </div>
-        </div>
-      `;
-      modal.classList.add('active');
-    }
-
-    function closeModal() {
-      document.getElementById('artworkModal').classList.remove('active');
-    }
-
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') closeModal();
-    });
-
-    // Form submissions
-    function showStatus(message, type = 'success') {
-      const container = document.getElementById('statusContainer');
-      const status = document.createElement('div');
-      status.className = `status-message ${type}`;
-      status.textContent = message;
-      container.appendChild(status);
-      setTimeout(() => status.remove(), 4000);
-    }
-
-    function handleNewsletterSubmit(e) {
-      e.preventDefault();
-      const email = e.target.querySelector('input[type="email"]').value;
-      showStatus(`¡Gracias! Te hemos agregado a la lista. Confirmación en ${email}`);
-      e.target.reset();
-    }
-
-    function handleCollectionSignup(e) {
-      e.preventDefault();
-      const email = e.target.querySelector('input[type="email"]').value;
-      showStatus(`¡Perfecto! Tendrás acceso anticipado a la próxima colección en ${email}`);
-      e.target.reset();
-    }
-
-    function handleCommissionSubmit(e) {
-      e.preventDefault();
-      const name = e.target.querySelector('input[type="text"]').value;
-      showStatus(`Solicitud enviada, ${name}. Nos pondremos en contacto en 5-7 días.`);
-      e.target.reset();
-    }
-
-    function handleBlogSubscribe(e) {
-      e.preventDefault();
-      const email = e.target.querySelector('input[type="email"]').value;
-      showStatus(`Suscripción confirmada. Las nuevas notas llegarán a ${email}`);
-      e.target.reset();
-    }
-
-    function handleContactSubmit(e) {
-      e.preventDefault();
-      const name = e.target.querySelector('input[type="text"]').value;
-      showStatus(`Mensaje enviado. Te responderemos pronto, ${name}.`);
-      e.target.reset();
-    }
-
-    // FAQ Toggle
-    function toggleFAQ(element) {
-      const answer = element.nextElementSibling;
-      const isHidden = answer.style.display === 'none';
-      answer.style.display = isHidden ? 'block' : 'none';
-      element.textContent = element.textContent.replace('▼', '▶').replace('▶', '▼');
-    }
-
-    // Carousel auto-rotate (slow)
-    setInterval(() => {
-      currentSlide = (currentSlide + 1) % 3;
-      showSlide(currentSlide);
-    }, 8000);
-
-    // Close modal on background click
-    document.getElementById('artworkModal').addEventListener('click', (e) => {
-      if (e.target.id === 'artworkModal') closeModal();
-    });
-  </script>
+</footer>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
