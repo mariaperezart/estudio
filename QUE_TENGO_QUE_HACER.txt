@@ -15,20 +15,22 @@ cosas del bloque 1, ya habrás arreglado más que con todo lo demás junto.
 BLOQUE 0 — URGENTE. HOY. SIN ESTO, LA WEB NO SIRVE
 ===============================================================================
 
-[ ] 0.1  CONECTAR EL FORMULARIO DE CONTACTO
-         Ahora mismo, si un galerista te escribe desde la web, el mensaje SE
-         PIERDE. Nadie recibe nada y quien escribe no lo sabe. Es el problema
-         más grave de todo este documento.
+[X] 0.1  FORMULARIO DE CONTACTO — RESUELTO, NO TIENES QUE HACER NADA
+         He quitado el formulario. Ahora la página de contacto muestra
+         directamente tu correo del estudio:
 
-         Cómo:
-           1. Entra en formspree.io y crea una cuenta gratuita.
-           2. Crea un formulario nuevo. Te dan un ID tipo "xyzabcd".
-           3. Pásame ese ID y yo lo pongo en las dos páginas.
-              (O cámbialo tú: busca TU_ID_DE_FORMSPREE en contacto/index.html
-              y en newsletter/index.html y sustitúyelo.)
-           4. Prueba a enviarte un mensaje a ti misma y comprueba que llega.
+           mariaperez.art@gmail.com
 
-         Tiempo: 10 minutos.
+         Es lo que hacen las webs de artistas con galería: una dirección, no un
+         formulario. Así que además de no requerir nada de ti, es la opción más
+         creíble de las dos. Ya funciona.
+
+         Ese correo ya estaba publicado en tu dossier, así que no expongo nada
+         nuevo. Cuando tengas dominio propio, conviene pasar a algo tipo
+         estudio@tudominio.com — pero eso es para más adelante.
+
+         También he eliminado la página de la lista de correo: una newsletter
+         sin proveedor conectado era humo, y no encaja con el posicionamiento.
 
 
 [ ] 0.2  BORRAR LAS RAMAS VIEJAS EN GITHUB
@@ -162,7 +164,29 @@ BLOQUE 1 — ESTA SEMANA. SUBIR EL SUELO
            - Pon una hoja de papel blanco en una esquina del primer disparo
              para poder corregir el color después si hace falta.
 
-         Cuando las tengas, mándamelas y las proceso y las publico.
+         AJUSTES CONCRETOS PARA TU CÁMARA NUEVA:
+           - Modo M (manual) o A/Av (prioridad a la apertura).
+           - Diafragma f/8 o f/11. Ahí es donde el objetivo rinde más nítido.
+             No abras a f/1.8: los bordes del cuadro saldrían blandos.
+           - ISO 100. El más bajo que tenga. Sin excepción.
+           - Formato RAW, no JPG. El RAW te deja corregir el color después sin
+             degradar la imagen.
+           - Balance de blancos: PERSONALIZADO, no automático. Si el automático
+             decide solo, cada foto sale de un color distinto — que es
+             exactamente el problema que tienes ahora.
+           - Dispara con temporizador de 2 segundos o con disparador remoto,
+             para que no se mueva al pulsar.
+           - Distancia focal entre 50 y 85 mm equivalente, y aléjate. Con
+             gran angular de cerca, el cuadro sale abombado por los bordes.
+           - Si la cámara lo tiene, activa la cuadrícula y la nivelación
+             electrónica: el lienzo tiene que quedar perfectamente paralelo a
+             los bordes del encuadre.
+           - Compra una CARTA GRIS (5-10 euros). Haz el primer disparo con ella
+             delante del cuadro. Con eso te clavo el color real después.
+
+         Cuando las tengas, mándame los archivos y las proceso y las publico.
+         Si puedes, mándame también el RAW o el JPG sin recortar: prefiero
+         recortar yo al canto exacto que recibirlas ya recortadas.
 
          Tiempo: una mañana.
 
@@ -334,6 +358,17 @@ BLOQUE 3 — CUANDO TENGAS 8-12 OBRAS
 ===============================================================================
 LO QUE YA ESTÁ HECHO — NO TIENES QUE TOCARLO
 ===============================================================================
+
+CONTACTO Y MARCA (2 de agosto)
+  - Formulario sustituido por la dirección del estudio. Cero mantenimiento.
+  - Eliminadas las páginas de newsletter y de "gracias" (ya no hacían falta).
+  - MARCA.md: documento canónico que manda sobre todos los demás. Existían dos
+    marcas contradictorias en el repositorio; ahora hay una.
+  - Dossier reconstruido entero con el sistema de la web: 7 páginas A4, sin
+    precio, statement nuevo, CV corregido, sin la tipografía ni el color viejos.
+  - Certificados alineados con el sistema nuevo.
+  - "Colección" eliminada de todo el sitio, incluidos los metadatos.
+  - INSTAGRAM.txt: qué hacer con la cuenta, paso a paso.
 
 ARQUITECTURA
   - Navegación nueva: Obra / Sobre / CV / Contacto.

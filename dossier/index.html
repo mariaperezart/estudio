@@ -3,295 +3,190 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dossier — Gabriela Pérez</title>
+<title>Gabriela Pérez — Dossier 2026</title>
 <meta name="robots" content="noindex">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
 <style>
 @font-face { font-family:'Inter'; font-style:normal; font-weight:400; font-display:swap;
   src:url('../assets/fonts/inter-400.woff2') format('woff2'); }
 @font-face { font-family:'Inter'; font-style:italic; font-weight:400; font-display:swap;
   src:url('../assets/fonts/inter-400-italic.woff2') format('woff2'); }
-</style>
-<style>
-  :root {
-    --color-bg: #F6F3ED;
-    --color-ink: #1C1A17;
-    --color-muted: #6B6459;
-    --color-accent: #3B3A6E;
-    --color-border: #E4DED2;
-    --color-paper-alt: #EFEAE0;
-    --font-display: Georgia, 'Times New Roman', serif;
-    --font-body: 'Inter', -apple-system, sans-serif;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: #DCD6C8;
-    color: var(--color-ink);
-    font-family: var(--font-body);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 32px 16px;
-  }
-  .no-print { max-width: 720px; margin: 0 auto 24px; text-align: center; }
-  .no-print button {
-    font-family: var(--font-body);
-    font-size: 0.9rem;
-    padding: 10px 22px;
-    border: 1px solid var(--color-ink);
-    background: transparent;
-    border-radius: 2px;
-    cursor: pointer;
-  }
-  .no-print button:hover { background: var(--color-ink); color: #fff; }
-  .no-print p { color: #4a463e; font-size: 0.85rem; }
 
-  .page {
-    width: 210mm;
-    min-height: 297mm;
-    background: var(--color-bg);
-    padding: 20mm;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.18);
-    position: relative;
-    margin-bottom: 24px;
-  }
-  .page__inner {
-    min-height: calc(297mm - 40mm);
-    display: flex;
-    flex-direction: column;
-  }
-  .brand { font-family: var(--font-display); font-size: 1.2rem; letter-spacing: 0.02em; }
-  .brand span { color: var(--color-accent); }
-  .eyebrow {
-    display: block;
-    font-size: 0.68rem;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: var(--color-muted);
-    margin-bottom: 6mm;
-  }
-  h1 {
-    font-family: var(--font-display);
-    font-weight: 400;
-    font-size: 3rem;
-    margin: 0 0 4mm;
-    line-height: 1.05;
-  }
-  h2 {
-    font-family: var(--font-display);
-    font-weight: 400;
-    font-size: 2rem;
-    margin: 0 0 6mm;
-  }
-  p { line-height: 1.7; font-size: 0.95rem; margin: 0 0 4mm; }
-  .lede {
-    font-family: var(--font-display);
-    font-size: 1.35rem;
-    line-height: 1.5;
-    color: var(--color-ink);
-    max-width: 140mm;
-  }
-  .footer-note {
-    margin-top: auto;
-    padding-top: 10mm;
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.68rem;
-    letter-spacing: 0.03em;
-    color: var(--color-muted);
-    border-top: 1px solid var(--color-border);
-  }
+/* Mismo sistema que el sitio: blanco, una tipografía, sin acento, sin efectos.
+   Aquí la unidad es la página A4, no el scroll. */
+:root { --ink:#141414; --muted:#6E6E6E; --rule:#E3E1DE; }
+* { box-sizing:border-box; }
+body { margin:0; background:#8a8a8a; color:var(--ink);
+  font-family:'Inter',-apple-system,Helvetica,Arial,sans-serif;
+  font-size:10.5pt; line-height:1.6; -webkit-font-smoothing:antialiased; }
+a { color:inherit; }
 
-  /* Portada */
-  .cover { justify-content: space-between; }
-  .cover .top { display: flex; justify-content: space-between; align-items: flex-start; }
-  .cover .center { margin: auto 0; }
-  .cover .center .eyebrow { margin-bottom: 10mm; }
-  .cover h1 { font-size: 4.2rem; }
-  .cover .subtitle { font-family: var(--font-display); font-size: 1.4rem; color: var(--color-muted); margin-top: 4mm; }
+.bar { max-width:210mm; margin:0 auto; padding:16px 20mm; background:#fff;
+  border-bottom:1px solid var(--rule); display:flex; gap:16px;
+  align-items:center; justify-content:space-between; flex-wrap:wrap; }
+.bar p { margin:0; font-size:9pt; color:var(--muted); }
+.bar button { font:inherit; font-size:9pt; background:none; color:var(--ink);
+  border:0; border-bottom:1px solid var(--ink); padding:0 0 2px; cursor:pointer; }
 
-  /* Ficha de obra */
-  .obra-figure { background: var(--color-paper-alt); margin-bottom: 8mm; }
-  .obra-figure img { width: 100%; height: auto; display: block; }
-  dl.meta {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5mm 10mm;
-    padding: 6mm 0;
-    border-top: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border);
-    margin: 6mm 0;
-  }
-  dl.meta dt { font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-muted); margin-bottom: 2px; }
-  dl.meta dd { margin: 0; font-family: var(--font-display); font-size: 1.05rem; }
-  .note { font-size: 0.7rem; color: var(--color-muted); font-family: var(--font-body); }
+.hoja { width:210mm; min-height:297mm; padding:24mm 20mm 20mm; margin:0 auto 12px;
+  background:#fff; position:relative; page-break-after:always; }
+.hoja:last-child { page-break-after:auto; }
 
-  .divider { border: none; border-top: 1px solid var(--color-border); margin: 8mm 0; }
+h1 { font-size:20pt; font-weight:400; letter-spacing:-.02em; margin:0 0 4mm; line-height:1.15; }
+h2 { font-size:12pt; font-weight:400; margin:0 0 3mm; }
+.label { font-size:7.5pt; letter-spacing:.09em; text-transform:uppercase;
+  color:var(--muted); margin:0 0 4mm; }
+p { margin:0 0 3mm; max-width:150mm; }
+em, i { font-style:italic; }
+.muted { color:var(--muted); }
+.lead { font-size:12pt; line-height:1.45; }
 
-  @media print {
-    body { background: none; padding: 0; }
-    .no-print { display: none; }
-    .page { box-shadow: none; margin: 0; page-break-after: always; }
-    @page { size: A4; margin: 0; }
-  }
+.pie { position:absolute; left:20mm; right:20mm; bottom:12mm;
+  display:flex; justify-content:space-between;
+  font-size:8pt; color:var(--muted);
+  border-top:1px solid var(--rule); padding-top:3mm; }
+
+figure { margin:0 0 4mm; }
+figure img { width:100%; height:auto; display:block; }
+figcaption { font-size:8.5pt; color:var(--muted); margin-top:2.5mm; }
+
+dl { margin:0; border-top:1px solid var(--rule); max-width:150mm; }
+dl > div { display:grid; grid-template-columns:38mm 1fr; gap:6mm;
+  padding:2.2mm 0; border-bottom:1px solid var(--rule); }
+dt { font-size:7.5pt; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); }
+dd { margin:0; font-size:10pt; }
+
+.portada { display:flex; flex-direction:column; justify-content:space-between; }
+
+@media print {
+  body { background:#fff; }
+  .bar { display:none; }
+  .hoja { margin:0; box-shadow:none; width:auto; min-height:auto; padding:20mm; }
+  @page { size:A4; margin:0; }
+}
+@media (max-width:230mm) {
+  .hoja { width:auto; min-height:0; padding:24px; }
+  .pie { position:static; margin-top:24px; }
+}
 </style>
 </head>
 <body>
 
-<div class="no-print">
-  <button onclick="window.print()">Imprimir / Guardar como PDF</button>
-  <p>Documento pensado para exportarse a PDF y enviarse por email a galerías, ferias o coleccionistas. Actualízalo a medida que cambie la disponibilidad de cada obra.</p>
+<div class="bar">
+  <p>Documento para enviar a galerías, comisarios e instituciones. Se exporta a PDF desde el propio navegador.</p>
+  <button onclick="window.print()">Guardar como PDF</button>
 </div>
 
-<!-- PÁGINA 1 — PORTADA -->
-<div class="page">
-  <div class="page__inner cover">
-    <div class="top">
-      <div class="brand">Gabriela Pérez<span>.</span></div>
-      <span class="eyebrow">Dossier — 2026</span>
-    </div>
-    <div class="center">
-      <span class="eyebrow">Serie Hábitats</span>
-      <h1>Mundos que<br>invitan a ser<br>habitados.</h1>
-      <p class="subtitle">Pintura contemporánea — campos de color en degradado</p>
-    </div>
-    <div class="footer-note">
-      <span>mariaperezart.github.io/estudio</span>
-      <span>mariaperez.art@gmail.com</span>
-    </div>
+<!-- 01 · Portada -->
+<section class="hoja portada">
+  <div>
+    <p class="label">Dossier 2026</p>
+    <h1>Gabriela Pérez</h1>
+    <p class="lead">Pinto campos de color que se encuentran en una franja. Esa franja —no el color de arriba ni el de abajo— es el asunto de cada pieza.</p>
   </div>
-</div>
-
-<!-- PÁGINA 2 — SOBRE LA ARTISTA -->
-<div class="page">
-  <div class="page__inner">
-    <span class="eyebrow">Sobre la artista</span>
-    <h2>Pinto campos de color que se encuentran en una franja.</h2>
-    <p class="lede">Esa franja es el asunto de cada pieza.</p>
-    <div style="margin-top:10mm; max-width:140mm;">
-      <p>Desde pequeña sentí que mi forma de percibir la realidad era diferente. Mientras otras personas parecían aceptar el mundo tal como era, yo necesitaba detenerme, observar los detalles, hacer preguntas y construir conexiones que no siempre eran evidentes para los demás.</p>
-      <p>Soy autista. Esa forma de percibir es la herramienta con la que trabajo una transición de color. No es el tema de la obra: es el método.</p>
-      <p>Creo mundos que invitan a ser habitados: espacios donde la lógica no desaparece, pero deja de ser la única forma de comprender. Mis obras no ofrecen una única interpretación. Nunca siento que una pieza esté completamente terminada cuando sale de mi estudio — termina de construirse cuando alguien empieza a convivir con ella.</p>
-    </div>
-    <div style="max-width:140mm; padding:6mm 0; border-top:1px solid var(--color-border); border-bottom:1px solid var(--color-border); margin:6mm 0;">
-      <span class="eyebrow" style="margin-bottom:2mm;">Formación</span>
-      <p style="font-family:var(--font-display); font-size:1.05rem; margin:0;">Técnico Superior Universitario en Diseño Gráfico, mención Publicidad</p>
-      <span class="note">Instituto Universitario de Tecnología Antonio José de Sucre (IUTAJS), Mérida, Venezuela</span>
-    </div>
-    <div style="max-width:140mm; margin-top:2mm;">
-      <span class="eyebrow" style="margin-bottom:3mm;">Trayectoria expositiva</span>
-      <ul style="list-style:none; margin:0; padding:0;">
-        <li style="margin-bottom:4mm; padding-bottom:4mm; border-bottom:1px solid var(--color-border);">
-          <strong style="font-family:var(--font-display); font-size:1.05rem;">2016 — I Festival Nacional de Muralismo</strong><br>
-          <span class="note">La Vela de Coro, Venezuela</span>
-        </li>
-        <li style="margin-bottom:4mm; padding-bottom:4mm; border-bottom:1px solid var(--color-border);">
-          <strong style="font-family:var(--font-display); font-size:1.05rem;">2017 — SHE, festival de muralismo</strong><br>
-          <span class="note">Barrio Obrero, San Cristóbal, Venezuela</span>
-        </li>
-        <li>
-          <strong style="font-family:var(--font-display); font-size:1.05rem;">2020 — Merkarte Joven</strong><br>
-          <span class="note">Cabildo de Tenerife, Santa Cruz de Tenerife — bajo el pseudónimo eyesasdaggers</span>
-        </li>
-      </ul>
-    </div>
-    <div class="footer-note">
-      <span>Gabriela Pérez — Dossier</span>
-      <span>02</span>
-    </div>
+  <figure>
+    <img src="../assets/img/obras/umbral/hero.jpg" alt="Umbral, 2026">
+    <figcaption><em>Umbral</em>, 2026. Acrílico sobre lienzo, 140 × 70 cm</figcaption>
+  </figure>
+  <div>
+    <p class="muted">León, España<br>
+    <a href="mailto:mariaperez.art@gmail.com">mariaperez.art@gmail.com</a><br>
+    mariaperezart.github.io/estudio</p>
   </div>
-</div>
+</section>
 
-<!-- PÁGINA 3 — COLECCIÓN HÁBITATS -->
-<div class="page">
-  <div class="page__inner">
-    <span class="eyebrow">Serie</span>
-    <h2>Hábitats</h2>
-    <p class="lede" style="max-width:150mm;">Hábitats explora la relación entre las personas y los espacios que habitan, tanto físicos como simbólicos.</p>
-    <div style="margin-top:10mm; max-width:140mm;">
-      <p>A través de la abstracción, las obras proponen lugares abiertos a la contemplación, invitando al espectador a detenerse, cruzar sus propios límites y descubrir nuevos horizontes de interpretación. Mi intención no es representar un lugar concreto, sino crear espacios que transmitan calma y favorezcan la reflexión.</p>
-      <p>El procedimiento es el hilo que une la serie: campo de color en degradado, composición de horizonte (una franja superior que se disuelve en una franja inferior de color distinto), formato horizontal de 140 × 70 cm, acrílico sobre lienzo sin enmarcar, con la trama textil visible como parte deliberada de la superficie. La paleta cambia con cada pieza; la estructura, no.</p>
-      <p>Dos obras forman la colección hasta el momento: <em>Umbral</em> y <em>Habitar</em>.</p>
-    </div>
-    <div class="footer-note">
-      <span>Gabriela Pérez — Dossier</span>
-      <span>03</span>
-    </div>
-  </div>
-</div>
+<!-- 02 · Statement y biografía -->
+<section class="hoja">
+  <p class="label">Statement</p>
+  <p class="lead">Pinto campos de color que se encuentran en una franja. Esa franja es el asunto de cada pieza.</p>
+  <p>Me interesa el instante anterior al reconocimiento: cuando todavía no sabes si lo que miras es un paisaje o una superficie. Ahí la mirada se detiene y tiene que decidir. Esa duda es el lugar que intento construir.</p>
+  <p>Soy autista. Esa forma de percibir —atención sostenida al detalle, a los patrones, a lo que no encaja— es la herramienta con la que trabajo una transición de color. No es el tema de la obra: es el método.</p>
+  <p>La paleta cambia con cada pieza. La estructura, no.</p>
 
-<!-- PÁGINA 4 — OBRA I: UMBRAL -->
-<div class="page">
-  <div class="page__inner">
-    <span class="eyebrow">Obra I — Serie Hábitats</span>
-    <h2>Umbral</h2>
-    <div class="obra-figure">
-      <img src="../assets/img/obras/umbral/hero.jpg" alt="Umbral — pintura en degradado de crudo cálido a rojo">
-    </div>
-    <p>Esta obra nace de la idea de que todo espacio puede convertirse en un lugar para detenerse. A través de la materia y el color, busca abrir un territorio de contemplación donde cada persona pueda construir su propia experiencia.</p>
-    <dl class="meta">
-      <div><dt>Técnica</dt><dd>Acrílico sobre lienzo</dd></div>
-      <div><dt>Dimensiones</dt><dd>140 × 70 cm</dd></div>
-      <div><dt>Año</dt><dd>2026 <span class="note">(junio)</span></dd></div>
-      <div><dt>Serie</dt><dd>Hábitats</dd></div>
-      <div><dt>Certificado</dt><dd>Firmado y numerado</dd></div>
-    </dl>
-    <div class="footer-note">
-      <span>Gabriela Pérez — Dossier</span>
-      <span>04</span>
-    </div>
-  </div>
-</div>
+  <p class="label" style="margin-top:10mm;">Biografía</p>
+  <p>Gabriela Pérez (Venezuela) vive y trabaja en León, España. Se formó como Técnico Superior Universitario en Diseño Gráfico en Mérida, Venezuela, y llegó a la pintura a los veinte años a través de un taller de la carrera. Antes de trabajar en estudio pintó muros en espacio público en Venezuela y en Tenerife. Su obra actual son campos de color en acrílico sobre lienzo, organizados en torno a una franja de transición entre dos superficies.</p>
 
-<!-- PÁGINA 5 — OBRA II: HABITAR -->
-<div class="page">
-  <div class="page__inner">
-    <span class="eyebrow">Obra II — Serie Hábitats</span>
-    <h2>Habitar</h2>
-    <div class="obra-figure">
-      <img src="../assets/img/obras/habitar/hero.jpg" alt="Habitar — pintura en degradado de crudo cálido a gris topo">
-    </div>
-    <p>Pinté esta obra como una invitación a explorar la relación entre el espacio y quien lo ocupa. Más que ofrecer respuestas, propone un lugar donde la calma y el silencio permitan que surjan nuevas preguntas.</p>
-    <dl class="meta">
-      <div><dt>Técnica</dt><dd>Acrílico sobre lienzo</dd></div>
-      <div><dt>Dimensiones</dt><dd>140 × 70 cm</dd></div>
-      <div><dt>Año</dt><dd>2026 <span class="note">(julio)</span></dd></div>
-      <div><dt>Serie</dt><dd>Hábitats</dd></div>
-      <div><dt>Certificado</dt><dd>Firmado y numerado</dd></div>
-    </dl>
-    <div class="footer-note">
-      <span>Gabriela Pérez — Dossier</span>
-      <span>05</span>
-    </div>
-  </div>
-</div>
+  <p class="label" style="margin-top:10mm;">Trayectoria</p>
+  <dl>
+    <div><dt>2026</dt><dd><em>Hábitats</em> — serie en curso. Acrílico sobre lienzo</dd></div>
+    <div><dt>2023</dt><dd>Mural por encargo — Ibéricos Gastro Bar, Puerto de la Cruz, Tenerife</dd></div>
+    <div><dt>2020</dt><dd>Merkarte Joven — Cabildo de Tenerife, Santa Cruz de Tenerife <span class="muted">(como <em>eyesasdaggers</em>)</span></dd></div>
+    <div><dt>2017</dt><dd>SHE, festival de muralismo — Barrio Obrero, San Cristóbal, Venezuela</dd></div>
+    <div><dt>2016</dt><dd>I Festival Nacional de Muralismo — La Vela de Coro, Venezuela</dd></div>
+    <div><dt>Formación</dt><dd>TSU en Diseño Gráfico, mención Publicidad — IUTAJS, Mérida, Venezuela</dd></div>
+  </dl>
+  <div class="pie"><span>Gabriela Pérez — Dossier 2026</span><span>02</span></div>
+</section>
 
-<!-- PÁGINA 6 — PROCESO Y CONTACTO -->
-<div class="page">
-  <div class="page__inner">
-    <span class="eyebrow">Cómo trabajo</span>
-    <h2>Un proceso documentado en público</h2>
-    <div style="max-width:140mm;">
-      <p>Cada obra, su ficha técnica y su certificado de autenticidad se publican en mi web a medida que existen — sin esperar a tener un catálogo grande. Documento el proceso de construir esta carrera abiertamente: decisiones de precio, investigación de mercado, aciertos y errores incluidos.</p>
-      <p>Cada obra es pieza única. La venta transfiere la pieza física; conservo los derechos de reproducción de la imagen salvo acuerdo explícito en contrario, como es estándar en el mercado del arte.</p>
-    </div>
+<!-- 03 · La serie -->
+<section class="hoja">
+  <p class="label">Serie</p>
+  <h1><em>Hábitats</em>, 2026</h1>
+  <p class="lead">Dos campos de color y la franja donde se tocan.</p>
+  <p>El procedimiento es el hilo que une la serie: una franja superior que se disuelve en una franja inferior de color distinto, formato horizontal de 140 × 70 cm, acrílico en veladuras sucesivas sobre lienzo sin enmarcar, con la trama textil visible como parte deliberada de la superficie y el color continuado sobre el canto del bastidor.</p>
+  <p>La paleta cambia con cada pieza. La estructura, no.</p>
+  <figure style="margin-top:8mm;">
+    <img src="../assets/img/obras/umbral/escala.jpg" alt="La artista frente a Umbral en el estudio">
+    <figcaption>La artista frente a <em>Umbral</em> en el estudio.</figcaption>
+  </figure>
+  <div class="pie"><span>Gabriela Pérez — Dossier 2026</span><span>03</span></div>
+</section>
 
-    <hr class="divider">
+<!-- 04 · Umbral -->
+<section class="hoja">
+  <p class="label">Obra</p>
+  <h1><em>Umbral</em>, 2026</h1>
+  <figure>
+    <img src="../assets/img/obras/umbral/hero.jpg" alt="Umbral, 2026">
+  </figure>
+  <p>Esta obra nace de la idea de que todo espacio puede convertirse en un lugar para detenerse. A través de la materia y el color, busca abrir un territorio de contemplación donde cada persona pueda construir su propia experiencia.</p>
+  <dl style="margin-top:6mm;">
+    <div><dt>Año</dt><dd>2026</dd></div>
+    <div><dt>Técnica</dt><dd>Acrílico sobre lienzo</dd></div>
+    <div><dt>Dimensiones</dt><dd>140 × 70 cm</dd></div>
+    <div><dt>Serie</dt><dd>Hábitats</dd></div>
+  </dl>
+  <div class="pie"><span>Gabriela Pérez — Dossier 2026</span><span>04</span></div>
+</section>
 
-    <span class="eyebrow">Disponibilidad</span>
-    <p>Ambas piezas — pendiente de confirmar disponibilidad en el momento de contacto. Consultar antes de dar una obra por reservada.</p>
+<!-- 05 · Habitar -->
+<section class="hoja">
+  <p class="label">Obra</p>
+  <h1><em>Habitar</em>, 2026</h1>
+  <figure>
+    <img src="../assets/img/obras/habitar/hero.jpg" alt="Habitar, 2026">
+  </figure>
+  <p>Pinté esta obra como una invitación a explorar la relación entre el espacio y quien lo ocupa. Más que ofrecer respuestas, propone un lugar donde la calma y el silencio permitan que surjan nuevas preguntas.</p>
+  <dl style="margin-top:6mm;">
+    <div><dt>Año</dt><dd>2026</dd></div>
+    <div><dt>Técnica</dt><dd>Acrílico sobre lienzo</dd></div>
+    <div><dt>Dimensiones</dt><dd>140 × 70 cm</dd></div>
+    <div><dt>Serie</dt><dd>Hábitats</dd></div>
+  </dl>
+  <div class="pie"><span>Gabriela Pérez — Dossier 2026</span><span>05</span></div>
+</section>
 
-    <hr class="divider">
+<!-- 06 · Materia -->
+<section class="hoja">
+  <p class="label">Materia</p>
+  <h1>El canto y la franja</h1>
+  <figure>
+    <img src="../assets/img/obras/umbral/canto.jpg" alt="Canto del bastidor de Umbral">
+    <figcaption>El color continúa sobre el canto del bastidor. La trama del lienzo queda visible.</figcaption>
+  </figure>
+  <p style="margin-top:6mm;">Trabajo el acrílico en veladuras sucesivas. El color no se aplica: se acumula. La franja donde dos campos se encuentran es lo último que se resuelve, y es la razón de ser de cada pieza — no un borde, sino una zona de paso.</p>
+  <div class="pie"><span>Gabriela Pérez — Dossier 2026</span><span>06</span></div>
+</section>
 
-    <span class="eyebrow">Contacto</span>
-    <p style="font-family:var(--font-display); font-size:1.3rem;">mariaperez.art@gmail.com<br>mariaperezart.github.io/estudio</p>
-
-    <div class="footer-note">
-      <span>Gabriela Pérez — Dossier</span>
-      <span>06</span>
-    </div>
-  </div>
-</div>
+<!-- 07 · Contacto -->
+<section class="hoja">
+  <p class="label">Contacto</p>
+  <h1>Estudio</h1>
+  <p class="lead"><a href="mailto:mariaperez.art@gmail.com">mariaperez.art@gmail.com</a></p>
+  <p class="muted">León, España<br>mariaperezart.github.io/estudio</p>
+  <p style="margin-top:8mm;" class="muted">Imágenes en alta resolución, condiciones y disponibilidad, a petición.</p>
+  <div class="pie"><span>Gabriela Pérez — Dossier 2026</span><span>07</span></div>
+</section>
 
 </body>
 </html>

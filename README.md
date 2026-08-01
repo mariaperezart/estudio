@@ -16,8 +16,9 @@ Llevan un aviso de supersesión en cabecera. Conservan datos reales de obra y
 trayectoria, pero **nada de lo que digan sobre posicionamiento, navegación,
 identidad visual, precio o embudo sigue vigente**.
 
-Y **[`QUE_TENGO_QUE_HACER.txt`](./QUE_TENGO_QUE_HACER.txt)** es la lista de lo
-que depende de Gabriela.
+Y estos dos son la lista de lo que depende de Gabriela:
+**[`QUE_TENGO_QUE_HACER.txt`](./QUE_TENGO_QUE_HACER.txt)** (web, obra, CV) y
+**[`INSTAGRAM.txt`](./INSTAGRAM.txt)** (la cuenta, paso a paso).
 
 Contexto histórico: **[`BIBLIA_DEL_UNIVERSO.md`](./BIBLIA_DEL_UNIVERSO.md)** — es el documento canónico: el manifiesto de Gabriela, la identidad de marca, las reglas del universo (canon narrativo y simbólico), la hoja de ruta de producto en 3 horizontes, la experiencia del coleccionista, la estrategia de contenido, la arquitectura de propiedad intelectual y el sistema de decisiones basado en hipótesis. Es la referencia que prevalece para cualquier persona o IA que trabaje en el proyecto.
 
@@ -32,10 +33,7 @@ colecciones/               Índice de colecciones + página por colección
 sobre/                     Statement, biografía, proceso y trayectoria
 blog/                      Textos
 comisiones/                Proceso de comisiones
-contacto/                  Formulario de contacto
-faq/                       Preguntas frecuentes
-newsletter/                Lista del estudio
-gracias/                   Confirmación tras formulario
+contacto/                  Dirección del estudio
 legal/                     Privacidad, términos, cookies (pendientes de revisión legal)
 el-universo/               Redirección a sobre/ (URL antigua)
 assets/                    CSS, JS, imágenes
@@ -81,12 +79,10 @@ Para activar GitHub Pages: Settings → Pages → Deploy from branch → rama `m
 
 Bloqueantes:
 
-- [ ] **Conectar los formularios**: sustituir `TU_ID_DE_FORMSPREE` en `contacto/` y `newsletter/`. Ahora mismo no entregan nada; el aviso de "pendiente" se retiró de la página y quedó como comentario HTML.
 - [ ] Revisión legal de `legal/privacidad`, `legal/terminos`, `legal/cookies`.
 
 Recomendables:
 
 - [ ] Recortar `hero.jpg` de ambas obras al borde exacto del lienzo (hoy se ve pared alrededor).
-- [ ] Rehacer `dossier/` y `certificados/` con el nuevo sistema: siguen con estilos propios en línea.
 - [ ] Conectar newsletter real (Buttondown/Mailchimp) y analítica (Plausible/Fathom). Si se añade analítica, que sea sin cookies: hoy el sitio no hace ni una petición a terceros.
 - [ ] Registrar dominio propio cuando la marca esté validada.
