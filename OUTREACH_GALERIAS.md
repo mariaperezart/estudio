@@ -6,7 +6,7 @@
 
 ## Estado actual
 
-**Primera acción real: julio 2026.** Gabriela empezó a seguir en Instagram, desde @mariagperezs, a los espacios de arte identificados en León (investigación real vía `investigador-mercado`, verificada con búsqueda web — no una lista genérica). Es el primer paso de outreach, no un contacto formal todavía. **Confirmado por captura de pantalla real de la pestaña "Seguidos" de @mariagperezs (julio 2026): son exactamente estas 5 cuentas, con handles verificados directamente en la app** — reemplaza cualquier duda o handle sin confirmar de la versión anterior de este documento.
+**Primera acción real: julio 2026.** Gabriela empezó a seguir en Instagram, desde @mgabrielaperezs, a los espacios de arte identificados en León (investigación real vía `investigador-mercado`, verificada con búsqueda web — no una lista genérica). Es el primer paso de outreach, no un contacto formal todavía. **Confirmado por captura de pantalla real de la pestaña "Seguidos" de @mgabrielaperezs (julio 2026): son exactamente estas 5 cuentas, con handles verificados directamente en la app** — reemplaza cualquier duda o handle sin confirmar de la versión anterior de este documento.
 
 | Espacio | Tipo | Por qué encaja | Instagram (confirmado en app) | Estado |
 |---|---|---|---|---|

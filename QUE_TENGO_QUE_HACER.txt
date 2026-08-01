@@ -53,6 +53,82 @@ BLOQUE 0 — URGENTE. HOY. SIN ESTO, LA WEB NO SIRVE
 
 
 ===============================================================================
+BLOQUE 0.5 — INSTAGRAM. HOY. SON 10 MINUTOS
+===============================================================================
+
+Ya he visto tu cuenta (@mgabrielaperezs). Esto es lo que hay que cambiar y no
+puedo hacerlo yo.
+
+[ ] 0.4  PONER EL ENLACE A LA WEB EN LA BIO
+         TU BIO NO TIENE ENLACE. Ninguno. Nada conecta tu Instagram con tu web.
+         Es el fallo funcional más grave de toda tu presencia digital: todo el
+         trabajo del sitio es invisible desde donde está tu audiencia.
+
+         Pon: mariaperezart.github.io/estudio
+
+
+[ ] 0.5  CAMBIAR EL NOMBRE DEL PERFIL
+         Ahora: "Arte de Gabriela Pérez"
+         Debe ser: "Gabriela Pérez"
+
+         "Arte de..." es como se nombra una cuenta de manualidades. Ningún
+         artista de circuito lo usa. Tu nombre basta.
+
+
+[ ] 0.6  REESCRIBIR LA BIO
+         Ahora dice:
+           "Gabriela — pintora abstracta en acrílico.
+            Colección actual: Hábitats."
+
+         Problemas: te falta el apellido (la web dice Gabriela Pérez), dices
+         "colección" (la web dice serie) y no describes qué investigas.
+
+         Pon:
+           Gabriela Pérez
+           Pinto la franja donde dos campos de color se encuentran.
+           Hábitats, 2026 — serie en curso.
+           [enlace a la web]
+
+
+[ ] 0.7  DEJAR DE ETIQUETAR TENERIFE
+         Tus publicaciones están geolocalizadas en Santa Cruz de Tenerife y
+         Puerto de la Cruz. Vives en León. Si un gestor cultural de León te
+         busca, no te encuentra; y si te encuentra, te sitúa a 2.000 km.
+
+
+[ ] 0.8  ARCHIVAR LA TARJETA DE CITA
+         Es la única publicación de Hábitats que existe, y lleva la tipografía,
+         el fondo crema y el punto índigo de la marca que ya hemos eliminado.
+         Quien la vea y luego entre en la web ve dos diseñadores distintos.
+
+         Archívala (no la borres). Ya he eliminado los archivos del repositorio
+         para que no se vuelvan a publicar.
+
+
+[ ] 0.9  ASUMIR QUE EMPIEZAS DE CERO
+         Esto no es una tarea, es un cambio de expectativa, y es importante.
+
+         Tus números reales:
+           Archivo #01 (abril 2021, Territorios Interiores) ... 628 me gusta
+           Merkarte (diciembre 2020) ...................... 86-156 me gusta
+           Tarjeta de Hábitats (julio 2026) .................. 4 me gusta
+
+           Alcance de toda la cuenta: 130 visualizaciones en 30 días,
+           con 2.685 seguidores.
+
+         De 628 a 4. No es que el post fuera malo. Es que esa audiencia se
+         construyó con otra práctica —paisaje figurativo, pintura digital,
+         turquesa— y no te ha seguido al cambiar.
+
+         Esos 2.685 seguidores no son un activo: son un lastre. No interactúan,
+         así que hunden tu alcance, y confunden a quien baja tres filas y
+         encuentra a otra pintora.
+
+         No intentes "reactivar" la cuenta. Empieza a contar desde cero y mide
+         solo lo que publiques a partir de ahora.
+
+
+===============================================================================
 BLOQUE 1 — ESTA SEMANA. SUBIR EL SUELO
 ===============================================================================
 
@@ -121,6 +197,13 @@ BLOQUE 1 — ESTA SEMANA. SUBIR EL SUELO
 
          He puesto la versión que respalda el cartel ("Cabildo de Tenerife").
          BUSCA EL DATO EXACTO y dime cuál es el correcto.
+
+         SEGUNDO DATO, encontrado en las cartelas de tus fotos de sala:
+         aquellas obras eran de TÉCNICA DIGITAL, 30 x 40 cm, a 400 €. No eran
+         acrílico. Yo lo había anotado mal en el archivo y ya está corregido.
+         Si algún día muestras esa obra, la ficha tiene que decir "pintura
+         digital": describirla como pintura acrílica sería falsear la técnica,
+         y eso en una cartela es grave.
 
          Está en: cv/index.html
          Tiempo: 15 minutos.

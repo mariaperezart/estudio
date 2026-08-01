@@ -1,5 +1,14 @@
 # Manual de Marca — Gabriela
 
+> **⚠ DOCUMENTO SUPERADO EN PARTE — leer `MARCA.md` primero.**
+>
+> Este documento se escribió para una marca de venta directa que ya no existe:
+> la web se rediseñó el 1 de agosto de 2026 y eliminó el embudo, el CTA de
+> disponibilidad, el precio público, la palabra "colección", la tipografía
+> Cormorant y el color de acento índigo. Todo lo que aquí se diga sobre
+> posicionamiento, navegación, identidad visual, precio o embudo está obsoleto.
+> Lo que sigue vigente son los datos reales de obra, trayectoria y proceso.
+
 *Versión operativa, para usar mientras grabas y publicas. No sustituye a `BIBLIA_DEL_UNIVERSO.md` (que sigue siendo la fuente de verdad si algo aquí parece contradecirla) — es ese documento condensado en algo que puedas tener abierto en el móvil antes de grabar. Reestructurado como manual operativo completo (no solo identidad visual y voz) — julio 2026.*
 
 ---

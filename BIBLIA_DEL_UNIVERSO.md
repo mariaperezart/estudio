@@ -1,5 +1,14 @@
 # Biblia del Universo — Gabriela
 
+> **⚠ DOCUMENTO SUPERADO EN PARTE — leer `MARCA.md` primero.**
+>
+> Este documento se escribió para una marca de venta directa que ya no existe:
+> la web se rediseñó el 1 de agosto de 2026 y eliminó el embudo, el CTA de
+> disponibilidad, el precio público, la palabra "colección", la tipografía
+> Cormorant y el color de acento índigo. Todo lo que aquí se diga sobre
+> posicionamiento, navegación, identidad visual, precio o embudo está obsoleto.
+> Lo que sigue vigente son los datos reales de obra, trayectoria y proceso.
+
 *Documento de referencia único. Si `ESTRATEGIA_MAESTRA.md` es el plano de negocio, este es el canon: quién es Gabriela, qué reglas rigen su universo, y qué puede y no puede decir/hacer cualquier persona o IA que trabaje en su nombre.*
 
 ---
@@ -209,7 +218,7 @@ Estos datos ya están confirmados por Gabriela y pueden usarse sin marcarlos com
 
 ### Audiencia y cuenta ya existentes (confirmado julio 2026 — corrige la premisa "empiezo de cero")
 
-Gabriela ya tiene una cuenta de Instagram activa y real: **@mariagperezs**, ~2.695 seguidores, 448 seguidos, 21 publicaciones (cifras de julio 2026, cambiarán — no recitar como fijas, actualizar si se vuelve a auditar). El cuerpo de obra publicado ahí hasta ahora pertenece a una serie anterior con nombre de trabajo **"Territorios Interiores"** (paisajes semi-abstractos en paleta turquesa/verde-azulado) — Gabriela confirmó que esta serie **es la misma carrera** que Hábitats, no una etapa separada a ocultar; "Territorios Interiores" era solo el nombre que estaba barajando antes de decidir "Hábitats" para la colección actual. Las obras de esa cuenta incluyen las piezas expuestas físicamente en Merkarte Joven 2020.
+Gabriela ya tiene una cuenta de Instagram activa y real: **@mgabrielaperezs**, ~2.695 seguidores, 448 seguidos, 21 publicaciones (cifras de julio 2026, cambiarán — no recitar como fijas, actualizar si se vuelve a auditar). El cuerpo de obra publicado ahí hasta ahora pertenece a una serie anterior con nombre de trabajo **"Territorios Interiores"** (paisajes semi-abstractos en paleta turquesa/verde-azulado) — Gabriela confirmó que esta serie **es la misma carrera** que Hábitats, no una etapa separada a ocultar; "Territorios Interiores" era solo el nombre que estaba barajando antes de decidir "Hábitats" para la colección actual. Las obras de esa cuenta incluyen las piezas expuestas físicamente en Merkarte Joven 2020.
 
 **Consecuencia operativa, vinculante para cualquier agente o contenido nuevo**: nunca se dice ni se sugiere "empiezo de cero", "no tengo audiencia", "no tengo contactos" o "no tengo galería" — es verificablemente falso y rompería la confianza exactamente igual que inventar un dato. Lo que sí es nuevo y real es la **dirección artística** (Hábitats: campo de color en degradado, frente a los paisajes turquesa de Territorios Interiores) y el nivel de **documentación pública del proceso de negocio** (precios, dossier, certificados) — eso sí es un capítulo nuevo, y es donde debe apoyarse cualquier narrativa de "principio", nunca en negar la trayectoria previa.
 

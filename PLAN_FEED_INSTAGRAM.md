@@ -1,8 +1,17 @@
 # Plan de Feed — Instagram
 
+> **⚠ DOCUMENTO SUPERADO EN PARTE — leer `MARCA.md` primero.**
+>
+> Este documento se escribió para una marca de venta directa que ya no existe:
+> la web se rediseñó el 1 de agosto de 2026 y eliminó el embudo, el CTA de
+> disponibilidad, el precio público, la palabra "colección", la tipografía
+> Cormorant y el color de acento índigo. Todo lo que aquí se diga sobre
+> posicionamiento, navegación, identidad visual, precio o embudo está obsoleto.
+> Lo que sigue vigente son los datos reales de obra, trayectoria y proceso.
+
 *12 publicaciones nuevas, construidas solo con lo que ya existe hoy: las fotos reales de Umbral y Habitar, y 3 tarjetas de cita generadas con la paleta y tipografía de marca (`assets/img/social/quote-cards/`). Nada de esto necesita esperar a nada — se puede empezar a publicar ya.*
 
-**Corrección importante (confirmada julio 2026)**: esto no es la primera cuadrícula de una cuenta nueva. Se publica en **@mariagperezs**, cuenta real con ~2.695 seguidores. La cuenta tenía originalmente 21 publicaciones (serie anterior, *Territorios Interiores*, paleta turquesa); Gabriela la curó a **10** (archivó las 11 más débiles en credibilidad o coherencia visual, sin borrar nada — detalle completo y captions reales en `CAPTIONS_ARCHIVO_INSTAGRAM.md`). Estas 12 publicaciones nuevas son el inicio de un **capítulo nuevo dentro de esa misma cuenta** — un cambio de dirección visual real, no un perfil vacío. Por eso el post 1 se reescribe como anuncio explícito del cambio, en vez de una apertura genérica de "esto es lo que hago" (ver sección 3).
+**Corrección importante (confirmada julio 2026)**: esto no es la primera cuadrícula de una cuenta nueva. Se publica en **@mgabrielaperezs**, cuenta real con ~2.695 seguidores. La cuenta tenía originalmente 21 publicaciones (serie anterior, *Territorios Interiores*, paleta turquesa); Gabriela la curó a **10** (archivó las 11 más débiles en credibilidad o coherencia visual, sin borrar nada — detalle completo y captions reales en `CAPTIONS_ARCHIVO_INSTAGRAM.md`). Estas 12 publicaciones nuevas son el inicio de un **capítulo nuevo dentro de esa misma cuenta** — un cambio de dirección visual real, no un perfil vacío. Por eso el post 1 se reescribe como anuncio explícito del cambio, en vez de una apertura genérica de "esto es lo que hago" (ver sección 3).
 
 ---
 
@@ -49,7 +58,7 @@ Fila 4:  [detalle]   [contexto]       [contexto]
 
 ### 1 — `umbral-quote.jpg` — ✅ Publicado (julio 2026)
 **Tipo**: Cita / anuncio de capítulo nuevo
-**Caption**: "No pinto para explicar el mundo. Pinto porque nunca he podido verlo de una sola manera. — Empiezo una colección nueva: Hábitats. Distinta a todo lo que he compartido aquí hasta ahora. Los próximos posts documentan ese cambio, y todo el proceso de negocio detrás, en directo."
+**Caption**: "No pinto para explicar el mundo. Pinto porque nunca he podido verlo de una sola manera. — Empiezo una colección nueva: Hábitats. Distinta a todo lo que he compartido aquí hasta ahora. Los próximos posts documentan ese cambio,."
 **Complementa con**: Guion 1 (*Tengo dos pinturas nuevas — y una carrera que no empieza hoy*)
 
 **Es la primera publicación real del capítulo Hábitats.** A partir de aquí, esta cuadrícula deja de ser un plan y empieza a ser un registro — cada entrada siguiente se marca ✅ cuando se publique de verdad, nunca antes.
@@ -102,7 +111,7 @@ Fila 4:  [detalle]   [contexto]       [contexto]
 
 ### 12 — `obras/habitar/vista-lateral.jpg`
 **Tipo**: Contexto / detrás de escena
-**Caption**: "Cierro este primer bloque de posts con Habitar desde un ángulo. Lo que viene después depende de lo que aprenda documentando el proceso — así que sígueme para verlo."
+**Caption**: "Cierro este primer bloque de posts con Habitar desde un ángulo. Lo que viene después depende de lo que aprenda documentando el proceso ."
 **Complementa con**: Guion 10 (*Mi estudio es este rincón de mi casa*)
 
 ---

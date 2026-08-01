@@ -4,7 +4,22 @@ Sitio web y ecosistema de marca de Gabriela Pérez, artista. Sitio estático (HT
 
 ## Empezar aquí
 
-Lee **[`BIBLIA_DEL_UNIVERSO.md`](./BIBLIA_DEL_UNIVERSO.md)** primero — es el documento canónico: el manifiesto de Gabriela, la identidad de marca, las reglas del universo (canon narrativo y simbólico), la hoja de ruta de producto en 3 horizontes, la experiencia del coleccionista, la estrategia de contenido, la arquitectura de propiedad intelectual y el sistema de decisiones basado en hipótesis. Es la referencia que prevalece para cualquier persona o IA que trabaje en el proyecto.
+Lee **[`MARCA.md`](./MARCA.md)** primero. Es el documento canónico y **tiene
+prioridad sobre cualquier otro del repositorio**: define el posicionamiento, la
+identidad visual real, la voz y las reglas de publicación tras el rediseño del
+1 de agosto de 2026.
+
+Los documentos anteriores (`ESTRATEGIA_MAESTRA.md`, `MANUAL_DE_MARCA.md`,
+`BIBLIA_DEL_UNIVERSO.md`, `PLAN_FEED_INSTAGRAM.md`, `GUIONES_TIKTOK_INSTAGRAM.md`,
+`SERIE_DOCUMENTAL.md`) describen una marca de venta directa que ya no existe.
+Llevan un aviso de supersesión en cabecera. Conservan datos reales de obra y
+trayectoria, pero **nada de lo que digan sobre posicionamiento, navegación,
+identidad visual, precio o embudo sigue vigente**.
+
+Y **[`QUE_TENGO_QUE_HACER.txt`](./QUE_TENGO_QUE_HACER.txt)** es la lista de lo
+que depende de Gabriela.
+
+Contexto histórico: **[`BIBLIA_DEL_UNIVERSO.md`](./BIBLIA_DEL_UNIVERSO.md)** — es el documento canónico: el manifiesto de Gabriela, la identidad de marca, las reglas del universo (canon narrativo y simbólico), la hoja de ruta de producto en 3 horizontes, la experiencia del coleccionista, la estrategia de contenido, la arquitectura de propiedad intelectual y el sistema de decisiones basado en hipótesis. Es la referencia que prevalece para cualquier persona o IA que trabaje en el proyecto.
 
 Después, **[`ESTRATEGIA_MAESTRA.md`](./ESTRATEGIA_MAESTRA.md)** es el plan de ejecución: arquitectura del sitio, storytelling por obra, embudo de conversión con KPIs, el detalle operativo de los 10 agentes IA y el stack tecnológico recomendado.
 

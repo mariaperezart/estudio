@@ -16,7 +16,7 @@
 
 ### Post 1 — `umbral-quote.jpg` (publicado julio 2026)
 
-Primera publicación real del capítulo Hábitats en @mariagperezs (~2.695 seguidores en el momento de análisis). Ver `PLAN_FEED_INSTAGRAM.md` #1.
+Primera publicación real del capítulo Hábitats en @mgabrielaperezs (~2.695 seguidores en el momento de análisis). Ver `PLAN_FEED_INSTAGRAM.md` #1.
 
 | Métrica | Valor (a las 21h de publicado) |
 |---|---|
@@ -43,3 +43,41 @@ Se registra en cuanto Gabriela comparta el post y, más adelante, sus Insights.
 - `.claude/agents/analista.md` — agente responsable de este registro y de detectar el patrón cuando haya suficientes datos.
 - `PLAN_FEED_INSTAGRAM.md` — la cuadrícula planificada; cada entrada ✅ publicada debería tener su fila correspondiente aquí en cuanto haya datos.
 - `GUIONES_TIKTOK_INSTAGRAM.md` — los Reels que complementan cada post de feed; clave para diagnosticar el alcance real.
+
+---
+
+## Lectura completa de la cuenta — 1 de agosto de 2026
+
+Datos leídos directamente de capturas del perfil. Ninguna cifra estimada.
+
+**@mgabrielaperezs** — "Arte de Gabriela Pérez". 11 publicaciones ·
+2.685 seguidores · 15 seguidos. **130 visualizaciones en los últimos 30 días.**
+
+| Publicación | Fecha | Me gusta | Comentarios |
+|---|---|---|---|
+| Archivo #01 — *Territorios Interiores* (carrusel) | 10 abr 2021 | **628** | 25 |
+| Origen #07 — vista de sala, Merkarte | 27 dic 2020 | 156 | 5 |
+| Merkarte Joven #06 — *Faro del Puerto* | 27 dic 2020 | 143 | 4 |
+| Del archivo #08 — *Playa de San Telmo* | 27 dic 2020 | 102 | 4 |
+| Del archivo #09 — muro Eyesasdaggers | 27 dic 2020 | 94 | 3 |
+| Del archivo #05 — cartel MKT | 27 dic 2020 | 86 | 3 |
+| Tarjeta de cita — inicio de Hábitats | 9 jul 2026 | **4** | 0 |
+
+### Conclusión
+
+**De 628 a 4 me gusta.** No es un post flojo: es una audiencia construida con
+otra práctica —paisaje figurativo, pintura digital, paleta turquesa— que no
+responde al trabajo actual. Un 130 de alcance mensual sobre 2.685 seguidores
+confirma que la cuenta está apagada para el algoritmo.
+
+**Consecuencia operativa:** los 2.685 seguidores no son un activo de partida.
+No se debe medir el rendimiento de Hábitats contra esa base ni esperar que
+"reactivar" la cuenta funcione. Se empieza de cero, con métricas propias.
+
+**No se saca ninguna otra conclusión todavía.** Solo hay una publicación de
+Hábitats. El patrón exige cinco o seis.
+
+### Dato de contexto encontrado en las cartelas de 2020
+
+Las obras de Merkarte se vendían a **400 €** (30 × 40 cm, técnica: pintura
+digital). Es el único precio real documentado de Gabriela hasta la fecha.

@@ -1,5 +1,14 @@
 # Serie Documental — Gabriela
 
+> **⚠ DOCUMENTO SUPERADO EN PARTE — leer `MARCA.md` primero.**
+>
+> Este documento se escribió para una marca de venta directa que ya no existe:
+> la web se rediseñó el 1 de agosto de 2026 y eliminó el embudo, el CTA de
+> disponibilidad, el precio público, la palabra "colección", la tipografía
+> Cormorant y el color de acento índigo. Todo lo que aquí se diga sobre
+> posicionamiento, navegación, identidad visual, precio o embudo está obsoleto.
+> Lo que sigue vigente son los datos reales de obra, trayectoria y proceso.
+
 *Plan de contenido de vídeo de largo recorrido. Aplica el sistema de decisiones ya definido en `BIBLIA_DEL_UNIVERSO.md` §12 a un formato público. No es un documento nuevo de estrategia — es la ejecución en vídeo de algo que ya estaba decidido en el Manifiesto §22-23 y §29. Reestructurado como documento operativo completo (no solo un listado de episodios) — julio 2026.*
 
 ---

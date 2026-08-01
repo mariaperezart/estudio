@@ -1,5 +1,14 @@
 # Guiones TikTok / Instagram — primer lote
 
+> **⚠ DOCUMENTO SUPERADO EN PARTE — leer `MARCA.md` primero.**
+>
+> Este documento se escribió para una marca de venta directa que ya no existe:
+> la web se rediseñó el 1 de agosto de 2026 y eliminó el embudo, el CTA de
+> disponibilidad, el precio público, la palabra "colección", la tipografía
+> Cormorant y el color de acento índigo. Todo lo que aquí se diga sobre
+> posicionamiento, navegación, identidad visual, precio o embudo está obsoleto.
+> Lo que sigue vigente son los datos reales de obra, trayectoria y proceso.
+
 *26 guiones en total: 24 listos para grabar ya, sin esperar a que pase nada más, más 2 que requieren preparación previa antes de grabar (nº 11, observación real; nº 17, experimento a anunciar). Todos parten de hechos reales de hoy — nada de dossiers enviados, respuestas de galerías o ventas, porque todavía no han ocurrido. Cuando ocurran de verdad, se añaden aquí como nuevos guiones (ver `SERIE_DOCUMENTAL.md`).*
 
 **Formato técnico general**: vertical 9:16, 15-45 segundos la mayoría, subtítulos siempre (gran parte se ve sin sonido), hook en los primeros 1-2 segundos —sin intro de marca, sin cuenta atrás, directo a la frase. El texto en pantalla del primer segundo debe decir literalmente de qué va el vídeo — nadie debería tener que esperar 5 segundos para saberlo.

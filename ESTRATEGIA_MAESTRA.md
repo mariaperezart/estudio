@@ -1,5 +1,14 @@
 # El Universo de Gabriela — Plan Maestro de Marca
 
+> **⚠ DOCUMENTO SUPERADO EN PARTE — leer `MARCA.md` primero.**
+>
+> Este documento se escribió para una marca de venta directa que ya no existe:
+> la web se rediseñó el 1 de agosto de 2026 y eliminó el embudo, el CTA de
+> disponibilidad, el precio público, la palabra "colección", la tipografía
+> Cormorant y el color de acento índigo. Todo lo que aquí se diga sobre
+> posicionamiento, navegación, identidad visual, precio o embudo está obsoleto.
+> Lo que sigue vigente son los datos reales de obra, trayectoria y proceso.
+
 *Documento de estrategia integral: posicionamiento, embudo de conversión, ecosistema de agentes IA y arquitectura tecnológica para construir una marca artística internacional.*
 
 ---

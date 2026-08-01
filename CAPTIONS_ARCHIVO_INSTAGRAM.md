@@ -1,6 +1,6 @@
 # Captions — archivo curado de Instagram (Territorios Interiores / Merkarte Joven)
 
-*Registro histórico, no una plantilla a futuro. Documenta una decisión ya tomada y ya publicada por Gabriela (julio 2026): la curación de su cuenta real **@mariagperezs** de 21 publicaciones a 10, y los captions escritos para esas 10 — ya están publicados en Instagram, este documento solo los deja anotados en el repositorio.*
+*Registro histórico, no una plantilla a futuro. Documenta una decisión ya tomada y ya publicada por Gabriela (julio 2026): la curación de su cuenta real **@mgabrielaperezs** de 21 publicaciones a 10, y los captions escritos para esas 10 — ya están publicados en Instagram, este documento solo los deja anotados en el repositorio.*
 
 ---
 
