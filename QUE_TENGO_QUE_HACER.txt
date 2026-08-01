@@ -210,27 +210,24 @@ BLOQUE 1 — ESTA SEMANA. SUBIR EL SUELO
          Tiempo: 20 minutos de lectura honesta.
 
 
-[ ] 1.3  VERIFICAR LA SEDE DE MERKARTE  ***IMPORTANTE***
-         Tu web decía "Museo Municipal de Bellas Artes de Santa Cruz de
-         Tenerife". El cartel de la propia exposición que tienes guardado
-         dice "MERKARTE — Cabildo de Tenerife".
+[X] 1.3  SEDE DE MERKARTE — RESUELTO
+         Gabriela confirmó que la exposición fue en el CÍRCULO DE BELLAS ARTES
+         DE SANTA CRUZ DE TENERIFE. El Cabildo de Tenerife, cuyo escudo sale en
+         el cartel, era el organizador.
 
-         No son lo mismo. Una sede inflada en un CV es de las pocas cosas que
-         puede hundir tu credibilidad de golpe: si un comisario lo comprueba y
-         no cuadra, deja de creerse el resto del CV también.
+         El CV decía "Museo Municipal de Bellas Artes", que no era correcto.
+         Corregido en la web, en el dossier y en el archivo de imágenes.
 
-         He puesto la versión que respalda el cartel ("Cabildo de Tenerife").
-         BUSCA EL DATO EXACTO y dime cuál es el correcto.
+         Es una mejora, no solo una corrección: el Círculo de Bellas Artes es
+         una institución con nombre propio y con historia. Como línea de CV
+         pesa más que "Cabildo de Tenerife", que es la administración insular.
 
          SEGUNDO DATO, encontrado en las cartelas de tus fotos de sala:
-         aquellas obras eran de TÉCNICA DIGITAL, 30 x 40 cm, a 400 €. No eran
+         aquellas obras eran de TÉCNICA DIGITAL, 30 x 40 cm, a 400 EUR. No eran
          acrílico. Yo lo había anotado mal en el archivo y ya está corregido.
          Si algún día muestras esa obra, la ficha tiene que decir "pintura
          digital": describirla como pintura acrílica sería falsear la técnica,
          y eso en una cartela es grave.
-
-         Está en: cv/index.html
-         Tiempo: 15 minutos.
 
 
 [ ] 1.4  DECIDIR QUÉ HACER CON "EYESASDAGGERS"

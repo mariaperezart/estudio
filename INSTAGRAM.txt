@@ -158,7 +158,7 @@ Cada publicación tiene que decir tres cosas, en este orden:
 
 Datos verificados en las cartelas de tus propias fotos, úsalos tal cual:
   Técnica: pintura digital · 30 x 40 cm · 2020
-  Merkarte Joven, Cabildo de Tenerife, 17 dic 2020 - 20 ene 2021
+  Merkarte Joven, Círculo de Bellas Artes de Santa Cruz de Tenerife, 17 dic 2020 - 20 ene 2021
   Expuesto bajo el pseudónimo eyesasdaggers
 
 NO pongas el precio (400 EUR). En el circuito no se publican precios.
@@ -174,15 +174,15 @@ TEXTOS PARA COPIAR
 
   Faro del Puerto:
     Archivo - Faro del Puerto, 2020. Pintura digital, 30 x 40 cm.
-    Expuesta en Merkarte Joven, Cabildo de Tenerife, bajo el pseudónimo
+    Expuesta en Merkarte Joven, Círculo de Bellas Artes de Santa Cruz de Tenerife, bajo el pseudónimo
     eyesasdaggers.
 
   Playa de San Telmo:
     Archivo - Playa de San Telmo, 2020. Pintura digital, 30 x 40 cm.
-    Merkarte Joven, Cabildo de Tenerife.
+    Merkarte Joven, Círculo de Bellas Artes de Santa Cruz de Tenerife.
 
   Vistas de sala (las dos):
-    Archivo - vista de sala. Merkarte Joven, Cabildo de Tenerife,
+    Archivo - vista de sala. Merkarte Joven, Círculo de Bellas Artes de Santa Cruz de Tenerife,
     diciembre 2020.
 
 Mismo formato en todas. La repetición no aburre: ordena.
@@ -204,13 +204,30 @@ y debajo:
 Nada más. Sin anunciar que empiezas nada, sin explicar el cambio, sin pedir que
 te sigan. Publicar la obra ES el anuncio.
 
-QUÉ ARCHIVARÍA TAMBIÉN
+LA FOTO DEL CÍRCULO DE BELLAS ARTES — NO LA ARCHIVES
 -------------------------------------------------------------------------------
-La foto del Círculo de Bellas Artes (la fachada con la persiana y el grafiti).
-No es obra tuya, no documenta nada tuyo, y es la única imagen del perfil que no
-tiene una razón para estar ahí.
+CORRECCIÓN. Primero te dije que la archivaras porque parecía una fachada suelta.
+Me equivoqué: ahí fue la exposición.
 
-Te quedan 5 publicaciones, todas coherentes: una exposición real, documentada.
+Esa foto es la ÚNICA imagen que documenta la sede. En un CV, el sitio donde
+expones vale tanto como la obra que cuelgas, y esta es tu prueba. Se queda, y
+además merece un pie que la nombre:
+
+    Archivo - Círculo de Bellas Artes de Santa Cruz de Tenerife.
+    Sede de Merkarte Joven, diciembre 2020 - enero 2021.
+
+Con eso el perfil pasa de "seis fotos de unos cuadros" a "una exposición
+documentada en una institución con nombre". Es la diferencia entre una
+publicación y una credencial.
+
+DATO CORREGIDO EN TODO EL PROYECTO
+-------------------------------------------------------------------------------
+La sede es el Círculo de Bellas Artes de Santa Cruz de Tenerife. El Cabildo de
+Tenerife, cuyo escudo aparece en el cartel, era el organizador.
+
+El CV decía antes "Museo Municipal de Bellas Artes", que no era correcto. Ya
+está cambiado en la web, en el dossier y en el archivo.
+
 
 
 

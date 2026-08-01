@@ -1,7 +1,7 @@
 # Merkarte Joven, 2020
 
 Documentación de la participación de Gabriela Pérez en Merkarte Joven
-(**Cabildo de Tenerife**, 17 dic 2020 – 20 ene 2021), bajo el pseudónimo
+(**Círculo de Bellas Artes de Santa Cruz de Tenerife**, 17 dic 2020 – 20 ene 2021), bajo el pseudónimo
 *eyesasdaggers*.
 
 - `sala/` — vistas de montaje: cartel, muro de artistas participantes, vistas
