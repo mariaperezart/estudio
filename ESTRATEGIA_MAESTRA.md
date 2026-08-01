@@ -329,7 +329,7 @@ Cada agente tiene: **misión, entradas, salidas, cadencia, y "no hacer"** (lími
 - **Cadencia**: bajo demanda, cuando exista una decisión real de buscar representación.
 - **No hacer**: no envía nada sin revisión de Gabriela; no infla ni inventa trayectoria expositiva; no negocia condiciones de representación o comisión de venta.
 
-Las definiciones ejecutables de estos 12 agentes están en `.claude/agents/` en este repositorio (`director-marca.md`, `copywriter.md`, `investigador-mercado.md`, `consultor-precios.md`, `consultor-colecciones.md`, `crm-coleccionistas.md`, `asistente-clientes.md`, `marketing-distribucion.md`, `seo.md`, `analista.md`, `guionista-viral.md`, `outreach-galerias.md`).
+Las definiciones ejecutables de estos agentes están en `.claude/agents/` en este repositorio (`director-marca.md`, `copywriter.md`, `investigador-mercado.md`, `consultor-precios.md`, `consultor-colecciones.md`, `crm-coleccionistas.md`, `asistente-clientes.md`, `marketing-distribucion.md`, `seo.md`, `analista.md`, `outreach-galerias.md`). El agente `guionista-viral` se retiró el 1 de agosto de 2026: su objeto declarado era maximizar retención y alcance, que no es un criterio de una práctica artística..
 
 ---
 

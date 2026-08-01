@@ -1,89 +1,89 @@
-# Estándar de fotografía de obra — reproducción de catálogo
+# Fotografía de obra — protocolo del estudio
 
-Prompt universal para editar fotografías de obra con cualquier IA de edición (ChatGPT Images, Flux Kontext, Gemini, Photoshop Generative Edit, Magnific, etc.), pensado para convertir una foto de móvil en una reproducción fiel de catálogo de galería o museo — nunca para reinterpretar o mejorar creativamente la obra. Referenciado desde `ESTRATEGIA_MAESTRA.md` §7 (imagen protagonista de cada ficha).
+*Actualizado el 1 de agosto de 2026, tras medir los problemas reales de las
+fotografías actuales y con la cámara nueva de Gabriela en camino.*
 
----
+La documentación de obra es lo que un galerista ve antes que la obra. Si la foto
+falla, la pintura no llega.
 
-**Edita esta fotografía para que parezca una reproducción profesional de obra de arte destinada a un catálogo de galería o museo (Gagosian, Hauser & Wirth, David Zwirner, Pace Gallery, Art Basel). Mantén una fidelidad absoluta a la pintura original. No reinterpretar, no repintar, no añadir detalles, no eliminar pinceladas ni modificar la composición. La obra debe permanecer exactamente igual.**
+## El diagnóstico que motivó este protocolo
 
-Realiza únicamente correcciones fotográficas:
+Medido sobre las imágenes publicadas:
 
-- Corrige el balance de blancos para obtener un blanco neutro sin dominantes cálidas, frías, verdes o magentas.
-- Ajusta la exposición de forma muy sutil (+0,2 EV aproximadamente) únicamente si es necesario.
-- Recupera ligeramente las altas luces y abre mínimamente las sombras manteniendo todo el rango tonal.
-- Conserva el contraste suave y natural de la pintura.
-- No aumentar saturación ni vibrancia.
-- No modificar el color real de los pigmentos.
-- Mantener las transiciones tonales extremadamente suaves.
-- Aplicar una nitidez muy ligera únicamente para recuperar la captura original, nunca para inventar textura.
-- Reducir ruido de forma mínima preservando completamente la textura del lienzo.
-- No utilizar HDR.
-- No utilizar Clarity agresiva.
-- No utilizar Dehaze.
-- No exagerar la textura.
-- No crear microcontraste.
-- No aplicar efectos artísticos.
+| Imagen | Resolución | Temperatura del entorno |
+|---|---|---|
+| Umbral, principal | **986 × 488 — 0,5 MPx** | +7,4 (cálida) |
+| Habitar, principal | **986 × 488 — 0,5 MPx** | +1,6 (neutra) |
+| Detalle de textura | 1448 × 1086 — 1,6 MPx | +6,5 |
+| Retrato | 1350 × 1800 — 2,4 MPx | −0,1 |
 
-Si existen defectos fotográficos:
-- eliminar únicamente polvo, manchas, suciedad, pequeñas marcas de la pared o imperfecciones del entorno;
-- conservar intacta toda la superficie pintada.
+Tres fallos, en orden de gravedad:
 
-Si la fotografía presenta perspectiva:
-- corregir la perspectiva hasta que el lienzo quede perfectamente rectangular;
-- mantener proporciones exactas;
-- laterales completamente verticales;
-- borde superior e inferior horizontales.
+1. **Las obras son las imágenes peor resueltas del sitio.** Cinco veces menos
+   resolución que un detalle. En pantalla moderna se ven blandas.
+2. **El balance de blancos no coincide entre las dos piezas.** Aparecen una
+   debajo de la otra en la portada y una tira a cálido.
+3. **Se ve la pared alrededor del lienzo** y la obra está ligeramente girada
+   respecto al encuadre.
 
-Si existen diferencias de iluminación:
-- igualarlas únicamente sobre la pared o fondo;
-- nunca modificar la iluminación interna de la pintura.
+## Montaje
 
-Si aparecen muebles, techo, suelo u otros elementos:
-- recortar para dejar únicamente la obra con un margen uniforme del 8–10 % alrededor;
-- centrar perfectamente el cuadro.
+- Obra colgada en pared blanca o gris neutro, a la altura habitual de montaje.
+- Cámara en trípode, **a la altura del centro del cuadro y perpendicular**. Si
+  la cámara se inclina, los lados salen en trapecio y ya no hay arreglo.
+- Distancia focal equivalente de **50–85 mm**, y alejarse. Con gran angular de
+  cerca los bordes se abomban.
+- Cuadrícula y nivelación electrónica activadas: el lienzo tiene que quedar
+  paralelo a los bordes del encuadre.
 
-El resultado debe parecer una fotografía realizada por un fotógrafo especializado en documentación de obra para archivo de museo o catálogo editorial.
+## Luz
 
-### Aspecto final
-Neutro, limpio, natural, sin sobreprocesado, máxima fidelidad cromática, máxima fidelidad tonal, textura auténtica del lienzo, iluminación uniforme, calidad editorial de alta gama, reproducción museística, sin apariencia de imagen generada por IA, sin modificar la pintura original bajo ninguna circunstancia.
+- Luz natural indirecta de día, sin sol directo. O dos focos **iguales** a 45°,
+  uno a cada lado.
+- **Apagar las luces de casa.** Mezclar bombilla con luz de ventana es lo que
+  produce el desajuste de color entre tomas.
+- Nunca flash.
 
-### Frase de cierre a incluir siempre en el prompt
+## Ajustes de cámara
 
-> Preservar absolutamente cada pincelada, veladura, transparencia, textura y accidente de la pintura original. El objetivo es mejorar únicamente la fotografía, nunca la obra. El resultado debe ser indistinguible de una reproducción profesional realizada por un fotógrafo de museo.
+| | |
+|---|---|
+| Modo | M (manual) o A/Av |
+| Diafragma | **f/8 – f/11** — donde el objetivo rinde más nítido. Nunca f/1.8: los bordes salen blandos |
+| ISO | **100**, el más bajo disponible |
+| Formato | **RAW**, no JPG |
+| Balance de blancos | **Personalizado**, nunca automático |
+| Disparo | Temporizador de 2 s o disparador remoto |
 
-## Cómo se usa en este proyecto
+**Carta gris**: hacer el primer disparo con una carta gris delante del cuadro.
+Cuesta 5–10 € y permite recuperar el color real después con exactitud.
 
-1. Fotografiar la obra con la mejor luz disponible (natural, difusa, sin flash directo).
-2. Pasar la foto por una IA de edición con el prompt de arriba para obtener la versión de catálogo.
-3. Usar esa versión como imagen protagonista (`hero.jpg`) de la ficha de obra — las fotos de detalle/textura y "en el espacio" pueden mantenerse más documentales, sin este procesado, para no perder la sensación de estudio real.
-4. Optimizar el archivo final para web (ver `ESTRATEGIA_MAESTRA.md` §13: imágenes comprimidas, formato adecuado) antes de subirlo al repositorio.
+## Regla de sesión
 
-## Protocolo fijo de documentación por obra (qué fotografiar, siempre, sin excepción)
+**Todas las obras de una serie se fotografían en la misma sesión, con la misma
+luz y el mismo balance de blancos fijado.** Es lo único que garantiza que se
+vean como una serie y no como fotos sueltas.
 
-Principio: una mala presentación visual pierde ventas antes de que alguien llegue a valorar la obra — no porque la pintura sea peor, sino porque comparar cuesta esfuerzo, y ante la duda se elige lo que es más fácil de evaluar. Por eso cada obra terminada, sin excepción, genera el mismo conjunto fijo de material — no se improvisa por obra:
+## Salida
 
-1. **Frontal / archivo** (`hero.jpg`): la obra completamente de frente, sin perspectiva, sin sombras, sin decoración — procesada según el estándar de catálogo de arriba. Ya es el estándar seguido en `assets/img/obras/`.
-2. **Detalle** (`detalle-01.jpg`, `detalle-02.jpg`, y también `vista-lateral.jpg` — su propio `alt` la describe como una vista angulada de la trama/degradado, no como el canto del bastidor): textura, capas, pincelada, calidad del acrílico — genera confianza en la calidad física de la obra. Ya en uso, tres tomas de detalle por obra.
-3. **En pared** (escala real, toma neutra que permita entender el tamaño frente al espacio): **pendiente en Umbral y Habitar** — corrección a una nota anterior de este documento, que identificaba erróneamente `vista-lateral.jpg` como esta toma. Revisando el propio sitio (`obras/umbral/index.html`, `obras/habitar/index.html`), esa imagen está clasificada como detalle (punto 2), no como esta. Ninguna de las dos obras tiene todavía una foto limpia de escala real — se añade cuando exista la sesión correspondiente.
-4. **En ambiente**: no cualquier salón — un espacio coherente con la marca (minimalista, silencioso, luminoso, arquitectura limpia). Ese ambiente comunica tanto como la pintura. **Umbral**: `contexto.jpg` existe (salón real de Gabriela) pero **se retiró de la página pública de la obra** (julio 2026, decisión explícita de Gabriela) — queda archivado en `assets/img/obras/umbral/`, sin borrar, disponible para otros usos (p. ej. Instagram, `PLAN_FEED_INSTAGRAM.md` post 11) pero no en `obras/umbral/index.html`. **Habitar**: **pendiente** — no tiene una foto de ambiente propia; su `vista-lateral.jpg` menciona el mismo sofá de fondo pero es una toma de detalle, no un plano de ambiente real. Ninguna de las dos obras tiene ya una foto de "en pared" (punto 3) mostrada en su página pública — sustituye esa función pendiente.
-5. **Lateral** (`lateral.jpg` — nuevo, pendiente en Umbral y Habitar): el canto del bastidor, el grosor, el acabado de los bordes — no confundir con la toma ya existente `vista-lateral.jpg` (punto 2), que es un ángulo de detalle de la superficie pintada, no del canto físico. Transmite el cuidado profesional del objeto físico, no solo de la imagen pintada.
-6. **Trasera** (`trasera.jpg` — nuevo, pendiente en Umbral y Habitar): firma, sistema de colgado y, cuando exista, etiqueta/certificado. Reduce la incertidumbre de quien compra sin haber visto la pieza en persona.
-7. **Vídeo corto del objeto** (15-30s, distinto del vídeo de proceso de `ESTRATEGIA_MAESTRA.md` §7 punto 10): cómo cambia la superficie con la luz al recorrerla — algo que ninguna fotografía fija puede transmitir.
+- Mínimo **3.000 px de lado largo**. La referencia del circuito son 2.000–4.000.
+- Recorte **al borde exacto del lienzo**, sin pared alrededor.
+- Sin filtros que alteren el color real de la obra. Falsear el color de una
+  pintura es un problema de autenticidad, no de estética.
+- Guardar el original sin recortar junto al recorte final.
 
-Los puntos 5 y 6 son la ampliación real de este protocolo respecto a lo que ya se venía haciendo. Para Umbral y Habitar, los puntos 3, 5 y 6 quedan marcados como **Pendiente** (y el punto 4 también en el caso de Habitar) — se añaden cuando exista la sesión de fotos correspondiente, no se fabrican ni se simulan.
+## Qué fotografiar de cada pieza
 
-Con este conjunto fijo, cada obra nueva alimenta automáticamente la web, el dossier, redes y cualquier propuesta a galerías sin tener que decidir de nuevo qué fotografiar cada vez.
+1. **Frontal completa** — la imagen principal.
+2. **Detalle de la transición** — la franja, que es el asunto de la obra.
+3. **Canto del bastidor** — el color continuado y la trama visible.
+4. **Escala con figura** — una persona delante, para que se entienda el tamaño.
 
-## Versión cuadrada para Instagram (obligatoria antes de publicar `hero.jpg`)
+Las dos últimas son las mejores fotografías que existen hoy del proyecto, y las
+que un dossier necesita.
 
-`hero.jpg` de cada obra es horizontal (~2:1) — pensado para la web, donde el formato panorámico funciona bien. Pero la cuadrícula de perfil de Instagram siempre recorta cualquier imagen a cuadrado, así que subir `hero.jpg` tal cual corta los bordes izquierdo y derecho de la obra sin avisar.
+## Qué no fotografiar
 
-**Regla fija**: antes de publicar la imagen protagonista de cualquier obra en Instagram, se genera una versión 1080×1080 con la obra completa centrada sobre el mismo fondo neutro de la foto original (sin recortar nada, sin inventar fondo) y se guarda en `assets/img/social/feed-square/`. Ya existen para Umbral y Habitar (`umbral-hero-square.jpg`, `habitar-hero-square.jpg`). Se publica siempre esa versión en el feed, nunca `hero.jpg` directamente.
-
-## Firma física en la obra
-
-Decisión de estándar (no fabricada — es una recomendación de oficio, se aplica a partir de la próxima obra que Gabriela firme; **Umbral y Habitar quedan como están hasta que se confirme si ya están firmadas o se firman ahora**, no se asume ninguna de las dos cosas):
-
-- **Frontal**: firma pequeña y discreta en una esquina inferior (normalmente la derecha), en un tono cercano al de esa zona de la pintura — nunca negro intenso si contrasta demasiado. Solo "Gabriela" o una versión simplificada de la firma manuscrita (ver `assets/img/marca/firma-gabriela.png`, la firma real de Gabriela, guardada como referencia — no para estampar digitalmente sobre fotos de obra, que violaría la regla de fidelidad de `RECURSOS_FOTOGRAFIA.md` de no añadir nada a la pintura real). No necesita ser completamente legible; sí constante de obra a obra. El motivo es el mismo principio ya establecido en toda la marca: la firma no compite con la obra por atención.
-- **Reverso**: aquí sí va la información completa — nombre, título de la obra, año, técnica ("Acrílico sobre lienzo"), medidas, número de certificado (cuando exista) y firma completa. Esto ya estaba parcialmente cubierto por el punto 6 de arriba ("Trasera"); esta sección concreta qué contiene exactamente esa firma trasera.
-- El certificado (`certificados/umbral/`, `certificados/habitar/`) mantiene la línea de firma en blanco para que Gabriela firme físicamente cada uno al cerrarse una venta real — no se sustituye por una imagen de la firma ya escaneada, precisamente porque la firma física en el momento de la venta es lo que la hace real y no una plantilla impresa.
+Obra en entornos domésticos con muebles, electrodomésticos u objetos personales
+en cuadro. La fotografía `contexto.jpg` —salón con sofá, cafetera y nevera— se
+eliminó del repositorio por este motivo.
