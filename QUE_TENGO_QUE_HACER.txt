@@ -33,23 +33,12 @@ BLOQUE 0 — URGENTE. HOY. SIN ESTO, LA WEB NO SIRVE
          sin proveedor conectado era humo, y no encaja con el posicionamiento.
 
 
-[ ] 0.2  BORRAR LAS RAMAS VIEJAS EN GITHUB
-         Hay cinco versiones distintas de tu web conviviendo. Es lo que hizo
-         que durante días estuvieras mirando un sitio que no era el que
-         estábamos editando.
-
-         Cómo:
-           1. Ve a github.com/mariaperezart/estudio/branches
-           2. Borra todas las ramas que empiecen por "claude/".
-           3. Deja solo "main".
-
-         Es seguro: todo lo real está ya en main, incluido el material que
-         rescaté de esas ramas.
-
-         Tiempo: 2 minutos.
+[X] 0.2  RAMAS VIEJAS — HECHO (2 de agosto)
+         Borradas las cinco ramas claude/*. El repositorio tiene una sola rama,
+         main, que es la que publica GitHub Pages. Verificado.
 
 
-[ ] 0.3  TRABAJAR SIEMPRE SOBRE "MAIN"
+[X] 0.3  TRABAJAR SIEMPRE SOBRE "MAIN"
          A partir de ahora, una sola versión. Si abres otra sesión para
          trabajar en la web, dile que trabaje sobre main.
 

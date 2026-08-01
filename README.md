@@ -113,7 +113,8 @@ el sitio publicado no era el del repositorio. Si lo que se ve en línea no
 coincide con `main`, es lo primero que hay que mirar.
 
 Trabajar siempre sobre `main`. Varias ramas paralelas editando el mismo sitio
-fue el origen de ese problema.
+fueron el origen de ese problema; se eliminaron el 2 de agosto de 2026 y el
+repositorio tiene una sola rama.
 
 ---
 
@@ -141,7 +142,6 @@ fue el origen de ese problema.
 
 - [ ] Revisión legal de `legal/privacidad`, `legal/terminos` y `legal/cookies`.
 - [ ] Refotografiar *Umbral* y *Habitar* siguiendo `RECURSOS_FOTOGRAFIA.md`.
-- [ ] Borrar en GitHub las ramas `claude/*`. Todo lo real está en `main`.
 - [ ] Confirmar si conviene mantener `comisiones/`, que sigue siendo la única
       página con lógica comercial.
 - [ ] Dominio propio y, si se añade analítica, que sea sin cookies para no
