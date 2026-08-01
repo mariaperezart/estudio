@@ -1,6 +1,6 @@
-# El Universo de Gabriela
+# Gabriela Pérez
 
-Sitio web y ecosistema de marca de Gabriela, artista. Sitio estático (HTML/CSS/JS, sin build) pensado para GitHub Pages.
+Sitio web y ecosistema de marca de Gabriela Pérez, artista. Sitio estático (HTML/CSS/JS, sin build) pensado para GitHub Pages.
 
 ## Empezar aquí
 
@@ -44,6 +44,10 @@ Reglas que no deben romperse:
 - Los enlaces de acción son `.link` (texto subrayado), no botones. Un botón lee como
   comercio.
 - Cada imagen lleva `width` y `height` reales para reservar su espacio.
+- **Cero peticiones a terceros.** La tipografía (Inter) está autoalojada en
+  `assets/fonts/` bajo licencia SIL OFL. No se debe reintroducir Google Fonts ni
+  ningún otro recurso externo: transmitiría la IP del visitante sin su
+  consentimiento y obligaría a declararlo en la política de privacidad.
 
 ## Despliegue
 
@@ -63,12 +67,11 @@ Para activar GitHub Pages: Settings → Pages → Deploy from branch → rama `m
 Bloqueantes:
 
 - [ ] **Conectar los formularios**: sustituir `TU_ID_DE_FORMSPREE` en `contacto/` y `newsletter/`. Ahora mismo no entregan nada; el aviso de "pendiente" se retiró de la página y quedó como comentario HTML.
-- [ ] **Decidir el nombre público.** El sitio firma solo "Gabriela". Ninguna artista de circuito institucional se presenta sin apellido; es el mayor hueco de credibilidad que queda y no se puede resolver desde el código.
 - [ ] Revisión legal de `legal/privacidad`, `legal/terminos`, `legal/cookies`.
 
 Recomendables:
 
 - [ ] Recortar `hero.jpg` de ambas obras al borde exacto del lienzo (hoy se ve pared alrededor).
 - [ ] Rehacer `dossier/` y `certificados/` con el nuevo sistema: siguen con estilos propios en línea.
-- [ ] Conectar newsletter real (Buttondown/Mailchimp) y analítica (Plausible/Fathom).
+- [ ] Conectar newsletter real (Buttondown/Mailchimp) y analítica (Plausible/Fathom). Si se añade analítica, que sea sin cookies: hoy el sitio no hace ni una petición a terceros.
 - [ ] Registrar dominio propio cuando la marca esté validada.

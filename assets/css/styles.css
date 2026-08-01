@@ -1,7 +1,26 @@
-/* Gabriela — sistema de diseño
+/* Gabriela Pérez — sistema de diseño
    Principio rector: la interfaz desaparece. La obra es lo único que compite por la
    atención. Sin sombras, sin degradados, sin tarjetas, sin radios, sin animación.
    La jerarquía se construye con espacio y con escala de imagen, no con color ni peso. */
+
+/* Inter autoalojada (SIL Open Font License — ver assets/fonts/LICENSE-inter.txt).
+   Servida desde el propio dominio: ni una petición a terceros, ni la IP del
+   visitante saliendo hacia Google antes de que la página pinte. */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/inter-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/inter-400-italic.woff2') format('woff2');
+}
 
 :root {
   --paper: #FFFFFF;
