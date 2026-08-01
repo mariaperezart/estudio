@@ -109,7 +109,7 @@
 **Pilar**: Conversión · **Hook**: Investigación
 
 - **Gancho**: "¿Cuánto cuesta una pintura cuando todavía no tienes trayectoria?"
-- **Beats**: explica el método real usado (precio por pulgada cuadrada para artistas emergentes) → dilo tal cual: "2.400€, orientativo, todavía sin validar con una venta real" → por qué prefieres decir esto en vez de fingir una cifra fija e inamovible.
+- **Beats**: explica el método real usado (precio por pulgada cuadrada para artistas emergentes) → **este guion queda anulado**: no se habla de precios en público (`MARCA.md` §6) → por qué prefieres decir esto en vez de fingir una cifra fija e inamovible.
 - **Nota**: sigue la plantilla de precio de `MANUAL_DE_MARCA.md` §5 — nunca inventar escasez o demanda.
 - **Caption**: "Prefiero ser transparente con el proceso que aparentar una certeza que no tengo todavía."
 

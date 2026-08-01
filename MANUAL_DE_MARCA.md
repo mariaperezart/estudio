@@ -123,8 +123,8 @@ horizonte · umbral · refugio · silencio · respiración · calma · contempla
 ### Cómo hablar de precio en vídeo o comentarios
 Nunca solo la cifra. Precio + contexto real (a qué serie pertenece, en qué punto del proceso estás). Nunca inventar escasez o ventas que no existen (`ESTRATEGIA_MAESTRA.md` §9).
 
-- ❌ "2.400€, quedan pocas."
-- ✅ "2.400€. Es un precio orientativo, calculado con un método estándar para artistas emergentes — todavía no lo he validado con una venta real, y lo digo así de claro."
+- ❌ Publicar cualquier precio, con o sin urgencia.
+- ✅ No hablar de precio en público. Si preguntan, se responde por correo. Ver `MARCA.md` §2.
 
 Esa última frase (reconocer que un precio es una hipótesis) no es debilidad — es exactamente el tipo de transparencia que hace única a tu marca frente a quien finge certeza. Úsala sin miedo.
 

@@ -195,7 +195,7 @@ Ninguna decisión de negocio relevante se toma solo por intuición. Plantilla de
 
 **Lente de consecuencias de segundo orden**: antes de convertir una decisión en hábito, la pregunta no es "¿qué gano hoy?" sino "¿hacia dónde me lleva si la repito durante meses o años?".
 
-**Hipótesis abiertas, sin resolver todavía**: qué rango de precios aceptarán los primeros coleccionistas (en curso — precio de lanzamiento orientativo de 2.400€, sin validar aún con una venta real), qué tipo de obra generará más demanda, qué símbolos conectan más, qué formato y plataforma producen mejores resultados, qué % de ingresos vendrá de cada línea, qué países responden mejor, y si un mensaje centrado en "para quién es la obra" conecta mejor que uno centrado en "qué es la obra". Se resuelven experimentando, nunca debatiendo.
+**Hipótesis abiertas, sin resolver todavía**: qué rango de precios aceptarán los primeros coleccionistas (sin resolver — no hay precio validado; ninguna obra de la serie se ha vendido), qué tipo de obra generará más demanda, qué símbolos conectan más, qué formato y plataforma producen mejores resultados, qué % de ingresos vendrá de cada línea, qué países responden mejor, y si un mensaje centrado en "para quién es la obra" conecta mejor que uno centrado en "qué es la obra". Se resuelven experimentando, nunca debatiendo.
 
 ---
 

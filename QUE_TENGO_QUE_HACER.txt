@@ -401,7 +401,7 @@ COPY
     curatoriales y contenía un duplicado y una nota autobiográfica.
 
 DOSSIER
-  - Fuera el precio (2.400 €). Un dossier institucional no lleva precio.
+  - Fuera el precio. Un dossier institucional no lleva precio.
   - Statement y sede de Merkarte alineados con la web.
 
 TÉCNICO

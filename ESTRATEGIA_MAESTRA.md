@@ -452,7 +452,7 @@ Este documento y el sitio construido a partir de él están diseñados para reci
 
 1. Crear una cuenta en [stripe.com](https://stripe.com) (requiere identidad y datos bancarios reales — es lo único que solo tú puedes hacer).
 2. Dentro de Stripe, ir a **Payment Links** → **Crear enlace de pago**.
-3. Crear un producto por obra disponible (ej. "Umbral — Gabriela", 2.400 €, pago único) y generar su Payment Link.
+3. ~~Crear un producto por obra y generar su Payment Link.~~ **Anulado**: el sitio no vende. Ver `MARCA.md` §2.
 4. **Importante para pieza única**: en la configuración del Payment Link, limitar a **1 uso** (Stripe permite fijar un número máximo de pagos por enlace) — así el enlace se desactiva solo en cuanto alguien compra, sin que puedas vender la misma obra dos veces por descuido.
 5. Pasarme (o pegar directamente en `obras/umbral/index.html` y `obras/habitar/index.html`) la URL real, sustituyendo `TU_PAYMENT_LINK_UMBRAL` / `TU_PAYMENT_LINK_HABITAR`.
 6. En cuanto una pieza se venda: quitar el botón "Comprar esta obra" de su ficha y cambiar "Disponibilidad pendiente de confirmar" por "Vendida" — el Payment Link limitado a 1 uso ya bloquea un segundo pago, pero la web debe reflejarlo igualmente para no confundir a otro visitante.

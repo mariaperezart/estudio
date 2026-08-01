@@ -409,7 +409,7 @@ Estas preguntas, a diferencia de las 30 del Manifiesto, **no están resueltas** 
 
 | Hipótesis | Agente(s) responsable(s) | Cómo se valida |
 |---|---|---|
-| ¿Qué rango de precios aceptarán los primeros coleccionistas? | `consultor-precios` + `investigador-mercado` | **En curso**: se publicó un precio de lanzamiento orientativo (2.400 €, ambas obras de 140×70cm) calculado por el método de precio por pulgada cuadrada para artistas emergentes en venta directa (julio 2026). Sigue siendo hipótesis hasta la primera reserva/venta real — validar con tiempo-hasta-reserva por pieza y reacción real de coleccionistas, no solo con la cifra en sí |
+| ¿Qué rango de precios aceptarán los primeros coleccionistas? | `consultor-precios` + `investigador-mercado` | **Sin resolver**: no se ha vendido ninguna obra de la serie, así que no hay precio validado. El precio dejó de publicarse el 1 de agosto de 2026 y se acuerda por correo — validar con tiempo-hasta-reserva por pieza y reacción real de coleccionistas, no solo con la cifra en sí |
 | ¿Qué tipo de obras generará más demanda? | `consultor-colecciones` + `analista` | Comparar tiempo-hasta-reserva y consultas recibidas por pieza/serie |
 | ¿Qué símbolos conectarán más con la audiencia? | `analista` + `copywriter` | Engagement y comentarios por motivo simbólico en contenido de redes |
 | ¿Qué formato de contenido atraerá a los compradores adecuados? | `marketing-distribucion` + `analista` | CTR y calidad de leads (no solo volumen) por formato/plataforma |
