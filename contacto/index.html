@@ -5,52 +5,52 @@
 <base href="/estudio/">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contacto — Gabriela</title>
-<meta name="description" content="Escríbeme sobre una obra, una comisión, o cualquier pregunta sobre el estudio.">
+<meta name="description" content="Contacto con el estudio de Gabriela: obra disponible, comisiones y prensa.">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/styles.css">
 <link rel="canonical" href="https://mariaperezart.github.io/estudio/contacto/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://mariaperezart.github.io/estudio/contacto/">
 <meta property="og:title" content="Contacto — Gabriela">
-<meta property="og:description" content="Escríbeme sobre una obra, una comisión, o cualquier pregunta sobre el estudio.">
+<meta property="og:description" content="Contacto con el estudio de Gabriela: obra disponible, comisiones y prensa.">
 <meta property="og:image" content="https://mariaperezart.github.io/estudio/assets/img/obras/umbral/hero.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
-<a class="skip-link" href="#main-content">Saltar al contenido</a>
+<a class="skip-link" href="#main">Saltar al contenido</a>
 
-<header class="site-header">
-  <div class="site-header__inner">
-    <a href="./" class="brand">Gabriela<span>.</span></a>
-    <nav class="nav">
-      <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
-      <ul class="nav__links">
-        <li><a href="./">Inicio</a></li>
-        <li><a href="obras/">Obras</a></li>
-        <li><a href="comisiones/">Comisiones</a></li>
-        <li><a href="el-universo/">El Universo</a></li>
-        <li><a href="colecciones/">Colecciones</a></li>
+<header class="masthead">
+  <div class="masthead__inner">
+    <a href="./" class="masthead__name">Gabriela</a>
+    <nav aria-label="Navegación principal">
+      <button class="masthead__toggle" aria-expanded="false" aria-controls="menu">Menú</button>
+      <ul class="masthead__nav" id="menu">
+        <li><a href="obras/">Obra</a></li>
+        <li><a href="sobre/">Sobre</a></li>
+        <li><a href="blog/">Textos</a></li>
+        <li><a href="contacto/" aria-current="page">Contacto</a></li>
       </ul>
-      <a href="colecciones/" class="nav__cta">Ver disponibilidad</a>
     </nav>
   </div>
 </header>
 
-<main id="main-content">
-  <section class="section--tight">
-    <div class="container prose reveal">
-      <span class="eyebrow">Contacto</span>
-      <h1>Escríbeme.</h1>
-      <p class="text-muted">Sobre una obra, una comisión, o simplemente una pregunta. Respondo personalmente, normalmente en menos de 48 horas.</p>
+<main id="main">
+
+  <section class="section-tight">
+    <div class="wrap prose-wide">
+      <h1>Contacto</h1>
+      <p class="muted">Consultas sobre obra disponible, comisiones, prensa y exposiciones. Respondo personalmente, normalmente en menos de 48 horas.</p>
     </div>
   </section>
 
-  <section class="reveal">
-    <div class="container">
-      <form action="https://formspree.io/f/TU_ID_DE_FORMSPREE" method="POST" data-pending-notice>
+  <section class="section-tight">
+    <div class="wrap">
+      <!-- PENDIENTE: sustituir TU_ID_DE_FORMSPREE por el endpoint real antes de publicar.
+           Mientras no esté conectado, este formulario no entrega nada. -->
+      <form action="https://formspree.io/f/TU_ID_DE_FORMSPREE" method="POST">
         <div class="field">
           <label for="nombre">Nombre</label>
           <input type="text" id="nombre" name="nombre" required>
@@ -62,9 +62,10 @@
         <div class="field">
           <label for="asunto">Asunto</label>
           <select id="asunto" name="asunto">
-            <option>Una obra de la galería</option>
-            <option>Una comisión</option>
-            <option>Prensa o colaboración</option>
+            <option>Consulta sobre una obra</option>
+            <option>Comisión</option>
+            <option>Exposición o comisariado</option>
+            <option>Prensa</option>
             <option>Otra consulta</option>
           </select>
         </div>
@@ -72,41 +73,42 @@
           <label for="mensaje">Mensaje</label>
           <textarea id="mensaje" name="mensaje" required></textarea>
         </div>
-        <button type="submit" class="btn">Enviar mensaje</button>
-        <p class="form-note">Formulario pendiente de conectar — sustituir TU_ID_DE_FORMSPREE por el endpoint real de Formspree.</p>
+        <button type="submit">Enviar</button>
       </form>
     </div>
   </section>
 </main>
 
-<footer class="site-footer">
-  <div class="container">
-    <div class="site-footer__grid">
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
       <div>
-        <p class="brand">Gabriela<span>.</span></p>
-        <p class="text-muted prose">Obras que no se consumen en un vistazo. Un universo que se habita con el tiempo.</p>
-      </div>
-      <div>
-        <h4>Explorar</h4>
+        <h2>Obra</h2>
         <ul>
-          <li><a href="obras/">Obras</a></li>
-          <li><a href="colecciones/">Colecciones</a></li>
+          <li><a href="obras/">Todas las obras</a></li>
+          <li><a href="colecciones/habitats/">Hábitats</a></li>
           <li><a href="comisiones/">Comisiones</a></li>
-          <li><a href="blog/">Blog</a></li>
         </ul>
       </div>
       <div>
-        <h4>Estudio</h4>
+        <h2>Estudio</h2>
         <ul>
-          <li><a href="el-universo/">El Universo</a></li>
-          <li><a href="faq/">Preguntas frecuentes</a></li>
+          <li><a href="sobre/">Sobre</a></li>
+          <li><a href="blog/">Textos</a></li>
           <li><a href="contacto/">Contacto</a></li>
-          <li><a href="coleccionistas/">Portal de coleccionistas</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Información</h2>
+        <ul>
+          <li><a href="faq/">Preguntas frecuentes</a></li>
+          <li><a href="newsletter/">Lista del estudio</a></li>
+          <li><a href="colecciones/">Colecciones</a></li>
         </ul>
       </div>
     </div>
-    <div class="site-footer__base">
-      <span>© 2026 Gabriela. Todos los derechos reservados.</span>
+    <div class="foot__base">
+      <span>© 2026 Gabriela</span>
       <span><a href="legal/privacidad/">Privacidad</a> · <a href="legal/terminos/">Términos</a> · <a href="legal/cookies/">Cookies</a></span>
     </div>
   </div>

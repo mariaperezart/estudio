@@ -1,499 +1,444 @@
-/* El Universo de Gabriela — sistema de diseño
-   Paleta, tipografía y layout documentados en ESTRATEGIA_MAESTRA.md §12 */
+/* Gabriela — sistema de diseño
+   Principio rector: la interfaz desaparece. La obra es lo único que compite por la
+   atención. Sin sombras, sin degradados, sin tarjetas, sin radios, sin animación.
+   La jerarquía se construye con espacio y con escala de imagen, no con color ni peso. */
 
 :root {
-  --color-bg: #F6F3ED;
-  --color-paper-alt: #EFEAE0;
-  --color-ink: #1C1A17;
-  --color-muted: #6B6459;
-  --color-accent: #3B3A6E;
-  --color-border: #E4DED2;
+  --paper: #FFFFFF;
+  --ink: #141414;
+  --muted: #6E6E6E;
+  --rule: #E3E1DE;
 
-  --font-display: 'Cormorant Garamond', Georgia, serif;
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
 
-  --space-1: 8px;
-  --space-2: 16px;
-  --space-3: 24px;
-  --space-4: 40px;
-  --space-5: 64px;
-  --space-6: 96px;
-  --space-7: 144px;
+  /* Escala de espacio en rem: el ritmo vertical es la única decoración del sitio. */
+  --s1: 0.5rem;
+  --s2: 1rem;
+  --s3: 1.5rem;
+  --s4: 2.5rem;
+  --s5: 4rem;
+  --s6: 6rem;
+  --s7: 9rem;
 
-  --max-width: 1180px;
-  --max-width-text: 640px;
-  --radius: 2px;
+  --measure: 34rem;      /* ~68 caracteres: longitud de línea de lectura */
+  --measure-wide: 46rem;
+  --page: 92rem;
+  --gutter: clamp(1.25rem, 4vw, 4rem);
 }
 
-* { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; }
-
-@media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
-  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
-}
+html { -webkit-text-size-adjust: 100%; }
 
 body {
   margin: 0;
-  background: var(--color-bg);
-  color: var(--color-ink);
-  font-family: var(--font-body);
-  font-size: 16px;
-  line-height: 1.6;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.65;
+  letter-spacing: 0.005em;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Accesibilidad: foco visible en navegación por teclado */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a { color: inherit; text-decoration: none; }
+
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
 textarea:focus-visible,
 select:focus-visible,
 summary:focus-visible {
-  outline: 2px solid var(--color-accent);
-  outline-offset: 3px;
+  outline: 1px solid var(--ink);
+  outline-offset: 4px;
 }
 
 .skip-link {
   position: absolute;
-  top: -100px;
-  left: var(--space-2);
+  top: -6rem;
+  left: var(--gutter);
   z-index: 100;
-  background: var(--color-ink);
-  color: var(--color-bg);
-  padding: 10px 18px;
-  border-radius: var(--radius);
-  transition: top 0.2s ease;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 0.75rem 1.25rem;
+  font-size: 0.8125rem;
 }
 
-.skip-link:focus {
-  top: var(--space-2);
-}
+.skip-link:focus { top: 0.75rem; }
 
-img { max-width: 100%; display: block; }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
+/* ---------------------------------------------------------------- Tipografía
+   Una sola familia, tamaños contenidos. Un titular no debe gritar: en un portfolio
+   de artista el titular es una etiqueta, no un reclamo. */
 
 h1, h2, h3, h4 {
-  font-family: var(--font-display);
   font-weight: 400;
-  line-height: 1.15;
-  margin: 0 0 var(--space-3);
+  line-height: 1.2;
+  letter-spacing: -0.011em;
+  margin: 0 0 var(--s2);
 }
 
-h1 { font-size: clamp(2.4rem, 6vw, 4.2rem); font-weight: 300; }
-h2 { font-size: clamp(1.8rem, 4vw, 2.6rem); }
-h3 { font-size: clamp(1.3rem, 3vw, 1.7rem); }
+h1 { font-size: clamp(1.375rem, 1.05rem + 1.4vw, 2rem); }
+h2 { font-size: clamp(1.125rem, 0.98rem + 0.6vw, 1.375rem); }
+h3 { font-size: 1rem; }
+h4 { font-size: 0.875rem; }
 
-p { margin: 0 0 var(--space-2); }
+p { margin: 0 0 var(--s2); }
 
-.container {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 0 var(--space-3);
+.lead {
+  font-size: clamp(1.0625rem, 1rem + 0.35vw, 1.1875rem);
+  line-height: 1.55;
 }
 
-.prose {
-  max-width: var(--max-width-text);
-}
+.muted { color: var(--muted); }
 
-.text-muted { color: var(--color-muted); }
+.small { font-size: 0.8125rem; line-height: 1.6; }
 
-.eyebrow {
+/* Etiqueta de sección. Minúscula y discreta: ordena sin decorar. */
+.label {
   display: block;
-  font-family: var(--font-body);
-  font-size: 0.72rem;
-  letter-spacing: 0.16em;
+  font-size: 0.6875rem;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
-  color: var(--color-muted);
-  margin-bottom: var(--space-2);
+  color: var(--muted);
+  margin: 0 0 var(--s3);
 }
 
-/* Header / navegación */
-
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 50;
-  background: rgba(246, 243, 237, 0.92);
-  backdrop-filter: blur(6px);
-  border-bottom: 1px solid var(--color-border);
+/* Convención de cartela de museo: título en cursiva, datos técnicos en gris. */
+.caption {
+  font-size: 0.8125rem;
+  line-height: 1.55;
+  color: var(--muted);
+  margin: var(--s2) 0 0;
+  max-width: var(--measure);
 }
 
-.site-header__inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: var(--space-2) var(--space-3);
-  max-width: var(--max-width);
+.caption em, .caption i { font-style: italic; color: var(--ink); }
+
+.prose { max-width: var(--measure); }
+.prose-wide { max-width: var(--measure-wide); }
+
+.prose a:not(.link),
+.prose-wide a:not(.link) {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--rule);
+}
+
+.prose a:hover, .prose-wide a:hover { text-decoration-color: var(--ink); }
+
+/* Enlace de acción. No es un botón: en este contexto un botón lee como comercio. */
+.link {
+  display: inline-block;
+  font-size: 0.875rem;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 0.125rem;
+}
+
+.link:hover { border-bottom-color: var(--muted); color: var(--muted); }
+
+/* ------------------------------------------------------------------- Layout */
+
+.wrap {
+  max-width: var(--page);
   margin: 0 auto;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
 }
 
-.brand {
-  font-family: var(--font-display);
-  font-size: 1.3rem;
+/* `.wrap` y `.prose` conviven en el mismo elemento en muchas páginas. Estrechar
+   el contenedor centraría el texto y rompería el eje izquierdo que comparten las
+   imágenes. El contenedor mantiene su ancho; la medida se aplica a sus hijos, de
+   modo que todo el sitio cuelga del mismo margen izquierdo. */
+.wrap.prose, .wrap.prose-wide { max-width: var(--page); }
+.wrap.prose > * { max-width: var(--measure); }
+.wrap.prose-wide > * { max-width: var(--measure-wide); }
+
+section { padding: var(--s6) 0; }
+.section-tight { padding: var(--s4) 0; }
+.rule { border: 0; border-top: 1px solid var(--rule); margin: 0; }
+
+.stack > * + * { margin-top: var(--s3); }
+
+/* -------------------------------------------------------------- Cabecera
+   Estática, no fija: una barra que persigue al lector es lenguaje de producto. */
+
+.masthead { padding: var(--s3) 0 var(--s5); }
+
+.masthead__inner {
+  max-width: var(--page);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s3);
+}
+
+.masthead__name {
+  font-size: 0.9375rem;
   letter-spacing: 0.02em;
 }
 
-.brand span { color: var(--color-accent); }
+/* En la portada el nombre es el h1 del documento, pero no debe verse distinto:
+   la jerarquía semántica no tiene por qué gritar. */
+.masthead__title { margin: 0; font-size: inherit; font-weight: 400; line-height: inherit; }
 
-.nav {
+.masthead__nav {
   display: flex;
-  align-items: center;
-  gap: var(--space-4);
-}
-
-.nav__links {
-  display: flex;
-  gap: var(--space-3);
+  gap: var(--s3);
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.nav__links a {
-  font-size: 0.95rem;
-  padding-bottom: 2px;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.2s ease;
+.masthead__nav a {
+  font-size: 0.8125rem;
+  letter-spacing: 0.02em;
+  color: var(--muted);
 }
 
-.nav__links a:hover,
-.nav__links a[aria-current="page"] {
-  border-bottom-color: var(--color-accent);
-}
+.masthead__nav a:hover,
+.masthead__nav a[aria-current="page"] { color: var(--ink); }
 
-.nav__cta {
-  border: 1px solid var(--color-ink);
-  padding: 8px 18px;
-  font-size: 0.85rem;
-  border-radius: var(--radius);
-  white-space: nowrap;
-  transition: background 0.2s ease, color 0.2s ease;
-}
-
-.nav__cta:hover {
-  background: var(--color-ink);
-  color: var(--color-bg);
-}
-
-.nav__toggle {
+.masthead__toggle {
   display: none;
   background: none;
-  border: none;
-  cursor: pointer;
-  padding: 4px;
-}
-
-.nav__toggle span {
-  display: block;
-  width: 22px;
-  height: 1px;
-  background: var(--color-ink);
-  margin: 5px 0;
-}
-
-@media (max-width: 780px) {
-  .nav__toggle { display: block; }
-  .nav__links {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    flex-direction: column;
-    background: var(--color-bg);
-    border-bottom: 1px solid var(--color-border);
-    padding: var(--space-2) var(--space-3);
-    display: none;
-    gap: var(--space-2);
-  }
-  .nav__links.is-open { display: flex; }
-  .nav__cta { display: none; }
-}
-
-/* Botones y enlaces de acción */
-
-.btn {
-  display: inline-block;
-  border: 1px solid var(--color-ink);
-  padding: 12px 28px;
-  font-size: 0.9rem;
-  letter-spacing: 0.02em;
-  border-radius: var(--radius);
-  transition: background 0.2s ease, color 0.2s ease;
-}
-
-.btn:hover { background: var(--color-ink); color: var(--color-bg); }
-
-.btn--quiet {
-  border: none;
+  border: 0;
   padding: 0;
-  border-bottom: 1px solid var(--color-accent);
-  color: var(--color-accent);
+  font: inherit;
+  font-size: 0.8125rem;
+  color: var(--muted);
+  cursor: pointer;
 }
 
-.btn--quiet:hover { opacity: 0.7; }
-
-/* Hero */
-
-.hero {
-  position: relative;
-  min-height: 92vh;
-  display: flex;
-  align-items: flex-end;
-  background: var(--color-paper-alt) center/cover no-repeat;
+@media (max-width: 46rem) {
+  .masthead { padding-bottom: var(--s4); }
+  .masthead__toggle { display: block; }
+  .masthead__nav {
+    display: none;
+    flex-direction: column;
+    gap: var(--s2);
+    width: 100%;
+    padding-top: var(--s3);
+  }
+  .masthead__nav.is-open { display: flex; }
+  .masthead__inner { flex-wrap: wrap; }
 }
 
-.hero__scrim {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(28,26,23,0) 40%, rgba(28,26,23,0.55) 100%);
-}
+/* ---------------------------------------------------------------- Obra
+   Regla inviolable: una obra nunca se recorta. Sin `cover`, sin aspect-ratio
+   forzado, sin marco. La imagen conserva su proporción real siempre. */
 
-.hero__content {
-  position: relative;
-  z-index: 1;
-  color: #F6F3ED;
-  padding: var(--space-6) var(--space-3) var(--space-5);
-  max-width: var(--max-width);
-  margin: 0 auto;
-  width: 100%;
-}
+.plate { margin: 0; }
+.plate img { width: 100%; }
 
-.hero__content .eyebrow { color: rgba(246,243,237,0.75); }
+.plate--full { max-width: none; }
+.plate--held { max-width: 62rem; }
+/* Una imagen vertical a 62rem se come la pantalla de alto. Los retratos y los
+   detalles en vertical se sirven más estrechos para no romper el ritmo. */
+.plate--upright { max-width: 38rem; }
 
-/* Secciones genéricas */
-
-section { padding: var(--space-6) 0; }
-.section--alt { background: var(--color-paper-alt); }
-.section--tight { padding: var(--space-5) 0; }
-
-.grid {
+/* Rejilla de obra. Las piezas se alinean arriba y conservan su altura natural:
+   una fila desigual es honesta; un recorte para cuadrar la rejilla, no. */
+.works {
   display: grid;
-  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: var(--s5) var(--s4);
+  align-items: start;
 }
 
-.grid--2 { grid-template-columns: repeat(2, 1fr); }
-.grid--3 { grid-template-columns: repeat(3, 1fr); }
+.works--pair { grid-template-columns: repeat(2, 1fr); }
 
-/* Imágenes sueltas dentro de una rejilla (p. ej. "Detalle de textura" en fichas de obra):
-   sin esta regla, fotos con proporciones distintas (retrato/paisaje) desalinean la fila. */
-.grid > img {
-  width: 100%;
-  height: 100%;
-  aspect-ratio: 1/1;
-  object-fit: cover;
+@media (max-width: 46rem) {
+  .works, .works--pair { grid-template-columns: 1fr; gap: var(--s5); }
 }
 
-@media (max-width: 860px) {
-  .grid--2, .grid--3 { grid-template-columns: 1fr; }
-}
+.work { display: block; }
+.work img { width: 100%; }
+.work__title { font-size: 0.9375rem; margin: var(--s2) 0 0; }
+.work__title em { font-style: italic; }
+.work__meta { font-size: 0.8125rem; color: var(--muted); margin: 0.125rem 0 0; }
+.work:hover .work__title { text-decoration: underline; text-underline-offset: 0.18em; }
 
-/* Tarjetas de obra */
+/* Secuencia de imágenes de una ficha: ritmo vertical amplio, sin rejilla apretada. */
+.sequence > * + * { margin-top: var(--s6); }
 
-.artwork-card { display: block; }
-.artwork-card__img {
-  aspect-ratio: 3/2;
-  background: var(--color-paper-alt);
-  overflow: hidden;
-  margin-bottom: var(--space-2);
-}
-.artwork-card__img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
-.artwork-card:hover .artwork-card__img img { transform: scale(1.03); }
-.artwork-card__title { font-family: var(--font-display); font-size: 1.4rem; margin-bottom: 4px; }
-.artwork-card__meta { font-size: 0.85rem; color: var(--color-muted); }
-
-.blog-post-card {
-  display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: var(--space-4);
-  align-items: center;
-  max-width: none;
-}
-
-@media (max-width: 640px) {
-  .blog-post-card { grid-template-columns: 1fr; }
-}
-
-/* Ficha de obra */
-
-.artwork-detail__figure {
-  background: var(--color-paper-alt);
-  margin-bottom: var(--space-4);
-}
-.artwork-detail__figure img { width: 100%; height: auto; display: block; }
-
-.artwork-card__img--flush { margin-bottom: 0; }
-
-.img-cover { width: 100%; height: 100%; object-fit: cover; display: block; }
-
-.artwork-detail__meta {
+/* Par de imágenes verticales que se leen juntas (detalle + escala). */
+.pair {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-2) var(--space-4);
-  padding: var(--space-3) 0;
-  border-top: 1px solid var(--color-border);
-  border-bottom: 1px solid var(--color-border);
-  margin: var(--space-4) 0;
+  gap: var(--s4);
+  align-items: start;
 }
 
-@media (max-width: 520px) {
-  .artwork-detail__meta { grid-template-columns: 1fr; }
+@media (max-width: 46rem) { .pair { grid-template-columns: 1fr; gap: var(--s5); } }
+
+/* Ficha técnica. Lista de definición sobre filetes: la convención de cartela. */
+.specs {
+  margin: 0;
+  border-top: 1px solid var(--rule);
+  max-width: var(--measure-wide);
 }
 
-.artwork-detail__meta dt { font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-muted); margin-bottom: 4px; }
-.artwork-detail__meta dd { margin: 0 0 var(--space-2); font-family: var(--font-display); font-size: 1.1rem; }
-
-.availability {
-  display: inline-block;
-  font-size: 0.8rem;
-  letter-spacing: 0.04em;
-  padding: 4px 12px;
-  border: 1px solid var(--color-border);
-  border-radius: 999px;
-  color: var(--color-muted);
+.specs > div {
+  display: grid;
+  grid-template-columns: 11rem 1fr;
+  gap: var(--s3);
+  padding: 0.875rem 0;
+  border-bottom: 1px solid var(--rule);
 }
-.availability--disponible { border-color: var(--color-accent); color: var(--color-accent); }
 
-/* Formularios */
+.specs dt {
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
 
-form { max-width: var(--max-width-text); }
+.specs dd { margin: 0; font-size: 0.9375rem; }
 
-.field { margin-bottom: var(--space-3); }
+@media (max-width: 34rem) {
+  .specs > div { grid-template-columns: 1fr; gap: 0.25rem; }
+}
+
+/* ------------------------------------------------------------- Índice / listas
+   Un índice de textos o de colecciones es una lista, no una galería de tarjetas. */
+
+.index { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule); }
+
+.index li { border-bottom: 1px solid var(--rule); }
+
+.index a {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  gap: var(--s3);
+  padding: var(--s3) 0;
+  align-items: baseline;
+}
+
+.index a:hover .index__title { text-decoration: underline; text-underline-offset: 0.18em; }
+
+.index__year { font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.index__title { display: block; font-size: 1rem; }
+.index__note { display: block; font-size: 0.8125rem; color: var(--muted); margin: 0.25rem 0 0; max-width: var(--measure); }
+
+@media (max-width: 34rem) {
+  .index a { grid-template-columns: 1fr; gap: 0.25rem; }
+}
+
+/* ---------------------------------------------------------------- Formularios */
+
+form { max-width: var(--measure); }
+
+.field { margin-bottom: var(--s3); }
+
 .field label {
   display: block;
-  font-size: 0.8rem;
-  letter-spacing: 0.04em;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--color-muted);
-  margin-bottom: 6px;
+  color: var(--muted);
+  margin-bottom: 0.375rem;
 }
 
 .field input,
 .field textarea,
 .field select {
   width: 100%;
-  padding: 12px 4px;
-  font-family: var(--font-body);
+  padding: 0.625rem 0;
+  font-family: inherit;
   font-size: 1rem;
-  border: none;
-  border-bottom: 1px solid var(--color-border);
+  color: var(--ink);
   background: transparent;
-  color: var(--color-ink);
+  border: 0;
+  border-bottom: 1px solid var(--rule);
 }
 
 .field input:focus,
 .field textarea:focus,
-.field select:focus {
-  outline: none;
-  border-bottom-color: var(--color-accent);
-}
+.field select:focus { outline: none; border-bottom-color: var(--ink); }
 
-.field textarea { resize: vertical; min-height: 120px; }
+.field textarea { resize: vertical; min-height: 8rem; }
 
-.form-note { font-size: 0.85rem; color: var(--color-muted); margin-top: var(--space-2); }
-
-/* Newsletter (footer) */
-
-.newsletter {
-  display: flex;
-  gap: var(--space-2);
-  flex-wrap: wrap;
-  align-items: flex-end;
-}
-.newsletter .field { flex: 1; min-width: 220px; margin-bottom: 0; }
-
-/* FAQ */
-
-.faq-item {
-  border-bottom: 1px solid var(--color-border);
-  padding: var(--space-3) 0;
-}
-.faq-item summary {
+button[type="submit"] {
+  font-family: inherit;
+  font-size: 0.875rem;
+  color: var(--ink);
+  background: none;
+  border: 0;
+  border-bottom: 1px solid var(--ink);
+  padding: 0 0 0.125rem;
   cursor: pointer;
-  font-family: var(--font-display);
-  font-size: 1.2rem;
-  list-style: none;
-}
-.faq-item summary::-webkit-details-marker { display: none; }
-.faq-item summary::after { content: '+'; float: right; color: var(--color-accent); }
-.faq-item[open] summary::after { content: '–'; }
-.faq-item p { margin-top: var(--space-2); color: var(--color-muted); }
-
-/* Footer */
-
-.site-footer {
-  border-top: 1px solid var(--color-border);
-  padding: var(--space-6) 0 var(--space-4);
-  background: var(--color-paper-alt);
 }
 
-.site-footer__grid {
+button[type="submit"]:hover { color: var(--muted); border-bottom-color: var(--muted); }
+
+/* --------------------------------------------------------------------- FAQ */
+
+.qa { border-top: 1px solid var(--rule); max-width: var(--measure-wide); }
+.qa details { border-bottom: 1px solid var(--rule); }
+.qa summary { cursor: pointer; padding: var(--s3) 0; font-size: 0.9375rem; list-style: none; }
+.qa summary::-webkit-details-marker { display: none; }
+.qa summary::after { content: '+'; float: right; color: var(--muted); }
+.qa details[open] summary::after { content: '–'; }
+.qa p { color: var(--muted); max-width: var(--measure); padding-bottom: var(--s3); }
+
+/* ------------------------------------------------------------------ Pie */
+
+.foot {
+  border-top: 1px solid var(--rule);
+  padding: var(--s5) 0 var(--s4);
+  margin-top: var(--s7);
+}
+
+.foot__grid {
   display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr;
-  gap: var(--space-4);
-  margin-bottom: var(--space-5);
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: var(--s4);
+  margin-bottom: var(--s5);
 }
 
-@media (max-width: 780px) {
-  .site-footer__grid { grid-template-columns: 1fr; }
+.foot h2 {
+  font-size: 0.6875rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 var(--s2);
 }
 
-.site-footer h4 { font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-muted); margin-bottom: var(--space-2); }
-.site-footer ul { list-style: none; margin: 0; padding: 0; }
-.site-footer li { margin-bottom: 8px; }
+.foot ul { list-style: none; margin: 0; padding: 0; }
+.foot li { margin-bottom: 0.375rem; }
+.foot a { font-size: 0.8125rem; color: var(--muted); }
+.foot a:hover { color: var(--ink); }
 
-.site-footer__base {
+.foot__base {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  gap: var(--space-2);
-  font-size: 0.8rem;
-  color: var(--color-muted);
-  border-top: 1px solid var(--color-border);
-  padding-top: var(--space-3);
+  gap: var(--s2) var(--s3);
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: var(--muted);
 }
 
-/* Utilidades */
+/* ------------------------------------------------------------- Utilidades */
 
 .mt-0 { margin-top: 0; }
-.mt-2 { margin-top: var(--space-2); }
-.mt-3 { margin-top: var(--space-3); }
-.mt-4 { margin-top: var(--space-4); }
+.mt-2 { margin-top: var(--s2); }
+.mt-3 { margin-top: var(--s3); }
+.mt-4 { margin-top: var(--s4); }
+.mt-5 { margin-top: var(--s5); }
 .mb-0 { margin-bottom: 0; }
-.center { text-align: center; }
-.divider { border: none; border-top: 1px solid var(--color-border); margin: var(--space-5) 0; }
-.text-small { font-size: 0.75rem; }
-.text-italic { font-style: italic; }
-.link-underline { border-bottom: 1px solid var(--color-border); }
-.aspect-4-3 { aspect-ratio: 4/3; }
-.max-w-520 { max-width: 520px; }
 
-/* El contenido .reveal es visible por defecto (sin JS, o mientras JS carga).
-   Solo se oculta para animar si JS confirma que puede controlarlo — ver main.js.
-   Así ningún visitante ni rastreador se queda con secciones en blanco. */
-.js-animations .reveal {
-  opacity: 0;
-  transform: translateY(16px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-.js-animations .reveal.is-visible { opacity: 1; transform: none; }
-
-/* Marcador de posición de imagen — sustituir por fotografía real de obra */
-.img-placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  min-height: 220px;
-  padding: var(--space-3);
-  border: 1px dashed var(--color-border);
-  color: var(--color-muted);
-  font-size: 0.78rem;
-  line-height: 1.5;
+@media print {
+  .masthead, .foot { display: none; }
+  body { color: #000; }
 }

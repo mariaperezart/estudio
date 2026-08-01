@@ -12,20 +12,38 @@ Después, **[`ESTRATEGIA_MAESTRA.md`](./ESTRATEGIA_MAESTRA.md)** es el plan de e
 
 ```
 index.html                 Inicio
-obras/                     Galería ("Obras") + ficha individual por obra
-comisiones/                Proceso de comisiones + formulario
-el-universo/               Sobre mí + Mi historia + Proceso creativo
+obras/                     Obra + ficha individual por pieza
 colecciones/               Índice de colecciones + página por colección
-faq/                       Preguntas frecuentes
+sobre/                     Statement, biografía, proceso y trayectoria
+blog/                      Textos
+comisiones/                Proceso de comisiones
 contacto/                  Formulario de contacto
-blog/                      Blog + artículos
-newsletter/                Landing de suscripción
+faq/                       Preguntas frecuentes
+newsletter/                Lista del estudio
 gracias/                   Confirmación tras formulario
-coleccionistas/            Portal de coleccionistas (placeholder)
 legal/                     Privacidad, términos, cookies (pendientes de revisión legal)
+el-universo/               Redirección a sobre/ (URL antigua)
 assets/                    CSS, JS, imágenes
 .claude/agents/            Definiciones de los 10 agentes IA (ver ESTRATEGIA_MAESTRA.md §10)
+.claude/skills/            Skills invocables (ver auditoria-galeria)
 ```
+
+## Sistema de diseño
+
+`assets/css/styles.css` es la única hoja de estilos. Principio rector: **la interfaz
+desaparece**. Sin sombras, sin degradados, sin tarjetas, sin bordes redondeados, sin
+animación de entrada. Fondo blanco continuo, una sola familia tipográfica (Inter) en
+tamaños contenidos, y una jerarquía construida con espacio y escala de imagen.
+
+Reglas que no deben romperse:
+
+- **Una obra nunca se recorta.** Nada de `object-fit: cover` ni `aspect-ratio` forzado
+  sobre una imagen de obra. La proporción real siempre se respeta.
+- Todo el contenido cuelga del **mismo eje izquierdo**; el texto se limita a ~68
+  caracteres mediante `.prose`, no estrechando el contenedor.
+- Los enlaces de acción son `.link` (texto subrayado), no botones. Un botón lee como
+  comercio.
+- Cada imagen lleva `width` y `height` reales para reservar su espacio.
 
 ## Despliegue
 
@@ -36,14 +54,21 @@ Para activar GitHub Pages: Settings → Pages → Deploy from branch → rama `m
 ## Estado del catálogo
 
 - **Colección Hábitats** (`colecciones/habitats/`) es la primera colección real, con statement confirmado por Gabriela.
-- `obras/umbral/` ("Umbral") y `obras/habitar/` ("Habitar") son las **dos primeras obras reales** (fotografías propias de Gabriela), ambas de 140 × 70 cm, acrílico sobre lienzo, con historia real, precio confirmado (2.400€ cada una) y disponibles (julio 2026). El campo "tiempo invertido" se retiró de las páginas públicas — no aporta a un comprador y no había dato real que mostrar.
+- `obras/umbral/` ("Umbral") y `obras/habitar/` ("Habitar") son las **dos primeras obras reales** (fotografías propias de Gabriela), ambas de 140 × 70 cm, acrílico sobre lienzo, con historia real y disponibles (julio 2026).
+- **El precio ya no se publica.** Las fichas dirigen a "Consultar esta obra" → `contacto/`. Es la convención en el circuito de galería, y era la decisión que más hacía leer el sitio como tienda. El precio de referencia (2.400 €) se mantiene fuera del sitio, para responder por correo.
 - La colección de ejemplo que usaba el nombre "Umbral" para una plantilla figurativa (puertas, mapas) **se eliminó del repositorio** al confirmarse que el título real de la primera obra de Hábitats es también "Umbral" — ver `BIBLIA_DEL_UNIVERSO.md` §3.
 
-## Pendiente antes de publicar (ver ESTRATEGIA_MAESTRA.md §15)
+## Pendiente antes de publicar
 
-- [ ] Completar tiempo invertido, año y disponibilidad de `obras/umbral/` y `obras/habitar/`.
-- [ ] Validar el precio orientativo (2.400€) con la primera venta real.
-- [ ] Conectar el formulario real (sustituir `TU_ID_DE_FORMSPREE` en cada `<form>`).
+Bloqueantes:
+
+- [ ] **Conectar los formularios**: sustituir `TU_ID_DE_FORMSPREE` en `contacto/` y `newsletter/`. Ahora mismo no entregan nada; el aviso de "pendiente" se retiró de la página y quedó como comentario HTML.
+- [ ] **Decidir el nombre público.** El sitio firma solo "Gabriela". Ninguna artista de circuito institucional se presenta sin apellido; es el mayor hueco de credibilidad que queda y no se puede resolver desde el código.
 - [ ] Revisión legal de `legal/privacidad`, `legal/terminos`, `legal/cookies`.
+
+Recomendables:
+
+- [ ] Recortar `hero.jpg` de ambas obras al borde exacto del lienzo (hoy se ve pared alrededor).
+- [ ] Rehacer `dossier/` y `certificados/` con el nuevo sistema: siguen con estilos propios en línea.
 - [ ] Conectar newsletter real (Buttondown/Mailchimp) y analítica (Plausible/Fathom).
 - [ ] Registrar dominio propio cuando la marca esté validada.
