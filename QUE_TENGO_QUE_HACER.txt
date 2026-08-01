@@ -1,0 +1,327 @@
+===============================================================================
+GABRIELA PÉREZ — QUÉ TENGO QUE HACER
+Plan de trabajo tras la auditoría de credibilidad institucional
+Fecha: 1 de agosto de 2026
+===============================================================================
+
+Este documento recoge SOLO lo que tienes que hacer tú. Todo lo que se podía
+arreglar desde el código ya está hecho y publicado (ver el último apartado).
+
+Está ordenado por impacto, no por facilidad. Si solo haces las tres primeras
+cosas del bloque 1, ya habrás arreglado más que con todo lo demás junto.
+
+
+===============================================================================
+BLOQUE 0 — URGENTE. HOY. SIN ESTO, LA WEB NO SIRVE
+===============================================================================
+
+[ ] 0.1  CONECTAR EL FORMULARIO DE CONTACTO
+         Ahora mismo, si un galerista te escribe desde la web, el mensaje SE
+         PIERDE. Nadie recibe nada y quien escribe no lo sabe. Es el problema
+         más grave de todo este documento.
+
+         Cómo:
+           1. Entra en formspree.io y crea una cuenta gratuita.
+           2. Crea un formulario nuevo. Te dan un ID tipo "xyzabcd".
+           3. Pásame ese ID y yo lo pongo en las dos páginas.
+              (O cámbialo tú: busca TU_ID_DE_FORMSPREE en contacto/index.html
+              y en newsletter/index.html y sustitúyelo.)
+           4. Prueba a enviarte un mensaje a ti misma y comprueba que llega.
+
+         Tiempo: 10 minutos.
+
+
+[ ] 0.2  BORRAR LAS RAMAS VIEJAS EN GITHUB
+         Hay cinco versiones distintas de tu web conviviendo. Es lo que hizo
+         que durante días estuvieras mirando un sitio que no era el que
+         estábamos editando.
+
+         Cómo:
+           1. Ve a github.com/mariaperezart/estudio/branches
+           2. Borra todas las ramas que empiecen por "claude/".
+           3. Deja solo "main".
+
+         Es seguro: todo lo real está ya en main, incluido el material que
+         rescaté de esas ramas.
+
+         Tiempo: 2 minutos.
+
+
+[ ] 0.3  TRABAJAR SIEMPRE SOBRE "MAIN"
+         A partir de ahora, una sola versión. Si abres otra sesión para
+         trabajar en la web, dile que trabaje sobre main.
+
+
+===============================================================================
+BLOQUE 1 — ESTA SEMANA. SUBIR EL SUELO
+===============================================================================
+
+[ ] 1.1  VOLVER A FOTOGRAFIAR "UMBRAL" Y "HABITAR"
+         Es la acción de más retorno después de pintar más obra.
+
+         El problema medido:
+           - Las dos obras están a 986 x 488 píxeles = 0,5 megapíxeles.
+             Son las imágenes de PEOR calidad de toda tu web. Tu retrato
+             tiene 2,4 MPx y un detalle de textura tiene 0,7. Es decir: la
+             foto de tu mano se ve mejor que tu cuadro.
+           - El balance de blancos no coincide entre las dos: Umbral tira a
+             cálido y Habitar es neutra. Aparecen una debajo de la otra en la
+             portada y se nota.
+           - Se ve la pared alrededor del lienzo y la obra está ligeramente
+             girada respecto al encuadre.
+
+         Cómo hacerlo bien (no necesitas estudio profesional):
+           - Cuelga la obra en una pared blanca o gris neutro.
+           - Cámara/móvil en trípode, a la ALTURA DEL CENTRO del cuadro y
+             PERPENDICULAR: si la cámara está torcida, los lados salen en
+             trapecio.
+           - Luz natural indirecta, de día, sin sol directo. Dos ventanas o
+             dos focos IGUALES a 45 grados a cada lado. Nunca flash.
+           - Apaga las luces de casa: mezclar luz de bombilla con luz de
+             ventana es lo que produce el desajuste de color.
+           - Fija el balance de blancos manualmente y NO lo cambies entre una
+             obra y otra. Dispara las dos en la misma sesión, misma luz.
+           - La foto final: al menos 3000 píxeles de lado largo, recortada al
+             borde exacto del lienzo, sin pared alrededor.
+           - Pon una hoja de papel blanco en una esquina del primer disparo
+             para poder corregir el color después si hace falta.
+
+         Cuando las tengas, mándamelas y las proceso y las publico.
+
+         Tiempo: una mañana.
+
+
+[ ] 1.2  LEER EL STATEMENT NUEVO Y HACERLO TUYO
+         He reescrito el texto de la página "Sobre". Lo he hecho porque el
+         anterior estaba lleno de frases que valen para cualquier pintor
+         abstracto ("espacios que transmitan calma y favorezcan la reflexión",
+         "cada persona encuentra algo diferente").
+
+         PERO ES TU VOZ, NO LA MÍA. Es lo único de toda la web que tienes que
+         leer palabra por palabra y aprobar o cambiar.
+
+         Presta atención especial al párrafo sobre ser autista. Lo he
+         reescrito quitando el "pero" que había antes ("Pero el autismo no es
+         el tema de mi obra"), porque sonaba a disculpa anticipada. Ahora
+         dice que es el método, no el tema. Si no te representa, dímelo y lo
+         cambiamos: esa decisión es tuya y de nadie más.
+
+         Está en: sobre/index.html
+         Tiempo: 20 minutos de lectura honesta.
+
+
+[ ] 1.3  VERIFICAR LA SEDE DE MERKARTE  ***IMPORTANTE***
+         Tu web decía "Museo Municipal de Bellas Artes de Santa Cruz de
+         Tenerife". El cartel de la propia exposición que tienes guardado
+         dice "MERKARTE — Cabildo de Tenerife".
+
+         No son lo mismo. Una sede inflada en un CV es de las pocas cosas que
+         puede hundir tu credibilidad de golpe: si un comisario lo comprueba y
+         no cuadra, deja de creerse el resto del CV también.
+
+         He puesto la versión que respalda el cartel ("Cabildo de Tenerife").
+         BUSCA EL DATO EXACTO y dime cuál es el correcto.
+
+         Está en: cv/index.html
+         Tiempo: 15 minutos.
+
+
+[ ] 1.4  DECIDIR QUÉ HACER CON "EYESASDAGGERS"
+         Firmaste como eyesasdaggers en 2020. Esa obra —paisajes costeros
+         figurativos, azules y turquesas— no aparece en ninguna parte de la
+         web. Quien busque el pseudónimo encuentra a una artista distinta y no
+         hay nada que explique el salto.
+
+         Tienes dos opciones coherentes. La intermedia (mencionarlo sin
+         mostrarlo ni explicarlo) es la única que resta credibilidad:
+
+           A) Quitar el pseudónimo del CV. Más limpio.
+           B) Mantenerlo y añadir una nota breve en "Notas del estudio"
+              contando la ruptura: por qué pasaste del paisaje figurativo al
+              campo de color. Eso convierte un cabo suelto en una historia de
+              evolución, que es lo que un comisario quiere leer.
+
+         Tengo las imágenes de 2020 rescatadas y archivadas en
+         assets/img/archivo/2020-merkarte/ por si eliges B.
+
+         Tiempo: una decisión + 30 minutos si eliges B.
+
+
+[ ] 1.5  VERSIÓN EN INGLÉS
+         Dices que tu objetivo son galerías e instituciones internacionales.
+         La web está solo en español. Eso deja fuera a la mayoría.
+
+         No hace falta traducir todo: bastan Obra, Sobre, CV y Contacto.
+         Dímelo y lo monto.
+
+         Tiempo: mío, no tuyo. Solo tienes que decidirlo.
+
+
+===============================================================================
+BLOQUE 2 — ESTE MES. LO ÚNICO QUE MUEVE LA AGUJA DE VERDAD
+===============================================================================
+
+[ ] 2.1  PINTAR MÁS OBRA
+         Este es EL problema. Todo lo demás de este documento es maquillaje
+         comparado con esto.
+
+         Tienes dos cuadros. Del mismo año, del mismo tamaño, con la misma
+         técnica y la misma composición. Eso no es una práctica artística
+         evaluable: es un comienzo.
+
+         Un galerista necesita ver de 8 a 12 obras como mínimo para juzgar si
+         hay algo ahí. Idealmente, obra de dos o tres años que muestre una
+         evolución.
+
+         Lo siguiente ya está decidido: el TRÍPTICO (roja, tierra, silencio),
+         con el panel grande en el centro. Ver el punto 2.2.
+
+         Después del tríptico, sigue. Hasta llegar a ocho piezas no merece la
+         pena mover la web ante nadie.
+
+
+[ ] 2.2  EL TRÍPTICO — LO QUE ACORDAMOS
+         Formato: horizontal, 40 x 30 cm los dos pequeños. El grande al centro.
+         Orden: TIERRA — ROJA — SILENCIO (de más peso a menos).
+
+         *** EL PUNTO CRÍTICO ***
+         El horizonte tiene que quedar a la MISMA ALTURA REAL en los tres
+         paneles, no al mismo porcentaje. Si pintas el horizonte al 62% de
+         cada lienzo, en el panel grande caerá más abajo en centímetros y los
+         tres horizontes NO se alinearán en la pared. El tríptico se rompe:
+         en vez de un territorio continuo se ven tres cuadros parecidos.
+
+         Con los paneles centrados verticalmente:
+
+           horizonte del panel grande (desde arriba)
+             = horizonte de los pequeños + (alto del grande - alto pequeño) / 2
+
+         FALTA UN DATO: dime el tamaño exacto del lienzo grande y te doy los
+         tres números en centímetros para marcarlos a lápiz.
+
+         Otras reglas del tríptico:
+           - Marca el horizonte a lápiz en los tres ANTES de la primera
+             veladura. Con acrílico, cuando ves dónde ha quedado ya no se mueve.
+           - Separación igual entre paneles al colgar: 5-8 cm.
+           - Masa de color en el tercio inferior, como en Umbral (32%).
+           - Fotografía las tres por separado Y las tres juntas.
+           - Va a la web como UNA SOLA OBRA: una ficha, un título, un precio.
+             En dimensiones se pone el total del montaje y debajo la medida de
+             cada panel. Es la convención de cartela para obra en varias partes.
+
+
+[ ] 2.3  CONSEGUIR UN TEXTO ESCRITO POR OTRA PERSONA
+         Ahora mismo, todo lo que dice tu web lo dices tú sobre ti misma. Cero
+         validación externa.
+
+         UN SOLO TEXTO de 400 palabras firmado por alguien que no seas tú vale
+         más que toda esta auditoría junta. En el circuito, la credibilidad la
+         construye siempre un tercero.
+
+         No necesitas un crítico famoso. Vale:
+           - Un comisario local de León.
+           - Un profesor de la Escuela de Arte de León.
+           - Alguien del área de cultura del Ayuntamiento o la Diputación.
+           - Otro artista con más recorrido que tú.
+
+         Importa la firma ajena, no su fama.
+
+
+[ ] 2.4  PRESENTARTE A ALGO
+         Necesitas una línea de 2026 en el CV que no sea obra propia.
+         Convocatoria, residencia, certamen, colectiva. Lo que sea.
+
+         Vives en León: mira convocatorias del Ayuntamiento de León, la
+         Diputación, la Junta de Castilla y León, el MUSAC (que está en León y
+         tiene programas para artistas de la comunidad), y las salas
+         municipales. Empieza por lo local: es donde tienes opciones reales y
+         donde una línea de CV se consigue de verdad.
+
+
+===============================================================================
+BLOQUE 3 — CUANDO TENGAS 8-12 OBRAS
+===============================================================================
+
+[ ] 3.1  Dossier en PDF de verdad (ahora es una página web imprimible).
+[ ] 3.2  Empezar a contactar galerías. No antes.
+[ ] 3.3  Dominio propio (gabrielaperez.art o similar) en vez de github.io.
+[ ] 3.4  Analítica sin cookies (Plausible o Fathom) para saber quién entra.
+
+
+===============================================================================
+LO QUE YA ESTÁ HECHO — NO TIENES QUE TOCARLO
+===============================================================================
+
+ARQUITECTURA
+  - Navegación nueva: Obra / Sobre / CV / Contacto.
+  - Página de CV nueva, que antes no existía: biografía en tercera persona
+    (la que una galería copia y pega en su nota de prensa), exposiciones
+    separadas de formación, y enlace al dossier.
+  - El dossier estaba construido pero NINGUNA página enlazaba a él. Ya se
+    llega desde el CV.
+  - Eliminada la página de preguntas frecuentes: hablaba de transporte,
+    embalaje y plazos. Era atención al cliente, no práctica artística.
+  - Eliminado el índice de colecciones (listaba un solo elemento).
+  - Comisiones y lista del estudio salen del menú principal y bajan al pie.
+  - Los certificados de autenticidad salen del alcance público.
+
+COPY
+  - Statement reescrito: de ~400 palabras difusas a 4 párrafos con una
+    afirmación que se puede defender.
+  - Eliminado "cada persona llega con su historia y encuentra algo diferente":
+    es verdad de toda obra de arte que ha existido y funcionaba como coartada
+    para no decir de qué va tu pintura.
+  - Eliminado "espacios que transmitan calma y favorezcan la reflexión":
+    lenguaje de decoración de interiores.
+  - Eliminado el "pero" defensivo del párrafo sobre autismo.
+  - El párrafo de Hábitats aparecía LITERAL en tres páginas distintas. Ahora
+    está en una sola, y la página de la serie describe el procedimiento real
+    (veladuras, canto pintado, trama visible) en vez de repetir generalidades.
+  - "Colección" pasa a "serie" en todo el sitio: colección es lenguaje de
+    producto; serie es lenguaje de práctica.
+  - Fuera de las fichas: "Procedencia: Estudio de la artista" (anunciaba que
+    no hay procedencia) y "Disponibilidad: Disponible" (subrayaba que no se ha
+    vendido nada).
+  - "Textos" pasa a "Notas del estudio" y baja al pie: prometía textos
+    curatoriales y contenía un duplicado y una nota autobiográfica.
+
+DOSSIER
+  - Fuera el precio (2.400 €). Un dossier institucional no lleva precio.
+  - Statement y sede de Merkarte alineados con la web.
+
+TÉCNICO
+  - Tipografía autoalojada: el sitio no hace NI UNA petición a terceros. Sin
+    Google Fonts no se transmite la IP de quien te visita, que en la UE es un
+    problema legal real.
+  - CSS y JS versionados con el hash de su contenido: nadie puede quedarse con
+    una copia vieja en caché.
+  - Documentación de Merkarte 2020 rescatada de las ramas viejas antes de que
+    se perdiera (6 fotos de sala + 15 obras) en assets/img/archivo/.
+  - Formulario de contacto preparado para redirigir a la página de gracias en
+    cuanto lo conectes.
+  - Verificado en navegador: 17 páginas, sin imágenes rotas, sin desbordes,
+    sin errores de JavaScript, un solo H1 por página.
+
+
+===============================================================================
+LO QUE NO DEBES DESHACER
+===============================================================================
+
+  - El sistema visual (blanco, una tipografía, sin efectos).
+  - La cartela de las fichas de obra.
+  - La foto del canto del bastidor y la de escala con figura: son las dos
+    mejores fotografías del sitio.
+  - Los dos párrafos del Proceso, en la página Sobre. Son el mejor texto que
+    has escrito y lo único de toda la web que no podría firmar otra persona:
+    "El color no se aplica: se acumula" y "no un borde, sino una zona de paso".
+
+
+===============================================================================
+LA VERDAD INCÓMODA, EN UNA FRASE
+===============================================================================
+
+La presentación de tu web ya está por encima de la cantidad de obra que
+tienes. Esa distancia es ahora tu principal problema de credibilidad, y no se
+arregla con diseño ni con texto: se arregla pintando.
+
+===============================================================================
