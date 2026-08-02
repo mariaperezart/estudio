@@ -123,7 +123,26 @@ puedo hacerlo yo.
 BLOQUE 1 — ESTA SEMANA. SUBIR EL SUELO
 ===============================================================================
 
-[ ] 1.1  VOLVER A FOTOGRAFIAR "UMBRAL" Y "HABITAR"
+[X] 1.1  VOLVER A FOTOGRAFIAR "UMBRAL" Y "HABITAR"   — HECHO EL 2/8/2026
+         Sesión del 2 de agosto, 13:06-13:11, las dos obras con la misma luz.
+         Publicadas a 2400 x 1200 px, rectificadas a la proporción real de
+         140 x 70 cm y con el color neutralizado contra la pared.
+
+         Apareció además un fallo que no estaba previsto: las imágenes que
+         había publicadas tenían el color manipulado. La Umbral antigua era
+         48 puntos sobre 255 más clara que la pintura de verdad, y su banda
+         era bermellón donde la obra es granate. Gabriela lo confirmó
+         comparando las dos versiones.
+
+         QUEDA UNA: "escala.jpg" de Umbral, la de la artista delante de la
+         obra. Es de la sesión antigua y no se puede rehacer sin una persona
+         en cuadro. Su pared mide (180, 159, 151) — un desvío cálido de +29
+         frente a la neutra de la sesión nueva, así que desentona con el
+         resto de la página. Repetirla en la misma pared, sobre las 13:00.
+
+         --- lo que sigue es el protocolo que se usó, se conserva por si hay
+             que repetir la toma ---
+
          Es la acción de más retorno después de pintar más obra.
 
          El problema medido:
