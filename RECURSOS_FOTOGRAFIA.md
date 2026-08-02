@@ -48,9 +48,31 @@ luz para las dos obras.
 Las dos principales están rectificadas en perspectiva a la proporción real de
 2,000 (140 × 70 cm) y neutralizadas tomando la pared como referencia de gris.
 
-**Pendiente:** `umbral/escala.jpg` sigue siendo de la sesión antigua — su pared
-mide (180, 159, 151), un desvío cálido de +29 frente a la neutra de la sesión
-nueva. Hay que repetirla, y necesita una persona en cuadro.
+## Las tres fotos con persona en cuadro
+
+`umbral/escala.jpg`, `retrato/gabriela-estudio.jpg` y
+`estudio/contacto-con-la-obra.jpg` son de la sesión antigua y no se pueden
+rehacer sin una persona delante. En las tres sale Umbral, y en las tres salía
+con el rojo levantado.
+
+La medida que lo delata es **la relación entre la banda roja y el blanco de la
+pared**. Si solo cambiara la exposición, esa relación se mantendría:
+
+| Imagen | Relación antes | Después | Gamma aplicada |
+|---|---|---|---|
+| Referencia real (sesión nueva) | **0,49** | — | — |
+| escala | 0,71 | 0,60 | 1,52 |
+| retrato | 0,73 | 0,61 | 1,59 |
+| contacto con la obra | 0,59 | 0,54 | 1,17 |
+
+Se aplicó **la mitad** de la corrección, no la entera. Llevar la relación hasta
+0,49 dejaba la pintura fiel pero oscurecía la cara y las ojeras de Gabriela: son
+fotos de una persona con la obra detrás, no documentación de obra, y corregir la
+pintura arrastra a la persona. Una gamma casi no toca los blancos —la pared pasa
+de 248 a 245 en `escala`— pero sí baja los medios tonos.
+
+**Sigue pendiente repetirlas** en la misma pared y sobre las 13:00, con la luz de
+la sesión buena. Es la única forma de que salgan fieles sin ceder en el retrato.
 
 ## Montaje
 
