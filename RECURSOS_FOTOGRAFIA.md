@@ -130,6 +130,32 @@ vean como una serie y no como fotos sueltas.
 Las dos últimas son las mejores fotografías que existen hoy del proyecto, y las
 que un dossier necesita.
 
+## Separar el retrato de la documentación
+
+Regla que salió de un problema real: **un retrato de la artista no lleva obra
+detrás, salvo que la obra sea el asunto de la foto.**
+
+Hoy las cuatro fotos de Gabriela que hay en el sitio —`escala.jpg`, el retrato
+de Sobre, `contacto-con-la-obra.jpg` y `gabriela-frontal.jpg`— están todas
+hechas delante de Umbral. Umbral no está a un lado: es el fondo. Eso significa
+que cualquier diferencia de luz entre la sesión del retrato y la de la
+documentación sale publicada como si la pintura tuviera otro color, y **no se
+arregla recortando**: para dejar el cuadro fuera del encuadre hay que cerrar
+tanto que solo queda la cara, y aun así el rojo asoma detrás del pelo.
+
+Cómo evitarlo en la próxima sesión:
+
+- **Retrato: contra la pared desnuda.** No necesita obra detrás, y así deja de
+  arrastrar el problema.
+- **Si se quiere obra en el retrato, mejor Habitar.** Su paleta es casi neutra
+  —desvío rojo-azul de +3, frente al rojo saturado de Umbral— y aguanta mucho
+  mejor una diferencia de luz sin que cante.
+- **`escala.jpg` sí va con Umbral**, porque ahí la obra es el asunto, pero
+  disparada en la misma sesión y con la misma luz que la documentación.
+
+Con eso el retrato es retrato y la documentación es documentación, y no hay
+nada que corregir después.
+
 ## Qué no fotografiar
 
 Obra en entornos domésticos con muebles, electrodomésticos u objetos personales
