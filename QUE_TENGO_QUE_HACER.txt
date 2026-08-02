@@ -134,11 +134,19 @@ BLOQUE 1 — ESTA SEMANA. SUBIR EL SUELO
          era bermellón donde la obra es granate. Gabriela lo confirmó
          comparando las dos versiones.
 
-         QUEDA UNA: "escala.jpg" de Umbral, la de la artista delante de la
-         obra. Es de la sesión antigua y no se puede rehacer sin una persona
-         en cuadro. Su pared mide (180, 159, 151) — un desvío cálido de +29
-         frente a la neutra de la sesión nueva, así que desentona con el
-         resto de la página. Repetirla en la misma pared, sobre las 13:00.
+         QUEDAN TRES, las que llevan una persona en cuadro: "escala.jpg" de
+         Umbral, el retrato de la página Sobre y la del contacto con la obra.
+         En las tres sale Umbral con el rojo levantado. La relación entre la
+         banda roja y el blanco de la pared debería ser 0,49 y estaba en
+         0,71, 0,73 y 0,59.
+
+         Se les ha aplicado MEDIA corrección de gamma (1,52, 1,59 y 1,17),
+         que las deja en 0,60, 0,61 y 0,54. La entera dejaba la pintura fiel
+         pero oscurecía la cara de Gabriela: son fotos de una persona con la
+         obra detrás, y corregir la pintura arrastra a la persona.
+
+         Repetirlas es lo que de verdad lo arregla: misma pared, sobre las
+         13:00, con la luz de la sesión buena.
 
          --- lo que sigue es el protocolo que se usó, se conserva por si hay
              que repetir la toma ---
