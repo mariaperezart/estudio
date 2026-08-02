@@ -8,7 +8,10 @@ falla, la pintura no llega.
 
 ## El diagnóstico que motivó este protocolo
 
-Medido sobre las imágenes publicadas:
+*Resuelto el 2 de agosto de 2026. Se conserva porque explica por qué el
+protocolo dice lo que dice.*
+
+Medido sobre las imágenes que estaban publicadas:
 
 | Imagen | Resolución | Temperatura del entorno |
 |---|---|---|
@@ -19,12 +22,35 @@ Medido sobre las imágenes publicadas:
 
 Tres fallos, en orden de gravedad:
 
-1. **Las obras son las imágenes peor resueltas del sitio.** Cinco veces menos
-   resolución que un detalle. En pantalla moderna se ven blandas.
-2. **El balance de blancos no coincide entre las dos piezas.** Aparecen una
-   debajo de la otra en la portada y una tira a cálido.
-3. **Se ve la pared alrededor del lienzo** y la obra está ligeramente girada
-   respecto al encuadre.
+1. **Las obras eran las imágenes peor resueltas del sitio.** Cinco veces menos
+   resolución que un detalle. En pantalla moderna se veían blandas.
+2. **El balance de blancos no coincidía entre las dos piezas.** Aparecen una
+   debajo de la otra en la portada y una tiraba a cálido.
+3. **Se veía la pared alrededor del lienzo** y la obra estaba ligeramente
+   girada respecto al encuadre.
+
+Y un cuarto fallo que solo salió al comparar con la obra real: **el color
+estaba manipulado**. La Umbral publicada era 48 puntos sobre 255 más clara en
+el campo que la pintura, y su banda pasaba de granate (87, 29, 29) a bermellón
+(164, 36, 32). Gabriela lo confirmó al ver las dos versiones juntas.
+
+## Lo que hay publicado ahora
+
+Sesión del 2 de agosto de 2026, Galaxy A57, 13:06–13:11, misma pared y misma
+luz para las dos obras.
+
+| Imagen | Resolución | Origen |
+|---|---|---|
+| Umbral, principal | 2400 × 1200 — 2,9 MPx | rectificada y recortada al lienzo |
+| Habitar, principal | 2400 × 1200 — 2,9 MPx | rectificada y recortada al lienzo |
+| Detalles y canto | 1,4 – 2,9 MPx | recorte directo, sin pared |
+
+Las dos principales están rectificadas en perspectiva a la proporción real de
+2,000 (140 × 70 cm) y neutralizadas tomando la pared como referencia de gris.
+
+**Pendiente:** `umbral/escala.jpg` sigue siendo de la sesión antigua — su pared
+mide (180, 159, 151), un desvío cálido de +29 frente a la neutra de la sesión
+nueva. Hay que repetirla, y necesita una persona en cuadro.
 
 ## Montaje
 
