@@ -486,18 +486,23 @@ button[type="submit"]:hover { color: var(--muted); border-bottom-color: var(--mu
 }
 
 .installation-wall {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   align-items: start;
   box-sizing: border-box;
-  aspect-ratio: 360 / 260;
-  padding: 23.61% 7.64% 0;
-  gap: 8.2%;
+  aspect-ratio: 380 / 260;
+  padding: 22.37% 7.895% 0;
+  column-gap: 12.5%;
   background: #e9e5df;
   border-bottom: 4px solid #c9c0b5;
 }
 
 .installation-wall img {
-  width: 45.9%;
+  width: 100%;
   height: auto;
   box-shadow: 2px 4px 7px rgb(47 36 31 / 22%);
+}
+
+@media (min-width: 46.01rem) {
+  .habitats-works { column-gap: var(--s5); }
 }
