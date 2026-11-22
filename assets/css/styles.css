@@ -461,3 +461,43 @@ button[type="submit"]:hover { color: var(--muted); border-bottom-color: var(--mu
   .masthead, .foot { display: none; }
   body { color: #000; }
 }
+
+.home-series {
+  margin: var(--s3) 0 var(--s4);
+}
+
+.home-series h2 {
+  margin: 0;
+}
+
+.home-series__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s2) var(--s4);
+  margin-top: var(--s2);
+}
+
+.home-work {
+  display: block;
+}
+
+.home-work-next {
+  margin-top: var(--s6);
+}
+
+.installation-wall {
+  display: flex;
+  align-items: start;
+  box-sizing: border-box;
+  aspect-ratio: 360 / 260;
+  padding: 23.61% 7.64% 0;
+  gap: 8.2%;
+  background: #e9e5df;
+  border-bottom: 4px solid #c9c0b5;
+}
+
+.installation-wall img {
+  width: 45.9%;
+  height: auto;
+  box-shadow: 2px 4px 7px rgb(47 36 31 / 22%);
+}

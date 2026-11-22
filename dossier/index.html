@@ -25,7 +25,7 @@ a { color:inherit; }
   border-bottom:1px solid var(--rule); display:flex; gap:16px;
   align-items:center; justify-content:space-between; flex-wrap:wrap; }
 .bar p { margin:0; font-size:9pt; color:var(--muted); }
-.bar button { font:inherit; font-size:9pt; background:none; color:var(--ink);
+.bar a { font:inherit; font-size:9pt; background:none; color:var(--ink);
   border:0; border-bottom:1px solid var(--ink); padding:0 0 2px; cursor:pointer; }
 
 .hoja { width:210mm; min-height:297mm; padding:24mm 20mm 20mm; margin:0 auto 12px;
@@ -61,10 +61,10 @@ dd { margin:0; font-size:10pt; }
 @media print {
   body { background:#fff; }
   .bar { display:none; }
-  .hoja { margin:0; box-shadow:none; width:auto; min-height:auto; padding:20mm; }
+  .hoja { margin:0; box-shadow:none; width:210mm; height:297mm; padding:20mm; }
   @page { size:A4; margin:0; }
 }
-@media (max-width:230mm) {
+@media screen and (max-width:230mm) {
   .hoja { width:auto; min-height:0; padding:24px; }
   .pie { position:static; margin-top:24px; }
 }
@@ -73,8 +73,8 @@ dd { margin:0; font-size:10pt; }
 <body>
 
 <div class="bar">
-  <p>Documento para enviar a galerías, comisarios e instituciones. Se exporta a PDF desde el propio navegador.</p>
-  <button onclick="window.print()">Guardar como PDF</button>
+  <p>Dossier de Hábitats para galerías, comisarios e instituciones.</p>
+  <a href="gabriela-perez-habitats-2026.pdf" download>Descargar dossier (PDF)</a>
 </div>
 
 <!-- 01 · Portada -->
@@ -122,9 +122,9 @@ dd { margin:0; font-size:10pt; }
 <section class="hoja">
   <p class="label">Serie</p>
   <h1><em>Hábitats</em>, 2026</h1>
-  <p class="lead">Dos campos de color y la franja donde se tocan.</p>
+  <p class="lead">Dos pinturas de gran formato de una serie en curso.</p>
   <p>El procedimiento es el hilo que une la serie: una franja superior que se disuelve en una franja inferior de color distinto, formato horizontal de 140 × 70 cm, acrílico en veladuras sucesivas sobre lienzo sin enmarcar, con la trama textil visible como parte deliberada de la superficie y el color continuado sobre el canto del bastidor.</p>
-  <p>La paleta cambia con cada pieza. La estructura, no.</p>
+  <p>Las dos piezas se proponen para una misma pared o como conjunto dentro de una exposición colectiva.</p>
   <figure style="margin-top:8mm;">
     <img src="../assets/img/obras/umbral/escala.jpg" alt="La artista frente a Umbral en el estudio">
     <figcaption>La artista frente a <em>Umbral</em> en el estudio.</figcaption>
@@ -139,7 +139,7 @@ dd { margin:0; font-size:10pt; }
   <figure>
     <img src="../assets/img/obras/umbral/hero.jpg" alt="Umbral, 2026">
   </figure>
-  <p>Esta obra nace de la idea de que todo espacio puede convertirse en un lugar para detenerse. A través de la materia y el color, busca abrir un territorio de contemplación donde cada persona pueda construir su propia experiencia.</p>
+  <p>El rojo se concentra en el tercio inferior de <em>Umbral</em>. Al encontrarse con el gris malva, se atenúa y deja ver la trama del lienzo. La mirada se detiene en esa franja, donde el límite entre los dos campos pierde nitidez.</p>
   <dl style="margin-top:6mm;">
     <div><dt>Año</dt><dd>2026</dd></div>
     <div><dt>Técnica</dt><dd>Acrílico sobre lienzo</dd></div>
@@ -156,7 +156,7 @@ dd { margin:0; font-size:10pt; }
   <figure>
     <img src="../assets/img/obras/habitar/hero.jpg" alt="Habitar, 2026">
   </figure>
-  <p>Pinté esta obra como una invitación a explorar la relación entre el espacio y quien lo ocupa. Más que ofrecer respuestas, propone un lugar donde la calma y el silencio permitan que surjan nuevas preguntas.</p>
+  <p>En <em>Habitar</em>, el crudo cálido se disuelve en el gris topo. El paso es tan gradual que cuesta fijar dónde termina un color y empieza el otro. La mirada recorre esa franja antes de asentarse en el topo.</p>
   <dl style="margin-top:6mm;">
     <div><dt>Año</dt><dd>2026</dd></div>
     <div><dt>Técnica</dt><dd>Acrílico sobre lienzo</dd></div>
