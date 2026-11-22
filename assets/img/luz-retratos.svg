@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" color-interpolation-filters="sRGB">
+  <filter id="pincel">
+    <feComponentTransfer>
+      <feFuncR type="gamma" amplitude="1" exponent=".72" offset="0.018"/>
+      <feFuncG type="gamma" amplitude="1" exponent=".74" offset="0.018"/>
+      <feFuncB type="gamma" amplitude="1" exponent=".74" offset="0.018"/>
+    </feComponentTransfer>
+  </filter>
+  <filter id="proceso">
+    <feComponentTransfer>
+      <feFuncR type="gamma" amplitude="1" exponent=".78" offset="0.023"/>
+      <feFuncG type="gamma" amplitude="1" exponent=".80" offset="0.023"/>
+      <feFuncB type="gamma" amplitude="1" exponent=".79" offset="0.023"/>
+    </feComponentTransfer>
+  </filter>
+  <filter id="escala">
+    <feComponentTransfer>
+      <feFuncR type="gamma" amplitude="1" exponent=".84" offset="0.012"/>
+      <feFuncG type="gamma" amplitude="1" exponent=".83" offset="0.012"/>
+      <feFuncB type="gamma" amplitude="1" exponent=".83" offset="0.012"/>
+    </feComponentTransfer>
+  </filter>
+</svg>

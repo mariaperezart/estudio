@@ -517,3 +517,16 @@ img[src$="/obras/umbral/hero.jpg"] {
 img[src$="/obras/habitar/hero.jpg"] {
   filter: brightness(1.21);
 }
+
+/* Luz de las fotografías de Gabriela con la obra. */
+img[src$="/retrato/gabriela-estudio.jpg"] {
+  filter: url("../img/luz-retratos.svg#pincel") saturate(.88);
+}
+
+img[src$="/estudio/contacto-con-la-obra.jpg"] {
+  filter: url("../img/luz-retratos.svg#proceso") saturate(.88);
+}
+
+img[src$="/obras/umbral/escala.jpg"] {
+  filter: url("../img/luz-retratos.svg#escala") saturate(.88);
+}
