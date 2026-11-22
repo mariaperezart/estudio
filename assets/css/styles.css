@@ -487,15 +487,17 @@ button[type="submit"]:hover { color: var(--muted); border-bottom-color: var(--mu
 
 .installation-wall {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-columns: 30fr minmax(0, 140fr) 40fr minmax(0, 140fr) 30fr;
   align-items: start;
   box-sizing: border-box;
   aspect-ratio: 380 / 260;
-  padding: 22.37% 7.895% 0;
-  column-gap: 12.5%;
+  padding-top: 22.37%;
   background: #e9e5df;
   border-bottom: 4px solid #c9c0b5;
 }
+
+.installation-wall img:first-child { grid-column: 2; }
+.installation-wall img:last-child { grid-column: 4; }
 
 .installation-wall img {
   width: 100%;
