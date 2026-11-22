@@ -508,3 +508,12 @@ button[type="submit"]:hover { color: var(--muted); border-bottom-color: var(--mu
 @media (min-width: 46.01rem) {
   .habitats-works { column-gap: var(--s5); }
 }
+
+/* Ajuste de exposición para las reproducciones frontales. */
+img[src$="/obras/umbral/hero.jpg"] {
+  filter: brightness(1.16);
+}
+
+img[src$="/obras/habitar/hero.jpg"] {
+  filter: brightness(1.21);
+}
